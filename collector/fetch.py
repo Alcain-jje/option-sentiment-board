@@ -60,6 +60,8 @@ def fetch_ticker(symbol: str, retries: int = 2, sleep: float = 2.0, _yf=yf) -> d
         try:
             t = _yf.Ticker(symbol)
             closes = t.history(period="5d")["Close"]
+            if closes.empty:
+                raise ValueError("시세 이력 없음")
             price = float(closes.iloc[-1])
             prev = float(closes.iloc[-2]) if len(closes) > 1 else price
             cutoff = date.today() + timedelta(days=EXPIRY_WINDOW_DAYS)
@@ -76,5 +78,6 @@ def fetch_ticker(symbol: str, retries: int = 2, sleep: float = 2.0, _yf=yf) -> d
             return agg
         except Exception as e:  # noqa: BLE001 — 종목 단위 격리를 위해 광범위 캐치
             last_err = e
-            time.sleep(sleep * (attempt + 1))
+            if attempt < retries:
+                time.sleep(sleep * (attempt + 1))
     raise RuntimeError(f"{symbol}: 수집 실패") from last_err
