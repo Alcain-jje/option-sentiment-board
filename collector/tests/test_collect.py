@@ -17,7 +17,7 @@ def _fake_fetch_fail(symbol, **kw):
 
 def test_run_happy_path(tmp_path, monkeypatch):
     monkeypatch.setattr(collect, "fetch_ticker", _fake_fetch_ok)
-    rc = collect.run([("NVDA", "엔비디아"), ("AAPL", "애플")], tmp_path)
+    rc = collect.run([("NVDA", "엔비디아", "반도체"), ("AAPL", "애플", "빅테크")], tmp_path)
     assert rc == 0
     latest = json.loads((tmp_path / "latest.json").read_text(encoding="utf-8"))
     assert len(latest["stocks"]) == 2
@@ -25,6 +25,9 @@ def test_run_happy_path(tmp_path, monkeypatch):
     # ratio 10000/18000 = 0.5556 → 90 - 0.1556×(80/1.2) = 79.6 → round 80
     assert s["score"] == 80 and s["scoreMode"] == "absolute"
     assert s["label"] == "매우 강세" and s["stale"] is False
+    assert s["sector"] == "반도체"
+    assert s["spark"] == [80]
+    assert s["scoreChg"] is None
     assert latest["marketScore"] == 80
     hist = json.loads((tmp_path / "history" / "NVDA.json").read_text(encoding="utf-8"))
     assert len(hist) == 1
@@ -35,15 +38,15 @@ def test_run_happy_path(tmp_path, monkeypatch):
 
 def test_run_same_day_rerun_no_duplicate_history(tmp_path, monkeypatch):
     monkeypatch.setattr(collect, "fetch_ticker", _fake_fetch_ok)
-    collect.run([("NVDA", "엔비디아")], tmp_path)
-    collect.run([("NVDA", "엔비디아")], tmp_path)
+    collect.run([("NVDA", "엔비디아", "반도체")], tmp_path)
+    collect.run([("NVDA", "엔비디아", "반도체")], tmp_path)
     hist = json.loads((tmp_path / "history" / "NVDA.json").read_text(encoding="utf-8"))
     assert len(hist) == 1                     # 같은 날 재실행 시 교체
 
 
 def test_run_partial_failure_reuses_previous(tmp_path, monkeypatch):
     monkeypatch.setattr(collect, "fetch_ticker", _fake_fetch_ok)
-    pairs = [(s, s) for s in ["A", "B", "C", "D"]]
+    pairs = [(s, s, "테스트") for s in ["A", "B", "C", "D"]]
     collect.run(pairs, tmp_path)
 
     def flaky(symbol, **kw):
@@ -61,7 +64,7 @@ def test_run_partial_failure_reuses_previous(tmp_path, monkeypatch):
 
 def test_run_too_many_failures_aborts(tmp_path, monkeypatch):
     monkeypatch.setattr(collect, "fetch_ticker", _fake_fetch_fail)
-    rc = collect.run([("A", "A"), ("B", "B")], tmp_path)
+    rc = collect.run([("A", "A", "테스트"), ("B", "B", "테스트")], tmp_path)
     assert rc == 1
     assert not (tmp_path / "latest.json").exists()   # 커밋할 산출물 없음
 
@@ -73,7 +76,7 @@ def test_run_processing_error_isolated(tmp_path, monkeypatch):
         return _fake_fetch_ok(symbol)
 
     monkeypatch.setattr(collect, "fetch_ticker", bad_shape)
-    pairs = [(s, s) for s in ["A", "B", "C", "D"]]
+    pairs = [(s, s, "테스트") for s in ["A", "B", "C", "D"]]
     rc = collect.run(pairs, tmp_path)
     assert rc == 0                            # 1/4 실패 — 배치 전체가 죽지 않음
     latest = json.loads((tmp_path / "latest.json").read_text(encoding="utf-8"))
@@ -82,11 +85,11 @@ def test_run_processing_error_isolated(tmp_path, monkeypatch):
 
 def test_subset_run_preserves_market_history(tmp_path, monkeypatch):
     monkeypatch.setattr(collect, "fetch_ticker", _fake_fetch_ok)
-    collect.run([(s, s) for s in ["A", "B", "C"]], tmp_path)
+    collect.run([(s, s, "테스트") for s in ["A", "B", "C"]], tmp_path)
     market_before = (tmp_path / "history" / "_MARKET.json").read_text(encoding="utf-8")
     latest_before = json.loads((tmp_path / "latest.json").read_text(encoding="utf-8"))
 
-    collect.run([("A", "A")], tmp_path, update_market=False)
+    collect.run([("A", "A", "테스트")], tmp_path, update_market=False)
     market_after = (tmp_path / "history" / "_MARKET.json").read_text(encoding="utf-8")
     latest_after = json.loads((tmp_path / "latest.json").read_text(encoding="utf-8"))
     assert market_after == market_before      # 부분 실행이 시장 이력을 건드리지 않음
@@ -95,7 +98,7 @@ def test_subset_run_preserves_market_history(tmp_path, monkeypatch):
 
 def test_multi_day_stale_keeps_stale_since(tmp_path, monkeypatch):
     monkeypatch.setattr(collect, "fetch_ticker", _fake_fetch_ok)
-    pairs = [(s, s) for s in ["A", "B", "C", "D"]]
+    pairs = [(s, s, "테스트") for s in ["A", "B", "C", "D"]]
     collect.run(pairs, tmp_path)
 
     def flaky(symbol, **kw):
@@ -110,3 +113,20 @@ def test_multi_day_stale_keeps_stale_since(tmp_path, monkeypatch):
     a = next(s for s in latest["stocks"] if s["ticker"] == "A")
     assert a["stale"] is True
     assert a["staleSince"] is not None        # 최초 실패 시점 기록 유지
+
+
+def test_spark_and_score_chg_accumulate(tmp_path, monkeypatch):
+    monkeypatch.setattr(collect, "fetch_ticker", _fake_fetch_ok)
+    pairs = [("NVDA", "엔비디아", "반도체")]
+    collect.run(pairs, tmp_path)
+    # 전일 이력을 인위 조작(오늘보다 하루 전 날짜, 점수 70)
+    import json as _json
+    hp = tmp_path / "history" / "NVDA.json"
+    hist = _json.loads(hp.read_text(encoding="utf-8"))
+    hist.insert(0, {"date": "2000-01-01", "pcRatio": 0.8, "score": 70})
+    hp.write_text(_json.dumps(hist), encoding="utf-8")
+    collect.run(pairs, tmp_path)
+    latest = _json.loads((tmp_path / "latest.json").read_text(encoding="utf-8"))
+    s = latest["stocks"][0]
+    assert s["spark"] == [70, 80]
+    assert s["scoreChg"] == 10

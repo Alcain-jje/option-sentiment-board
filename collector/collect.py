@@ -45,7 +45,7 @@ def _scored(ratio: float, hist_path: Path, today: str) -> tuple[int, str, bool, 
     return score, mode, extreme, history
 
 
-def run(pairs: list[tuple[str, str]], out_dir, update_market: bool = True) -> int:
+def run(pairs: list[tuple[str, str, str]], out_dir, update_market: bool = True) -> int:
     out = Path(out_dir)
     today = datetime.now(timezone.utc).date().isoformat()
     prev_latest = _load(out / "latest.json", {})
@@ -56,14 +56,14 @@ def run(pairs: list[tuple[str, str]], out_dir, update_market: bool = True) -> in
     failures = 0
     total_call = total_put = 0
 
-    for ticker, name in pairs:
+    for ticker, name, sector in pairs:
         try:
             raw = fetch_ticker(ticker)
             ratio = scoring.pc_ratio(raw["callVol"], raw["putVol"])
             if ratio is None:
                 stocks.append({
                     "ticker": ticker, "name": name, "price": raw["price"], "chg": raw["chg"],
-                    "status": "insufficient", "stale": False,
+                    "status": "insufficient", "stale": False, "sector": sector,
                 })
                 continue
 
@@ -82,6 +82,9 @@ def run(pairs: list[tuple[str, str]], out_dir, update_market: bool = True) -> in
                 "callVol": raw["callVol"], "putVol": raw["putVol"],
                 "ratioText": scoring.summary_text(raw["callVol"], raw["putVol"], score, extreme),
                 "status": "ok", "stale": False,
+                "sector": sector,
+                "spark": [h["score"] for h in history[-10:]],
+                "scoreChg": score - history[-2]["score"] if len(history) >= 2 else None,
             })
             total_call += raw["callVol"]
             total_put += raw["putVol"]
@@ -118,13 +121,13 @@ def run(pairs: list[tuple[str, str]], out_dir, update_market: bool = True) -> in
 
 def main() -> None:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--tickers", help="쉼표 구분 심볼 (기본: 전체 52종목)")
+    ap.add_argument("--tickers", help="쉼표 구분 심볼 (기본: 전체 100종목)")
     ap.add_argument("--out", default="site/data")
     args = ap.parse_args()
     pairs = TICKERS
     if args.tickers:
         want = set(args.tickers.upper().split(","))
-        pairs = [(t, n) for t, n in TICKERS if t in want]
+        pairs = [(t, n, s) for t, n, s in TICKERS if t in want]
     sys.exit(run(pairs, args.out, update_market=not args.tickers))
 
 
