@@ -35,3 +35,29 @@ def compute_score(ratio: float, history: list[float]) -> tuple[int, str]:
     if len(history) >= COLD_START_MIN_DAYS:
         return score_percentile(ratio, history), "percentile"
     return score_cold_start(ratio), "absolute"
+
+
+def label_for(score: int) -> str:
+    """점수에 따른 심리 라벨."""
+    if score >= 80:
+        return "매우 강세"
+    if score >= 60:
+        return "강세"
+    if score >= 40:
+        return "중립"
+    if score >= 20:
+        return "약세"
+    return "매우 약세"
+
+
+def summary_text(call_vol: int, put_vol: int, score: int, extreme: bool) -> str:
+    """(콜/풋 거래량, 점수) → 한 줄 해석."""
+    if 40 <= score <= 59:
+        return "상승·하락 베팅 비슷 — 관망 분위기"
+    if score >= 60:
+        mult = call_vol / max(put_vol, 1)
+        suffix = "평소보다 훨씬 강세" if extreme else "강세 우위"
+        return f"상승 베팅이 하락의 {mult:.1f}배 — {suffix}"
+    mult = put_vol / max(call_vol, 1)
+    suffix = "평소보다 뚜렷한 약세" if extreme else "약세 우위"
+    return f"하락 베팅이 상승의 {mult:.1f}배 — {suffix}"

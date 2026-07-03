@@ -33,3 +33,19 @@ def test_compute_score_mode_switch():
     score, mode = scoring.compute_score(1.45, long_hist)
     assert mode == "percentile"
     assert score <= 5
+
+
+def test_label_bands():
+    assert scoring.label_for(85) == "매우 강세"
+    assert scoring.label_for(60) == "강세"
+    assert scoring.label_for(50) == "중립"
+    assert scoring.label_for(25) == "약세"
+    assert scoring.label_for(5) == "매우 약세"
+
+
+def test_summary_text():
+    assert scoring.summary_text(1800, 1000, 78, extreme=False) == "상승 베팅이 하락의 1.8배 — 강세 우위"
+    assert scoring.summary_text(1800, 1000, 92, extreme=True) == "상승 베팅이 하락의 1.8배 — 평소보다 훨씬 강세"
+    assert scoring.summary_text(1000, 1500, 21, extreme=False) == "하락 베팅이 상승의 1.5배 — 약세 우위"
+    assert scoring.summary_text(1000, 1500, 8, extreme=True) == "하락 베팅이 상승의 1.5배 — 평소보다 뚜렷한 약세"
+    assert scoring.summary_text(1000, 1050, 50, extreme=False) == "상승·하락 베팅 비슷 — 관망 분위기"
