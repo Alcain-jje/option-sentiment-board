@@ -69,3 +69,32 @@ def test_fetch_ticker_raises_after_retries():
     import pytest
     with pytest.raises(RuntimeError):
         fetch.fetch_ticker("TEST", retries=1, sleep=0, _yf=_FakeYf(fail_times=99))
+
+
+def test_max_pain_basic():
+    from collector.fetch import max_pain
+    # 콜 OI가 100에 몰림 → 만기가 100 이하일수록 콜 payout 0; 풋 OI가 100에 몰림 → 100 이상일수록 풋 payout 0
+    assert max_pain({100.0: 1000}, {100.0: 1000}) == 100.0
+    # 콜만 존재: 가장 낮은 행사가에서 payout 최소
+    assert max_pain({90.0: 10, 100.0: 10, 110.0: 10}, {}) == 90.0
+    # 풋만 존재: 가장 높은 행사가에서 payout 최소
+    assert max_pain({}, {90.0: 10, 100.0: 10, 110.0: 10}) == 110.0
+    # OI 없음 → None
+    assert max_pain({}, {}) is None
+    assert max_pain({100.0: 0}, {}) is None
+
+
+def test_max_pain_pull_between():
+    from collector.fetch import max_pain
+    # 콜 벽이 110, 풋 벽이 90 → 그 사이에서 최소. 대칭이면 동률 시 낮은 행사가.
+    result = max_pain({110.0: 100, 100.0: 10}, {90.0: 100, 100.0: 10})
+    assert 90.0 <= result <= 110.0
+
+
+def test_aggregate_chain_includes_max_pain():
+    from collector.fetch import aggregate_chain
+    calls = _df([(95, 100, 1000), (100, 200, 2000)])
+    puts = _df([(100, 150, 1500), (105, 50, 500)])
+    out = aggregate_chain([(calls, puts)], price=100.0)
+    assert out["maxPain"] is not None
+    assert 95 <= out["maxPain"] <= 105

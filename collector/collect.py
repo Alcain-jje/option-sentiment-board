@@ -74,6 +74,7 @@ def run(pairs: list[tuple[str, str, str]], out_dir, update_market: bool = True) 
                 "score": score, "label": scoring.label_for(score),
                 "ratioText": scoring.summary_text(raw["callVol"], raw["putVol"], score, extreme),
                 "buckets": raw["buckets"],
+                "maxPain": raw.get("maxPain"),
                 "trend": [{"date": h["date"], "score": h["score"], "price": h.get("price")} for h in history[-TREND_DAYS:]],
             })
             stocks.append({
