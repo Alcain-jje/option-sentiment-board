@@ -20,3 +20,18 @@ def score_cold_start(ratio: float) -> int:
     if ratio >= 1.6:
         return 10
     return round(90 - (ratio - 0.4) * (80 / 1.2))
+
+
+def score_percentile(ratio: float, history: list[float]) -> int:
+    """당일 비율의 60일 이력 내 백분위 → 0~100 (낮은 비율=콜 우세=높은 점수)."""
+    less = sum(1 for r in history if r < ratio)
+    equal = sum(1 for r in history if r == ratio)
+    p = (less + 0.5 * equal) / len(history)
+    return round(100 * (1 - p))
+
+
+def compute_score(ratio: float, history: list[float]) -> tuple[int, str]:
+    """(점수, 모드) 반환. 이력 20일 이상이면 백분위, 아니면 절대값 매핑."""
+    if len(history) >= COLD_START_MIN_DAYS:
+        return score_percentile(ratio, history), "percentile"
+    return score_cold_start(ratio), "absolute"
