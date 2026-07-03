@@ -34,13 +34,13 @@ def _upsert(history: list[dict], entry: dict) -> list[dict]:
     return history[-HISTORY_KEEP:]
 
 
-def _scored(ratio: float, hist_path: Path, today: str) -> tuple[int, str, bool, list[dict]]:
+def _scored(ratio: float, hist_path: Path, today: str, price=None) -> tuple[int, str, bool, list[dict]]:
     """이력 갱신 포함 점수 계산. (score, mode, extreme, new_history) 반환."""
     history = _load(hist_path, [])
     past = [h["pcRatio"] for h in history if h["date"] != today]
     score, mode = scoring.compute_score(ratio, past)
     extreme = mode == "percentile" and (score >= 90 or score <= 10)
-    history = _upsert(history, {"date": today, "pcRatio": round(ratio, 4), "score": score})
+    history = _upsert(history, {"date": today, "pcRatio": round(ratio, 4), "score": score, "price": price})
     _save(hist_path, history)
     return score, mode, extreme, history
 
@@ -67,14 +67,14 @@ def run(pairs: list[tuple[str, str, str]], out_dir, update_market: bool = True) 
                 })
                 continue
 
-            score, mode, extreme, history = _scored(ratio, out / "history" / f"{ticker}.json", today)
+            score, mode, extreme, history = _scored(ratio, out / "history" / f"{ticker}.json", today, raw["price"])
 
             _save(out / "detail" / f"{ticker}.json", {
                 "ticker": ticker, "name": name, "price": raw["price"], "dataAsOf": today,
                 "score": score, "label": scoring.label_for(score),
                 "ratioText": scoring.summary_text(raw["callVol"], raw["putVol"], score, extreme),
                 "buckets": raw["buckets"],
-                "trend": [{"date": h["date"], "score": h["score"]} for h in history[-TREND_DAYS:]],
+                "trend": [{"date": h["date"], "score": h["score"], "price": h.get("price")} for h in history[-TREND_DAYS:]],
             })
             stocks.append({
                 "ticker": ticker, "name": name, "price": raw["price"], "chg": raw["chg"],
@@ -109,10 +109,13 @@ def run(pairs: list[tuple[str, str, str]], out_dir, update_market: bool = True) 
         if market_ratio is not None:
             market_score, _, _, _ = _scored(market_ratio, out / "history" / f"{MARKET_KEY}.json", today)
 
+    market_hist = _load(out / "history" / f"{MARKET_KEY}.json", [])
+
     _save(out / "latest.json", {
         "updatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "dataAsOf": today,
         "marketScore": market_score,
+        "marketTrend": [{"date": h["date"], "score": h["score"]} for h in market_hist[-TREND_DAYS:]],
         "stocks": stocks,
     })
     print(f"OK: {len(stocks)}종목 (실패 {failures})")

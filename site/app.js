@@ -4,7 +4,42 @@ const barColor = (s) => s >= 80 ? "var(--bull)" : s >= 60 ? "var(--bull-soft)"
 const numColor = (s) => s >= 60 ? "var(--bull-text)" : s >= 40 ? "var(--muted)" : "var(--bear-text)";
 
 let stocks = [];
-const state = { sort: "desc", sector: null };
+const state = { sort: "desc", sector: null, query: "", watchOnly: false };
+
+const WATCHLIST_KEY = "osb:watchlist";
+
+function loadWatchlist() {
+  try {
+    const raw = localStorage.getItem(WATCHLIST_KEY);
+    const arr = raw ? JSON.parse(raw) : [];
+    return Array.isArray(arr) ? arr : [];
+  } catch (e) {
+    return [];
+  }
+}
+
+function saveWatchlist(list) {
+  try {
+    localStorage.setItem(WATCHLIST_KEY, JSON.stringify(list));
+  } catch (e) {
+    /* localStorage unavailable — ignore */
+  }
+}
+
+let watchlist = loadWatchlist();
+
+function isWatched(ticker) {
+  return watchlist.includes(ticker);
+}
+
+function toggleWatch(ticker) {
+  if (isWatched(ticker)) {
+    watchlist = watchlist.filter((t) => t !== ticker);
+  } else {
+    watchlist = watchlist.concat(ticker);
+  }
+  saveWatchlist(watchlist);
+}
 
 function sectorBadgeHtml(s) {
   const sector = s.sector || "기타";
@@ -35,28 +70,40 @@ function sparkHtml(s) {
   return `<div class="spark" title="최근 10일 심리 흐름 (매일 채워져요)">${bars}</div>`;
 }
 
+function starBtnHtml(s) {
+  const watched = isWatched(s.ticker);
+  const label = watched ? "★" : "☆";
+  return `<button type="button" class="star-btn${watched ? " on" : ""}" data-ticker="${s.ticker}"
+    aria-label="관심종목 ${watched ? "해제" : "추가"}" title="관심종목 ${watched ? "해제" : "추가"}">${label}</button>`;
+}
+
 function cardHtml(s) {
   const staleBadge = s.stale ? `<span class="badge">${s.staleSince ? s.staleSince + " 데이터" : "지난 데이터"}</span>` : "";
+  const pinnedClass = isWatched(s.ticker) ? " pinned" : "";
   if (s.status === "insufficient") {
-    return `<a class="card" href="stock.html?t=${s.ticker}">
+    return `<a class="card${pinnedClass}" href="stock.html?t=${s.ticker}">
       <div class="card-head">
         <div class="card-head-left">
           <span class="tkr">${s.ticker}<small>${s.name}</small></span>
           <div class="badges">${sectorBadgeHtml(s)}${staleBadge}</div>
         </div>
-        <span class="score" style="color:var(--muted)">–</span>
+        <div class="card-head-right">
+          ${starBtnHtml(s)}
+          <span class="score" style="color:var(--muted)">–</span>
+        </div>
       </div>
       <p class="desc">옵션 거래가 적어 심리 점수를 계산하지 않았어요</p></a>`;
   }
   const chgClass = s.chg >= 0 ? "chg-up" : "chg-down";
   const chg = s.chg >= 0 ? `+${s.chg.toFixed(2)}%` : `${s.chg.toFixed(2)}%`;
-  return `<a class="card" href="stock.html?t=${s.ticker}">
+  return `<a class="card${pinnedClass}" href="stock.html?t=${s.ticker}">
     <div class="card-head">
       <div class="card-head-left">
         <span class="tkr">${s.ticker}<small>${s.name}</small></span>
         <div class="badges">${sectorBadgeHtml(s)}${staleBadge}</div>
       </div>
       <div class="card-head-right">
+        ${starBtnHtml(s)}
         <span class="score" style="color:${numColor(s.score)}">${s.score}</span>
         ${scoreChgHtml(s)}
       </div>
@@ -95,7 +142,34 @@ function renderChips() {
     const avg = Math.round(e.scoreSum / e.okCount);
     parts.push(chipHtml(e.sector, state.sector === e.sector, e.sector, avg));
   });
+  if (watchlist.length > 0) {
+    parts.push(`<button class="chip chip-watch${state.watchOnly ? " on" : ""}" data-watch-toggle="1">관심 ${watchlist.length}</button>`);
+  }
   $("#chips").innerHTML = parts.join("");
+}
+
+function matchesQuery(s, query) {
+  if (!query) return true;
+  const q = query.toLowerCase();
+  const ticker = (s.ticker || "").toLowerCase();
+  const name = (s.name || "").toLowerCase();
+  return ticker.includes(q) || name.includes(q);
+}
+
+function renderMarketTrend(marketTrend) {
+  const el = $("#market-trend");
+  if (!el) return;
+  const SLOTS = 30;
+  const trend = Array.isArray(marketTrend) ? marketTrend : [];
+  const values = trend.slice(-SLOTS);
+  const padCount = Math.max(SLOTS - values.length, 0);
+  const empty = Array.from({ length: padCount }, () =>
+    `<div class="market-trend-bar" style="height:15%;background:#EFEDE5"></div>`
+  );
+  const filled = values.map((v) =>
+    `<div class="market-trend-bar" style="height:${Math.max(v.score, 12)}%;background:${barColor(v.score)}" title="${v.date} · ${v.score}점"></div>`
+  );
+  el.innerHTML = empty.concat(filled).join("");
 }
 
 function renderSummary() {
@@ -119,14 +193,32 @@ function renderSummary() {
   }
 }
 
+function passesFilters(s) {
+  if (state.sector && (s.sector || "기타") !== state.sector) return false;
+  if (state.watchOnly && !isWatched(s.ticker)) return false;
+  if (!matchesQuery(s, state.query)) return false;
+  return true;
+}
+
 function render() {
-  const ok = stocks.filter((s) => s.status === "ok" && (!state.sector || (s.sector || "기타") === state.sector));
-  const rest = stocks.filter((s) => s.status !== "ok" && (!state.sector || (s.sector || "기타") === state.sector));
+  const filtered = stocks.filter(passesFilters);
+  const ok = filtered.filter((s) => s.status === "ok");
+  const rest = filtered.filter((s) => s.status !== "ok");
   if (state.sort === "desc") ok.sort((a, b) => b.score - a.score);
   if (state.sort === "asc") ok.sort((a, b) => a.score - b.score);
   if (state.sort === "name") ok.sort((a, b) => a.ticker.localeCompare(b.ticker));
-  $("#grid").innerHTML = ok.concat(rest).map(cardHtml).join("");
+
+  const pinned = [];
+  const unpinned = [];
+  ok.concat(rest).forEach((s) => (isWatched(s.ticker) ? pinned : unpinned).push(s));
+
+  $("#grid").innerHTML = pinned.concat(unpinned).map(cardHtml).join("");
   renderChips();
+
+  const countEl = $("#search-count");
+  if (countEl) {
+    countEl.textContent = state.query ? `${filtered.length}종목` : "";
+  }
 }
 
 async function main() {
@@ -145,6 +237,7 @@ async function main() {
     $("#market-dot").style.left = `${d.marketScore}%`;
     $("#market-dot").style.background = barColor(d.marketScore);
   }
+  renderMarketTrend(d.marketTrend);
   stocks = d.stocks;
   renderSummary();
   render();
@@ -156,10 +249,27 @@ async function main() {
     state.sort = btn.dataset.sort;
     render();
   });
+  $("#search").addEventListener("input", (e) => {
+    state.query = e.target.value.trim();
+    render();
+  });
   $("#chips").addEventListener("click", (e) => {
     const btn = e.target.closest("button");
     if (!btn) return;
+    if (btn.dataset.watchToggle) {
+      state.watchOnly = !state.watchOnly;
+      render();
+      return;
+    }
     state.sector = btn.dataset.sector === "" ? null : btn.dataset.sector;
+    render();
+  });
+  $("#grid").addEventListener("click", (e) => {
+    const btn = e.target.closest(".star-btn");
+    if (!btn) return;
+    e.preventDefault();
+    e.stopPropagation();
+    toggleWatch(btn.dataset.ticker);
     render();
   });
 }

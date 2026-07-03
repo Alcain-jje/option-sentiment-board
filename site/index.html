@@ -23,6 +23,8 @@
         <span style="color:var(--muted)">중립</span>
         <span style="color:var(--bull-text)">상승 베팅 우세</span>
       </div>
+      <div class="market-trend" id="market-trend"></div>
+      <p class="market-trend-caption">최근 30일 시장 심리 · 매일 채워져요</p>
     </div>
     <div class="summary-cell metric-card">
       <h3><span class="dot dot-bull"></span>강세 종목</h3>
@@ -42,6 +44,10 @@
   </section>
   <div class="chips" id="chips"></div>
   <div class="toolbar" id="toolbar">
+    <div class="search-box">
+      <input type="text" id="search" placeholder="티커·종목명 검색" autocomplete="off">
+      <span class="search-count" id="search-count"></span>
+    </div>
     <button data-sort="desc" class="on">강세순</button>
     <button data-sort="asc">약세순</button>
     <button data-sort="name">이름순</button>
