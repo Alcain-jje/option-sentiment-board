@@ -22,10 +22,17 @@ function scoreChgHtml(s) {
 
 function sparkHtml(s) {
   if (!Array.isArray(s.spark) || s.spark.length === 0) return "";
-  const bars = s.spark.map((v) =>
-    `<div class="spark-bar" style="height:${Math.max(v, 8)}%;background:${barColor(v)}"></div>`
-  ).join("");
-  return `<div class="spark">${bars}</div>`;
+  const SLOTS = 10;
+  const values = s.spark.slice(-SLOTS);
+  const padCount = Math.max(SLOTS - values.length, 0);
+  const empty = Array.from({ length: padCount }, () =>
+    `<div class="spark-bar" style="height:15%;background:#EFEDE5"></div>`
+  );
+  const filled = values.map((v) =>
+    `<div class="spark-bar" style="height:${Math.max(v, 12)}%;background:${barColor(v)}"></div>`
+  );
+  const bars = empty.concat(filled).join("");
+  return `<div class="spark" title="최근 10일 심리 흐름 (매일 채워져요)">${bars}</div>`;
 }
 
 function cardHtml(s) {
@@ -41,6 +48,7 @@ function cardHtml(s) {
       </div>
       <p class="desc">옵션 거래가 적어 심리 점수를 계산하지 않았어요</p></a>`;
   }
+  const chgClass = s.chg >= 0 ? "chg-up" : "chg-down";
   const chg = s.chg >= 0 ? `+${s.chg.toFixed(2)}%` : `${s.chg.toFixed(2)}%`;
   return `<a class="card" href="stock.html?t=${s.ticker}">
     <div class="card-head">
@@ -54,7 +62,7 @@ function cardHtml(s) {
       </div>
     </div>
     ${sparkHtml(s)}
-    <p class="price">$${s.price.toLocaleString()} · ${chg}</p>
+    <p class="price">$${s.price.toLocaleString()} · <span class="${chgClass}">${chg}</span></p>
     <p class="desc">${s.ratioText}</p></a>`;
 }
 
@@ -94,8 +102,8 @@ function renderSummary() {
   const ok = stocks.filter((s) => s.status === "ok");
   const bullCount = ok.filter((s) => s.score >= 60).length;
   const bearCount = ok.filter((s) => s.score <= 39).length;
-  $("#cell-bull").innerHTML = `<span style="color:var(--bull-text)">${bullCount}</span> / ${stocks.length}`;
-  $("#cell-bear").innerHTML = `<span style="color:var(--bear-text)">${bearCount}</span> / ${stocks.length}`;
+  $("#cell-bull").innerHTML = `<span style="color:var(--bull-text)">${bullCount}</span><span class="metric-suffix"> / ${stocks.length}</span>`;
+  $("#cell-bear").innerHTML = `<span style="color:var(--bear-text)">${bearCount}</span><span class="metric-suffix"> / ${stocks.length}</span>`;
 
   let extreme = null;
   ok.forEach((s) => {
