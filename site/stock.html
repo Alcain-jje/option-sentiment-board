@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>종목 상세 — 옵션 심리 보드</title>
 <link rel="stylesheet" href="style.css">
+<script src="theme.js"></script>
 <style>
   .back { font-size: 14px; color: var(--muted); text-decoration: none; }
   .detail { background: var(--card); border: 1px solid var(--border);
@@ -15,7 +16,8 @@
   .col h3 { font-size: 14px; color: var(--muted); font-weight: 600; margin-bottom: 14px; }
   .oi-row { display: flex; align-items: center; gap: 8px; margin-bottom: 7px;
     font-size: 12px; }
-  .oi-strike { width: 52px; text-align: right; color: var(--muted); flex-shrink: 0; }
+  .oi-strike { width: 52px; text-align: right; color: var(--muted); flex-shrink: 0;
+    overflow: visible; white-space: nowrap; }
   .oi-track { flex: 1; display: flex; }
   .oi-half { width: 50%; display: flex; }
   .oi-half.put { justify-content: flex-end; }
@@ -38,10 +40,14 @@
 </head>
 <body>
 <div class="wrap">
-  <a class="back" href="index.html">&larr; 전체 보드로</a>
+  <div class="back-row">
+    <a class="back" href="index.html">&larr; 전체 보드로</a>
+    <button type="button" id="theme-toggle" class="theme-toggle" aria-label="다크모드 전환"></button>
+  </div>
   <div id="detail"></div>
   <footer>본 사이트는 개인 학습용이며 투자 조언이 아닙니다. 데이터: Yahoo Finance</footer>
 </div>
 <script src="stock.js"></script>
+<script>initThemeToggle();</script>
 </body>
 </html>

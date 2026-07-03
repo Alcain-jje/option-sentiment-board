@@ -2,16 +2,60 @@ const barColor = (s) => s >= 80 ? "var(--bull)" : s >= 60 ? "var(--bull-soft)"
   : s >= 40 ? "var(--neutral)" : s >= 20 ? "var(--bear-soft)" : "var(--bear)";
 const numColor = (s) => s >= 60 ? "var(--bull-text)" : s >= 40 ? "var(--muted)" : "var(--bear-text)";
 
-function oiRows(buckets) {
+function nearestBucketStrike(buckets, maxPain) {
+  if (!Array.isArray(buckets) || buckets.length === 0) return null;
+  if (typeof maxPain !== "number" || Number.isNaN(maxPain)) return null;
+  const strikes = buckets.map((b) => b.strike);
+  const lo = Math.min(...strikes);
+  const hi = Math.max(...strikes);
+  if (maxPain < lo || maxPain > hi) return null;
+  let nearest = buckets[0];
+  let bestDist = Math.abs(buckets[0].strike - maxPain);
+  buckets.forEach((b) => {
+    const dist = Math.abs(b.strike - maxPain);
+    if (dist < bestDist) {
+      bestDist = dist;
+      nearest = b;
+    }
+  });
+  return nearest.strike;
+}
+
+function oiRows(buckets, maxPain) {
   const max = Math.max(...buckets.map((b) => Math.max(b.callOi, b.putOi)), 1);
-  return buckets.slice().reverse().map((b) => `
+  const mpStrike = nearestBucketStrike(buckets, maxPain);
+  return buckets.slice().reverse().map((b) => {
+    const isMp = mpStrike !== null && b.strike === mpStrike;
+    const mpTag = isMp
+      ? `<span class="mp-tag" title="맥스페인 $${maxPain.toLocaleString()}">MP</span>`
+      : "";
+    return `
     <div class="oi-row">
-      <span class="oi-strike">$${b.strike.toLocaleString()}</span>
+      <span class="oi-strike">$${b.strike.toLocaleString()}${mpTag}</span>
       <div class="oi-track">
         <div class="oi-half put"><div class="oi-bar put" style="width:${(b.putOi / max) * 100}%"></div></div>
         <div class="oi-half"><div class="oi-bar call" style="width:${(b.callOi / max) * 100}%"></div></div>
       </div>
-    </div>`).join("");
+    </div>`;
+  }).join("");
+}
+
+function maxPainHtml(d) {
+  const mp = d.maxPain;
+  if (typeof mp !== "number" || Number.isNaN(mp)) return "";
+  const price = d.price;
+  let distHtml = "";
+  if (typeof price === "number" && price > 0) {
+    const pct = ((mp - price) / price) * 100;
+    const dir = pct >= 0 ? "위" : "아래";
+    const cls = pct >= 0 ? "bull-text" : "bear-text";
+    distHtml = `<p class="mp-dist" style="color:var(--${cls})">현재가보다 ${Math.abs(pct).toFixed(1)}% ${dir}</p>`;
+  }
+  return `<div class="maxpain">
+    <p><strong>맥스페인 $${mp.toLocaleString()}</strong>
+      <span style="color:var(--muted)"> — 옵션 매도자에게 가장 유리한 만기 가격</span></p>
+    ${distHtml}
+  </div>`;
 }
 
 function trendBars(trend) {
@@ -46,11 +90,11 @@ function priceLineSvg(trend) {
   const points = withPrice.map((p) => ({ x: xFor(p.i), y: yFor(p.price) }));
   const polyPoints = points.map((p) => `${p.x.toFixed(1)},${p.y.toFixed(1)}`).join(" ");
   const dots = points.map((p) =>
-    `<circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="2" fill="#5F5E5A"></circle>`
+    `<circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="2" style="fill:var(--muted)"></circle>`
   ).join("");
 
   const svg = `<svg class="trend-line" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">
-    <polyline points="${polyPoints}" fill="none" stroke="#5F5E5A" stroke-width="1.5" vector-effect="non-scaling-stroke"></polyline>
+    <polyline points="${polyPoints}" fill="none" style="stroke:var(--muted)" stroke-width="1.5" vector-effect="non-scaling-stroke"></polyline>
     ${dots}
   </svg>`;
   const legend = `$${minPrice.toLocaleString()} ~ $${maxPrice.toLocaleString()}`;
@@ -79,11 +123,12 @@ async function main() {
       <div class="cols">
         <div class="col">
           <h3>베팅 지도 — 어느 가격에 돈이 몰렸나 (미결제약정)</h3>
-          ${oiRows(d.buckets)}
+          ${oiRows(d.buckets, d.maxPain)}
           <div class="oi-legend">
             <span style="color:var(--bear-text)">&larr; 하락 베팅(풋)</span>
             <span style="color:var(--bull-text)">상승 베팅(콜) &rarr;</span>
           </div>
+          ${maxPainHtml(d)}
         </div>
         <div class="col">
           <h3>최근 30일 심리 흐름</h3>
@@ -100,7 +145,9 @@ async function main() {
               </div>`;
           })()}
           <div class="note">옵션 심리는 "예언"이 아니라 "지금 돈이 어느 쪽에 몰렸나"예요.
-            극단적인 쏠림은 오히려 반대로 움직이는 계기가 되기도 합니다.</div>
+            극단적인 쏠림은 오히려 반대로 움직이는 계기가 되기도 합니다.
+            맥스페인은 만기 때 옵션 매도자들의 손실이 최소가 되는 가격으로, 만기가 가까울수록
+            주가가 이 근처로 수렴하려는 경향이 있다는 속설이 있어요.</div>
         </div>
       </div>
       <p class="sub" style="margin-top:20px">기준: ${d.dataAsOf} 장마감 · 만기 60일 내 옵션 합산 · 현재가 ±20% 행사가 구간</p>
