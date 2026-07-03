@@ -1051,7 +1051,7 @@ main();
 name: daily-collect
 on:
   schedule:
-    - cron: "10 21 * * 2-6"   # KST 화~토 06:10 (미 장마감 후)
+    - cron: "10 21 * * 1-5"   # KST 화~토 06:10 (미 장마감 후)
   workflow_dispatch:
 
 permissions:

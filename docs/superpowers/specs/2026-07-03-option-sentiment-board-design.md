@@ -91,7 +91,7 @@ option-sentiment-board/  (GitHub public repo)
 └─ .github/workflows/collect.yml
 ```
 
-- **수집 스케줄**: cron `10 21 * * 2-6` (UTC) = 화~토 KST 아침 6:10, 미 장마감(서머타임 20:00 UTC) 후
+- **수집 스케줄**: cron `10 21 * * 1-5` (UTC) = 화~토 KST 아침 6:10, 미 장마감(서머타임 20:00 UTC) 후
 - **배포**: GitHub Pages — `main` 브랜치의 `/site` 디렉토리 서빙(actions/deploy-pages). 데이터 갱신은 Actions의 `site/data/*.json` 커밋으로 완결 (프론트는 상대경로 fetch만)
 - **프론트 스택**: 빌드 도구 없는 vanilla HTML/CSS/JS. 차트는 CSS 막대(베팅 지도·30일 흐름 모두 div 막대로 충분) — 외부 라이브러리 0개
 
