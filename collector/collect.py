@@ -45,10 +45,12 @@ def _scored(ratio: float, hist_path: Path, today: str) -> tuple[int, str, bool, 
     return score, mode, extreme, history
 
 
-def run(pairs: list[tuple[str, str]], out_dir) -> int:
+def run(pairs: list[tuple[str, str]], out_dir, update_market: bool = True) -> int:
     out = Path(out_dir)
     today = datetime.now(timezone.utc).date().isoformat()
-    prev = {s["ticker"]: s for s in _load(out / "latest.json", {}).get("stocks", [])}
+    prev_latest = _load(out / "latest.json", {})
+    prev = {s["ticker"]: s for s in prev_latest.get("stocks", [])}
+    prev_dataasof = prev_latest.get("dataAsOf")
 
     stocks: list[dict] = []
     failures = 0
@@ -57,50 +59,52 @@ def run(pairs: list[tuple[str, str]], out_dir) -> int:
     for ticker, name in pairs:
         try:
             raw = fetch_ticker(ticker)
-        except Exception as e:  # noqa: BLE001
+            ratio = scoring.pc_ratio(raw["callVol"], raw["putVol"])
+            if ratio is None:
+                stocks.append({
+                    "ticker": ticker, "name": name, "price": raw["price"], "chg": raw["chg"],
+                    "status": "insufficient", "stale": False,
+                })
+                continue
+
+            score, mode, extreme, history = _scored(ratio, out / "history" / f"{ticker}.json", today)
+
+            _save(out / "detail" / f"{ticker}.json", {
+                "ticker": ticker, "name": name, "price": raw["price"], "dataAsOf": today,
+                "score": score, "label": scoring.label_for(score),
+                "ratioText": scoring.summary_text(raw["callVol"], raw["putVol"], score, extreme),
+                "buckets": raw["buckets"],
+                "trend": [{"date": h["date"], "score": h["score"]} for h in history[-TREND_DAYS:]],
+            })
+            stocks.append({
+                "ticker": ticker, "name": name, "price": raw["price"], "chg": raw["chg"],
+                "score": score, "label": scoring.label_for(score), "scoreMode": mode,
+                "callVol": raw["callVol"], "putVol": raw["putVol"],
+                "ratioText": scoring.summary_text(raw["callVol"], raw["putVol"], score, extreme),
+                "status": "ok", "stale": False,
+            })
+            total_call += raw["callVol"]
+            total_put += raw["putVol"]
+        except Exception as e:  # noqa: BLE001 — 종목 단위 격리(수집·처리 모두)
             print(f"WARN {ticker}: {e}", file=sys.stderr)
             failures += 1
             if ticker in prev:
                 stale = dict(prev[ticker])
                 stale["stale"] = True
+                stale.setdefault("staleSince", prev_dataasof)
                 stocks.append(stale)
             continue
-
-        ratio = scoring.pc_ratio(raw["callVol"], raw["putVol"])
-        if ratio is None:
-            stocks.append({
-                "ticker": ticker, "name": name, "price": raw["price"], "chg": raw["chg"],
-                "status": "insufficient", "stale": False,
-            })
-            continue
-
-        score, mode, extreme, history = _scored(ratio, out / "history" / f"{ticker}.json", today)
-        total_call += raw["callVol"]
-        total_put += raw["putVol"]
-
-        _save(out / "detail" / f"{ticker}.json", {
-            "ticker": ticker, "name": name, "price": raw["price"], "dataAsOf": today,
-            "score": score, "label": scoring.label_for(score),
-            "ratioText": scoring.summary_text(raw["callVol"], raw["putVol"], score, extreme),
-            "buckets": raw["buckets"],
-            "trend": [{"date": h["date"], "score": h["score"]} for h in history[-TREND_DAYS:]],
-        })
-        stocks.append({
-            "ticker": ticker, "name": name, "price": raw["price"], "chg": raw["chg"],
-            "score": score, "label": scoring.label_for(score), "scoreMode": mode,
-            "callVol": raw["callVol"], "putVol": raw["putVol"],
-            "ratioText": scoring.summary_text(raw["callVol"], raw["putVol"], score, extreme),
-            "status": "ok", "stale": False,
-        })
 
     if pairs and failures / len(pairs) > FAIL_LIMIT:
         print(f"ERROR: {failures}/{len(pairs)} 종목 실패 — 산출물 미생성", file=sys.stderr)
         return 1
 
-    market_score = None
-    market_ratio = scoring.pc_ratio(total_call, total_put)
-    if market_ratio is not None:
-        market_score, _, _, _ = _scored(market_ratio, out / "history" / f"{MARKET_KEY}.json", today)
+    market_score = prev_latest.get("marketScore")
+    if update_market:
+        market_ratio = scoring.pc_ratio(total_call, total_put)
+        market_score = None
+        if market_ratio is not None:
+            market_score, _, _, _ = _scored(market_ratio, out / "history" / f"{MARKET_KEY}.json", today)
 
     _save(out / "latest.json", {
         "updatedAt": datetime.now(timezone.utc).isoformat(timespec="seconds"),
@@ -121,7 +125,7 @@ def main() -> None:
     if args.tickers:
         want = set(args.tickers.upper().split(","))
         pairs = [(t, n) for t, n in TICKERS if t in want]
-    sys.exit(run(pairs, args.out))
+    sys.exit(run(pairs, args.out, update_market=not args.tickers))
 
 
 if __name__ == "__main__":
