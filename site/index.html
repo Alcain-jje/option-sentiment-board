@@ -5,14 +5,45 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>옵션 심리 보드</title>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@latest/dist/tabler-icons.min.css">
 </head>
 <body>
 <div class="wrap">
   <header>
-    <h1>옵션 심리 보드</h1>
+    <div class="brand">
+      <span class="logo-badge"><i class="ti ti-chart-histogram"></i></span>
+      <h1>옵션 심리 보드</h1>
+    </div>
     <p class="sub" id="asof">불러오는 중…</p>
   </header>
   <div id="banner"></div>
+  <section class="intro">
+    <div class="intro-head">
+      <i class="ti ti-help-circle"></i>
+      <span>이 사이트는 무엇인가요?</span>
+    </div>
+    <p>미국 대장주의 <b>옵션 시장 데이터</b>를 매일 가져와, 투자자들이
+      <b style="color:var(--bull-text)">상승(롱)</b>에 베팅했는지
+      <b style="color:var(--bear-text)">하락(숏)</b>에 베팅했는지를 한눈에 보여줍니다.
+      어려운 옵션 용어는 <b>0~100 심리 점수</b> 하나로 압축했어요.</p>
+    <div class="intro-steps">
+      <div class="step">
+        <div class="step-label">STEP 1</div>
+        <div class="step-title">옵션 데이터 수집</div>
+        <div class="step-desc">콜(상승 베팅)·풋(하락 베팅) 거래량과 미결제약정</div>
+      </div>
+      <div class="step">
+        <div class="step-label">STEP 2</div>
+        <div class="step-title">쏠림 분석</div>
+        <div class="step-desc">콜 대 풋 비중으로 롱·숏 어느 쪽이 우세한지 계산</div>
+      </div>
+      <div class="step">
+        <div class="step-label">STEP 3</div>
+        <div class="step-title">심리 점수 환산</div>
+        <div class="step-desc">높을수록 강세(빨강)·낮을수록 약세(파랑)</div>
+      </div>
+    </div>
+  </section>
   <section class="summary" id="summary">
     <div class="summary-cell summary-gauge" id="cell-gauge" hidden>
       <h2>시장 전체 분위기</h2>
