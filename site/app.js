@@ -60,4 +60,8 @@ async function main() {
     render(btn.dataset.sort);
   });
 }
-main();
+main().catch(() => {
+  document.getElementById("asof").textContent = "데이터를 불러오지 못했어요";
+  document.getElementById("banner").innerHTML =
+    '<div class="banner">데이터 파일을 읽을 수 없습니다. 잠시 후 새로고침해 보세요.</div>';
+});

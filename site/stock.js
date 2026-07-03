@@ -58,4 +58,7 @@ async function main() {
       <p class="sub" style="margin-top:20px">기준: ${d.dataAsOf} 장마감 · 만기 60일 내 옵션 합산 · 현재가 ±20% 행사가 구간</p>
     </div>`;
 }
-main();
+main().catch(() => {
+  document.getElementById("detail").innerHTML =
+    '<div class="detail"><p>데이터를 불러오지 못했어요. 잠시 후 새로고침해 보세요.</p></div>';
+});
