@@ -29,11 +29,14 @@ def test_run_happy_path(tmp_path, monkeypatch):
     assert s["spark"] == [80]
     assert s["scoreChg"] is None
     assert latest["marketScore"] == 80
+    assert latest["marketTrend"] == [{"date": latest["dataAsOf"], "score": 80}]
     hist = json.loads((tmp_path / "history" / "NVDA.json").read_text(encoding="utf-8"))
     assert len(hist) == 1
+    assert hist[0]["price"] == 164.2
     detail = json.loads((tmp_path / "detail" / "NVDA.json").read_text(encoding="utf-8"))
     assert detail["buckets"][0]["putOi"] == 200
     assert len(detail["trend"]) == 1
+    assert detail["trend"][0]["price"] == 164.2
 
 
 def test_run_same_day_rerun_no_duplicate_history(tmp_path, monkeypatch):
@@ -94,6 +97,7 @@ def test_subset_run_preserves_market_history(tmp_path, monkeypatch):
     latest_after = json.loads((tmp_path / "latest.json").read_text(encoding="utf-8"))
     assert market_after == market_before      # 부분 실행이 시장 이력을 건드리지 않음
     assert latest_after["marketScore"] == latest_before["marketScore"]  # 직전 값 유지
+    assert latest_after["marketTrend"] == latest_before["marketTrend"]  # marketTrend도 직전 값 유지
 
 
 def test_multi_day_stale_keeps_stale_since(tmp_path, monkeypatch):
@@ -130,3 +134,19 @@ def test_spark_and_score_chg_accumulate(tmp_path, monkeypatch):
     s = latest["stocks"][0]
     assert s["spark"] == [70, 80]
     assert s["scoreChg"] == 10
+
+
+def test_trend_tolerates_legacy_history_without_price(tmp_path, monkeypatch):
+    monkeypatch.setattr(collect, "fetch_ticker", _fake_fetch_ok)
+    pairs = [("NVDA", "엔비디아", "반도체")]
+    collect.run(pairs, tmp_path)
+    import json as _json
+    hp = tmp_path / "history" / "NVDA.json"
+    hist = _json.loads(hp.read_text(encoding="utf-8"))
+    hist.insert(0, {"date": "2000-01-01", "pcRatio": 0.8, "score": 70})  # price 키 없음
+    hp.write_text(_json.dumps(hist), encoding="utf-8")
+    collect.run(pairs, tmp_path)
+    detail = _json.loads((tmp_path / "detail" / "NVDA.json").read_text(encoding="utf-8"))
+    legacy = next(t for t in detail["trend"] if t["date"] == "2000-01-01")
+    assert legacy["price"] is None
+    assert detail["trend"][-1]["price"] == 164.2
