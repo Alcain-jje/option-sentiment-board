@@ -18,7 +18,7 @@ header .brand { display: flex; align-items: center; gap: 10px; }
 .logo-badge { display: flex; align-items: center; justify-content: center;
   width: 30px; height: 30px; border-radius: 8px; background: var(--accent);
   color: #fff; flex: none; }
-.logo-badge i { font-size: 18px; line-height: 1; }
+.logo-badge svg { display: block; }
 header h1 { font-size: 27px; font-weight: 700; letter-spacing: -0.02em; }
 .sub { color: var(--muted); font-size: 14px; margin-top: 8px; }
 .banner { background: #FAEEDA; color: #854F0B; border-radius: 12px;
@@ -28,7 +28,7 @@ header h1 { font-size: 27px; font-weight: 700; letter-spacing: -0.02em; }
 .intro { background: var(--card); border: 1px solid var(--border); border-radius: 14px;
   padding: 20px 24px; margin-bottom: 22px; }
 .intro-head { display: flex; align-items: center; gap: 8px; margin-bottom: 12px; }
-.intro-head i { font-size: 18px; color: var(--accent); }
+.intro-head svg { display: block; }
 .intro-head span { font-size: 15px; font-weight: 600; }
 .intro p { font-size: 13.5px; line-height: 1.65; color: #4B5563; }
 .intro-steps { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin-top: 16px; }
