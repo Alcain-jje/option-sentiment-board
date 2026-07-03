@@ -208,7 +208,7 @@ function moverPillHtml(s) {
 function renderMovers() {
   const el = $("#movers");
   if (!el) return;
-  const ok = stocks.filter((s) => s.status === "ok" && typeof s.scoreChg === "number" && !Number.isNaN(s.scoreChg));
+  const ok = stocks.filter((s) => s.status === "ok" && typeof s.scoreChg === "number" && !Number.isNaN(s.scoreChg) && !s.stale);
   const hasQualifying = ok.some((s) => Math.abs(s.scoreChg) >= 1);
   if (!hasQualifying) {
     el.hidden = true;

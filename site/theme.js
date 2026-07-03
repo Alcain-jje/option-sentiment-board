@@ -23,6 +23,9 @@ function initThemeToggle() {
   function render(btn) {
     var theme = currentTheme();
     btn.innerHTML = theme === "dark" ? SUN : MOON;
+    btn.setAttribute("aria-pressed", theme === "dark" ? "true" : "false");
+    btn.setAttribute("aria-label", theme === "dark" ? "라이트 모드로 전환" : "다크 모드로 전환");
+    btn.title = theme === "dark" ? "라이트 모드로 전환" : "다크 모드로 전환";
   }
   var btn = document.getElementById("theme-toggle");
   if (!btn) return;
