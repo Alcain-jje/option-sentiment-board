@@ -27,6 +27,20 @@ def bucket_strikes(strike_call: dict, strike_put: dict, price: float) -> list[di
     return buckets
 
 
+def max_pain(strike_call: dict, strike_put: dict) -> float | None:
+    """옵션 보유자 총이익이 최소가 되는 만기 가격(맥스페인). OI가 전혀 없으면 None."""
+    strikes = sorted(set(strike_call) | set(strike_put))
+    if not strikes or (sum(strike_call.values()) + sum(strike_put.values())) == 0:
+        return None
+    best_k, best_pay = None, None
+    for k in strikes:
+        pay = sum(oi * max(k - s, 0) for s, oi in strike_call.items())
+        pay += sum(oi * max(s - k, 0) for s, oi in strike_put.items())
+        if best_pay is None or pay < best_pay:
+            best_k, best_pay = k, pay
+    return best_k
+
+
 def aggregate_chain(frames: list[tuple[pd.DataFrame, pd.DataFrame]], price: float) -> dict:
     """만기별 (calls, puts) 데이터프레임들을 합산해 거래량/OI/행사가 분포를 만든다."""
     call_vol = put_vol = call_oi = put_oi = 0
@@ -50,6 +64,7 @@ def aggregate_chain(frames: list[tuple[pd.DataFrame, pd.DataFrame]], price: floa
         "callVol": call_vol, "putVol": put_vol,
         "callOi": call_oi, "putOi": put_oi,
         "buckets": bucket_strikes(strike_call, strike_put, price),
+        "maxPain": max_pain(strike_call, strike_put),
     }
 
 

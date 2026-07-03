@@ -8,6 +8,7 @@ def _fake_fetch_ok(symbol, **kw):
         "callVol": 18000, "putVol": 10000, "callOi": 90000, "putOi": 60000,
         "price": 164.2, "chg": 1.8,
         "buckets": [{"strike": 150.0, "callOi": 100, "putOi": 200}],
+        "maxPain": 160.0,
     }
 
 
@@ -35,6 +36,7 @@ def test_run_happy_path(tmp_path, monkeypatch):
     assert hist[0]["price"] == 164.2
     detail = json.loads((tmp_path / "detail" / "NVDA.json").read_text(encoding="utf-8"))
     assert detail["buckets"][0]["putOi"] == 200
+    assert detail["maxPain"] == 160.0
     assert len(detail["trend"]) == 1
     assert detail["trend"][0]["price"] == 164.2
 

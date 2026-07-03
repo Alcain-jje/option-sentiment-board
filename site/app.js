@@ -61,7 +61,7 @@ function sparkHtml(s) {
   const values = s.spark.slice(-SLOTS);
   const padCount = Math.max(SLOTS - values.length, 0);
   const empty = Array.from({ length: padCount }, () =>
-    `<div class="spark-bar" style="height:15%;background:#EEF0F3"></div>`
+    `<div class="spark-bar slot-empty" style="height:15%"></div>`
   );
   const filled = values.map((v) =>
     `<div class="spark-bar" style="height:${Math.max(v, 12)}%;background:${barColor(v)}"></div>`
@@ -164,7 +164,7 @@ function renderMarketTrend(marketTrend) {
   const values = trend.slice(-SLOTS);
   const padCount = Math.max(SLOTS - values.length, 0);
   const empty = Array.from({ length: padCount }, () =>
-    `<div class="market-trend-bar" style="height:15%;background:#EEF0F3"></div>`
+    `<div class="market-trend-bar slot-empty" style="height:15%"></div>`
   );
   const filled = values.map((v) =>
     `<div class="market-trend-bar" style="height:${Math.max(v.score, 12)}%;background:${barColor(v.score)}" title="${v.date} · ${v.score}점"></div>`
@@ -191,6 +191,58 @@ function renderSummary() {
   } else {
     $("#cell-extreme-value").textContent = "–";
   }
+}
+
+function moverPillHtml(s) {
+  const up = s.scoreChg > 0;
+  const arrow = up ? "▲" : "▼";
+  const cls = up ? "bull-text" : "bear-text";
+  const sign = up ? `+${s.scoreChg}` : `${s.scoreChg}`;
+  return `<a class="mover-pill" href="stock.html?t=${s.ticker}">
+    <strong>${s.ticker}</strong>
+    <span style="color:var(--${cls})">${arrow}${sign}</span>
+    <span class="mover-score">${s.score}점</span>
+  </a>`;
+}
+
+function renderMovers() {
+  const el = $("#movers");
+  if (!el) return;
+  const ok = stocks.filter((s) => s.status === "ok" && typeof s.scoreChg === "number" && !Number.isNaN(s.scoreChg) && !s.stale);
+  const hasQualifying = ok.some((s) => Math.abs(s.scoreChg) >= 1);
+  if (!hasQualifying) {
+    el.hidden = true;
+    el.innerHTML = "";
+    return;
+  }
+  const gainers = ok.filter((s) => s.scoreChg > 0).sort((a, b) => b.scoreChg - a.scoreChg).slice(0, 5);
+  const losers = ok.filter((s) => s.scoreChg < 0).sort((a, b) => a.scoreChg - b.scoreChg).slice(0, 5);
+
+  const groups = [];
+  if (gainers.length > 0) {
+    groups.push(`<div class="movers-group">
+      <div class="movers-group-label">급강세</div>
+      <div class="movers-list">${gainers.map(moverPillHtml).join("")}</div>
+    </div>`);
+  }
+  if (losers.length > 0) {
+    groups.push(`<div class="movers-group">
+      <div class="movers-group-label">급약세</div>
+      <div class="movers-list">${losers.map(moverPillHtml).join("")}</div>
+    </div>`);
+  }
+  if (groups.length === 0) {
+    el.hidden = true;
+    el.innerHTML = "";
+    return;
+  }
+  el.hidden = false;
+  el.innerHTML = `
+    <div class="movers-head">
+      <h2>오늘의 무버</h2>
+      <span class="movers-caption">전 거래일 대비 심리 점수 변화</span>
+    </div>
+    <div class="movers-groups">${groups.join("")}</div>`;
 }
 
 function passesFilters(s) {
@@ -240,6 +292,7 @@ async function main() {
   renderMarketTrend(d.marketTrend);
   stocks = d.stocks;
   renderSummary();
+  renderMovers();
   render();
   $("#toolbar").addEventListener("click", (e) => {
     const btn = e.target.closest("button");
