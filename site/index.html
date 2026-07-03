@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>옵션 심리 보드</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>옵션 심리 보드</h1>
+    <p class="sub" id="asof">불러오는 중…</p>
+  </header>
+  <div id="banner"></div>
+  <section class="market" id="market" hidden>
+    <div class="market-head">
+      <h2>오늘 미국 시장 전체 분위기</h2>
+      <strong id="market-label"></strong>
+    </div>
+    <div class="gauge"><div class="gauge-dot" id="market-dot"></div></div>
+    <div class="gauge-legend">
+      <span style="color:var(--bear-text)">하락 베팅 우세</span>
+      <span style="color:var(--muted)">중립</span>
+      <span style="color:var(--bull-text)">상승 베팅 우세</span>
+    </div>
+  </section>
+  <div class="toolbar" id="toolbar">
+    <button data-sort="desc" class="on">강세순</button>
+    <button data-sort="asc">약세순</button>
+    <button data-sort="name">이름순</button>
+  </div>
+  <main class="grid" id="grid"></main>
+  <footer>
+    본 사이트는 개인 학습용이며 투자 조언이 아닙니다. 옵션 심리 점수는 풋/콜 거래량
+    비율 기반의 시장 분위기 지표로, 주가 방향을 보장하지 않습니다.<br>
+    데이터: Yahoo Finance · 장마감 기준 하루 1회 갱신 · 미결제약정은 전일 정산치일 수 있음
+  </footer>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
