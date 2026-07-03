@@ -61,7 +61,7 @@ function sparkHtml(s) {
   const values = s.spark.slice(-SLOTS);
   const padCount = Math.max(SLOTS - values.length, 0);
   const empty = Array.from({ length: padCount }, () =>
-    `<div class="spark-bar" style="height:15%;background:#EFEDE5"></div>`
+    `<div class="spark-bar" style="height:15%;background:#EEF0F3"></div>`
   );
   const filled = values.map((v) =>
     `<div class="spark-bar" style="height:${Math.max(v, 12)}%;background:${barColor(v)}"></div>`
@@ -164,7 +164,7 @@ function renderMarketTrend(marketTrend) {
   const values = trend.slice(-SLOTS);
   const padCount = Math.max(SLOTS - values.length, 0);
   const empty = Array.from({ length: padCount }, () =>
-    `<div class="market-trend-bar" style="height:15%;background:#EFEDE5"></div>`
+    `<div class="market-trend-bar" style="height:15%;background:#EEF0F3"></div>`
   );
   const filled = values.map((v) =>
     `<div class="market-trend-bar" style="height:${Math.max(v.score, 12)}%;background:${barColor(v.score)}" title="${v.date} · ${v.score}점"></div>`
