@@ -13,18 +13,31 @@
     <p class="sub" id="asof">불러오는 중…</p>
   </header>
   <div id="banner"></div>
-  <section class="market" id="market" hidden>
-    <div class="market-head">
-      <h2>오늘 미국 시장 전체 분위기</h2>
+  <section class="summary" id="summary">
+    <div class="summary-cell summary-gauge" id="cell-gauge" hidden>
+      <h2>시장 전체 분위기</h2>
       <strong id="market-label"></strong>
+      <div class="gauge"><div class="gauge-dot" id="market-dot"></div></div>
+      <div class="gauge-legend">
+        <span style="color:var(--bear-text)">하락 베팅 우세</span>
+        <span style="color:var(--muted)">중립</span>
+        <span style="color:var(--bull-text)">상승 베팅 우세</span>
+      </div>
     </div>
-    <div class="gauge"><div class="gauge-dot" id="market-dot"></div></div>
-    <div class="gauge-legend">
-      <span style="color:var(--bear-text)">하락 베팅 우세</span>
-      <span style="color:var(--muted)">중립</span>
-      <span style="color:var(--bull-text)">상승 베팅 우세</span>
+    <div class="summary-cell metric-card">
+      <h3>강세 종목</h3>
+      <p class="metric" id="cell-bull"></p>
     </div>
+    <div class="summary-cell metric-card">
+      <h3>약세 종목</h3>
+      <p class="metric" id="cell-bear"></p>
+    </div>
+    <a class="summary-cell metric-card metric-link" id="cell-extreme" href="stock.html">
+      <h3>오늘 최다 쏠림</h3>
+      <p class="metric" id="cell-extreme-value"></p>
+    </a>
   </section>
+  <div class="chips" id="chips"></div>
   <div class="toolbar" id="toolbar">
     <button data-sort="desc" class="on">강세순</button>
     <button data-sort="asc">약세순</button>
