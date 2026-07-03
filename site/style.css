@@ -108,3 +108,4 @@ footer { margin-top: 72px; color: var(--muted); font-size: 12.5px; line-height: 
 @media (max-width: 900px) { .summary { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 680px) { .grid { grid-template-columns: 1fr; } .wrap { padding: 32px 18px 64px; } }
 @media (max-width: 560px) { .summary { grid-template-columns: 1fr; } }
+.card.pinned:hover { border-color: #EF9F27; }
