@@ -277,9 +277,10 @@ async function main() {
   const d = await (await fetch("data/latest.json")).json();
   $("#asof").textContent =
     `${d.dataAsOf} 미국 장마감 기준 · 매일 아침 자동 업데이트 · ${d.stocks.length}종목`;
-  if (Date.now() - Date.parse(d.updatedAt) > 48 * 3600 * 1000) {
+  // 주말 정상 갭이 최대 72시간(토 아침 수집 → 화 아침 수집)이므로 96시간 초과일 때만 경고
+  if (Date.now() - Date.parse(d.updatedAt) > 96 * 3600 * 1000) {
     $("#banner").innerHTML =
-      '<div class="banner">데이터가 48시간 이상 갱신되지 않았어요. 수집 파이프라인 점검이 필요할 수 있습니다.</div>';
+      '<div class="banner">데이터가 4일 이상 갱신되지 않았어요. 수집 파이프라인 점검이 필요할 수 있습니다.</div>';
   }
   if (d.marketScore !== null && d.marketScore !== undefined) {
     const label = d.marketScore >= 60 ? "강세" : d.marketScore >= 40 ? "중립" : "약세";
