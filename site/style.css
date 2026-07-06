@@ -148,6 +148,14 @@ footer { margin-top: 72px; color: var(--muted); font-size: 12.5px; line-height: 
 @media (max-width: 900px) { .summary { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 680px) { .grid { grid-template-columns: 1fr; } .wrap { padding: 32px 18px 64px; } }
 @media (max-width: 560px) { .summary { grid-template-columns: 1fr; } }
+@media (max-width: 680px) {
+  /* 모바일: 검색창이 한 줄 전체 차지, 정렬 버튼은 아랫줄로 — 가로 오버플로 방지 */
+  .toolbar { flex-wrap: wrap; }
+  .search-box { flex: 1 1 100%; }
+  /* 섹터 칩 컴팩트화 */
+  .chips { gap: 6px; }
+  .chip { padding: 6px 12px; font-size: 12px; }
+}
 .card.pinned:hover { border-color: var(--pin); }
 
 /* 다크모드 토글 */
