@@ -1,49 +1,49 @@
 {
  "ticker": "CCL",
  "name": "카니발",
- "price": 26.61,
- "dataAsOf": "2026-07-13",
- "score": 89,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 2.4배 — 강세 우위",
+ "price": 26.5,
+ "dataAsOf": "2026-07-14",
+ "score": 54,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
    "strike": 22.0,
-   "callOi": 1062,
-   "putOi": 11109
+   "callOi": 1075,
+   "putOi": 11260
   },
   {
-   "strike": 23.6,
+   "strike": 23.5,
    "callOi": 1690,
-   "putOi": 26579
+   "putOi": 26315
   },
   {
-   "strike": 25.1,
-   "callOi": 4045,
-   "putOi": 28127
+   "strike": 25.0,
+   "callOi": 4096,
+   "putOi": 29175
   },
   {
-   "strike": 26.6,
-   "callOi": 9877,
-   "putOi": 34610
+   "strike": 26.5,
+   "callOi": 10980,
+   "putOi": 35161
   },
   {
-   "strike": 28.1,
-   "callOi": 18662,
-   "putOi": 9654
+   "strike": 28.0,
+   "callOi": 19709,
+   "putOi": 10477
   },
   {
-   "strike": 29.7,
-   "callOi": 29886,
-   "putOi": 20349
+   "strike": 29.5,
+   "callOi": 30426,
+   "putOi": 20361
   },
   {
-   "strike": 31.2,
-   "callOi": 9917,
-   "putOi": 7410
+   "strike": 31.0,
+   "callOi": 10295,
+   "putOi": 7403
   }
  ],
- "maxPain": 28.5,
+ "maxPain": 28.0,
  "trend": [
   {
    "date": "2026-07-03",
@@ -79,6 +79,11 @@
    "date": "2026-07-13",
    "score": 89,
    "price": 26.61
+  },
+  {
+   "date": "2026-07-14",
+   "score": 54,
+   "price": 26.5
   }
  ]
 }

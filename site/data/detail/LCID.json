@@ -1,49 +1,49 @@
 {
  "ticker": "LCID",
  "name": "루시드",
- "price": 5.51,
- "dataAsOf": "2026-07-13",
- "score": 81,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 1.9배 — 강세 우위",
+ "price": 4.62,
+ "dataAsOf": "2026-07-14",
+ "score": 16,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 1.5배 — 약세 우위",
  "buckets": [
+  {
+   "strike": 3.8,
+   "callOi": 0,
+   "putOi": 0
+  },
+  {
+   "strike": 4.1,
+   "callOi": 224,
+   "putOi": 7785
+  },
+  {
+   "strike": 4.4,
+   "callOi": 0,
+   "putOi": 0
+  },
   {
    "strike": 4.6,
    "callOi": 13889,
-   "putOi": 2400
+   "putOi": 2435
   },
   {
    "strike": 4.9,
-   "callOi": 6042,
-   "putOi": 22162
+   "callOi": 6065,
+   "putOi": 22113
   },
   {
-   "strike": 5.2,
+   "strike": 5.1,
    "callOi": 0,
    "putOi": 0
   },
   {
-   "strike": 5.5,
-   "callOi": 4352,
-   "putOi": 4212
-  },
-  {
-   "strike": 5.8,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": 6.1,
-   "callOi": 14580,
-   "putOi": 24995
-  },
-  {
-   "strike": 6.5,
-   "callOi": 2592,
-   "putOi": 805
+   "strike": 5.4,
+   "callOi": 4550,
+   "putOi": 4276
   }
  ],
- "maxPain": 7.0,
+ "maxPain": 6.5,
  "trend": [
   {
    "date": "2026-07-03",
@@ -79,6 +79,11 @@
    "date": "2026-07-13",
    "score": 81,
    "price": 5.51
+  },
+  {
+   "date": "2026-07-14",
+   "score": 16,
+   "price": 4.62
   }
  ]
 }
