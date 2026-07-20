@@ -1,49 +1,49 @@
 {
  "ticker": "ENPH",
  "name": "엔페이즈",
- "price": 41.57,
- "dataAsOf": "2026-07-17",
- "score": 90,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 2.8배 — 강세 우위",
+ "price": 39.46,
+ "dataAsOf": "2026-07-20",
+ "score": 73,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.5배 — 강세 우위",
  "buckets": [
   {
-   "strike": 34.4,
-   "callOi": 1759,
-   "putOi": 9526
+   "strike": 32.7,
+   "callOi": 0,
+   "putOi": 599
   },
   {
-   "strike": 36.8,
-   "callOi": 56,
-   "putOi": 752
+   "strike": 35.0,
+   "callOi": 2486,
+   "putOi": 11264
   },
   {
-   "strike": 39.2,
-   "callOi": 2133,
-   "putOi": 10706
+   "strike": 37.2,
+   "callOi": 31,
+   "putOi": 516
   },
   {
-   "strike": 41.6,
-   "callOi": 850,
-   "putOi": 2287
+   "strike": 39.5,
+   "callOi": 3259,
+   "putOi": 13389
   },
   {
-   "strike": 43.9,
-   "callOi": 5771,
-   "putOi": 6694
+   "strike": 41.7,
+   "callOi": 4044,
+   "putOi": 697
   },
   {
-   "strike": 46.3,
-   "callOi": 4460,
-   "putOi": 546
+   "strike": 44.0,
+   "callOi": 4759,
+   "putOi": 5638
   },
   {
-   "strike": 48.7,
-   "callOi": 3912,
-   "putOi": 483
+   "strike": 46.2,
+   "callOi": 1289,
+   "putOi": 532
   }
  ],
- "maxPain": 49.0,
+ "maxPain": 50.0,
  "trend": [
   {
    "date": "2026-07-03",
@@ -99,6 +99,11 @@
    "date": "2026-07-17",
    "score": 90,
    "price": 41.57
+  },
+  {
+   "date": "2026-07-20",
+   "score": 73,
+   "price": 39.46
   }
  ]
 }
