@@ -1,49 +1,49 @@
 {
  "ticker": "REGN",
  "name": "리제네론",
- "price": 675.19,
- "dataAsOf": "2026-07-21",
- "score": 45,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 651.18,
+ "dataAsOf": "2026-07-22",
+ "score": 34,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 1.2배 — 약세 우위",
  "buckets": [
   {
-   "strike": 559.4,
-   "callOi": 182,
-   "putOi": 456
+   "strike": 539.5,
+   "callOi": 10,
+   "putOi": 406
   },
   {
-   "strike": 598.0,
-   "callOi": 565,
-   "putOi": 1269
+   "strike": 576.8,
+   "callOi": 331,
+   "putOi": 750
   },
   {
-   "strike": 636.6,
+   "strike": 614.0,
+   "callOi": 1091,
+   "putOi": 1285
+  },
+  {
+   "strike": 651.2,
+   "callOi": 605,
+   "putOi": 917
+  },
+  {
+   "strike": 688.4,
+   "callOi": 1772,
+   "putOi": 555
+  },
+  {
+   "strike": 725.6,
    "callOi": 715,
-   "putOi": 1120
+   "putOi": 142
   },
   {
-   "strike": 675.2,
-   "callOi": 1082,
-   "putOi": 468
-  },
-  {
-   "strike": 713.8,
-   "callOi": 1218,
-   "putOi": 154
-  },
-  {
-   "strike": 752.4,
-   "callOi": 702,
-   "putOi": 124
-  },
-  {
-   "strike": 790.9,
-   "callOi": 747,
-   "putOi": 70
+   "strike": 762.8,
+   "callOi": 671,
+   "putOi": 92
   }
  ],
- "maxPain": 650.0,
+ "maxPain": 640.0,
  "trend": [
   {
    "date": "2026-07-03",
@@ -109,6 +109,11 @@
    "date": "2026-07-21",
    "score": 45,
    "price": 675.19
+  },
+  {
+   "date": "2026-07-22",
+   "score": 34,
+   "price": 651.18
   }
  ]
 }
