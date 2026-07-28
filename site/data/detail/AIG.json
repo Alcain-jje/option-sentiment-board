@@ -1,49 +1,49 @@
 {
  "ticker": "AIG",
  "name": "AIG",
- "price": 79.06,
- "dataAsOf": "2026-07-24",
- "score": 85,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 2.1배 — 강세 우위",
+ "price": 80.83,
+ "dataAsOf": "2026-07-28",
+ "score": 72,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.5배 — 강세 우위",
  "buckets": [
   {
-   "strike": 65.5,
-   "callOi": 60,
-   "putOi": 1314
+   "strike": 67.0,
+   "callOi": 51,
+   "putOi": 1320
   },
   {
-   "strike": 70.0,
-   "callOi": 50,
-   "putOi": 822
+   "strike": 71.6,
+   "callOi": 42,
+   "putOi": 1183
   },
   {
-   "strike": 74.5,
-   "callOi": 651,
-   "putOi": 1574
+   "strike": 76.2,
+   "callOi": 910,
+   "putOi": 1560
   },
   {
-   "strike": 79.1,
-   "callOi": 2445,
-   "putOi": 1635
+   "strike": 80.8,
+   "callOi": 2910,
+   "putOi": 730
   },
   {
-   "strike": 83.6,
-   "callOi": 3255,
-   "putOi": 165
+   "strike": 85.4,
+   "callOi": 2212,
+   "putOi": 38
   },
   {
-   "strike": 88.1,
-   "callOi": 1426,
-   "putOi": 34
+   "strike": 90.1,
+   "callOi": 598,
+   "putOi": 0
   },
   {
-   "strike": 92.6,
-   "callOi": 321,
+   "strike": 94.7,
+   "callOi": 261,
    "putOi": 0
   }
  ],
- "maxPain": 78.0,
+ "maxPain": 77.5,
  "trend": [
   {
    "date": "2026-07-03",
@@ -114,6 +114,11 @@
    "date": "2026-07-24",
    "score": 85,
    "price": 79.06
+  },
+  {
+   "date": "2026-07-28",
+   "score": 72,
+   "price": 80.83
   }
  ]
 }
