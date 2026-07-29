@@ -1,49 +1,49 @@
 {
  "ticker": "AMT",
  "name": "아메리칸타워",
- "price": 171.5,
- "dataAsOf": "2026-07-28",
- "score": 60,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 1.2배 — 강세 우위",
+ "price": 179.26,
+ "dataAsOf": "2026-07-29",
+ "score": 24,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 1.4배 — 약세 우위",
  "buckets": [
   {
-   "strike": 142.1,
-   "callOi": 5,
-   "putOi": 648
+   "strike": 148.5,
+   "callOi": 28,
+   "putOi": 1281
   },
   {
-   "strike": 151.9,
-   "callOi": 42,
-   "putOi": 1690
+   "strike": 158.8,
+   "callOi": 40,
+   "putOi": 3238
   },
   {
-   "strike": 161.7,
-   "callOi": 271,
-   "putOi": 3716
+   "strike": 169.0,
+   "callOi": 706,
+   "putOi": 2918
   },
   {
-   "strike": 171.5,
-   "callOi": 1238,
-   "putOi": 2025
+   "strike": 179.3,
+   "callOi": 1898,
+   "putOi": 628
   },
   {
-   "strike": 181.3,
-   "callOi": 1665,
-   "putOi": 354
+   "strike": 189.5,
+   "callOi": 1869,
+   "putOi": 138
   },
   {
-   "strike": 191.1,
-   "callOi": 2051,
-   "putOi": 53
+   "strike": 199.7,
+   "callOi": 2263,
+   "putOi": 25
   },
   {
-   "strike": 200.9,
-   "callOi": 1351,
-   "putOi": 11
+   "strike": 210.0,
+   "callOi": 2120,
+   "putOi": 23
   }
  ],
- "maxPain": 170.0,
+ "maxPain": 175.0,
  "trend": [
   {
    "date": "2026-07-06",
@@ -94,6 +94,11 @@
    "date": "2026-07-28",
    "score": 60,
    "price": 171.5
+  },
+  {
+   "date": "2026-07-29",
+   "score": 24,
+   "price": 179.26
   }
  ]
 }

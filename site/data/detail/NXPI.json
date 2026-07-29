@@ -1,46 +1,46 @@
 {
  "ticker": "NXPI",
  "name": "NXP",
- "price": 259.12,
- "dataAsOf": "2026-07-28",
- "score": 48,
+ "price": 240.98,
+ "dataAsOf": "2026-07-29",
+ "score": 40,
  "label": "중립",
  "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 214.7,
+   "strike": 199.7,
+   "callOi": 193,
+   "putOi": 2019
+  },
+  {
+   "strike": 213.4,
    "callOi": 310,
-   "putOi": 469
+   "putOi": 1067
   },
   {
-   "strike": 229.5,
-   "callOi": 142,
-   "putOi": 525
+   "strike": 227.2,
+   "callOi": 148,
+   "putOi": 541
   },
   {
-   "strike": 244.3,
-   "callOi": 420,
-   "putOi": 1779
+   "strike": 241.0,
+   "callOi": 125,
+   "putOi": 1433
   },
   {
-   "strike": 259.1,
-   "callOi": 255,
-   "putOi": 1086
+   "strike": 254.8,
+   "callOi": 809,
+   "putOi": 2003
   },
   {
-   "strike": 273.9,
-   "callOi": 3004,
-   "putOi": 1548
+   "strike": 268.5,
+   "callOi": 782,
+   "putOi": 654
   },
   {
-   "strike": 288.7,
-   "callOi": 2231,
-   "putOi": 666
-  },
-  {
-   "strike": 303.5,
-   "callOi": 2197,
-   "putOi": 669
+   "strike": 282.3,
+   "callOi": 2859,
+   "putOi": 881
   }
  ],
  "maxPain": 280.0,
@@ -129,6 +129,11 @@
    "date": "2026-07-28",
    "score": 48,
    "price": 259.12
+  },
+  {
+   "date": "2026-07-29",
+   "score": 40,
+   "price": 240.98
   }
  ]
 }
