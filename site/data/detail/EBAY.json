@@ -1,49 +1,49 @@
 {
  "ticker": "EBAY",
  "name": "이베이",
- "price": 114.01,
- "dataAsOf": "2026-07-31",
- "score": 85,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 2.1배 — 강세 우위",
+ "price": 107.13,
+ "dataAsOf": "2026-08-03",
+ "score": 62,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.6배 — 강세 우위",
  "buckets": [
   {
-   "strike": 94.5,
-   "callOi": 344,
-   "putOi": 1069
+   "strike": 88.8,
+   "callOi": 3155,
+   "putOi": 720
+  },
+  {
+   "strike": 94.9,
+   "callOi": 313,
+   "putOi": 838
   },
   {
    "strike": 101.0,
-   "callOi": 436,
-   "putOi": 1592
+   "callOi": 397,
+   "putOi": 1527
   },
   {
-   "strike": 107.5,
-   "callOi": 1923,
-   "putOi": 3532
+   "strike": 107.1,
+   "callOi": 1834,
+   "putOi": 2719
   },
   {
-   "strike": 114.0,
-   "callOi": 4895,
-   "putOi": 3421
+   "strike": 113.3,
+   "callOi": 3780,
+   "putOi": 2992
   },
   {
-   "strike": 120.5,
-   "callOi": 2859,
-   "putOi": 82
+   "strike": 119.4,
+   "callOi": 2797,
+   "putOi": 179
   },
   {
-   "strike": 127.0,
-   "callOi": 4254,
-   "putOi": 38
-  },
-  {
-   "strike": 133.6,
-   "callOi": 791,
-   "putOi": 0
+   "strike": 125.5,
+   "callOi": 909,
+   "putOi": 24
   }
  ],
- "maxPain": 110.0,
+ "maxPain": 105.0,
  "trend": [
   {
    "date": "2026-07-03",
@@ -149,6 +149,11 @@
    "date": "2026-07-31",
    "score": 85,
    "price": 114.01
+  },
+  {
+   "date": "2026-08-03",
+   "score": 62,
+   "price": 107.13
   }
  ]
 }
