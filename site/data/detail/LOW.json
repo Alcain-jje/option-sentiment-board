@@ -1,49 +1,49 @@
 {
  "ticker": "LOW",
  "name": "로우스",
- "price": 212.06,
- "dataAsOf": "2026-08-03",
- "score": 90,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 2.7배 — 평소보다 훨씬 강세",
+ "price": 218.08,
+ "dataAsOf": "2026-08-04",
+ "score": 68,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.4배 — 강세 우위",
  "buckets": [
   {
-   "strike": 175.7,
-   "callOi": 77,
-   "putOi": 1332
+   "strike": 180.7,
+   "callOi": 215,
+   "putOi": 4882
   },
   {
-   "strike": 187.8,
-   "callOi": 308,
-   "putOi": 10422
+   "strike": 193.2,
+   "callOi": 193,
+   "putOi": 16154
   },
   {
-   "strike": 199.9,
-   "callOi": 765,
-   "putOi": 17048
+   "strike": 205.6,
+   "callOi": 2903,
+   "putOi": 12369
   },
   {
-   "strike": 212.1,
-   "callOi": 2847,
-   "putOi": 5236
+   "strike": 218.1,
+   "callOi": 7732,
+   "putOi": 2863
   },
   {
-   "strike": 224.2,
-   "callOi": 10381,
-   "putOi": 2834
+   "strike": 230.5,
+   "callOi": 8576,
+   "putOi": 884
   },
   {
-   "strike": 236.3,
-   "callOi": 5177,
+   "strike": 243.0,
+   "callOi": 2643,
    "putOi": 1429
   },
   {
-   "strike": 248.4,
-   "callOi": 3718,
-   "putOi": 518
+   "strike": 255.5,
+   "callOi": 4944,
+   "putOi": 522
   }
  ],
- "maxPain": 220.0,
+ "maxPain": 217.5,
  "trend": [
   {
    "date": "2026-07-03",
@@ -154,6 +154,11 @@
    "date": "2026-08-03",
    "score": 90,
    "price": 212.06
+  },
+  {
+   "date": "2026-08-04",
+   "score": 68,
+   "price": 218.08
   }
  ]
 }
