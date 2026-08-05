@@ -1,49 +1,49 @@
 {
  "ticker": "EMR",
  "name": "에머슨",
- "price": 158.84,
- "dataAsOf": "2026-08-04",
- "score": 5,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.3배 — 평소보다 뚜렷한 약세",
+ "price": 162.47,
+ "dataAsOf": "2026-08-05",
+ "score": 65,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 2.3배 — 강세 우위",
  "buckets": [
   {
-   "strike": 131.6,
-   "callOi": 744,
-   "putOi": 4274
+   "strike": 134.6,
+   "callOi": 942,
+   "putOi": 4426
   },
   {
-   "strike": 140.7,
-   "callOi": 2590,
-   "putOi": 1315
+   "strike": 143.9,
+   "callOi": 2640,
+   "putOi": 1781
   },
   {
-   "strike": 149.8,
-   "callOi": 2507,
-   "putOi": 1338
+   "strike": 153.2,
+   "callOi": 8648,
+   "putOi": 1915
   },
   {
-   "strike": 158.8,
-   "callOi": 9340,
-   "putOi": 56
+   "strike": 162.5,
+   "callOi": 5992,
+   "putOi": 16
   },
   {
-   "strike": 167.9,
-   "callOi": 7381,
+   "strike": 171.8,
+   "callOi": 5081,
    "putOi": 0
   },
   {
-   "strike": 177.0,
-   "callOi": 958,
+   "strike": 181.0,
+   "callOi": 800,
    "putOi": 0
   },
   {
-   "strike": 186.1,
-   "callOi": 513,
+   "strike": 190.3,
+   "callOi": 409,
    "putOi": 0
   }
  ],
- "maxPain": 140.0,
+ "maxPain": 145.0,
  "trend": [
   {
    "date": "2026-07-03",
@@ -159,6 +159,11 @@
    "date": "2026-08-04",
    "score": 5,
    "price": 158.84
+  },
+  {
+   "date": "2026-08-05",
+   "score": 65,
+   "price": 162.47
   }
  ]
 }

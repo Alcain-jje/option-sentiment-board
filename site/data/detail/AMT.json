@@ -1,46 +1,46 @@
 {
  "ticker": "AMT",
  "name": "아메리칸타워",
- "price": 175.25,
- "dataAsOf": "2026-08-04",
- "score": 54,
+ "price": 168.07,
+ "dataAsOf": "2026-08-05",
+ "score": 49,
  "label": "중립",
  "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 145.2,
+   "strike": 139.3,
+   "callOi": 14,
+   "putOi": 381
+  },
+  {
+   "strike": 148.9,
    "callOi": 28,
-   "putOi": 1206
+   "putOi": 1213
   },
   {
-   "strike": 155.2,
+   "strike": 158.5,
    "callOi": 104,
-   "putOi": 3426
+   "putOi": 3465
   },
   {
-   "strike": 165.2,
+   "strike": 168.1,
    "callOi": 742,
-   "putOi": 3166
+   "putOi": 2927
   },
   {
-   "strike": 175.2,
-   "callOi": 2007,
-   "putOi": 665
+   "strike": 177.7,
+   "callOi": 2001,
+   "putOi": 680
   },
   {
-   "strike": 185.3,
-   "callOi": 2198,
+   "strike": 187.3,
+   "callOi": 2169,
    "putOi": 135
   },
   {
-   "strike": 195.3,
-   "callOi": 2361,
+   "strike": 196.9,
+   "callOi": 2063,
    "putOi": 25
-  },
-  {
-   "strike": 205.3,
-   "callOi": 2124,
-   "putOi": 23
   }
  ],
  "maxPain": 170.0,
@@ -114,6 +114,11 @@
    "date": "2026-08-04",
    "score": 54,
    "price": 175.25
+  },
+  {
+   "date": "2026-08-05",
+   "score": 49,
+   "price": 168.07
   }
  ]
 }
