@@ -1,49 +1,49 @@
 {
  "ticker": "SOFI",
  "name": "소파이",
- "price": 18.38,
- "dataAsOf": "2026-08-07",
- "score": 46,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 18.12,
+ "dataAsOf": "2026-08-10",
+ "score": 8,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 0.5배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": 15.2,
-   "callOi": 23107,
-   "putOi": 68514
+   "strike": 15.0,
+   "callOi": 18118,
+   "putOi": 60011
   },
   {
-   "strike": 16.3,
-   "callOi": 40323,
-   "putOi": 77338
+   "strike": 16.0,
+   "callOi": 26886,
+   "putOi": 61753
   },
   {
-   "strike": 17.3,
-   "callOi": 81605,
-   "putOi": 87291
+   "strike": 17.1,
+   "callOi": 56688,
+   "putOi": 61471
   },
   {
-   "strike": 18.4,
-   "callOi": 136106,
-   "putOi": 51857
+   "strike": 18.1,
+   "callOi": 109072,
+   "putOi": 38996
   },
   {
-   "strike": 19.4,
-   "callOi": 138475,
-   "putOi": 22176
+   "strike": 19.2,
+   "callOi": 94568,
+   "putOi": 20624
   },
   {
-   "strike": 20.5,
-   "callOi": 206236,
-   "putOi": 24009
+   "strike": 20.2,
+   "callOi": 133378,
+   "putOi": 20239
   },
   {
-   "strike": 21.5,
-   "callOi": 178880,
-   "putOi": 27077
+   "strike": 21.2,
+   "callOi": 60368,
+   "putOi": 3797
   }
  ],
- "maxPain": 17.5,
+ "maxPain": 18.0,
  "trend": [
   {
    "date": "2026-07-03",
@@ -169,6 +169,11 @@
    "date": "2026-08-07",
    "score": 46,
    "price": 18.38
+  },
+  {
+   "date": "2026-08-10",
+   "score": 8,
+   "price": 18.12
   }
  ]
 }

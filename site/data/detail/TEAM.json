@@ -1,49 +1,49 @@
 {
  "ticker": "TEAM",
  "name": "아틀라시안",
- "price": 149.07,
- "dataAsOf": "2026-08-07",
- "score": 88,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 3.9배 — 강세 우위",
+ "price": 151.87,
+ "dataAsOf": "2026-08-10",
+ "score": 0,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 1.7배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": 123.5,
-   "callOi": 11612,
-   "putOi": 1390
+   "strike": 125.8,
+   "callOi": 6216,
+   "putOi": 6257
   },
   {
-   "strike": 132.0,
-   "callOi": 6009,
+   "strike": 134.5,
+   "callOi": 1213,
+   "putOi": 817
+  },
+  {
+   "strike": 143.2,
+   "callOi": 4951,
+   "putOi": 2572
+  },
+  {
+   "strike": 151.9,
+   "callOi": 4520,
    "putOi": 227
   },
   {
-   "strike": 140.6,
-   "callOi": 11264,
-   "putOi": 88
+   "strike": 160.5,
+   "callOi": 1659,
+   "putOi": 35
   },
   {
-   "strike": 149.1,
-   "callOi": 5571,
-   "putOi": 128
+   "strike": 169.2,
+   "callOi": 5598,
+   "putOi": 27
   },
   {
-   "strike": 157.6,
-   "callOi": 1325,
-   "putOi": 7
-  },
-  {
-   "strike": 166.1,
-   "callOi": 1025,
-   "putOi": 14
-  },
-  {
-   "strike": 174.6,
-   "callOi": 1112,
-   "putOi": 4
+   "strike": 177.9,
+   "callOi": 2944,
+   "putOi": 20
   }
  ],
- "maxPain": 100.0,
+ "maxPain": 105.0,
  "trend": [
   {
    "date": "2026-07-03",
@@ -169,6 +169,11 @@
    "date": "2026-08-07",
    "score": 88,
    "price": 149.07
+  },
+  {
+   "date": "2026-08-10",
+   "score": 0,
+   "price": 151.87
   }
  ]
 }

@@ -2,10 +2,10 @@
  "ticker": "EA",
  "name": "일렉트로닉아츠",
  "price": 209.7,
- "dataAsOf": "2026-08-07",
- "score": 54,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "dataAsOf": "2026-08-10",
+ "score": 60,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.9배 — 강세 우위",
  "buckets": [
   {
    "strike": 173.8,
@@ -19,13 +19,13 @@
   },
   {
    "strike": 197.7,
-   "callOi": 6476,
-   "putOi": 1947
+   "callOi": 6472,
+   "putOi": 1913
   },
   {
    "strike": 209.7,
-   "callOi": 13794,
-   "putOi": 4585
+   "callOi": 12933,
+   "putOi": 3452
   },
   {
    "strike": 221.7,
@@ -40,10 +40,10 @@
   {
    "strike": 245.6,
    "callOi": 145,
-   "putOi": 0
+   "putOi": 1
   }
  ],
- "maxPain": 175.0,
+ "maxPain": 165.0,
  "trend": [
   {
    "date": "2026-07-03",
@@ -168,6 +168,11 @@
   {
    "date": "2026-08-07",
    "score": 54,
+   "price": 209.7
+  },
+  {
+   "date": "2026-08-10",
+   "score": 60,
    "price": 209.7
   }
  ]
