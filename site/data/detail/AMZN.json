@@ -1,55 +1,50 @@
 {
  "ticker": "AMZN",
  "name": "아마존",
- "price": 262.65,
- "dataAsOf": "2026-08-14",
- "score": 10,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 0.6배 — 평소보다 뚜렷한 약세",
+ "price": 261.31,
+ "dataAsOf": "2026-08-17",
+ "score": 20,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
  "buckets": [
   {
-   "strike": 217.6,
-   "callOi": 21481,
-   "putOi": 86857
+   "strike": 216.5,
+   "callOi": 21856,
+   "putOi": 108778
   },
   {
-   "strike": 232.6,
-   "callOi": 44080,
-   "putOi": 104265
+   "strike": 231.4,
+   "callOi": 34130,
+   "putOi": 99694
   },
   {
-   "strike": 247.6,
-   "callOi": 110038,
-   "putOi": 89564
+   "strike": 246.4,
+   "callOi": 117565,
+   "putOi": 136436
   },
   {
-   "strike": 262.6,
-   "callOi": 187161,
-   "putOi": 97436
+   "strike": 261.3,
+   "callOi": 152403,
+   "putOi": 89448
   },
   {
-   "strike": 277.7,
-   "callOi": 241959,
-   "putOi": 27834
+   "strike": 276.2,
+   "callOi": 284084,
+   "putOi": 44779
   },
   {
-   "strike": 292.7,
-   "callOi": 217251,
-   "putOi": 3394
+   "strike": 291.2,
+   "callOi": 170961,
+   "putOi": 6216
   },
   {
-   "strike": 307.7,
-   "callOi": 108928,
-   "putOi": 174
+   "strike": 306.1,
+   "callOi": 180262,
+   "putOi": 1662
   }
  ],
  "maxPain": 250.0,
  "trend": [
-  {
-   "date": "2026-07-03",
-   "score": 90,
-   "price": 242.67
-  },
   {
    "date": "2026-07-06",
    "score": 82,
@@ -194,6 +189,11 @@
    "date": "2026-08-14",
    "score": 10,
    "price": 262.65
+  },
+  {
+   "date": "2026-08-17",
+   "score": 20,
+   "price": 261.31
   }
  ]
 }

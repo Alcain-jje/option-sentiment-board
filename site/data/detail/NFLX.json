@@ -1,55 +1,50 @@
 {
  "ticker": "NFLX",
  "name": "넷플릭스",
- "price": 78.16,
- "dataAsOf": "2026-08-14",
- "score": 24,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.5배 — 약세 우위",
+ "price": 76.02,
+ "dataAsOf": "2026-08-17",
+ "score": 10,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 0.6배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": 64.8,
-   "callOi": 3253,
-   "putOi": 60483
+   "strike": 63.0,
+   "callOi": 3172,
+   "putOi": 81110
   },
   {
-   "strike": 69.2,
-   "callOi": 43941,
-   "putOi": 117351
+   "strike": 67.3,
+   "callOi": 20263,
+   "putOi": 52640
   },
   {
-   "strike": 73.7,
-   "callOi": 102720,
-   "putOi": 120458
+   "strike": 71.7,
+   "callOi": 52254,
+   "putOi": 145998
   },
   {
-   "strike": 78.2,
-   "callOi": 203698,
-   "putOi": 65590
+   "strike": 76.0,
+   "callOi": 137668,
+   "putOi": 94951
   },
   {
-   "strike": 82.6,
-   "callOi": 67167,
-   "putOi": 15579
+   "strike": 80.4,
+   "callOi": 144259,
+   "putOi": 43402
   },
   {
-   "strike": 87.1,
-   "callOi": 86137,
-   "putOi": 20431
+   "strike": 84.7,
+   "callOi": 104419,
+   "putOi": 27357
   },
   {
-   "strike": 91.6,
-   "callOi": 101908,
-   "putOi": 6660
+   "strike": 89.1,
+   "callOi": 143529,
+   "putOi": 13089
   }
  ],
  "maxPain": 75.0,
  "trend": [
-  {
-   "date": "2026-07-03",
-   "score": 90,
-   "price": 77.65
-  },
   {
    "date": "2026-07-06",
    "score": 86,
@@ -194,6 +189,11 @@
    "date": "2026-08-14",
    "score": 24,
    "price": 78.16
+  },
+  {
+   "date": "2026-08-17",
+   "score": 10,
+   "price": 76.02
   }
  ]
 }

@@ -1,46 +1,46 @@
 {
  "ticker": "PRU",
  "name": "푸르덴셜",
- "price": 125.13,
- "dataAsOf": "2026-08-14",
- "score": 21,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.4배 — 약세 우위",
+ "price": 124.56,
+ "dataAsOf": "2026-08-17",
+ "score": 50,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 103.7,
-   "callOi": 963,
-   "putOi": 1097
+   "strike": 103.2,
+   "callOi": 2111,
+   "putOi": 2335
   },
   {
-   "strike": 110.8,
+   "strike": 110.3,
    "callOi": 1836,
-   "putOi": 1172
+   "putOi": 1170
   },
   {
-   "strike": 118.0,
-   "callOi": 5246,
-   "putOi": 3116
+   "strike": 117.4,
+   "callOi": 5180,
+   "putOi": 3118
   },
   {
-   "strike": 125.1,
-   "callOi": 2438,
-   "putOi": 743
+   "strike": 124.6,
+   "callOi": 2421,
+   "putOi": 752
   },
   {
-   "strike": 132.3,
-   "callOi": 1666,
+   "strike": 131.7,
+   "callOi": 1700,
    "putOi": 264
   },
   {
-   "strike": 139.4,
+   "strike": 138.8,
    "callOi": 113,
    "putOi": 0
   },
   {
-   "strike": 146.6,
-   "callOi": 133,
-   "putOi": 1
+   "strike": 145.9,
+   "callOi": 71,
+   "putOi": 0
   }
  ],
  "maxPain": 110.0,
@@ -124,6 +124,11 @@
    "date": "2026-08-14",
    "score": 21,
    "price": 125.13
+  },
+  {
+   "date": "2026-08-17",
+   "score": 50,
+   "price": 124.56
   }
  ]
 }
