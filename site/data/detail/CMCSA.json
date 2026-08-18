@@ -1,55 +1,50 @@
 {
  "ticker": "CMCSA",
  "name": "컴캐스트",
- "price": 25.57,
- "dataAsOf": "2026-08-17",
- "score": 20,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.6배 — 약세 우위",
+ "price": 26.2,
+ "dataAsOf": "2026-08-18",
+ "score": 19,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 1.7배 — 약세 우위",
  "buckets": [
   {
-   "strike": 21.2,
-   "callOi": 1261,
-   "putOi": 9984
+   "strike": 21.7,
+   "callOi": 2518,
+   "putOi": 18591
   },
   {
-   "strike": 22.6,
-   "callOi": 15063,
-   "putOi": 27554
+   "strike": 23.2,
+   "callOi": 14796,
+   "putOi": 19042
   },
   {
-   "strike": 24.1,
-   "callOi": 19642,
-   "putOi": 14237
+   "strike": 24.7,
+   "callOi": 41949,
+   "putOi": 24332
   },
   {
-   "strike": 25.6,
-   "callOi": 50777,
-   "putOi": 15263
+   "strike": 26.2,
+   "callOi": 29004,
+   "putOi": 5647
   },
   {
-   "strike": 27.0,
-   "callOi": 29011,
-   "putOi": 3033
+   "strike": 27.7,
+   "callOi": 39427,
+   "putOi": 3683
   },
   {
-   "strike": 28.5,
-   "callOi": 17286,
-   "putOi": 1413
+   "strike": 29.2,
+   "callOi": 6942,
+   "putOi": 642
   },
   {
-   "strike": 30.0,
-   "callOi": 45210,
-   "putOi": 541
+   "strike": 30.7,
+   "callOi": 52884,
+   "putOi": 549
   }
  ],
  "maxPain": 24.0,
  "trend": [
-  {
-   "date": "2026-07-06",
-   "score": 80,
-   "price": 23.38
-  },
   {
    "date": "2026-07-07",
    "score": 75,
@@ -194,6 +189,11 @@
    "date": "2026-08-17",
    "score": 20,
    "price": 25.57
+  },
+  {
+   "date": "2026-08-18",
+   "score": 19,
+   "price": 26.2
   }
  ]
 }

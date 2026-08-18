@@ -1,55 +1,50 @@
 {
  "ticker": "KHC",
  "name": "크래프트하인즈",
- "price": 24.75,
- "dataAsOf": "2026-08-17",
- "score": 13,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
+ "price": 24.82,
+ "dataAsOf": "2026-08-18",
+ "score": 61,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 3.5배 — 강세 우위",
  "buckets": [
   {
-   "strike": 20.5,
-   "callOi": 361,
-   "putOi": 14069
+   "strike": 20.6,
+   "callOi": 363,
+   "putOi": 14167
   },
   {
-   "strike": 21.9,
+   "strike": 22.0,
    "callOi": 4491,
-   "putOi": 14931
+   "putOi": 15201
   },
   {
-   "strike": 23.3,
-   "callOi": 743,
-   "putOi": 12305
+   "strike": 23.4,
+   "callOi": 751,
+   "putOi": 12932
   },
   {
    "strike": 24.8,
-   "callOi": 25677,
-   "putOi": 12494
+   "callOi": 31512,
+   "putOi": 20099
   },
   {
    "strike": 26.2,
-   "callOi": 49004,
-   "putOi": 6460
+   "callOi": 45495,
+   "putOi": 991
   },
   {
-   "strike": 27.6,
-   "callOi": 34459,
-   "putOi": 5160
+   "strike": 27.7,
+   "callOi": 34190,
+   "putOi": 4852
   },
   {
-   "strike": 29.0,
-   "callOi": 1126,
-   "putOi": 11
+   "strike": 29.1,
+   "callOi": 1125,
+   "putOi": 20
   }
  ],
  "maxPain": 25.0,
  "trend": [
-  {
-   "date": "2026-07-06",
-   "score": 90,
-   "price": 24.82
-  },
   {
    "date": "2026-07-07",
    "score": 55,
@@ -194,6 +189,11 @@
    "date": "2026-08-17",
    "score": 13,
    "price": 24.75
+  },
+  {
+   "date": "2026-08-18",
+   "score": 61,
+   "price": 24.82
   }
  ]
 }

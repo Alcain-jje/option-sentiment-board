@@ -1,55 +1,50 @@
 {
  "ticker": "AMGN",
  "name": "암젠",
- "price": 419.38,
- "dataAsOf": "2026-08-17",
- "score": 37,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
+ "price": 425.28,
+ "dataAsOf": "2026-08-18",
+ "score": 71,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.4배 — 강세 우위",
  "buckets": [
   {
-   "strike": 347.5,
-   "callOi": 2906,
-   "putOi": 3379
+   "strike": 352.4,
+   "callOi": 3231,
+   "putOi": 2902
   },
   {
-   "strike": 371.5,
-   "callOi": 5952,
-   "putOi": 3765
+   "strike": 376.7,
+   "callOi": 5432,
+   "putOi": 5440
   },
   {
-   "strike": 395.4,
-   "callOi": 6858,
-   "putOi": 6314
+   "strike": 401.0,
+   "callOi": 8221,
+   "putOi": 5976
   },
   {
-   "strike": 419.4,
-   "callOi": 7385,
-   "putOi": 880
+   "strike": 425.3,
+   "callOi": 7528,
+   "putOi": 503
   },
   {
-   "strike": 443.3,
-   "callOi": 12464,
-   "putOi": 28
+   "strike": 449.6,
+   "callOi": 11657,
+   "putOi": 36
   },
   {
-   "strike": 467.3,
-   "callOi": 1183,
-   "putOi": 7
+   "strike": 473.9,
+   "callOi": 980,
+   "putOi": 5
   },
   {
-   "strike": 491.3,
-   "callOi": 802,
-   "putOi": 2
+   "strike": 498.2,
+   "callOi": 409,
+   "putOi": 1
   }
  ],
- "maxPain": 365.0,
+ "maxPain": 370.0,
  "trend": [
-  {
-   "date": "2026-07-06",
-   "score": 85,
-   "price": 366.44
-  },
   {
    "date": "2026-07-07",
    "score": 70,
@@ -194,6 +189,11 @@
    "date": "2026-08-17",
    "score": 37,
    "price": 419.38
+  },
+  {
+   "date": "2026-08-18",
+   "score": 71,
+   "price": 425.28
   }
  ]
 }

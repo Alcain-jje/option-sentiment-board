@@ -1,55 +1,50 @@
 {
  "ticker": "MDLZ",
  "name": "몬델리즈",
- "price": 62.18,
- "dataAsOf": "2026-08-17",
- "score": 33,
+ "price": 62.66,
+ "dataAsOf": "2026-08-18",
+ "score": 32,
  "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
+ "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
  "buckets": [
   {
-   "strike": 51.5,
-   "callOi": 12,
-   "putOi": 4640
+   "strike": 51.9,
+   "callOi": 3,
+   "putOi": 3046
   },
   {
-   "strike": 55.1,
-   "callOi": 64,
-   "putOi": 6177
+   "strike": 55.5,
+   "callOi": 67,
+   "putOi": 6290
   },
   {
-   "strike": 58.6,
-   "callOi": 4831,
-   "putOi": 14250
+   "strike": 59.1,
+   "callOi": 4830,
+   "putOi": 14189
   },
   {
-   "strike": 62.2,
-   "callOi": 6898,
-   "putOi": 1112
+   "strike": 62.7,
+   "callOi": 7074,
+   "putOi": 1221
   },
   {
-   "strike": 65.7,
-   "callOi": 12626,
-   "putOi": 101
+   "strike": 66.2,
+   "callOi": 12999,
+   "putOi": 81
   },
   {
-   "strike": 69.3,
-   "callOi": 6302,
-   "putOi": 19
+   "strike": 69.8,
+   "callOi": 6504,
+   "putOi": 11
   },
   {
-   "strike": 72.8,
-   "callOi": 690,
-   "putOi": 5
+   "strike": 73.4,
+   "callOi": 722,
+   "putOi": 4
   }
  ],
  "maxPain": 60.0,
  "trend": [
-  {
-   "date": "2026-07-06",
-   "score": 10,
-   "price": 59.17
-  },
   {
    "date": "2026-07-07",
    "score": 61,
@@ -194,6 +189,11 @@
    "date": "2026-08-17",
    "score": 33,
    "price": 62.18
+  },
+  {
+   "date": "2026-08-18",
+   "score": 32,
+   "price": 62.66
   }
  ]
 }

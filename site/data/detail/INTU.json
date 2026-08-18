@@ -1,55 +1,50 @@
 {
  "ticker": "INTU",
  "name": "인튜이트",
- "price": 335.6,
- "dataAsOf": "2026-08-17",
- "score": 20,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.3배 — 약세 우위",
+ "price": 350.41,
+ "dataAsOf": "2026-08-18",
+ "score": 42,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 278.1,
-   "callOi": 1892,
-   "putOi": 4458
+   "strike": 290.3,
+   "callOi": 3180,
+   "putOi": 6651
   },
   {
-   "strike": 297.2,
-   "callOi": 3369,
-   "putOi": 6744
+   "strike": 310.4,
+   "callOi": 4400,
+   "putOi": 4919
   },
   {
-   "strike": 316.4,
-   "callOi": 4409,
-   "putOi": 5755
+   "strike": 330.4,
+   "callOi": 4807,
+   "putOi": 4968
   },
   {
-   "strike": 335.6,
-   "callOi": 4763,
-   "putOi": 2314
+   "strike": 350.4,
+   "callOi": 5831,
+   "putOi": 1821
   },
   {
-   "strike": 354.8,
-   "callOi": 5013,
-   "putOi": 1671
-  },
-  {
-   "strike": 374.0,
-   "callOi": 5124,
+   "strike": 370.4,
+   "callOi": 5256,
    "putOi": 1088
   },
   {
-   "strike": 393.1,
-   "callOi": 3850,
-   "putOi": 958
+   "strike": 390.5,
+   "callOi": 4117,
+   "putOi": 952
+  },
+  {
+   "strike": 410.5,
+   "callOi": 1276,
+   "putOi": 1054
   }
  ],
  "maxPain": 320.0,
  "trend": [
-  {
-   "date": "2026-07-06",
-   "score": 72,
-   "price": 272.14
-  },
   {
    "date": "2026-07-07",
    "score": 73,
@@ -194,6 +189,11 @@
    "date": "2026-08-17",
    "score": 20,
    "price": 335.6
+  },
+  {
+   "date": "2026-08-18",
+   "score": 42,
+   "price": 350.41
   }
  ]
 }
