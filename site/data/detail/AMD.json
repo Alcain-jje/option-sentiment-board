@@ -1,55 +1,50 @@
 {
  "ticker": "AMD",
  "name": "AMD",
- "price": 484.39,
- "dataAsOf": "2026-08-18",
- "score": 10,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 0.9배 — 평소보다 뚜렷한 약세",
+ "price": 466.42,
+ "dataAsOf": "2026-08-19",
+ "score": 34,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
  "buckets": [
   {
-   "strike": 401.4,
-   "callOi": 12119,
-   "putOi": 63772
+   "strike": 386.5,
+   "callOi": 6516,
+   "putOi": 30943
   },
   {
-   "strike": 429.0,
-   "callOi": 6851,
-   "putOi": 49929
+   "strike": 413.1,
+   "callOi": 13456,
+   "putOi": 79000
   },
   {
-   "strike": 456.7,
-   "callOi": 37475,
-   "putOi": 52288
+   "strike": 439.8,
+   "callOi": 24924,
+   "putOi": 59886
   },
   {
-   "strike": 484.4,
-   "callOi": 26331,
-   "putOi": 38572
+   "strike": 466.4,
+   "callOi": 21875,
+   "putOi": 52499
   },
   {
-   "strike": 512.1,
-   "callOi": 78219,
-   "putOi": 30207
+   "strike": 493.1,
+   "callOi": 68585,
+   "putOi": 47213
   },
   {
-   "strike": 539.7,
-   "callOi": 66062,
-   "putOi": 13198
+   "strike": 519.7,
+   "callOi": 65640,
+   "putOi": 20064
   },
   {
-   "strike": 567.4,
-   "callOi": 46587,
-   "putOi": 5780
+   "strike": 546.4,
+   "callOi": 56314,
+   "putOi": 9473
   }
  ],
- "maxPain": 440.0,
+ "maxPain": 450.0,
  "trend": [
-  {
-   "date": "2026-07-07",
-   "score": 70,
-   "price": 516.11
-  },
   {
    "date": "2026-07-08",
    "score": 70,
@@ -194,6 +189,11 @@
    "date": "2026-08-18",
    "score": 10,
    "price": 484.39
+  },
+  {
+   "date": "2026-08-19",
+   "score": 34,
+   "price": 466.42
   }
  ]
 }

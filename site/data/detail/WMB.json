@@ -1,55 +1,50 @@
 {
  "ticker": "WMB",
  "name": "윌리엄스",
- "price": 75.13,
- "dataAsOf": "2026-08-18",
- "score": 39,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.5배 — 약세 우위",
+ "price": 73.24,
+ "dataAsOf": "2026-08-19",
+ "score": 56,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 62.3,
-   "callOi": 1,
-   "putOi": 53267
+   "strike": 60.7,
+   "callOi": 433,
+   "putOi": 2387
   },
   {
-   "strike": 66.5,
-   "callOi": 666,
-   "putOi": 48671
+   "strike": 64.9,
+   "callOi": 664,
+   "putOi": 100538
   },
   {
-   "strike": 70.8,
-   "callOi": 3120,
-   "putOi": 7356
+   "strike": 69.1,
+   "callOi": 2478,
+   "putOi": 7886
   },
   {
-   "strike": 75.1,
-   "callOi": 19141,
-   "putOi": 5016
+   "strike": 73.2,
+   "callOi": 16186,
+   "putOi": 6430
   },
   {
-   "strike": 79.4,
-   "callOi": 18502,
+   "strike": 77.4,
+   "callOi": 7854,
+   "putOi": 267
+  },
+  {
+   "strike": 81.6,
+   "callOi": 16919,
    "putOi": 103
   },
   {
-   "strike": 83.7,
-   "callOi": 10599,
+   "strike": 85.8,
+   "callOi": 8584,
    "putOi": 38
-  },
-  {
-   "strike": 88.0,
-   "callOi": 1754,
-   "putOi": 0
   }
  ],
- "maxPain": 73.0,
+ "maxPain": 74.0,
  "trend": [
-  {
-   "date": "2026-07-07",
-   "score": 90,
-   "price": 75.08
-  },
   {
    "date": "2026-07-08",
    "score": 10,
@@ -194,6 +189,11 @@
    "date": "2026-08-18",
    "score": 39,
    "price": 75.13
+  },
+  {
+   "date": "2026-08-19",
+   "score": 56,
+   "price": 73.24
   }
  ]
 }

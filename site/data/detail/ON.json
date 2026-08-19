@@ -1,55 +1,50 @@
 {
  "ticker": "ON",
  "name": "온세미",
- "price": 79.42,
- "dataAsOf": "2026-08-18",
- "score": 32,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.0배 — 약세 우위",
+ "price": 76.58,
+ "dataAsOf": "2026-08-19",
+ "score": 94,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 2.0배 — 평소보다 훨씬 강세",
  "buckets": [
   {
-   "strike": 65.8,
-   "callOi": 377,
-   "putOi": 4503
+   "strike": 63.5,
+   "callOi": 372,
+   "putOi": 4339
   },
   {
-   "strike": 70.3,
-   "callOi": 977,
-   "putOi": 7683
+   "strike": 67.8,
+   "callOi": 981,
+   "putOi": 7836
   },
   {
-   "strike": 74.9,
-   "callOi": 529,
-   "putOi": 8909
+   "strike": 72.2,
+   "callOi": 5,
+   "putOi": 950
   },
   {
-   "strike": 79.4,
-   "callOi": 8369,
-   "putOi": 11589
+   "strike": 76.6,
+   "callOi": 722,
+   "putOi": 9548
   },
   {
-   "strike": 84.0,
-   "callOi": 20002,
-   "putOi": 9443
+   "strike": 81.0,
+   "callOi": 12023,
+   "putOi": 12387
   },
   {
-   "strike": 88.5,
-   "callOi": 11494,
-   "putOi": 8445
+   "strike": 85.3,
+   "callOi": 19465,
+   "putOi": 9161
   },
   {
-   "strike": 93.0,
-   "callOi": 9273,
-   "putOi": 8443
+   "strike": 89.7,
+   "callOi": 9250,
+   "putOi": 7590
   }
  ],
  "maxPain": 85.0,
  "trend": [
-  {
-   "date": "2026-07-07",
-   "score": 52,
-   "price": 91.1
-  },
   {
    "date": "2026-07-08",
    "score": 16,
@@ -194,6 +189,11 @@
    "date": "2026-08-18",
    "score": 32,
    "price": 79.42
+  },
+  {
+   "date": "2026-08-19",
+   "score": 94,
+   "price": 76.58
   }
  ]
 }

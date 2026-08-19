@@ -1,55 +1,50 @@
 {
  "ticker": "MCHP",
  "name": "마이크로칩",
- "price": 78.19,
- "dataAsOf": "2026-08-18",
- "score": 35,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.0배 — 약세 우위",
+ "price": 77.08,
+ "dataAsOf": "2026-08-19",
+ "score": 53,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 64.8,
-   "callOi": 422,
-   "putOi": 4393
+   "strike": 63.9,
+   "callOi": 752,
+   "putOi": 7139
   },
   {
-   "strike": 69.3,
-   "callOi": 1366,
-   "putOi": 11888
+   "strike": 68.3,
+   "callOi": 1331,
+   "putOi": 11732
   },
   {
-   "strike": 73.7,
-   "callOi": 55428,
-   "putOi": 14758
+   "strike": 72.7,
+   "callOi": 1604,
+   "putOi": 6935
   },
   {
-   "strike": 78.2,
-   "callOi": 20579,
-   "putOi": 17390
+   "strike": 77.1,
+   "callOi": 63839,
+   "putOi": 19729
   },
   {
-   "strike": 82.7,
-   "callOi": 13275,
-   "putOi": 5223
+   "strike": 81.5,
+   "callOi": 20761,
+   "putOi": 11863
   },
   {
-   "strike": 87.1,
-   "callOi": 27357,
-   "putOi": 8317
+   "strike": 85.9,
+   "callOi": 31228,
+   "putOi": 8364
   },
   {
-   "strike": 91.6,
-   "callOi": 5195,
-   "putOi": 3653
+   "strike": 90.3,
+   "callOi": 4102,
+   "putOi": 1967
   }
  ],
  "maxPain": 75.0,
  "trend": [
-  {
-   "date": "2026-07-07",
-   "score": 10,
-   "price": 84.15
-  },
   {
    "date": "2026-07-08",
    "score": 90,
@@ -194,6 +189,11 @@
    "date": "2026-08-18",
    "score": 35,
    "price": 78.19
+  },
+  {
+   "date": "2026-08-19",
+   "score": 53,
+   "price": 77.08
   }
  ]
 }

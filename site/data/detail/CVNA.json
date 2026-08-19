@@ -1,55 +1,50 @@
 {
  "ticker": "CVNA",
  "name": "카바나",
- "price": 65.0,
- "dataAsOf": "2026-08-18",
- "score": 0,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 2.6배 — 평소보다 뚜렷한 약세",
+ "price": 70.44,
+ "dataAsOf": "2026-08-19",
+ "score": 31,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 1.1배 — 약세 우위",
  "buckets": [
   {
-   "strike": 53.9,
-   "callOi": 1550,
-   "putOi": 23696
+   "strike": 58.4,
+   "callOi": 3754,
+   "putOi": 53085
   },
   {
-   "strike": 57.6,
-   "callOi": 3828,
-   "putOi": 10479
+   "strike": 62.4,
+   "callOi": 7187,
+   "putOi": 23695
   },
   {
-   "strike": 61.3,
-   "callOi": 8058,
-   "putOi": 30571
+   "strike": 66.4,
+   "callOi": 40371,
+   "putOi": 35945
   },
   {
-   "strike": 65.0,
-   "callOi": 26892,
-   "putOi": 22915
+   "strike": 70.4,
+   "callOi": 34515,
+   "putOi": 18793
   },
   {
-   "strike": 68.7,
-   "callOi": 35005,
-   "putOi": 23317
+   "strike": 74.5,
+   "callOi": 18989,
+   "putOi": 7946
   },
   {
-   "strike": 72.4,
-   "callOi": 15178,
-   "putOi": 11472
+   "strike": 78.5,
+   "callOi": 18393,
+   "putOi": 5664
   },
   {
-   "strike": 76.1,
-   "callOi": 16568,
-   "putOi": 4178
+   "strike": 82.5,
+   "callOi": 8881,
+   "putOi": 629
   }
  ],
  "maxPain": 68.0,
  "trend": [
-  {
-   "date": "2026-07-07",
-   "score": 10,
-   "price": 67.49
-  },
   {
    "date": "2026-07-08",
    "score": 10,
@@ -194,6 +189,11 @@
    "date": "2026-08-18",
    "score": 0,
    "price": 65.0
+  },
+  {
+   "date": "2026-08-19",
+   "score": 31,
+   "price": 70.44
   }
  ]
 }

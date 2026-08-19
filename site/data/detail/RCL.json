@@ -1,55 +1,50 @@
 {
  "ticker": "RCL",
  "name": "로열캐리비안",
- "price": 300.0,
- "dataAsOf": "2026-08-18",
- "score": 84,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 1.0배 — 강세 우위",
+ "price": 300.56,
+ "dataAsOf": "2026-08-19",
+ "score": 53,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 248.6,
-   "callOi": 245,
-   "putOi": 8450
+   "strike": 249.0,
+   "callOi": 106,
+   "putOi": 5993
   },
   {
-   "strike": 265.7,
+   "strike": 266.2,
    "callOi": 266,
-   "putOi": 11805
+   "putOi": 11802
   },
   {
-   "strike": 282.9,
-   "callOi": 1609,
-   "putOi": 4690
+   "strike": 283.4,
+   "callOi": 1606,
+   "putOi": 4739
   },
   {
-   "strike": 300.0,
-   "callOi": 1262,
-   "putOi": 2338
+   "strike": 300.6,
+   "callOi": 1229,
+   "putOi": 2396
   },
   {
-   "strike": 317.1,
-   "callOi": 2872,
-   "putOi": 2435
+   "strike": 317.7,
+   "callOi": 2873,
+   "putOi": 2221
   },
   {
-   "strike": 334.3,
-   "callOi": 2587,
-   "putOi": 391
+   "strike": 334.9,
+   "callOi": 2600,
+   "putOi": 387
   },
   {
-   "strike": 351.4,
-   "callOi": 1264,
-   "putOi": 67
+   "strike": 352.1,
+   "callOi": 1701,
+   "putOi": 86
   }
  ],
  "maxPain": 300.0,
  "trend": [
-  {
-   "date": "2026-07-07",
-   "score": 10,
-   "price": 282.26
-  },
   {
    "date": "2026-07-08",
    "score": 90,
@@ -194,6 +189,11 @@
    "date": "2026-08-18",
    "score": 84,
    "price": 300.0
+  },
+  {
+   "date": "2026-08-19",
+   "score": 53,
+   "price": 300.56
   }
  ]
 }
