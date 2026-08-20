@@ -1,55 +1,50 @@
 {
  "ticker": "NCLH",
  "name": "노르웨이지안크루즈",
- "price": 17.34,
- "dataAsOf": "2026-08-19",
- "score": 88,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 2.5배 — 강세 우위",
+ "price": 16.75,
+ "dataAsOf": "2026-08-20",
+ "score": 0,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 2.6배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": 14.4,
+   "strike": 13.9,
    "callOi": 15,
-   "putOi": 118
+   "putOi": 121
   },
   {
-   "strike": 15.4,
-   "callOi": 1183,
-   "putOi": 16234
+   "strike": 14.8,
+   "callOi": 1202,
+   "putOi": 16224
   },
   {
-   "strike": 16.3,
-   "callOi": 611,
-   "putOi": 4801
+   "strike": 15.8,
+   "callOi": 631,
+   "putOi": 4904
   },
   {
-   "strike": 17.3,
-   "callOi": 2269,
-   "putOi": 16868
+   "strike": 16.8,
+   "callOi": 2426,
+   "putOi": 16026
   },
   {
-   "strike": 18.3,
-   "callOi": 11861,
-   "putOi": 14944
+   "strike": 17.7,
+   "callOi": 11027,
+   "putOi": 15476
   },
   {
-   "strike": 19.3,
-   "callOi": 13343,
-   "putOi": 7978
+   "strike": 18.7,
+   "callOi": 14021,
+   "putOi": 9226
   },
   {
-   "strike": 20.3,
-   "callOi": 13014,
-   "putOi": 12375
+   "strike": 19.6,
+   "callOi": 13831,
+   "putOi": 12455
   }
  ],
  "maxPain": 19.0,
  "trend": [
-  {
-   "date": "2026-07-08",
-   "score": 80,
-   "price": 18.47
-  },
   {
    "date": "2026-07-09",
    "score": 60,
@@ -194,6 +189,11 @@
    "date": "2026-08-19",
    "score": 88,
    "price": 17.34
+  },
+  {
+   "date": "2026-08-20",
+   "score": 0,
+   "price": 16.75
   }
  ]
 }

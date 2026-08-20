@@ -1,55 +1,50 @@
 {
  "ticker": "MRNA",
  "name": "모더나",
- "price": 174.38,
- "dataAsOf": "2026-08-19",
- "score": 0,
+ "price": 133.32,
+ "dataAsOf": "2026-08-20",
+ "score": 3,
  "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 2.6배 — 평소보다 뚜렷한 약세",
+ "ratioText": "하락 베팅이 상승의 2.0배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": 144.5,
+   "strike": 110.5,
+   "callOi": 943,
+   "putOi": 0
+  },
+  {
+   "strike": 118.1,
+   "callOi": 8983,
+   "putOi": 0
+  },
+  {
+   "strike": 125.7,
    "callOi": 0,
    "putOi": 0
   },
   {
-   "strike": 154.5,
+   "strike": 133.3,
    "callOi": 0,
    "putOi": 0
   },
   {
-   "strike": 164.4,
+   "strike": 140.9,
    "callOi": 0,
    "putOi": 0
   },
   {
-   "strike": 174.4,
+   "strike": 148.6,
    "callOi": 0,
    "putOi": 0
   },
   {
-   "strike": 184.3,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": 194.3,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": 204.3,
+   "strike": 156.2,
    "callOi": 0,
    "putOi": 0
   }
  ],
- "maxPain": 57.0,
+ "maxPain": 65.0,
  "trend": [
-  {
-   "date": "2026-07-08",
-   "score": 75,
-   "price": 73.8
-  },
   {
    "date": "2026-07-09",
    "score": 51,
@@ -194,6 +189,11 @@
    "date": "2026-08-19",
    "score": 0,
    "price": 174.38
+  },
+  {
+   "date": "2026-08-20",
+   "score": 3,
+   "price": 133.32
   }
  ]
 }

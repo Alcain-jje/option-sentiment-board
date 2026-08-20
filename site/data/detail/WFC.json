@@ -1,55 +1,50 @@
 {
  "ticker": "WFC",
  "name": "웰스파고",
- "price": 85.94,
- "dataAsOf": "2026-08-19",
- "score": 53,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 83.7,
+ "dataAsOf": "2026-08-20",
+ "score": 27,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
  "buckets": [
   {
-   "strike": 71.2,
-   "callOi": 1097,
-   "putOi": 27410
+   "strike": 69.4,
+   "callOi": 884,
+   "putOi": 25447
   },
   {
-   "strike": 76.1,
-   "callOi": 3535,
-   "putOi": 42043
+   "strike": 74.1,
+   "callOi": 1259,
+   "putOi": 31109
   },
   {
-   "strike": 81.0,
-   "callOi": 14688,
-   "putOi": 45821
+   "strike": 78.9,
+   "callOi": 10644,
+   "putOi": 46019
   },
   {
-   "strike": 85.9,
-   "callOi": 28059,
-   "putOi": 42494
+   "strike": 83.7,
+   "callOi": 16989,
+   "putOi": 53701
   },
   {
-   "strike": 90.9,
-   "callOi": 59250,
-   "putOi": 10391
+   "strike": 88.5,
+   "callOi": 54447,
+   "putOi": 18607
   },
   {
-   "strike": 95.8,
-   "callOi": 32644,
-   "putOi": 526
+   "strike": 93.3,
+   "callOi": 42844,
+   "putOi": 2546
   },
   {
-   "strike": 100.7,
-   "callOi": 8602,
-   "putOi": 6
+   "strike": 98.0,
+   "callOi": 25054,
+   "putOi": 60
   }
  ],
  "maxPain": 85.0,
  "trend": [
-  {
-   "date": "2026-07-08",
-   "score": 76,
-   "price": 85.56
-  },
   {
    "date": "2026-07-09",
    "score": 62,
@@ -194,6 +189,11 @@
    "date": "2026-08-19",
    "score": 53,
    "price": 85.94
+  },
+  {
+   "date": "2026-08-20",
+   "score": 27,
+   "price": 83.7
   }
  ]
 }

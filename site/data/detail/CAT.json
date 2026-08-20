@@ -1,55 +1,50 @@
 {
  "ticker": "CAT",
  "name": "캐터필러",
- "price": 816.15,
- "dataAsOf": "2026-08-19",
- "score": 75,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 0.8배 — 강세 우위",
+ "price": 815.39,
+ "dataAsOf": "2026-08-20",
+ "score": 27,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 1.8배 — 약세 우위",
  "buckets": [
   {
-   "strike": 676.2,
-   "callOi": 876,
-   "putOi": 6094
+   "strike": 675.6,
+   "callOi": 877,
+   "putOi": 6242
   },
   {
-   "strike": 722.9,
-   "callOi": 3114,
-   "putOi": 10216
+   "strike": 722.2,
+   "callOi": 3123,
+   "putOi": 11023
   },
   {
-   "strike": 769.5,
-   "callOi": 2964,
-   "putOi": 12304
+   "strike": 768.8,
+   "callOi": 3047,
+   "putOi": 13719
   },
   {
-   "strike": 816.2,
-   "callOi": 3689,
-   "putOi": 11701
+   "strike": 815.4,
+   "callOi": 4419,
+   "putOi": 12260
   },
   {
-   "strike": 862.8,
-   "callOi": 9108,
-   "putOi": 10638
+   "strike": 862.0,
+   "callOi": 10624,
+   "putOi": 10684
   },
   {
-   "strike": 909.4,
-   "callOi": 10877,
-   "putOi": 5192
+   "strike": 908.6,
+   "callOi": 11020,
+   "putOi": 4231
   },
   {
-   "strike": 956.1,
-   "callOi": 7635,
-   "putOi": 1040
+   "strike": 955.2,
+   "callOi": 7708,
+   "putOi": 969
   }
  ],
- "maxPain": 845.0,
+ "maxPain": 840.0,
  "trend": [
-  {
-   "date": "2026-07-08",
-   "score": 13,
-   "price": 948.08
-  },
   {
    "date": "2026-07-09",
    "score": 40,
@@ -194,6 +189,11 @@
    "date": "2026-08-19",
    "score": 75,
    "price": 816.15
+  },
+  {
+   "date": "2026-08-20",
+   "score": 27,
+   "price": 815.39
   }
  ]
 }
