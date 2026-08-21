@@ -1,55 +1,50 @@
 {
  "ticker": "ABNB",
  "name": "에어비앤비",
- "price": 185.0,
- "dataAsOf": "2026-08-20",
- "score": 3,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.5배 — 평소보다 뚜렷한 약세",
+ "price": 187.3,
+ "dataAsOf": "2026-08-21",
+ "score": 24,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 1.1배 — 약세 우위",
  "buckets": [
   {
-   "strike": 153.3,
-   "callOi": 13861,
-   "putOi": 3024
+   "strike": 155.2,
+   "callOi": 18268,
+   "putOi": 3720
   },
   {
-   "strike": 163.9,
-   "callOi": 9138,
-   "putOi": 3499
+   "strike": 165.9,
+   "callOi": 8105,
+   "putOi": 5919
   },
   {
-   "strike": 174.4,
-   "callOi": 7486,
-   "putOi": 8022
+   "strike": 176.6,
+   "callOi": 6343,
+   "putOi": 7952
   },
   {
-   "strike": 185.0,
-   "callOi": 11381,
-   "putOi": 7010
+   "strike": 187.3,
+   "callOi": 9100,
+   "putOi": 5196
   },
   {
-   "strike": 195.6,
-   "callOi": 12719,
-   "putOi": 149
+   "strike": 198.0,
+   "callOi": 12696,
+   "putOi": 181
   },
   {
-   "strike": 206.1,
-   "callOi": 783,
+   "strike": 208.7,
+   "callOi": 827,
    "putOi": 5
   },
   {
-   "strike": 216.7,
-   "callOi": 304,
+   "strike": 219.4,
+   "callOi": 306,
    "putOi": 0
   }
  ],
  "maxPain": 155.0,
  "trend": [
-  {
-   "date": "2026-07-09",
-   "score": 36,
-   "price": 146.89
-  },
   {
    "date": "2026-07-10",
    "score": 45,
@@ -194,6 +189,11 @@
    "date": "2026-08-20",
    "score": 3,
    "price": 185.0
+  },
+  {
+   "date": "2026-08-21",
+   "score": 24,
+   "price": 187.3
   }
  ]
 }

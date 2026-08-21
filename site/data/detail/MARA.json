@@ -1,55 +1,50 @@
 {
  "ticker": "MARA",
  "name": "마라홀딩스",
- "price": 11.15,
- "dataAsOf": "2026-08-20",
- "score": 39,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.3배 — 약세 우위",
+ "price": 11.26,
+ "dataAsOf": "2026-08-21",
+ "score": 79,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 4.3배 — 강세 우위",
  "buckets": [
   {
-   "strike": 9.2,
-   "callOi": 74560,
-   "putOi": 64832
+   "strike": 9.3,
+   "callOi": 50704,
+   "putOi": 21868
   },
   {
-   "strike": 9.9,
-   "callOi": 58453,
-   "putOi": 44281
+   "strike": 10.0,
+   "callOi": 46613,
+   "putOi": 50819
   },
   {
-   "strike": 10.5,
-   "callOi": 60381,
-   "putOi": 5161
+   "strike": 10.6,
+   "callOi": 57924,
+   "putOi": 13930
   },
   {
-   "strike": 11.1,
-   "callOi": 37149,
-   "putOi": 16187
+   "strike": 11.3,
+   "callOi": 114906,
+   "putOi": 27340
   },
   {
-   "strike": 11.8,
-   "callOi": 56620,
-   "putOi": 14806
+   "strike": 11.9,
+   "callOi": 67681,
+   "putOi": 10803
   },
   {
-   "strike": 12.4,
-   "callOi": 4346,
-   "putOi": 1106
+   "strike": 12.5,
+   "callOi": 8676,
+   "putOi": 1110
   },
   {
-   "strike": 13.1,
-   "callOi": 46664,
-   "putOi": 4497
+   "strike": 13.2,
+   "callOi": 58118,
+   "putOi": 4590
   }
  ],
  "maxPain": 10.0,
  "trend": [
-  {
-   "date": "2026-07-09",
-   "score": 70,
-   "price": 13.22
-  },
   {
    "date": "2026-07-10",
    "score": 90,
@@ -194,6 +189,11 @@
    "date": "2026-08-20",
    "score": 39,
    "price": 11.15
+  },
+  {
+   "date": "2026-08-21",
+   "score": 79,
+   "price": 11.26
   }
  ]
 }

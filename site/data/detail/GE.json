@@ -1,55 +1,50 @@
 {
  "ticker": "GE",
  "name": "GE에어로스페이스",
- "price": 344.64,
- "dataAsOf": "2026-08-20",
- "score": 39,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.8배 — 약세 우위",
+ "price": 348.37,
+ "dataAsOf": "2026-08-21",
+ "score": 65,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 0.7배 — 강세 우위",
  "buckets": [
   {
-   "strike": 285.6,
+   "strike": 288.6,
    "callOi": 1722,
-   "putOi": 5492
+   "putOi": 5532
   },
   {
-   "strike": 305.3,
-   "callOi": 1807,
-   "putOi": 8306
+   "strike": 308.6,
+   "callOi": 1978,
+   "putOi": 9087
   },
   {
-   "strike": 324.9,
-   "callOi": 5227,
-   "putOi": 6637
+   "strike": 328.5,
+   "callOi": 5214,
+   "putOi": 8470
   },
   {
-   "strike": 344.6,
-   "callOi": 8328,
-   "putOi": 13786
+   "strike": 348.4,
+   "callOi": 9258,
+   "putOi": 14128
   },
   {
-   "strike": 364.3,
-   "callOi": 8751,
-   "putOi": 6039
+   "strike": 368.3,
+   "callOi": 9727,
+   "putOi": 4405
   },
   {
-   "strike": 384.0,
-   "callOi": 9064,
-   "putOi": 779
+   "strike": 388.2,
+   "callOi": 7994,
+   "putOi": 562
   },
   {
-   "strike": 403.7,
-   "callOi": 17404,
-   "putOi": 308
+   "strike": 408.1,
+   "callOi": 17314,
+   "putOi": 294
   }
  ],
  "maxPain": 342.5,
  "trend": [
-  {
-   "date": "2026-07-09",
-   "score": 10,
-   "price": 359.04
-  },
   {
    "date": "2026-07-10",
    "score": 10,
@@ -194,6 +189,11 @@
    "date": "2026-08-20",
    "score": 39,
    "price": 344.64
+  },
+  {
+   "date": "2026-08-21",
+   "score": 65,
+   "price": 348.37
   }
  ]
 }

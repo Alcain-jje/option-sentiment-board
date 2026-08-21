@@ -1,55 +1,50 @@
 {
  "ticker": "DELL",
  "name": "델",
- "price": 434.78,
- "dataAsOf": "2026-08-20",
- "score": 9,
+ "price": 442.08,
+ "dataAsOf": "2026-08-21",
+ "score": 12,
  "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.3배 — 평소보다 뚜렷한 약세",
+ "ratioText": "하락 베팅이 상승의 1.3배 — 약세 우위",
  "buckets": [
   {
-   "strike": 360.2,
-   "callOi": 3840,
-   "putOi": 12383
+   "strike": 366.3,
+   "callOi": 2408,
+   "putOi": 9769
   },
   {
-   "strike": 385.1,
-   "callOi": 6924,
-   "putOi": 11985
+   "strike": 391.6,
+   "callOi": 22223,
+   "putOi": 18158
   },
   {
-   "strike": 409.9,
-   "callOi": 25086,
-   "putOi": 17799
+   "strike": 416.8,
+   "callOi": 11219,
+   "putOi": 16994
   },
   {
-   "strike": 434.8,
-   "callOi": 17067,
-   "putOi": 13045
+   "strike": 442.1,
+   "callOi": 35660,
+   "putOi": 15719
   },
   {
-   "strike": 459.6,
-   "callOi": 25889,
-   "putOi": 14124
+   "strike": 467.3,
+   "callOi": 10685,
+   "putOi": 8884
   },
   {
-   "strike": 484.5,
-   "callOi": 8492,
-   "putOi": 4605
+   "strike": 492.6,
+   "callOi": 19212,
+   "putOi": 2879
   },
   {
-   "strike": 509.3,
-   "callOi": 17129,
-   "putOi": 1352
+   "strike": 517.9,
+   "callOi": 8232,
+   "putOi": 562
   }
  ],
  "maxPain": 400.0,
  "trend": [
-  {
-   "date": "2026-07-09",
-   "score": 75,
-   "price": 450.22
-  },
   {
    "date": "2026-07-10",
    "score": 54,
@@ -194,6 +189,11 @@
    "date": "2026-08-20",
    "score": 9,
    "price": 434.78
+  },
+  {
+   "date": "2026-08-21",
+   "score": 12,
+   "price": 442.08
   }
  ]
 }
