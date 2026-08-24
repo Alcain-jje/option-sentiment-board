@@ -1,55 +1,50 @@
 {
  "ticker": "T",
  "name": "AT&T",
- "price": 25.29,
- "dataAsOf": "2026-08-21",
- "score": 97,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 5.0배 — 평소보다 훨씬 강세",
+ "price": 25.69,
+ "dataAsOf": "2026-08-24",
+ "score": 51,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 21.0,
-   "callOi": 10285,
-   "putOi": 18984
+   "strike": 21.3,
+   "callOi": 13604,
+   "putOi": 28497
   },
   {
-   "strike": 22.4,
-   "callOi": 54523,
-   "putOi": 75032
+   "strike": 22.8,
+   "callOi": 16453,
+   "putOi": 38605
   },
   {
-   "strike": 23.8,
-   "callOi": 62265,
-   "putOi": 26823
+   "strike": 24.2,
+   "callOi": 37095,
+   "putOi": 16535
   },
   {
-   "strike": 25.3,
-   "callOi": 129644,
-   "putOi": 58276
+   "strike": 25.7,
+   "callOi": 93821,
+   "putOi": 55228
   },
   {
-   "strike": 26.7,
-   "callOi": 25732,
-   "putOi": 4959
+   "strike": 27.2,
+   "callOi": 28246,
+   "putOi": 5021
   },
   {
-   "strike": 28.2,
-   "callOi": 26187,
-   "putOi": 1850
+   "strike": 28.6,
+   "callOi": 28304,
+   "putOi": 2365
   },
   {
-   "strike": 29.6,
-   "callOi": 16022,
-   "putOi": 1146
+   "strike": 30.1,
+   "callOi": 7792,
+   "putOi": 647
   }
  ],
- "maxPain": 24.0,
+ "maxPain": 24.5,
  "trend": [
-  {
-   "date": "2026-07-10",
-   "score": 88,
-   "price": 21.13
-  },
   {
    "date": "2026-07-13",
    "score": 86,
@@ -194,6 +189,11 @@
    "date": "2026-08-21",
    "score": 97,
    "price": 25.29
+  },
+  {
+   "date": "2026-08-24",
+   "score": 51,
+   "price": 25.69
   }
  ]
 }

@@ -1,55 +1,50 @@
 {
  "ticker": "C",
  "name": "씨티그룹",
- "price": 131.65,
- "dataAsOf": "2026-08-21",
- "score": 38,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
+ "price": 131.72,
+ "dataAsOf": "2026-08-24",
+ "score": 71,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 2.2배 — 강세 우위",
  "buckets": [
   {
    "strike": 109.1,
-   "callOi": 2753,
-   "putOi": 9703
+   "callOi": 2702,
+   "putOi": 7985
   },
   {
-   "strike": 116.6,
-   "callOi": 6842,
-   "putOi": 32603
+   "strike": 116.7,
+   "callOi": 5984,
+   "putOi": 23478
   },
   {
-   "strike": 124.1,
-   "callOi": 3472,
-   "putOi": 25493
+   "strike": 124.2,
+   "callOi": 2722,
+   "putOi": 19277
   },
   {
-   "strike": 131.6,
-   "callOi": 34971,
-   "putOi": 36724
+   "strike": 131.7,
+   "callOi": 21583,
+   "putOi": 23828
   },
   {
    "strike": 139.2,
-   "callOi": 39197,
-   "putOi": 10524
+   "callOi": 19431,
+   "putOi": 8066
   },
   {
-   "strike": 146.7,
-   "callOi": 49116,
-   "putOi": 2608
+   "strike": 146.8,
+   "callOi": 25068,
+   "putOi": 2532
   },
   {
-   "strike": 154.2,
-   "callOi": 10911,
+   "strike": 154.3,
+   "callOi": 6280,
    "putOi": 19
   }
  ],
  "maxPain": 130.0,
  "trend": [
-  {
-   "date": "2026-07-10",
-   "score": 48,
-   "price": 140.79
-  },
   {
    "date": "2026-07-13",
    "score": 78,
@@ -194,6 +189,11 @@
    "date": "2026-08-21",
    "score": 38,
    "price": 131.65
+  },
+  {
+   "date": "2026-08-24",
+   "score": 71,
+   "price": 131.72
   }
  ]
 }

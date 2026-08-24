@@ -1,55 +1,50 @@
 {
  "ticker": "VRTX",
  "name": "버텍스",
- "price": 548.05,
- "dataAsOf": "2026-08-21",
- "score": 76,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 0.6배 — 강세 우위",
+ "price": 547.59,
+ "dataAsOf": "2026-08-24",
+ "score": 40,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 454.1,
-   "callOi": 413,
-   "putOi": 2333
+   "strike": 453.7,
+   "callOi": 331,
+   "putOi": 1336
   },
   {
-   "strike": 485.4,
-   "callOi": 2614,
-   "putOi": 2986
+   "strike": 485.0,
+   "callOi": 1513,
+   "putOi": 1871
   },
   {
-   "strike": 516.7,
-   "callOi": 2349,
-   "putOi": 1405
+   "strike": 516.3,
+   "callOi": 1796,
+   "putOi": 901
   },
   {
-   "strike": 548.0,
-   "callOi": 2549,
-   "putOi": 544
+   "strike": 547.6,
+   "callOi": 1791,
+   "putOi": 297
   },
   {
-   "strike": 579.4,
-   "callOi": 767,
-   "putOi": 5
+   "strike": 578.9,
+   "callOi": 985,
+   "putOi": 20
   },
   {
-   "strike": 610.7,
-   "callOi": 204,
+   "strike": 610.2,
+   "callOi": 179,
    "putOi": 0
   },
   {
-   "strike": 642.0,
-   "callOi": 292,
+   "strike": 641.5,
+   "callOi": 280,
    "putOi": 0
   }
  ],
- "maxPain": 500.0,
+ "maxPain": 495.0,
  "trend": [
-  {
-   "date": "2026-07-10",
-   "score": 10,
-   "price": 485.39
-  },
   {
    "date": "2026-07-13",
    "score": 10,
@@ -194,6 +189,11 @@
    "date": "2026-08-21",
    "score": 76,
    "price": 548.05
+  },
+  {
+   "date": "2026-08-24",
+   "score": 40,
+   "price": 547.59
   }
  ]
 }

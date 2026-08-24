@@ -1,55 +1,50 @@
 {
  "ticker": "CVX",
  "name": "셰브론",
- "price": 205.27,
- "dataAsOf": "2026-08-21",
- "score": 91,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 5.7배 — 평소보다 훨씬 강세",
+ "price": 203.09,
+ "dataAsOf": "2026-08-24",
+ "score": 31,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.4배 — 약세 우위",
  "buckets": [
   {
-   "strike": 170.1,
-   "callOi": 704,
-   "putOi": 34326
+   "strike": 168.3,
+   "callOi": 59,
+   "putOi": 11696
   },
   {
-   "strike": 181.8,
-   "callOi": 1981,
-   "putOi": 22744
+   "strike": 179.9,
+   "callOi": 1860,
+   "putOi": 25480
   },
   {
-   "strike": 193.5,
-   "callOi": 17161,
-   "putOi": 16578
+   "strike": 191.5,
+   "callOi": 16140,
+   "putOi": 11041
   },
   {
-   "strike": 205.3,
-   "callOi": 71025,
-   "putOi": 11863
+   "strike": 203.1,
+   "callOi": 18983,
+   "putOi": 8476
   },
   {
-   "strike": 217.0,
-   "callOi": 59675,
-   "putOi": 224
+   "strike": 214.7,
+   "callOi": 88944,
+   "putOi": 1548
   },
   {
-   "strike": 228.7,
-   "callOi": 6310,
+   "strike": 226.3,
+   "callOi": 5195,
    "putOi": 29
   },
   {
-   "strike": 240.5,
-   "callOi": 4273,
+   "strike": 237.9,
+   "callOi": 3907,
    "putOi": 0
   }
  ],
  "maxPain": 195.0,
  "trend": [
-  {
-   "date": "2026-07-10",
-   "score": 90,
-   "price": 176.4
-  },
   {
    "date": "2026-07-13",
    "score": 90,
@@ -194,6 +189,11 @@
    "date": "2026-08-21",
    "score": 91,
    "price": 205.27
+  },
+  {
+   "date": "2026-08-24",
+   "score": 31,
+   "price": 203.09
   }
  ]
 }

@@ -1,55 +1,50 @@
 {
  "ticker": "PSX",
  "name": "필립스66",
- "price": 242.87,
- "dataAsOf": "2026-08-21",
- "score": 91,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 8.6배 — 평소보다 훨씬 강세",
+ "price": 241.96,
+ "dataAsOf": "2026-08-24",
+ "score": 31,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.5배 — 약세 우위",
  "buckets": [
   {
-   "strike": 201.2,
-   "callOi": 1121,
-   "putOi": 2043
+   "strike": 200.5,
+   "callOi": 1113,
+   "putOi": 1530
   },
   {
-   "strike": 215.1,
-   "callOi": 2367,
-   "putOi": 1658
+   "strike": 214.3,
+   "callOi": 2334,
+   "putOi": 1356
   },
   {
-   "strike": 229.0,
-   "callOi": 1655,
-   "putOi": 1413
+   "strike": 228.1,
+   "callOi": 1311,
+   "putOi": 1065
   },
   {
-   "strike": 242.9,
-   "callOi": 3042,
-   "putOi": 83
+   "strike": 242.0,
+   "callOi": 2626,
+   "putOi": 362
   },
   {
-   "strike": 256.7,
-   "callOi": 2575,
-   "putOi": 6
+   "strike": 255.8,
+   "callOi": 2296,
+   "putOi": 117
   },
   {
-   "strike": 270.6,
-   "callOi": 1033,
-   "putOi": 2
+   "strike": 269.6,
+   "callOi": 944,
+   "putOi": 20
   },
   {
-   "strike": 284.5,
-   "callOi": 1338,
-   "putOi": 0
+   "strike": 283.4,
+   "callOi": 991,
+   "putOi": 1
   }
  ],
  "maxPain": 210.0,
  "trend": [
-  {
-   "date": "2026-07-10",
-   "score": 80,
-   "price": 188.36
-  },
   {
    "date": "2026-07-13",
    "score": 90,
@@ -194,6 +189,11 @@
    "date": "2026-08-21",
    "score": 91,
    "price": 242.87
+  },
+  {
+   "date": "2026-08-24",
+   "score": 31,
+   "price": 241.96
   }
  ]
 }

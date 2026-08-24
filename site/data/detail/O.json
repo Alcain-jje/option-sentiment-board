@@ -1,55 +1,50 @@
 {
  "ticker": "O",
  "name": "리얼티인컴",
- "price": 62.6,
- "dataAsOf": "2026-08-21",
- "score": 74,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 2.3배 — 강세 우위",
+ "price": 63.17,
+ "dataAsOf": "2026-08-24",
+ "score": 26,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
  "buckets": [
   {
-   "strike": 51.9,
+   "strike": 52.3,
    "callOi": 3,
-   "putOi": 1234
+   "putOi": 1215
   },
   {
-   "strike": 55.4,
-   "callOi": 145,
-   "putOi": 2511
+   "strike": 56.0,
+   "callOi": 431,
+   "putOi": 4818
   },
   {
-   "strike": 59.0,
-   "callOi": 2273,
-   "putOi": 12300
+   "strike": 59.6,
+   "callOi": 1597,
+   "putOi": 5561
   },
   {
-   "strike": 62.6,
-   "callOi": 6996,
-   "putOi": 10494
+   "strike": 63.2,
+   "callOi": 7177,
+   "putOi": 3467
   },
   {
-   "strike": 66.2,
-   "callOi": 18676,
-   "putOi": 1698
+   "strike": 66.8,
+   "callOi": 8153,
+   "putOi": 1787
   },
   {
-   "strike": 69.8,
-   "callOi": 3453,
+   "strike": 70.4,
+   "callOi": 2769,
    "putOi": 15
   },
   {
-   "strike": 73.3,
-   "callOi": 2294,
-   "putOi": 0
+   "strike": 74.0,
+   "callOi": 1848,
+   "putOi": 1
   }
  ],
  "maxPain": 62.5,
  "trend": [
-  {
-   "date": "2026-07-10",
-   "score": 84,
-   "price": 63.31
-  },
   {
    "date": "2026-07-13",
    "score": 88,
@@ -194,6 +189,11 @@
    "date": "2026-08-21",
    "score": 74,
    "price": 62.6
+  },
+  {
+   "date": "2026-08-24",
+   "score": 26,
+   "price": 63.17
   }
  ]
 }
