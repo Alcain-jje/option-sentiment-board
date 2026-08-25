@@ -1,55 +1,50 @@
 {
  "ticker": "GD",
  "name": "제너럴다이내믹스",
- "price": 383.77,
- "dataAsOf": "2026-08-24",
- "score": 3,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 2.6배 — 평소보다 뚜렷한 약세",
+ "price": 376.58,
+ "dataAsOf": "2026-08-25",
+ "score": 36,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 1.0배 — 약세 우위",
  "buckets": [
   {
-   "strike": 318.0,
-   "callOi": 301,
-   "putOi": 318
+   "strike": 312.0,
+   "callOi": 300,
+   "putOi": 325
   },
   {
-   "strike": 339.9,
-   "callOi": 239,
-   "putOi": 882
+   "strike": 333.5,
+   "callOi": 208,
+   "putOi": 824
   },
   {
-   "strike": 361.8,
-   "callOi": 606,
-   "putOi": 378
+   "strike": 355.1,
+   "callOi": 176,
+   "putOi": 516
   },
   {
-   "strike": 383.8,
-   "callOi": 1838,
-   "putOi": 414
+   "strike": 376.6,
+   "callOi": 1632,
+   "putOi": 473
   },
   {
-   "strike": 405.7,
-   "callOi": 973,
-   "putOi": 70
+   "strike": 398.1,
+   "callOi": 1471,
+   "putOi": 273
   },
   {
-   "strike": 427.6,
-   "callOi": 602,
-   "putOi": 0
+   "strike": 419.6,
+   "callOi": 990,
+   "putOi": 4
   },
   {
-   "strike": 449.6,
-   "callOi": 73,
+   "strike": 441.1,
+   "callOi": 81,
    "putOi": 0
   }
  ],
- "maxPain": 365.0,
+ "maxPain": 370.0,
  "trend": [
-  {
-   "date": "2026-07-13",
-   "score": 85,
-   "price": 372.78
-  },
   {
    "date": "2026-07-14",
    "score": 84,
@@ -194,6 +189,11 @@
    "date": "2026-08-24",
    "score": 3,
    "price": 383.77
+  },
+  {
+   "date": "2026-08-25",
+   "score": 36,
+   "price": 376.58
   }
  ]
 }

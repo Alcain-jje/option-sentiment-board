@@ -1,55 +1,50 @@
 {
  "ticker": "PFE",
  "name": "화이자",
- "price": 27.97,
- "dataAsOf": "2026-08-24",
- "score": 17,
+ "price": 28.57,
+ "dataAsOf": "2026-08-25",
+ "score": 14,
  "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
+ "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
  "buckets": [
   {
-   "strike": 23.2,
-   "callOi": 2243,
-   "putOi": 21176
+   "strike": 23.7,
+   "callOi": 11352,
+   "putOi": 61607
   },
   {
-   "strike": 24.8,
-   "callOi": 44560,
-   "putOi": 105715
+   "strike": 25.3,
+   "callOi": 85767,
+   "putOi": 85786
   },
   {
-   "strike": 26.4,
-   "callOi": 117847,
-   "putOi": 103583
+   "strike": 26.9,
+   "callOi": 75253,
+   "putOi": 94568
   },
   {
-   "strike": 28.0,
-   "callOi": 126038,
-   "putOi": 24848
+   "strike": 28.6,
+   "callOi": 165997,
+   "putOi": 24798
   },
   {
-   "strike": 29.6,
-   "callOi": 96899,
-   "putOi": 840
+   "strike": 30.2,
+   "callOi": 83199,
+   "putOi": 389
   },
   {
-   "strike": 31.2,
-   "callOi": 25755,
-   "putOi": 232
+   "strike": 31.8,
+   "callOi": 39734,
+   "putOi": 23
   },
   {
-   "strike": 32.8,
-   "callOi": 43617,
-   "putOi": 36
+   "strike": 33.5,
+   "callOi": 5996,
+   "putOi": 11
   }
  ],
- "maxPain": 26.5,
+ "maxPain": 27.0,
  "trend": [
-  {
-   "date": "2026-07-13",
-   "score": 66,
-   "price": 24.48
-  },
   {
    "date": "2026-07-14",
    "score": 39,
@@ -194,6 +189,11 @@
    "date": "2026-08-24",
    "score": 17,
    "price": 27.97
+  },
+  {
+   "date": "2026-08-25",
+   "score": 14,
+   "price": 28.57
   }
  ]
 }

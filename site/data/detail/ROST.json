@@ -1,55 +1,50 @@
 {
  "ticker": "ROST",
  "name": "로스스토어스",
- "price": 241.52,
- "dataAsOf": "2026-08-24",
- "score": 66,
+ "price": 241.19,
+ "dataAsOf": "2026-08-25",
+ "score": 69,
  "label": "강세",
- "ratioText": "상승 베팅이 하락의 0.4배 — 강세 우위",
+ "ratioText": "상승 베팅이 하락의 0.5배 — 강세 우위",
  "buckets": [
   {
-   "strike": 200.1,
+   "strike": 199.8,
    "callOi": 114,
-   "putOi": 1815
+   "putOi": 1872
   },
   {
-   "strike": 213.9,
-   "callOi": 406,
-   "putOi": 14204
+   "strike": 213.6,
+   "callOi": 404,
+   "putOi": 16935
   },
   {
-   "strike": 227.7,
-   "callOi": 1389,
-   "putOi": 2480
+   "strike": 227.4,
+   "callOi": 1361,
+   "putOi": 2971
   },
   {
-   "strike": 241.5,
-   "callOi": 1596,
-   "putOi": 6360
+   "strike": 241.2,
+   "callOi": 2871,
+   "putOi": 6368
   },
   {
-   "strike": 255.3,
-   "callOi": 4355,
+   "strike": 255.0,
+   "callOi": 4633,
    "putOi": 810
   },
   {
-   "strike": 269.1,
-   "callOi": 685,
+   "strike": 268.8,
+   "callOi": 684,
    "putOi": 2
   },
   {
-   "strike": 282.9,
-   "callOi": 474,
+   "strike": 282.5,
+   "callOi": 457,
    "putOi": 0
   }
  ],
  "maxPain": 240.0,
  "trend": [
-  {
-   "date": "2026-07-13",
-   "score": 10,
-   "price": 219.46
-  },
   {
    "date": "2026-07-14",
    "score": 10,
@@ -194,6 +189,11 @@
    "date": "2026-08-24",
    "score": 66,
    "price": 241.52
+  },
+  {
+   "date": "2026-08-25",
+   "score": 69,
+   "price": 241.19
   }
  ]
 }

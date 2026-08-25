@@ -1,55 +1,50 @@
 {
  "ticker": "CSCO",
  "name": "시스코",
- "price": 110.23,
- "dataAsOf": "2026-08-24",
- "score": 54,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 111.11,
+ "dataAsOf": "2026-08-25",
+ "score": 86,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 2.5배 — 강세 우위",
  "buckets": [
   {
-   "strike": 91.3,
-   "callOi": 7229,
-   "putOi": 5638
+   "strike": 92.1,
+   "callOi": 12510,
+   "putOi": 16058
   },
   {
-   "strike": 97.6,
-   "callOi": 20404,
-   "putOi": 34432
+   "strike": 98.4,
+   "callOi": 15158,
+   "putOi": 25380
   },
   {
-   "strike": 103.9,
-   "callOi": 5880,
-   "putOi": 16921
+   "strike": 104.8,
+   "callOi": 5853,
+   "putOi": 17618
   },
   {
-   "strike": 110.2,
-   "callOi": 14074,
-   "putOi": 19328
+   "strike": 111.1,
+   "callOi": 19121,
+   "putOi": 20424
   },
   {
-   "strike": 116.5,
-   "callOi": 28980,
-   "putOi": 7661
+   "strike": 117.5,
+   "callOi": 57402,
+   "putOi": 14304
   },
   {
-   "strike": 122.8,
-   "callOi": 47963,
-   "putOi": 10280
+   "strike": 123.8,
+   "callOi": 23339,
+   "putOi": 2898
   },
   {
-   "strike": 129.1,
-   "callOi": 14337,
-   "putOi": 496
+   "strike": 130.2,
+   "callOi": 13713,
+   "putOi": 483
   }
  ],
  "maxPain": 100.0,
  "trend": [
-  {
-   "date": "2026-07-13",
-   "score": 71,
-   "price": 119.25
-  },
   {
    "date": "2026-07-14",
    "score": 90,
@@ -194,6 +189,11 @@
    "date": "2026-08-24",
    "score": 54,
    "price": 110.23
+  },
+  {
+   "date": "2026-08-25",
+   "score": 86,
+   "price": 111.11
   }
  ]
 }
