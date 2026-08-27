@@ -1,55 +1,50 @@
 {
  "ticker": "ABT",
  "name": "애보트",
- "price": 116.13,
- "dataAsOf": "2026-08-25",
- "score": 39,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
+ "price": 114.1,
+ "dataAsOf": "2026-08-27",
+ "score": 97,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 4.5배 — 평소보다 훨씬 강세",
  "buckets": [
   {
-   "strike": 96.2,
-   "callOi": 2869,
-   "putOi": 4467
+   "strike": 94.5,
+   "callOi": 3344,
+   "putOi": 5049
   },
   {
-   "strike": 102.9,
-   "callOi": 7058,
-   "putOi": 5446
+   "strike": 101.1,
+   "callOi": 2475,
+   "putOi": 3251
   },
   {
-   "strike": 109.5,
-   "callOi": 14370,
-   "putOi": 4644
+   "strike": 107.6,
+   "callOi": 18397,
+   "putOi": 6893
   },
   {
-   "strike": 116.1,
-   "callOi": 8123,
-   "putOi": 2672
+   "strike": 114.1,
+   "callOi": 9293,
+   "putOi": 3606
   },
   {
-   "strike": 122.8,
-   "callOi": 8835,
-   "putOi": 731
+   "strike": 120.6,
+   "callOi": 7741,
+   "putOi": 626
   },
   {
-   "strike": 129.4,
-   "callOi": 1240,
-   "putOi": 25
+   "strike": 127.1,
+   "callOi": 3450,
+   "putOi": 200
   },
   {
-   "strike": 136.0,
-   "callOi": 422,
+   "strike": 133.7,
+   "callOi": 445,
    "putOi": 8
   }
  ],
- "maxPain": 100.0,
+ "maxPain": 105.0,
  "trend": [
-  {
-   "date": "2026-07-14",
-   "score": 61,
-   "price": 88.96
-  },
   {
    "date": "2026-07-15",
    "score": 65,
@@ -194,6 +189,11 @@
    "date": "2026-08-25",
    "score": 39,
    "price": 116.13
+  },
+  {
+   "date": "2026-08-27",
+   "score": 97,
+   "price": 114.1
   }
  ]
 }

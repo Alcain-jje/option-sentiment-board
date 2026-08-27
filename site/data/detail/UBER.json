@@ -1,55 +1,50 @@
 {
  "ticker": "UBER",
  "name": "우버",
- "price": 80.35,
- "dataAsOf": "2026-08-25",
- "score": 94,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 3.7배 — 평소보다 훨씬 강세",
+ "price": 78.49,
+ "dataAsOf": "2026-08-27",
+ "score": 73,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 2.4배 — 강세 우위",
  "buckets": [
   {
-   "strike": 66.6,
-   "callOi": 3184,
-   "putOi": 32923
+   "strike": 65.0,
+   "callOi": 1883,
+   "putOi": 31289
   },
   {
-   "strike": 71.2,
-   "callOi": 16108,
-   "putOi": 34748
+   "strike": 69.5,
+   "callOi": 11152,
+   "putOi": 31113
   },
   {
-   "strike": 75.8,
-   "callOi": 30515,
-   "putOi": 31151
+   "strike": 74.0,
+   "callOi": 24270,
+   "putOi": 38643
   },
   {
-   "strike": 80.3,
-   "callOi": 80756,
-   "putOi": 7841
+   "strike": 78.5,
+   "callOi": 66715,
+   "putOi": 18976
   },
   {
-   "strike": 84.9,
-   "callOi": 43334,
-   "putOi": 1011
+   "strike": 83.0,
+   "callOi": 79266,
+   "putOi": 2570
   },
   {
-   "strike": 89.5,
-   "callOi": 22604,
-   "putOi": 1356
+   "strike": 87.5,
+   "callOi": 13672,
+   "putOi": 724
   },
   {
-   "strike": 94.1,
-   "callOi": 13630,
-   "putOi": 3284
+   "strike": 91.9,
+   "callOi": 29345,
+   "putOi": 3828
   }
  ],
  "maxPain": 75.0,
  "trend": [
-  {
-   "date": "2026-07-14",
-   "score": 49,
-   "price": 72.08
-  },
   {
    "date": "2026-07-15",
    "score": 88,
@@ -194,6 +189,11 @@
    "date": "2026-08-25",
    "score": 94,
    "price": 80.35
+  },
+  {
+   "date": "2026-08-27",
+   "score": 73,
+   "price": 78.49
   }
  ]
 }

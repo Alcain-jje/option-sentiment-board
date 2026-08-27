@@ -1,55 +1,50 @@
 {
  "ticker": "TGT",
  "name": "타깃",
- "price": 163.47,
- "dataAsOf": "2026-08-25",
- "score": 11,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.2배 — 약세 우위",
+ "price": 164.04,
+ "dataAsOf": "2026-08-27",
+ "score": 41,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 135.4,
-   "callOi": 7926,
-   "putOi": 10140
+   "strike": 135.9,
+   "callOi": 7898,
+   "putOi": 10768
   },
   {
-   "strike": 144.8,
-   "callOi": 7053,
-   "putOi": 4637
+   "strike": 145.3,
+   "callOi": 7037,
+   "putOi": 6320
   },
   {
-   "strike": 154.1,
-   "callOi": 11251,
-   "putOi": 9936
+   "strike": 154.7,
+   "callOi": 11116,
+   "putOi": 11487
   },
   {
-   "strike": 163.5,
-   "callOi": 11337,
-   "putOi": 13471
+   "strike": 164.0,
+   "callOi": 15916,
+   "putOi": 14527
   },
   {
-   "strike": 172.8,
-   "callOi": 13643,
-   "putOi": 2164
+   "strike": 173.4,
+   "callOi": 17195,
+   "putOi": 1895
   },
   {
-   "strike": 182.2,
-   "callOi": 4651,
-   "putOi": 524
+   "strike": 182.8,
+   "callOi": 4848,
+   "putOi": 372
   },
   {
-   "strike": 191.5,
-   "callOi": 1312,
-   "putOi": 53
+   "strike": 192.2,
+   "callOi": 1727,
+   "putOi": 13
   }
  ],
  "maxPain": 150.0,
  "trend": [
-  {
-   "date": "2026-07-14",
-   "score": 35,
-   "price": 134.0
-  },
   {
    "date": "2026-07-15",
    "score": 90,
@@ -194,6 +189,11 @@
    "date": "2026-08-25",
    "score": 11,
    "price": 163.47
+  },
+  {
+   "date": "2026-08-27",
+   "score": 41,
+   "price": 164.04
   }
  ]
 }

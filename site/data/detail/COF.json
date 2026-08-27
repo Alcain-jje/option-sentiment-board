@@ -1,55 +1,50 @@
 {
  "ticker": "COF",
  "name": "캐피털원",
- "price": 216.24,
- "dataAsOf": "2026-08-25",
- "score": 31,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
+ "price": 217.21,
+ "dataAsOf": "2026-08-27",
+ "score": 68,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 3.5배 — 강세 우위",
  "buckets": [
   {
-   "strike": 179.2,
+   "strike": 180.0,
    "callOi": 595,
-   "putOi": 3062
+   "putOi": 3413
   },
   {
-   "strike": 191.5,
-   "callOi": 1304,
-   "putOi": 9497
+   "strike": 192.4,
+   "callOi": 1305,
+   "putOi": 9554
   },
   {
-   "strike": 203.9,
-   "callOi": 9558,
-   "putOi": 4623
+   "strike": 204.8,
+   "callOi": 9568,
+   "putOi": 4742
   },
   {
-   "strike": 216.2,
-   "callOi": 7368,
-   "putOi": 2444
+   "strike": 217.2,
+   "callOi": 7594,
+   "putOi": 2471
   },
   {
-   "strike": 228.6,
-   "callOi": 5779,
-   "putOi": 1620
+   "strike": 229.6,
+   "callOi": 6208,
+   "putOi": 1604
   },
   {
-   "strike": 241.0,
-   "callOi": 4978,
-   "putOi": 262
+   "strike": 242.0,
+   "callOi": 4539,
+   "putOi": 259
   },
   {
-   "strike": 253.3,
-   "callOi": 944,
-   "putOi": 49
+   "strike": 254.4,
+   "callOi": 1463,
+   "putOi": 53
   }
  ],
  "maxPain": 210.0,
  "trend": [
-  {
-   "date": "2026-07-14",
-   "score": 90,
-   "price": 205.29
-  },
   {
    "date": "2026-07-15",
    "score": 76,
@@ -194,6 +189,11 @@
    "date": "2026-08-25",
    "score": 31,
    "price": 216.24
+  },
+  {
+   "date": "2026-08-27",
+   "score": 68,
+   "price": 217.21
   }
  ]
 }

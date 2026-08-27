@@ -1,55 +1,50 @@
 {
  "ticker": "AXP",
  "name": "아메리칸익스프레스",
- "price": 335.95,
- "dataAsOf": "2026-08-25",
- "score": 22,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 2.1배 — 약세 우위",
+ "price": 336.15,
+ "dataAsOf": "2026-08-27",
+ "score": 43,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 278.4,
+   "strike": 278.5,
    "callOi": 154,
-   "putOi": 7800
+   "putOi": 7954
   },
   {
-   "strike": 297.6,
-   "callOi": 441,
-   "putOi": 6885
+   "strike": 297.7,
+   "callOi": 464,
+   "putOi": 7103
   },
   {
-   "strike": 316.8,
-   "callOi": 1685,
-   "putOi": 10294
+   "strike": 316.9,
+   "callOi": 1884,
+   "putOi": 10795
   },
   {
-   "strike": 336.0,
-   "callOi": 9949,
-   "putOi": 6052
+   "strike": 336.1,
+   "callOi": 10502,
+   "putOi": 6676
   },
   {
-   "strike": 355.1,
-   "callOi": 8949,
-   "putOi": 2487
+   "strike": 355.4,
+   "callOi": 9032,
+   "putOi": 2786
   },
   {
-   "strike": 374.3,
-   "callOi": 4859,
-   "putOi": 123
+   "strike": 374.6,
+   "callOi": 4991,
+   "putOi": 155
   },
   {
-   "strike": 393.5,
-   "callOi": 4524,
+   "strike": 393.8,
+   "callOi": 4525,
    "putOi": 0
   }
  ],
  "maxPain": 337.5,
  "trend": [
-  {
-   "date": "2026-07-14",
-   "score": 48,
-   "price": 355.06
-  },
   {
    "date": "2026-07-15",
    "score": 63,
@@ -194,6 +189,11 @@
    "date": "2026-08-25",
    "score": 22,
    "price": 335.95
+  },
+  {
+   "date": "2026-08-27",
+   "score": 43,
+   "price": 336.15
   }
  ]
 }
