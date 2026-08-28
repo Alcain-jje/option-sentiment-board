@@ -1,55 +1,50 @@
 {
  "ticker": "CME",
  "name": "CME그룹",
- "price": 280.98,
- "dataAsOf": "2026-08-27",
- "score": 43,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 280.94,
+ "dataAsOf": "2026-08-28",
+ "score": 0,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 3.4배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
    "strike": 232.8,
-   "callOi": 840,
-   "putOi": 1995
+   "callOi": 10,
+   "putOi": 0
   },
   {
-   "strike": 248.9,
-   "callOi": 672,
-   "putOi": 1607
+   "strike": 248.8,
+   "callOi": 0,
+   "putOi": 0
   },
   {
    "strike": 264.9,
-   "callOi": 2251,
-   "putOi": 3857
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 281.0,
-   "callOi": 3635,
-   "putOi": 304
+   "strike": 280.9,
+   "callOi": 0,
+   "putOi": 0
   },
   {
    "strike": 297.0,
-   "callOi": 2917,
-   "putOi": 224
+   "callOi": 0,
+   "putOi": 4
   },
   {
-   "strike": 313.1,
-   "callOi": 1554,
-   "putOi": 138
+   "strike": 313.0,
+   "callOi": 0,
+   "putOi": 132
   },
   {
    "strike": 329.1,
-   "callOi": 381,
-   "putOi": 2
+   "callOi": 0,
+   "putOi": 0
   }
  ],
- "maxPain": 265.0,
+ "maxPain": 320.0,
  "trend": [
-  {
-   "date": "2026-07-15",
-   "score": 48,
-   "price": 245.18
-  },
   {
    "date": "2026-07-16",
    "score": 90,
@@ -194,6 +189,11 @@
    "date": "2026-08-27",
    "score": 43,
    "price": 280.98
+  },
+  {
+   "date": "2026-08-28",
+   "score": 0,
+   "price": 280.94
   }
  ]
 }

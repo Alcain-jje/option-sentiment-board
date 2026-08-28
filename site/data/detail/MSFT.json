@@ -1,55 +1,50 @@
 {
  "ticker": "MSFT",
  "name": "마이크로소프트",
- "price": 496.37,
- "dataAsOf": "2026-08-27",
- "score": 57,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 505.06,
+ "dataAsOf": "2026-08-28",
+ "score": 37,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.5배 — 약세 우위",
  "buckets": [
   {
-   "strike": 411.3,
-   "callOi": 47087,
-   "putOi": 55314
+   "strike": 418.5,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 439.6,
-   "callOi": 63017,
-   "putOi": 54024
+   "strike": 447.3,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 468.0,
-   "callOi": 88988,
-   "putOi": 80810
+   "strike": 476.2,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 496.4,
-   "callOi": 187842,
-   "putOi": 32627
+   "strike": 505.1,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 524.7,
-   "callOi": 142245,
-   "putOi": 1843
+   "strike": 533.9,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 553.1,
-   "callOi": 144374,
-   "putOi": 393
+   "strike": 562.8,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 581.5,
-   "callOi": 66999,
-   "putOi": 2
+   "strike": 591.6,
+   "callOi": 0,
+   "putOi": 0
   }
  ],
- "maxPain": 450.0,
+ "maxPain": 210.0,
  "trend": [
-  {
-   "date": "2026-07-15",
-   "score": 90,
-   "price": 395.63
-  },
   {
    "date": "2026-07-16",
    "score": 90,
@@ -194,6 +189,11 @@
    "date": "2026-08-27",
    "score": 57,
    "price": 496.37
+  },
+  {
+   "date": "2026-08-28",
+   "score": 37,
+   "price": 505.06
   }
  ]
 }

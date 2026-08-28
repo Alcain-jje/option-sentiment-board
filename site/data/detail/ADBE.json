@@ -1,55 +1,50 @@
 {
  "ticker": "ADBE",
  "name": "어도비",
- "price": 273.47,
- "dataAsOf": "2026-08-27",
- "score": 0,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.5배 — 평소보다 뚜렷한 약세",
+ "price": 289.15,
+ "dataAsOf": "2026-08-28",
+ "score": 24,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
  "buckets": [
   {
-   "strike": 226.6,
-   "callOi": 6334,
-   "putOi": 12127
+   "strike": 239.6,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 242.2,
-   "callOi": 11332,
-   "putOi": 13889
+   "strike": 256.1,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 257.8,
-   "callOi": 5995,
-   "putOi": 10983
-  },
-  {
-   "strike": 273.5,
-   "callOi": 14818,
-   "putOi": 15175
+   "strike": 272.6,
+   "callOi": 0,
+   "putOi": 0
   },
   {
    "strike": 289.1,
-   "callOi": 9250,
-   "putOi": 515
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 304.7,
-   "callOi": 18750,
-   "putOi": 2015
+   "strike": 305.7,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 320.4,
-   "callOi": 11724,
-   "putOi": 251
+   "strike": 322.2,
+   "callOi": 0,
+   "putOi": 0
+  },
+  {
+   "strike": 338.7,
+   "callOi": 0,
+   "putOi": 44
   }
  ],
- "maxPain": 260.0,
+ "maxPain": 155.0,
  "trend": [
-  {
-   "date": "2026-07-15",
-   "score": 70,
-   "price": 224.56
-  },
   {
    "date": "2026-07-16",
    "score": 83,
@@ -194,6 +189,11 @@
    "date": "2026-08-27",
    "score": 0,
    "price": 273.47
+  },
+  {
+   "date": "2026-08-28",
+   "score": 24,
+   "price": 289.15
   }
  ]
 }
