@@ -1,55 +1,50 @@
 {
  "ticker": "CI",
  "name": "시그나",
- "price": 277.67,
- "dataAsOf": "2026-08-28",
- "score": 84,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 1.4배 — 강세 우위",
+ "price": 278.88,
+ "dataAsOf": "2026-08-29",
+ "score": 74,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.2배 — 강세 우위",
  "buckets": [
   {
-   "strike": 230.1,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 231.1,
+   "callOi": 31,
+   "putOi": 1295
   },
   {
-   "strike": 245.9,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 247.0,
+   "callOi": 39,
+   "putOi": 2698
   },
   {
-   "strike": 261.8,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 262.9,
+   "callOi": 1241,
+   "putOi": 6987
   },
   {
-   "strike": 277.7,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 278.9,
+   "callOi": 3717,
+   "putOi": 816
   },
   {
-   "strike": 293.5,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 294.8,
+   "callOi": 3035,
+   "putOi": 875
   },
   {
-   "strike": 309.4,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 310.8,
+   "callOi": 979,
+   "putOi": 1664
   },
   {
-   "strike": 325.3,
-   "callOi": 0,
-   "putOi": 17
+   "strike": 326.7,
+   "callOi": 1566,
+   "putOi": 23
   }
  ],
- "maxPain": 360.0,
+ "maxPain": 280.0,
  "trend": [
-  {
-   "date": "2026-07-16",
-   "score": 38,
-   "price": 283.82
-  },
   {
    "date": "2026-07-17",
    "score": 18,
@@ -194,6 +189,11 @@
    "date": "2026-08-28",
    "score": 84,
    "price": 277.67
+  },
+  {
+   "date": "2026-08-29",
+   "score": 74,
+   "price": 278.88
   }
  ]
 }

@@ -1,55 +1,50 @@
 {
  "ticker": "TJX",
  "name": "TJX",
- "price": 134.22,
- "dataAsOf": "2026-08-28",
- "score": 45,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 135.12,
+ "dataAsOf": "2026-08-29",
+ "score": 77,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.5배 — 강세 우위",
  "buckets": [
   {
-   "strike": 111.2,
-   "callOi": 67,
-   "putOi": 0
+   "strike": 112.0,
+   "callOi": 76,
+   "putOi": 477
   },
   {
-   "strike": 118.9,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 119.7,
+   "callOi": 111,
+   "putOi": 788
   },
   {
-   "strike": 126.6,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 127.4,
+   "callOi": 527,
+   "putOi": 2073
   },
   {
-   "strike": 134.2,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 135.1,
+   "callOi": 1024,
+   "putOi": 4812
   },
   {
-   "strike": 141.9,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 142.8,
+   "callOi": 7394,
+   "putOi": 13840
   },
   {
-   "strike": 149.6,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 150.6,
+   "callOi": 3164,
+   "putOi": 722
   },
   {
-   "strike": 157.2,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 158.3,
+   "callOi": 8088,
+   "putOi": 256
   }
  ],
- "maxPain": 85.0,
+ "maxPain": 144.0,
  "trend": [
-  {
-   "date": "2026-07-16",
-   "score": 69,
-   "price": 154.79
-  },
   {
    "date": "2026-07-17",
    "score": 86,
@@ -194,6 +189,11 @@
    "date": "2026-08-28",
    "score": 45,
    "price": 134.22
+  },
+  {
+   "date": "2026-08-29",
+   "score": 77,
+   "price": 135.12
   }
  ]
 }

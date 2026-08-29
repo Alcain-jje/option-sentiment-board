@@ -1,49 +1,49 @@
 {
  "ticker": "SPG",
  "name": "사이먼프로퍼티",
- "price": 214.89,
- "dataAsOf": "2026-08-28",
- "score": 90,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 2.5배 — 강세 우위",
+ "price": 214.56,
+ "dataAsOf": "2026-08-29",
+ "score": 35,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.5배 — 약세 우위",
  "buckets": [
   {
-   "strike": 178.1,
+   "strike": 177.8,
    "callOi": 309,
-   "putOi": 0
+   "putOi": 399
   },
   {
-   "strike": 190.3,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 190.0,
+   "callOi": 582,
+   "putOi": 1892
   },
   {
-   "strike": 202.6,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 202.3,
+   "callOi": 305,
+   "putOi": 760
   },
   {
-   "strike": 214.9,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 214.6,
+   "callOi": 1834,
+   "putOi": 3179
   },
   {
-   "strike": 227.2,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 226.8,
+   "callOi": 1305,
+   "putOi": 319
   },
   {
-   "strike": 239.4,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 239.1,
+   "callOi": 1285,
+   "putOi": 21
   },
   {
-   "strike": 251.7,
-   "callOi": 0,
+   "strike": 251.3,
+   "callOi": 1010,
    "putOi": 1
   }
  ],
- "maxPain": 165.0,
+ "maxPain": 210.0,
  "trend": [
   {
    "date": "2026-07-16",
@@ -144,6 +144,11 @@
    "date": "2026-08-28",
    "score": 90,
    "price": 214.89
+  },
+  {
+   "date": "2026-08-29",
+   "score": 35,
+   "price": 214.56
   }
  ]
 }

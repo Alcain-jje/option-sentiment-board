@@ -1,55 +1,50 @@
 {
  "ticker": "ORCL",
  "name": "오라클",
- "price": 151.94,
- "dataAsOf": "2026-08-28",
- "score": 47,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 150.85,
+ "dataAsOf": "2026-08-29",
+ "score": 26,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
  "buckets": [
   {
-   "strike": 125.9,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 125.0,
+   "callOi": 5298,
+   "putOi": 29993
   },
   {
-   "strike": 134.6,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 133.6,
+   "callOi": 24886,
+   "putOi": 51851
   },
   {
-   "strike": 143.3,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 142.2,
+   "callOi": 41610,
+   "putOi": 58120
   },
   {
-   "strike": 151.9,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 150.9,
+   "callOi": 60660,
+   "putOi": 37294
   },
   {
-   "strike": 160.6,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 159.5,
+   "callOi": 40390,
+   "putOi": 10667
   },
   {
-   "strike": 169.3,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 168.1,
+   "callOi": 73098,
+   "putOi": 23012
   },
   {
-   "strike": 178.0,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 176.7,
+   "callOi": 59755,
+   "putOi": 22316
   }
  ],
- "maxPain": 440.0,
+ "maxPain": 150.0,
  "trend": [
-  {
-   "date": "2026-07-16",
-   "score": 37,
-   "price": 124.21
-  },
   {
    "date": "2026-07-17",
    "score": 88,
@@ -194,6 +189,11 @@
    "date": "2026-08-28",
    "score": 47,
    "price": 151.94
+  },
+  {
+   "date": "2026-08-29",
+   "score": 26,
+   "price": 150.85
   }
  ]
 }

@@ -1,55 +1,50 @@
 {
  "ticker": "ADI",
  "name": "아나로그디바이스",
- "price": 374.52,
- "dataAsOf": "2026-08-28",
- "score": 87,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 1.6배 — 강세 우위",
+ "price": 361.78,
+ "dataAsOf": "2026-08-29",
+ "score": 59,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 310.3,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 299.8,
+   "callOi": 686,
+   "putOi": 1296
   },
   {
-   "strike": 331.7,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 320.4,
+   "callOi": 600,
+   "putOi": 2142
   },
   {
-   "strike": 353.1,
-   "callOi": 1,
-   "putOi": 0
+   "strike": 341.1,
+   "callOi": 3401,
+   "putOi": 3258
   },
   {
-   "strike": 374.5,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 361.8,
+   "callOi": 842,
+   "putOi": 1675
   },
   {
-   "strike": 395.9,
-   "callOi": 0,
-   "putOi": 3
+   "strike": 382.5,
+   "callOi": 2618,
+   "putOi": 1472
   },
   {
-   "strike": 417.3,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 403.1,
+   "callOi": 2967,
+   "putOi": 830
   },
   {
-   "strike": 438.7,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 423.8,
+   "callOi": 2231,
+   "putOi": 386
   }
  ],
- "maxPain": 195.0,
+ "maxPain": 350.0,
  "trend": [
-  {
-   "date": "2026-07-16",
-   "score": 46,
-   "price": 380.53
-  },
   {
    "date": "2026-07-17",
    "score": 10,
@@ -194,6 +189,11 @@
    "date": "2026-08-28",
    "score": 87,
    "price": 374.52
+  },
+  {
+   "date": "2026-08-29",
+   "score": 59,
+   "price": 361.78
   }
  ]
 }

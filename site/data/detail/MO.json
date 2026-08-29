@@ -1,55 +1,50 @@
 {
  "ticker": "MO",
  "name": "알트리아",
- "price": 67.67,
- "dataAsOf": "2026-08-28",
- "score": 45,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 68.65,
+ "dataAsOf": "2026-08-29",
+ "score": 15,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
  "buckets": [
   {
-   "strike": 56.1,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 56.9,
+   "callOi": 124,
+   "putOi": 6032
   },
   {
-   "strike": 59.9,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 60.8,
+   "callOi": 1394,
+   "putOi": 48585
   },
   {
-   "strike": 63.8,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 64.7,
+   "callOi": 6344,
+   "putOi": 22501
   },
   {
-   "strike": 67.7,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 68.7,
+   "callOi": 37841,
+   "putOi": 29779
   },
   {
-   "strike": 71.5,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 72.6,
+   "callOi": 13891,
+   "putOi": 6300
   },
   {
-   "strike": 75.4,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 76.5,
+   "callOi": 10850,
+   "putOi": 1159
   },
   {
-   "strike": 79.3,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 80.4,
+   "callOi": 4173,
+   "putOi": 158
   }
  ],
- "maxPain": 90.0,
+ "maxPain": 68.0,
  "trend": [
-  {
-   "date": "2026-07-16",
-   "score": 74,
-   "price": 73.03
-  },
   {
    "date": "2026-07-17",
    "score": 76,
@@ -194,6 +189,11 @@
    "date": "2026-08-28",
    "score": 45,
    "price": 67.67
+  },
+  {
+   "date": "2026-08-29",
+   "score": 15,
+   "price": 68.65
   }
  ]
 }
