@@ -1,55 +1,50 @@
 {
  "ticker": "COIN",
  "name": "코인베이스",
- "price": 178.64,
- "dataAsOf": "2026-08-29",
- "score": 51,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 188.12,
+ "dataAsOf": "2026-09-01",
+ "score": 78,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 2.3배 — 강세 우위",
  "buckets": [
   {
-   "strike": 148.0,
-   "callOi": 15563,
-   "putOi": 17967
+   "strike": 155.9,
+   "callOi": 8956,
+   "putOi": 13654
   },
   {
-   "strike": 158.2,
-   "callOi": 9976,
-   "putOi": 12594
+   "strike": 166.6,
+   "callOi": 24069,
+   "putOi": 13129
   },
   {
-   "strike": 168.4,
-   "callOi": 23591,
-   "putOi": 11310
+   "strike": 177.4,
+   "callOi": 16080,
+   "putOi": 15333
   },
   {
-   "strike": 178.6,
-   "callOi": 12514,
-   "putOi": 11454
+   "strike": 188.1,
+   "callOi": 28915,
+   "putOi": 11652
   },
   {
-   "strike": 188.8,
-   "callOi": 19573,
-   "putOi": 10302
+   "strike": 198.9,
+   "callOi": 51615,
+   "putOi": 9530
   },
   {
-   "strike": 199.1,
-   "callOi": 42237,
-   "putOi": 8816
+   "strike": 209.6,
+   "callOi": 12203,
+   "putOi": 3490
   },
   {
-   "strike": 209.3,
-   "callOi": 11902,
-   "putOi": 3417
+   "strike": 220.4,
+   "callOi": 12991,
+   "putOi": 2789
   }
  ],
  "maxPain": 170.0,
  "trend": [
-  {
-   "date": "2026-07-17",
-   "score": 89,
-   "price": 157.12
-  },
   {
    "date": "2026-07-20",
    "score": 77,
@@ -194,6 +189,11 @@
    "date": "2026-08-29",
    "score": 51,
    "price": 178.64
+  },
+  {
+   "date": "2026-09-01",
+   "score": 78,
+   "price": 188.12
   }
  ]
 }

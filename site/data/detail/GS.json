@@ -1,55 +1,50 @@
 {
  "ticker": "GS",
  "name": "골드만삭스",
- "price": 1033.99,
- "dataAsOf": "2026-08-29",
- "score": 26,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.9배 — 약세 우위",
+ "price": 1025.9,
+ "dataAsOf": "2026-09-01",
+ "score": 100,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 1.9배 — 평소보다 훨씬 강세",
  "buckets": [
   {
-   "strike": 856.7,
-   "callOi": 1896,
-   "putOi": 7349
+   "strike": 850.0,
+   "callOi": 1533,
+   "putOi": 6044
   },
   {
-   "strike": 915.8,
-   "callOi": 2944,
-   "putOi": 11329
+   "strike": 908.7,
+   "callOi": 2850,
+   "putOi": 10729
   },
   {
-   "strike": 974.9,
-   "callOi": 3797,
-   "putOi": 12283
+   "strike": 967.3,
+   "callOi": 2824,
+   "putOi": 14035
   },
   {
-   "strike": 1034.0,
-   "callOi": 6456,
-   "putOi": 6912
+   "strike": 1025.9,
+   "callOi": 7424,
+   "putOi": 9249
   },
   {
-   "strike": 1093.1,
-   "callOi": 11304,
-   "putOi": 3365
+   "strike": 1084.5,
+   "callOi": 11555,
+   "putOi": 3955
   },
   {
-   "strike": 1152.2,
-   "callOi": 8103,
-   "putOi": 816
+   "strike": 1143.1,
+   "callOi": 9435,
+   "putOi": 1041
   },
   {
-   "strike": 1211.2,
-   "callOi": 5142,
-   "putOi": 244
+   "strike": 1201.8,
+   "callOi": 5757,
+   "putOi": 317
   }
  ],
- "maxPain": 1000.0,
+ "maxPain": 1005.0,
  "trend": [
-  {
-   "date": "2026-07-17",
-   "score": 10,
-   "price": 1065.22
-  },
   {
    "date": "2026-07-20",
    "score": 10,
@@ -194,6 +189,11 @@
    "date": "2026-08-29",
    "score": 26,
    "price": 1033.99
+  },
+  {
+   "date": "2026-09-01",
+   "score": 100,
+   "price": 1025.9
   }
  ]
 }

@@ -1,55 +1,50 @@
 {
  "ticker": "SPOT",
  "name": "스포티파이",
- "price": 547.51,
- "dataAsOf": "2026-08-29",
- "score": 90,
+ "price": 543.62,
+ "dataAsOf": "2026-09-01",
+ "score": 82,
  "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 1.8배 — 평소보다 훨씬 강세",
+ "ratioText": "상승 베팅이 하락의 1.5배 — 강세 우위",
  "buckets": [
   {
-   "strike": 453.7,
-   "callOi": 551,
-   "putOi": 5111
+   "strike": 450.4,
+   "callOi": 562,
+   "putOi": 5433
   },
   {
-   "strike": 484.9,
-   "callOi": 3077,
-   "putOi": 4470
+   "strike": 481.5,
+   "callOi": 1524,
+   "putOi": 3368
   },
   {
-   "strike": 516.2,
-   "callOi": 2422,
-   "putOi": 1832
+   "strike": 512.6,
+   "callOi": 3672,
+   "putOi": 2859
   },
   {
-   "strike": 547.5,
-   "callOi": 4863,
-   "putOi": 1159
+   "strike": 543.6,
+   "callOi": 4259,
+   "putOi": 1442
   },
   {
-   "strike": 578.8,
-   "callOi": 4569,
-   "putOi": 368
+   "strike": 574.7,
+   "callOi": 6342,
+   "putOi": 532
   },
   {
-   "strike": 610.1,
-   "callOi": 5208,
-   "putOi": 192
+   "strike": 605.7,
+   "callOi": 5193,
+   "putOi": 194
   },
   {
-   "strike": 641.4,
-   "callOi": 1324,
-   "putOi": 1
+   "strike": 636.8,
+   "callOi": 1579,
+   "putOi": 3
   }
  ],
  "maxPain": 500.0,
  "trend": [
-  {
-   "date": "2026-07-17",
-   "score": 59,
-   "price": 478.14
-  },
   {
    "date": "2026-07-20",
    "score": 80,
@@ -194,6 +189,11 @@
    "date": "2026-08-29",
    "score": 90,
    "price": 547.51
+  },
+  {
+   "date": "2026-09-01",
+   "score": 82,
+   "price": 543.62
   }
  ]
 }

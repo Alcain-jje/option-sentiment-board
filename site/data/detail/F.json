@@ -1,55 +1,50 @@
 {
  "ticker": "F",
  "name": "포드",
- "price": 13.88,
- "dataAsOf": "2026-08-29",
- "score": 36,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.5배 — 약세 우위",
+ "price": 13.94,
+ "dataAsOf": "2026-09-01",
+ "score": 57,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 11.5,
-   "callOi": 24,
-   "putOi": 583
+   "strike": 11.6,
+   "callOi": 56,
+   "putOi": 770
   },
   {
    "strike": 12.3,
-   "callOi": 1357,
-   "putOi": 58099
+   "callOi": 1824,
+   "putOi": 58158
   },
   {
    "strike": 13.1,
-   "callOi": 12248,
-   "putOi": 37119
+   "callOi": 16679,
+   "putOi": 48539
   },
   {
    "strike": 13.9,
-   "callOi": 41041,
-   "putOi": 51911
+   "callOi": 41308,
+   "putOi": 44992
   },
   {
    "strike": 14.7,
-   "callOi": 70921,
-   "putOi": 11531
+   "callOi": 73163,
+   "putOi": 11635
   },
   {
    "strike": 15.5,
-   "callOi": 4700,
-   "putOi": 161
+   "callOi": 4825,
+   "putOi": 157
   },
   {
    "strike": 16.3,
-   "callOi": 42208,
-   "putOi": 2734
+   "callOi": 41700,
+   "putOi": 2690
   }
  ],
  "maxPain": 14.0,
  "trend": [
-  {
-   "date": "2026-07-17",
-   "score": 90,
-   "price": 14.23
-  },
   {
    "date": "2026-07-20",
    "score": 86,
@@ -194,6 +189,11 @@
    "date": "2026-08-29",
    "score": 36,
    "price": 13.88
+  },
+  {
+   "date": "2026-09-01",
+   "score": 57,
+   "price": 13.94
   }
  ]
 }
