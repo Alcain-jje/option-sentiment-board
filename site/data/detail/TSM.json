@@ -1,55 +1,50 @@
 {
  "ticker": "TSM",
  "name": "TSMC",
- "price": 414.0,
- "dataAsOf": "2026-09-01",
- "score": 15,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.5배 — 약세 우위",
+ "price": 415.5,
+ "dataAsOf": "2026-09-02",
+ "score": 85,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 1.5배 — 강세 우위",
  "buckets": [
   {
-   "strike": 343.0,
-   "callOi": 5864,
-   "putOi": 26864
+   "strike": 344.3,
+   "callOi": 5905,
+   "putOi": 28318
   },
   {
-   "strike": 366.7,
-   "callOi": 6736,
-   "putOi": 36818
+   "strike": 368.0,
+   "callOi": 6787,
+   "putOi": 36464
   },
   {
-   "strike": 390.3,
-   "callOi": 18065,
-   "putOi": 79691
+   "strike": 391.8,
+   "callOi": 18154,
+   "putOi": 91740
   },
   {
-   "strike": 414.0,
-   "callOi": 38715,
-   "putOi": 47966
+   "strike": 415.5,
+   "callOi": 40077,
+   "putOi": 46826
   },
   {
-   "strike": 437.7,
-   "callOi": 63769,
-   "putOi": 21259
+   "strike": 439.2,
+   "callOi": 83569,
+   "putOi": 24277
   },
   {
-   "strike": 461.3,
-   "callOi": 35743,
-   "putOi": 3639
+   "strike": 463.0,
+   "callOi": 19482,
+   "putOi": 1085
   },
   {
-   "strike": 485.0,
-   "callOi": 34047,
+   "strike": 486.7,
+   "callOi": 34613,
    "putOi": 506
   }
  ],
  "maxPain": 410.0,
  "trend": [
-  {
-   "date": "2026-07-20",
-   "score": 10,
-   "price": 402.3
-  },
   {
    "date": "2026-07-21",
    "score": 50,
@@ -194,6 +189,11 @@
    "date": "2026-09-01",
    "score": 15,
    "price": 414.0
+  },
+  {
+   "date": "2026-09-02",
+   "score": 85,
+   "price": 415.5
   }
  ]
 }

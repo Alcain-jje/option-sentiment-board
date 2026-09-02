@@ -1,55 +1,50 @@
 {
  "ticker": "O",
  "name": "리얼티인컴",
- "price": 61.36,
- "dataAsOf": "2026-09-01",
- "score": 48,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 61.5,
+ "dataAsOf": "2026-09-02",
+ "score": 2,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 1.2배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": 50.8,
+   "strike": 51.0,
    "callOi": 2,
    "putOi": 1930
   },
   {
-   "strike": 54.3,
+   "strike": 54.5,
    "callOi": 6,
-   "putOi": 1720
+   "putOi": 1716
   },
   {
-   "strike": 57.9,
+   "strike": 58.0,
    "callOi": 50,
-   "putOi": 3312
+   "putOi": 3348
   },
   {
-   "strike": 61.4,
-   "callOi": 10081,
-   "putOi": 16705
+   "strike": 61.5,
+   "callOi": 10489,
+   "putOi": 17019
   },
   {
-   "strike": 64.9,
-   "callOi": 6887,
-   "putOi": 1544
+   "strike": 65.0,
+   "callOi": 7018,
+   "putOi": 996
   },
   {
-   "strike": 68.4,
-   "callOi": 6245,
+   "strike": 68.5,
+   "callOi": 6248,
    "putOi": 12
   },
   {
-   "strike": 71.9,
+   "strike": 72.0,
    "callOi": 674,
    "putOi": 0
   }
  ],
  "maxPain": 62.5,
  "trend": [
-  {
-   "date": "2026-07-20",
-   "score": 36,
-   "price": 65.18
-  },
   {
    "date": "2026-07-21",
    "score": 16,
@@ -194,6 +189,11 @@
    "date": "2026-09-01",
    "score": 48,
    "price": 61.36
+  },
+  {
+   "date": "2026-09-02",
+   "score": 2,
+   "price": 61.5
   }
  ]
 }
