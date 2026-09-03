@@ -1,55 +1,50 @@
 {
  "ticker": "ISRG",
  "name": "인튜이티브서지컬",
- "price": 371.88,
- "dataAsOf": "2026-09-02",
- "score": 71,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 1.3배 — 강세 우위",
+ "price": 369.83,
+ "dataAsOf": "2026-09-03",
+ "score": 5,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 1.6배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": 308.1,
+   "strike": 306.4,
    "callOi": 95,
-   "putOi": 5130
+   "putOi": 5131
   },
   {
-   "strike": 329.4,
-   "callOi": 778,
-   "putOi": 7601
+   "strike": 327.6,
+   "callOi": 517,
+   "putOi": 5645
   },
   {
-   "strike": 350.6,
-   "callOi": 803,
-   "putOi": 5062
+   "strike": 348.7,
+   "callOi": 825,
+   "putOi": 6065
   },
   {
-   "strike": 371.9,
-   "callOi": 3155,
-   "putOi": 4131
+   "strike": 369.8,
+   "callOi": 3370,
+   "putOi": 5298
   },
   {
-   "strike": 393.1,
-   "callOi": 3733,
-   "putOi": 1811
+   "strike": 391.0,
+   "callOi": 4121,
+   "putOi": 1826
   },
   {
-   "strike": 414.4,
-   "callOi": 3844,
-   "putOi": 1538
+   "strike": 412.1,
+   "callOi": 3541,
+   "putOi": 1417
   },
   {
-   "strike": 435.6,
-   "callOi": 1948,
-   "putOi": 443
+   "strike": 433.2,
+   "callOi": 2141,
+   "putOi": 487
   }
  ],
  "maxPain": 380.0,
  "trend": [
-  {
-   "date": "2026-07-21",
-   "score": 76,
-   "price": 350.06
-  },
   {
    "date": "2026-07-22",
    "score": 77,
@@ -194,6 +189,11 @@
    "date": "2026-09-02",
    "score": 71,
    "price": 371.88
+  },
+  {
+   "date": "2026-09-03",
+   "score": 5,
+   "price": 369.83
   }
  ]
 }
