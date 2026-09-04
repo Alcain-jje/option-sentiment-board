@@ -1,55 +1,50 @@
 {
  "ticker": "NXPI",
  "name": "NXP",
- "price": 223.58,
- "dataAsOf": "2026-08-29",
- "score": 79,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 3.0배 — 강세 우위",
+ "price": 227.84,
+ "dataAsOf": "2026-09-04",
+ "score": 33,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 1.1배 — 약세 우위",
  "buckets": [
   {
-   "strike": 185.3,
-   "callOi": 17,
-   "putOi": 1209
+   "strike": 188.8,
+   "callOi": 14,
+   "putOi": 2325
   },
   {
-   "strike": 198.0,
+   "strike": 201.8,
    "callOi": 229,
-   "putOi": 2327
+   "putOi": 849
   },
   {
-   "strike": 210.8,
-   "callOi": 228,
-   "putOi": 1244
+   "strike": 214.8,
+   "callOi": 530,
+   "putOi": 2392
   },
   {
-   "strike": 223.6,
-   "callOi": 266,
-   "putOi": 952
+   "strike": 227.8,
+   "callOi": 790,
+   "putOi": 1393
   },
   {
-   "strike": 236.4,
-   "callOi": 1398,
-   "putOi": 2786
+   "strike": 240.9,
+   "callOi": 879,
+   "putOi": 1420
   },
   {
-   "strike": 249.1,
-   "callOi": 2259,
-   "putOi": 663
+   "strike": 253.9,
+   "callOi": 3352,
+   "putOi": 1100
   },
   {
-   "strike": 261.9,
-   "callOi": 1000,
-   "putOi": 451
+   "strike": 266.9,
+   "callOi": 981,
+   "putOi": 161
   }
  ],
  "maxPain": 250.0,
  "trend": [
-  {
-   "date": "2026-07-17",
-   "score": 85,
-   "price": 266.53
-  },
   {
    "date": "2026-07-20",
    "score": 86,
@@ -194,6 +189,11 @@
    "date": "2026-08-29",
    "score": 79,
    "price": 223.58
+  },
+  {
+   "date": "2026-09-04",
+   "score": 33,
+   "price": 227.84
   }
  ]
 }

@@ -1,55 +1,50 @@
 {
  "ticker": "PG",
  "name": "P&G",
- "price": 146.92,
- "dataAsOf": "2026-09-03",
- "score": 10,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 0.9배 — 평소보다 뚜렷한 약세",
+ "price": 146.44,
+ "dataAsOf": "2026-09-04",
+ "score": 63,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 2.5배 — 강세 우위",
  "buckets": [
   {
-   "strike": 121.7,
-   "callOi": 88,
-   "putOi": 7485
+   "strike": 121.3,
+   "callOi": 93,
+   "putOi": 7481
   },
   {
-   "strike": 130.1,
-   "callOi": 313,
-   "putOi": 10935
+   "strike": 129.7,
+   "callOi": 301,
+   "putOi": 10666
   },
   {
-   "strike": 138.5,
-   "callOi": 2571,
-   "putOi": 34427
+   "strike": 138.1,
+   "callOi": 2599,
+   "putOi": 34924
   },
   {
-   "strike": 146.9,
-   "callOi": 37118,
-   "putOi": 15640
+   "strike": 146.4,
+   "callOi": 37414,
+   "putOi": 16162
   },
   {
-   "strike": 155.3,
-   "callOi": 33585,
-   "putOi": 503
+   "strike": 154.8,
+   "callOi": 33868,
+   "putOi": 495
   },
   {
-   "strike": 163.7,
-   "callOi": 49582,
+   "strike": 163.2,
+   "callOi": 49594,
    "putOi": 91
   },
   {
-   "strike": 172.1,
-   "callOi": 10316,
+   "strike": 171.5,
+   "callOi": 10321,
    "putOi": 2
   }
  ],
  "maxPain": 145.0,
  "trend": [
-  {
-   "date": "2026-07-22",
-   "score": 84,
-   "price": 149.13
-  },
   {
    "date": "2026-07-23",
    "score": 90,
@@ -194,6 +189,11 @@
    "date": "2026-09-03",
    "score": 10,
    "price": 146.92
+  },
+  {
+   "date": "2026-09-04",
+   "score": 63,
+   "price": 146.44
   }
  ]
 }

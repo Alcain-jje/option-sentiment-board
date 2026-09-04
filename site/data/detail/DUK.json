@@ -1,55 +1,50 @@
 {
  "ticker": "DUK",
  "name": "듀크에너지",
- "price": 121.4,
- "dataAsOf": "2026-09-03",
- "score": 92,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 6.1배 — 평소보다 훨씬 강세",
+ "price": 120.22,
+ "dataAsOf": "2026-09-04",
+ "score": 8,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 1.2배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": 100.6,
+   "strike": 99.6,
    "callOi": 0,
    "putOi": 283
   },
   {
-   "strike": 107.5,
-   "callOi": 161,
-   "putOi": 1204
+   "strike": 106.5,
+   "callOi": 2,
+   "putOi": 227
   },
   {
-   "strike": 114.5,
-   "callOi": 84,
-   "putOi": 2845
+   "strike": 113.4,
+   "callOi": 243,
+   "putOi": 3827
   },
   {
-   "strike": 121.4,
-   "callOi": 4785,
-   "putOi": 5839
+   "strike": 120.2,
+   "callOi": 4784,
+   "putOi": 5832
   },
   {
-   "strike": 128.3,
-   "callOi": 13960,
-   "putOi": 2738
+   "strike": 127.1,
+   "callOi": 14070,
+   "putOi": 2770
   },
   {
-   "strike": 135.3,
-   "callOi": 4978,
+   "strike": 134.0,
+   "callOi": 4977,
    "putOi": 43
   },
   {
-   "strike": 142.2,
-   "callOi": 3437,
+   "strike": 140.8,
+   "callOi": 2105,
    "putOi": 1
   }
  ],
  "maxPain": 120.0,
  "trend": [
-  {
-   "date": "2026-07-20",
-   "score": 90,
-   "price": 125.85
-  },
   {
    "date": "2026-07-21",
    "score": 89,
@@ -194,6 +189,11 @@
    "date": "2026-09-03",
    "score": 92,
    "price": 121.4
+  },
+  {
+   "date": "2026-09-04",
+   "score": 8,
+   "price": 120.22
   }
  ]
 }

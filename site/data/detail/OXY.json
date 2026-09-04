@@ -1,55 +1,50 @@
 {
  "ticker": "OXY",
  "name": "옥시덴탈",
- "price": 60.61,
- "dataAsOf": "2026-09-03",
- "score": 5,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 0.8배 — 평소보다 뚜렷한 약세",
+ "price": 60.04,
+ "dataAsOf": "2026-09-04",
+ "score": 79,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 7.3배 — 강세 우위",
  "buckets": [
   {
-   "strike": 50.2,
-   "callOi": 7446,
-   "putOi": 7025
+   "strike": 49.7,
+   "callOi": 7439,
+   "putOi": 7026
   },
   {
-   "strike": 53.7,
-   "callOi": 12389,
-   "putOi": 15933
+   "strike": 53.2,
+   "callOi": 5570,
+   "putOi": 8551
   },
   {
-   "strike": 57.1,
-   "callOi": 7851,
-   "putOi": 9113
+   "strike": 56.6,
+   "callOi": 14605,
+   "putOi": 18594
   },
   {
-   "strike": 60.6,
-   "callOi": 53198,
-   "putOi": 11532
+   "strike": 60.0,
+   "callOi": 46398,
+   "putOi": 12782
   },
   {
-   "strike": 64.1,
-   "callOi": 33464,
-   "putOi": 1525
+   "strike": 63.5,
+   "callOi": 42348,
+   "putOi": 1741
   },
   {
-   "strike": 67.5,
-   "callOi": 12147,
-   "putOi": 33
+   "strike": 66.9,
+   "callOi": 12170,
+   "putOi": 32
   },
   {
-   "strike": 71.0,
-   "callOi": 14599,
-   "putOi": 25
+   "strike": 70.3,
+   "callOi": 13994,
+   "putOi": 22
   }
  ],
  "maxPain": 55.0,
  "trend": [
-  {
-   "date": "2026-07-22",
-   "score": 90,
-   "price": 57.5
-  },
   {
    "date": "2026-07-23",
    "score": 90,
@@ -194,6 +189,11 @@
    "date": "2026-09-03",
    "score": 5,
    "price": 60.61
+  },
+  {
+   "date": "2026-09-04",
+   "score": 79,
+   "price": 60.04
   }
  ]
 }

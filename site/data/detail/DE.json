@@ -1,55 +1,50 @@
 {
  "ticker": "DE",
  "name": "존디어",
- "price": 694.41,
- "dataAsOf": "2026-09-03",
- "score": 67,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 1.2배 — 강세 우위",
+ "price": 693.53,
+ "dataAsOf": "2026-09-04",
+ "score": 56,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 575.4,
+   "strike": 574.6,
    "callOi": 611,
-   "putOi": 3561
+   "putOi": 3525
   },
   {
-   "strike": 615.0,
-   "callOi": 1712,
-   "putOi": 5972
+   "strike": 614.3,
+   "callOi": 1704,
+   "putOi": 6312
   },
   {
-   "strike": 654.7,
-   "callOi": 5116,
-   "putOi": 4254
+   "strike": 653.9,
+   "callOi": 5042,
+   "putOi": 4597
   },
   {
-   "strike": 694.4,
-   "callOi": 6360,
-   "putOi": 303
+   "strike": 693.5,
+   "callOi": 6564,
+   "putOi": 424
   },
   {
-   "strike": 734.1,
-   "callOi": 1763,
+   "strike": 733.2,
+   "callOi": 1920,
    "putOi": 3
   },
   {
-   "strike": 773.8,
-   "callOi": 516,
+   "strike": 772.8,
+   "callOi": 569,
    "putOi": 0
   },
   {
-   "strike": 813.5,
-   "callOi": 1298,
+   "strike": 812.4,
+   "callOi": 1312,
    "putOi": 0
   }
  ],
  "maxPain": 640.0,
  "trend": [
-  {
-   "date": "2026-07-22",
-   "score": 69,
-   "price": 607.33
-  },
   {
    "date": "2026-07-23",
    "score": 36,
@@ -194,6 +189,11 @@
    "date": "2026-09-03",
    "score": 67,
    "price": 694.41
+  },
+  {
+   "date": "2026-09-04",
+   "score": 56,
+   "price": 693.53
   }
  ]
 }

@@ -1,55 +1,50 @@
 {
  "ticker": "CHWY",
  "name": "츄이",
- "price": 23.96,
- "dataAsOf": "2026-09-03",
- "score": 7,
+ "price": 23.66,
+ "dataAsOf": "2026-09-04",
+ "score": 16,
  "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.5배 — 평소보다 뚜렷한 약세",
+ "ratioText": "하락 베팅이 상승의 1.0배 — 약세 우위",
  "buckets": [
   {
-   "strike": 19.9,
-   "callOi": 11509,
-   "putOi": 11961
+   "strike": 19.6,
+   "callOi": 11507,
+   "putOi": 11003
   },
   {
-   "strike": 21.2,
-   "callOi": 278,
-   "putOi": 1274
+   "strike": 21.0,
+   "callOi": 315,
+   "putOi": 3178
   },
   {
-   "strike": 22.6,
-   "callOi": 12337,
-   "putOi": 10170
+   "strike": 22.3,
+   "callOi": 11661,
+   "putOi": 9028
   },
   {
-   "strike": 24.0,
-   "callOi": 4362,
-   "putOi": 1718
+   "strike": 23.7,
+   "callOi": 3758,
+   "putOi": 3257
   },
   {
-   "strike": 25.3,
-   "callOi": 15996,
-   "putOi": 2927
+   "strike": 25.0,
+   "callOi": 14541,
+   "putOi": 3814
   },
   {
-   "strike": 26.7,
-   "callOi": 1443,
-   "putOi": 19
+   "strike": 26.4,
+   "callOi": 4701,
+   "putOi": 25
   },
   {
-   "strike": 28.1,
-   "callOi": 9153,
-   "putOi": 1518
+   "strike": 27.7,
+   "callOi": 8996,
+   "putOi": 1517
   }
  ],
  "maxPain": 22.5,
  "trend": [
-  {
-   "date": "2026-07-22",
-   "score": 90,
-   "price": 21.52
-  },
   {
    "date": "2026-07-23",
    "score": 90,
@@ -194,6 +189,11 @@
    "date": "2026-09-03",
    "score": 7,
    "price": 23.96
+  },
+  {
+   "date": "2026-09-04",
+   "score": 16,
+   "price": 23.66
   }
  ]
 }
