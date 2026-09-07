@@ -2,54 +2,49 @@
  "ticker": "HD",
  "name": "홈디포",
  "price": 321.05,
- "dataAsOf": "2026-09-04",
- "score": 28,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
+ "dataAsOf": "2026-09-07",
+ "score": 14,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
  "buckets": [
   {
    "strike": 266.0,
    "callOi": 13,
-   "putOi": 7667
+   "putOi": 6805
   },
   {
    "strike": 284.4,
    "callOi": 30,
-   "putOi": 5150
+   "putOi": 4962
   },
   {
    "strike": 302.7,
-   "callOi": 1903,
-   "putOi": 11436
+   "callOi": 1901,
+   "putOi": 10712
   },
   {
    "strike": 321.0,
-   "callOi": 10894,
-   "putOi": 18241
+   "callOi": 3498,
+   "putOi": 15610
   },
   {
    "strike": 339.4,
-   "callOi": 9261,
-   "putOi": 2656
+   "callOi": 7849,
+   "putOi": 2617
   },
   {
    "strike": 357.7,
-   "callOi": 14741,
-   "putOi": 435
+   "callOi": 12467,
+   "putOi": 436
   },
   {
    "strike": 376.1,
-   "callOi": 11951,
-   "putOi": 146
+   "callOi": 10591,
+   "putOi": 143
   }
  ],
- "maxPain": 325.0,
+ "maxPain": 330.0,
  "trend": [
-  {
-   "date": "2026-07-23",
-   "score": 53,
-   "price": 324.71
-  },
   {
    "date": "2026-07-24",
    "score": 82,
@@ -193,6 +188,11 @@
   {
    "date": "2026-09-04",
    "score": 28,
+   "price": 321.05
+  },
+  {
+   "date": "2026-09-07",
+   "score": 14,
    "price": 321.05
   }
  ]

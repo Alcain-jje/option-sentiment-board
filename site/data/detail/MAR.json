@@ -2,10 +2,10 @@
  "ticker": "MAR",
  "name": "메리어트",
  "price": 336.51,
- "dataAsOf": "2026-09-04",
- "score": 56,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "dataAsOf": "2026-09-07",
+ "score": 23,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 1.3배 — 약세 우위",
  "buckets": [
   {
    "strike": 278.8,
@@ -15,41 +15,36 @@
   {
    "strike": 298.1,
    "callOi": 132,
-   "putOi": 984
+   "putOi": 1048
   },
   {
    "strike": 317.3,
-   "callOi": 192,
-   "putOi": 1611
+   "callOi": 194,
+   "putOi": 1511
   },
   {
    "strike": 336.5,
-   "callOi": 8375,
-   "putOi": 3211
+   "callOi": 8628,
+   "putOi": 3078
   },
   {
    "strike": 355.7,
-   "callOi": 2097,
-   "putOi": 2083
+   "callOi": 1657,
+   "putOi": 2077
   },
   {
    "strike": 375.0,
-   "callOi": 2770,
+   "callOi": 2399,
    "putOi": 131
   },
   {
    "strike": 394.2,
-   "callOi": 1974,
+   "callOi": 1874,
    "putOi": 143
   }
  ],
  "maxPain": 330.0,
  "trend": [
-  {
-   "date": "2026-07-23",
-   "score": 22,
-   "price": 364.47
-  },
   {
    "date": "2026-07-24",
    "score": 10,
@@ -193,6 +188,11 @@
   {
    "date": "2026-09-04",
    "score": 56,
+   "price": 336.51
+  },
+  {
+   "date": "2026-09-07",
+   "score": 23,
    "price": 336.51
   }
  ]

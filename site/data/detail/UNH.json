@@ -2,54 +2,49 @@
  "ticker": "UNH",
  "name": "유나이티드헬스",
  "price": 397.14,
- "dataAsOf": "2026-09-04",
- "score": 67,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 1.6배 — 강세 우위",
+ "dataAsOf": "2026-09-07",
+ "score": 36,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
  "buckets": [
   {
    "strike": 329.1,
-   "callOi": 4901,
-   "putOi": 11487
+   "callOi": 4899,
+   "putOi": 10688
   },
   {
    "strike": 351.8,
-   "callOi": 4638,
-   "putOi": 13605
+   "callOi": 4609,
+   "putOi": 13043
   },
   {
    "strike": 374.4,
-   "callOi": 4017,
-   "putOi": 42020
+   "callOi": 3810,
+   "putOi": 38136
   },
   {
    "strike": 397.1,
-   "callOi": 22493,
-   "putOi": 19728
+   "callOi": 16435,
+   "putOi": 15864
   },
   {
    "strike": 419.8,
-   "callOi": 30989,
-   "putOi": 6201
+   "callOi": 26039,
+   "putOi": 6166
   },
   {
    "strike": 442.5,
-   "callOi": 14730,
+   "callOi": 13462,
    "putOi": 1140
   },
   {
    "strike": 465.2,
-   "callOi": 6970,
-   "putOi": 64
+   "callOi": 6582,
+   "putOi": 65
   }
  ],
  "maxPain": 390.0,
  "trend": [
-  {
-   "date": "2026-07-23",
-   "score": 49,
-   "price": 423.56
-  },
   {
    "date": "2026-07-24",
    "score": 65,
@@ -193,6 +188,11 @@
   {
    "date": "2026-09-04",
    "score": 67,
+   "price": 397.14
+  },
+  {
+   "date": "2026-09-07",
+   "score": 36,
    "price": 397.14
   }
  ]

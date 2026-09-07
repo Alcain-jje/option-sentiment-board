@@ -2,40 +2,40 @@
  "ticker": "BMY",
  "name": "브리스톨마이어스",
  "price": 66.82,
- "dataAsOf": "2026-09-04",
- "score": 16,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.0배 — 약세 우위",
+ "dataAsOf": "2026-09-07",
+ "score": 20,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
  "buckets": [
   {
    "strike": 55.4,
-   "callOi": 7596,
-   "putOi": 9688
+   "callOi": 7572,
+   "putOi": 9470
   },
   {
    "strike": 59.2,
-   "callOi": 15132,
-   "putOi": 12477
+   "callOi": 15051,
+   "putOi": 11861
   },
   {
    "strike": 63.0,
-   "callOi": 9072,
-   "putOi": 13815
+   "callOi": 8854,
+   "putOi": 13349
   },
   {
    "strike": 66.8,
-   "callOi": 31093,
-   "putOi": 10405
+   "callOi": 29075,
+   "putOi": 9357
   },
   {
    "strike": 70.6,
-   "callOi": 31499,
-   "putOi": 248
+   "callOi": 28531,
+   "putOi": 382
   },
   {
    "strike": 74.5,
-   "callOi": 19572,
-   "putOi": 20
+   "callOi": 19520,
+   "putOi": 19
   },
   {
    "strike": 78.3,
@@ -45,11 +45,6 @@
  ],
  "maxPain": 60.0,
  "trend": [
-  {
-   "date": "2026-07-23",
-   "score": 90,
-   "price": 61.51
-  },
   {
    "date": "2026-07-24",
    "score": 84,
@@ -193,6 +188,11 @@
   {
    "date": "2026-09-04",
    "score": 16,
+   "price": 66.82
+  },
+  {
+   "date": "2026-09-07",
+   "score": 20,
    "price": 66.82
   }
  ]

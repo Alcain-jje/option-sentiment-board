@@ -2,54 +2,49 @@
  "ticker": "WDAY",
  "name": "워크데이",
  "price": 195.79,
- "dataAsOf": "2026-09-04",
- "score": 21,
- "label": "약세",
+ "dataAsOf": "2026-09-07",
+ "score": 18,
+ "label": "매우 약세",
  "ratioText": "하락 베팅이 상승의 1.7배 — 약세 우위",
  "buckets": [
   {
    "strike": 162.2,
-   "callOi": 2307,
-   "putOi": 2236
+   "callOi": 2294,
+   "putOi": 2024
   },
   {
    "strike": 173.4,
-   "callOi": 3193,
-   "putOi": 4080
+   "callOi": 3204,
+   "putOi": 3618
   },
   {
    "strike": 184.6,
-   "callOi": 5837,
-   "putOi": 6611
+   "callOi": 5433,
+   "putOi": 5094
   },
   {
    "strike": 195.8,
-   "callOi": 3867,
-   "putOi": 3096
+   "callOi": 2951,
+   "putOi": 2366
   },
   {
    "strike": 207.0,
-   "callOi": 6681,
-   "putOi": 1344
+   "callOi": 5804,
+   "putOi": 1196
   },
   {
    "strike": 218.2,
-   "callOi": 3027,
-   "putOi": 53
+   "callOi": 1697,
+   "putOi": 48
   },
   {
    "strike": 229.4,
-   "callOi": 3259,
+   "callOi": 2989,
    "putOi": 35
   }
  ],
- "maxPain": 175.0,
+ "maxPain": 170.0,
  "trend": [
-  {
-   "date": "2026-07-23",
-   "score": 84,
-   "price": 127.87
-  },
   {
    "date": "2026-07-24",
    "score": 54,
@@ -193,6 +188,11 @@
   {
    "date": "2026-09-04",
    "score": 21,
+   "price": 195.79
+  },
+  {
+   "date": "2026-09-07",
+   "score": 18,
    "price": 195.79
   }
  ]

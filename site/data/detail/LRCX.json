@@ -2,54 +2,49 @@
  "ticker": "LRCX",
  "name": "램리서치",
  "price": 307.65,
- "dataAsOf": "2026-09-04",
- "score": 79,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 1.4배 — 강세 우위",
+ "dataAsOf": "2026-09-07",
+ "score": 86,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 1.6배 — 강세 우위",
  "buckets": [
   {
    "strike": 254.9,
-   "callOi": 1434,
-   "putOi": 10524
+   "callOi": 1415,
+   "putOi": 9113
   },
   {
    "strike": 272.5,
-   "callOi": 5275,
-   "putOi": 18624
+   "callOi": 4997,
+   "putOi": 15064
   },
   {
    "strike": 290.1,
-   "callOi": 5308,
-   "putOi": 8869
+   "callOi": 6319,
+   "putOi": 7004
   },
   {
    "strike": 307.6,
-   "callOi": 10913,
-   "putOi": 8536
+   "callOi": 6290,
+   "putOi": 7099
   },
   {
    "strike": 325.2,
-   "callOi": 10353,
-   "putOi": 5134
+   "callOi": 7848,
+   "putOi": 4907
   },
   {
    "strike": 342.8,
-   "callOi": 11249,
-   "putOi": 4255
+   "callOi": 10087,
+   "putOi": 4257
   },
   {
    "strike": 360.4,
-   "callOi": 5004,
+   "callOi": 3461,
    "putOi": 632
   }
  ],
  "maxPain": 290.0,
  "trend": [
-  {
-   "date": "2026-07-23",
-   "score": 11,
-   "price": 319.78
-  },
   {
    "date": "2026-07-24",
    "score": 56,
@@ -193,6 +188,11 @@
   {
    "date": "2026-09-04",
    "score": 79,
+   "price": 307.65
+  },
+  {
+   "date": "2026-09-07",
+   "score": 86,
    "price": 307.65
   }
  ]

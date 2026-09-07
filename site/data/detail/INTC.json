@@ -2,54 +2,49 @@
  "ticker": "INTC",
  "name": "인텔",
  "price": 95.8,
- "dataAsOf": "2026-09-04",
- "score": 65,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 2.2배 — 강세 우위",
+ "dataAsOf": "2026-09-07",
+ "score": 82,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 2.4배 — 강세 우위",
  "buckets": [
   {
    "strike": 79.4,
-   "callOi": 10809,
-   "putOi": 119077
+   "callOi": 9876,
+   "putOi": 98665
   },
   {
    "strike": 84.9,
-   "callOi": 18732,
-   "putOi": 117254
+   "callOi": 16826,
+   "putOi": 95050
   },
   {
    "strike": 90.3,
-   "callOi": 135667,
-   "putOi": 102586
+   "callOi": 80182,
+   "putOi": 80568
   },
   {
    "strike": 95.8,
-   "callOi": 152013,
-   "putOi": 55368
+   "callOi": 108619,
+   "putOi": 49061
   },
   {
    "strike": 101.3,
-   "callOi": 162490,
-   "putOi": 28816
+   "callOi": 131947,
+   "putOi": 28027
   },
   {
    "strike": 106.7,
-   "callOi": 54842,
-   "putOi": 15550
+   "callOi": 44791,
+   "putOi": 15555
   },
   {
    "strike": 112.2,
-   "callOi": 182333,
-   "putOi": 24393
+   "callOi": 168123,
+   "putOi": 24410
   }
  ],
  "maxPain": 90.0,
  "trend": [
-  {
-   "date": "2026-07-23",
-   "score": 70,
-   "price": 100.23
-  },
   {
    "date": "2026-07-24",
    "score": 73,
@@ -193,6 +188,11 @@
   {
    "date": "2026-09-04",
    "score": 65,
+   "price": 95.8
+  },
+  {
+   "date": "2026-09-07",
+   "score": 82,
    "price": 95.8
   }
  ]

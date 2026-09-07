@@ -2,54 +2,49 @@
  "ticker": "UAL",
  "name": "유나이티드항공",
  "price": 111.38,
- "dataAsOf": "2026-09-04",
- "score": 37,
+ "dataAsOf": "2026-09-07",
+ "score": 20,
  "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.1배 — 약세 우위",
+ "ratioText": "하락 베팅이 상승의 1.2배 — 약세 우위",
  "buckets": [
   {
    "strike": 92.3,
-   "callOi": 3407,
-   "putOi": 7368
+   "callOi": 3377,
+   "putOi": 7873
   },
   {
    "strike": 98.7,
-   "callOi": 1769,
-   "putOi": 12804
+   "callOi": 1773,
+   "putOi": 12329
   },
   {
    "strike": 105.0,
-   "callOi": 3097,
-   "putOi": 7362
+   "callOi": 2804,
+   "putOi": 5561
   },
   {
    "strike": 111.4,
-   "callOi": 6654,
-   "putOi": 5871
+   "callOi": 4982,
+   "putOi": 5172
   },
   {
    "strike": 117.7,
-   "callOi": 13657,
-   "putOi": 6375
+   "callOi": 12370,
+   "putOi": 6376
   },
   {
    "strike": 124.1,
-   "callOi": 5340,
+   "callOi": 4800,
    "putOi": 2310
   },
   {
    "strike": 130.5,
-   "callOi": 7037,
+   "callOi": 6071,
    "putOi": 566
   }
  ],
  "maxPain": 110.0,
  "trend": [
-  {
-   "date": "2026-07-23",
-   "score": 73,
-   "price": 115.35
-  },
   {
    "date": "2026-07-24",
    "score": 45,
@@ -193,6 +188,11 @@
   {
    "date": "2026-09-04",
    "score": 37,
+   "price": 111.38
+  },
+  {
+   "date": "2026-09-07",
+   "score": 20,
    "price": 111.38
   }
  ]

@@ -2,15 +2,15 @@
  "ticker": "LCID",
  "name": "루시드",
  "price": 4.68,
- "dataAsOf": "2026-09-04",
- "score": 70,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 1.6배 — 강세 우위",
+ "dataAsOf": "2026-09-07",
+ "score": 93,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 2.8배 — 평소보다 훨씬 강세",
  "buckets": [
   {
    "strike": 3.9,
-   "callOi": 2337,
-   "putOi": 19688
+   "callOi": 1977,
+   "putOi": 17049
   },
   {
    "strike": 4.1,
@@ -19,8 +19,8 @@
   },
   {
    "strike": 4.4,
-   "callOi": 2688,
-   "putOi": 4917
+   "callOi": 1331,
+   "putOi": 3278
   },
   {
    "strike": 4.7,
@@ -29,8 +29,8 @@
   },
   {
    "strike": 4.9,
-   "callOi": 16309,
-   "putOi": 25718
+   "callOi": 10938,
+   "putOi": 22446
   },
   {
    "strike": 5.2,
@@ -39,17 +39,12 @@
   },
   {
    "strike": 5.5,
-   "callOi": 16283,
-   "putOi": 2040
+   "callOi": 10280,
+   "putOi": 1577
   }
  ],
  "maxPain": 6.0,
  "trend": [
-  {
-   "date": "2026-07-23",
-   "score": 10,
-   "price": 6.45
-  },
   {
    "date": "2026-07-24",
    "score": 51,
@@ -193,6 +188,11 @@
   {
    "date": "2026-09-04",
    "score": 70,
+   "price": 4.68
+  },
+  {
+   "date": "2026-09-07",
+   "score": 93,
    "price": 4.68
   }
  ]

@@ -2,39 +2,39 @@
  "ticker": "COF",
  "name": "캐피털원",
  "price": 219.6,
- "dataAsOf": "2026-09-04",
- "score": 30,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
+ "dataAsOf": "2026-09-07",
+ "score": 41,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
    "strike": 182.0,
-   "callOi": 532,
-   "putOi": 2580
+   "callOi": 536,
+   "putOi": 2456
   },
   {
    "strike": 194.5,
-   "callOi": 2003,
-   "putOi": 11453
+   "callOi": 2002,
+   "putOi": 11006
   },
   {
    "strike": 207.1,
-   "callOi": 8891,
-   "putOi": 6477
+   "callOi": 8846,
+   "putOi": 5354
   },
   {
    "strike": 219.6,
-   "callOi": 6933,
-   "putOi": 2656
+   "callOi": 5772,
+   "putOi": 2121
   },
   {
    "strike": 232.1,
-   "callOi": 9085,
-   "putOi": 1232
+   "callOi": 8625,
+   "putOi": 1239
   },
   {
    "strike": 244.7,
-   "callOi": 16706,
+   "callOi": 16632,
    "putOi": 152
   },
   {
@@ -45,11 +45,6 @@
  ],
  "maxPain": 210.0,
  "trend": [
-  {
-   "date": "2026-07-23",
-   "score": 60,
-   "price": 199.96
-  },
   {
    "date": "2026-07-24",
    "score": 58,
@@ -193,6 +188,11 @@
   {
    "date": "2026-09-04",
    "score": 30,
+   "price": 219.6
+  },
+  {
+   "date": "2026-09-07",
+   "score": 41,
    "price": 219.6
   }
  ]

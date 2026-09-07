@@ -2,39 +2,39 @@
  "ticker": "CME",
  "name": "CME그룹",
  "price": 281.29,
- "dataAsOf": "2026-09-04",
- "score": 12,
+ "dataAsOf": "2026-09-07",
+ "score": 11,
  "label": "매우 약세",
  "ratioText": "하락 베팅이 상승의 1.4배 — 약세 우위",
  "buckets": [
   {
    "strike": 233.1,
-   "callOi": 820,
-   "putOi": 2254
+   "callOi": 819,
+   "putOi": 2461
   },
   {
    "strike": 249.1,
-   "callOi": 458,
-   "putOi": 1530
+   "callOi": 454,
+   "putOi": 1408
   },
   {
    "strike": 265.2,
-   "callOi": 1985,
-   "putOi": 3587
+   "callOi": 1937,
+   "putOi": 3267
   },
   {
    "strike": 281.3,
-   "callOi": 2472,
-   "putOi": 1534
+   "callOi": 2045,
+   "putOi": 1054
   },
   {
    "strike": 297.4,
-   "callOi": 2776,
-   "putOi": 226
+   "callOi": 2568,
+   "putOi": 334
   },
   {
    "strike": 313.4,
-   "callOi": 2620,
+   "callOi": 2630,
    "putOi": 185
   },
   {
@@ -45,11 +45,6 @@
  ],
  "maxPain": 270.0,
  "trend": [
-  {
-   "date": "2026-07-23",
-   "score": 48,
-   "price": 254.32
-  },
   {
    "date": "2026-07-24",
    "score": 27,
@@ -193,6 +188,11 @@
   {
    "date": "2026-09-04",
    "score": 12,
+   "price": 281.29
+  },
+  {
+   "date": "2026-09-07",
+   "score": 11,
    "price": 281.29
   }
  ]
