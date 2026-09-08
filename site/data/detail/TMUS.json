@@ -1,55 +1,50 @@
 {
  "ticker": "TMUS",
  "name": "T모바일",
- "price": 181.52,
- "dataAsOf": "2026-09-07",
- "score": 59,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 181.69,
+ "dataAsOf": "2026-09-08",
+ "score": 29,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 1.1배 — 약세 우위",
  "buckets": [
   {
-   "strike": 150.4,
+   "strike": 150.5,
    "callOi": 4,
-   "putOi": 1514
+   "putOi": 1518
   },
   {
-   "strike": 160.8,
-   "callOi": 633,
-   "putOi": 2214
+   "strike": 160.9,
+   "callOi": 635,
+   "putOi": 2231
   },
   {
-   "strike": 171.1,
-   "callOi": 1261,
-   "putOi": 2213
+   "strike": 171.3,
+   "callOi": 1265,
+   "putOi": 2907
   },
   {
-   "strike": 181.5,
-   "callOi": 4012,
-   "putOi": 2654
+   "strike": 181.7,
+   "callOi": 4445,
+   "putOi": 3144
   },
   {
-   "strike": 191.9,
-   "callOi": 16836,
-   "putOi": 1903
+   "strike": 192.1,
+   "callOi": 16917,
+   "putOi": 2030
   },
   {
-   "strike": 202.3,
-   "callOi": 3237,
+   "strike": 202.5,
+   "callOi": 3377,
    "putOi": 493
   },
   {
-   "strike": 212.6,
-   "callOi": 1610,
+   "strike": 212.8,
+   "callOi": 1603,
    "putOi": 30
   }
  ],
- "maxPain": 180.0,
+ "maxPain": 182.5,
  "trend": [
-  {
-   "date": "2026-07-24",
-   "score": 71,
-   "price": 180.09
-  },
   {
    "date": "2026-07-27",
    "score": 34,
@@ -194,6 +189,11 @@
    "date": "2026-09-07",
    "score": 59,
    "price": 181.52
+  },
+  {
+   "date": "2026-09-08",
+   "score": 29,
+   "price": 181.69
   }
  ]
 }

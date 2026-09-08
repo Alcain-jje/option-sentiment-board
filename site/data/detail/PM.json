@@ -1,55 +1,50 @@
 {
  "ticker": "PM",
  "name": "필립모리스",
- "price": 182.53,
- "dataAsOf": "2026-09-07",
- "score": 39,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.1배 — 약세 우위",
+ "price": 184.73,
+ "dataAsOf": "2026-09-08",
+ "score": 76,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.4배 — 강세 우위",
  "buckets": [
   {
-   "strike": 151.2,
+   "strike": 153.1,
    "callOi": 826,
-   "putOi": 4972
+   "putOi": 4993
   },
   {
-   "strike": 161.7,
-   "callOi": 503,
+   "strike": 163.6,
+   "callOi": 504,
    "putOi": 5753
   },
   {
-   "strike": 172.1,
-   "callOi": 1519,
-   "putOi": 8810
+   "strike": 174.2,
+   "callOi": 1522,
+   "putOi": 9435
   },
   {
-   "strike": 182.5,
-   "callOi": 2833,
-   "putOi": 4495
+   "strike": 184.7,
+   "callOi": 7126,
+   "putOi": 7101
   },
   {
-   "strike": 193.0,
-   "callOi": 6317,
-   "putOi": 1565
+   "strike": 195.3,
+   "callOi": 7083,
+   "putOi": 507
   },
   {
-   "strike": 203.4,
-   "callOi": 5347,
-   "putOi": 159
-  },
-  {
-   "strike": 213.8,
-   "callOi": 3440,
+   "strike": 205.8,
+   "callOi": 4930,
    "putOi": 46
+  },
+  {
+   "strike": 216.4,
+   "callOi": 2745,
+   "putOi": 10
   }
  ],
- "maxPain": 182.5,
+ "maxPain": 185.0,
  "trend": [
-  {
-   "date": "2026-07-24",
-   "score": 62,
-   "price": 193.0
-  },
   {
    "date": "2026-07-27",
    "score": 36,
@@ -194,6 +189,11 @@
    "date": "2026-09-07",
    "score": 39,
    "price": 182.53
+  },
+  {
+   "date": "2026-09-08",
+   "score": 76,
+   "price": 184.73
   }
  ]
 }

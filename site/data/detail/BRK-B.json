@@ -1,55 +1,50 @@
 {
  "ticker": "BRK-B",
  "name": "버크셔해서웨이",
- "price": 506.03,
- "dataAsOf": "2026-09-07",
- "score": 52,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 505.83,
+ "dataAsOf": "2026-09-08",
+ "score": 71,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.7배 — 강세 우위",
  "buckets": [
   {
-   "strike": 419.3,
+   "strike": 419.1,
    "callOi": 1052,
-   "putOi": 9019
+   "putOi": 9041
   },
   {
-   "strike": 448.2,
-   "callOi": 1789,
-   "putOi": 15918
+   "strike": 448.0,
+   "callOi": 1792,
+   "putOi": 16150
   },
   {
-   "strike": 477.1,
-   "callOi": 3090,
-   "putOi": 19025
+   "strike": 476.9,
+   "callOi": 3097,
+   "putOi": 19457
   },
   {
-   "strike": 506.0,
-   "callOi": 30177,
-   "putOi": 12546
+   "strike": 505.8,
+   "callOi": 37194,
+   "putOi": 17859
   },
   {
-   "strike": 534.9,
-   "callOi": 16718,
-   "putOi": 377
+   "strike": 534.7,
+   "callOi": 17270,
+   "putOi": 383
   },
   {
-   "strike": 563.9,
-   "callOi": 8335,
+   "strike": 563.6,
+   "callOi": 8378,
    "putOi": 5
   },
   {
-   "strike": 592.8,
+   "strike": 592.5,
    "callOi": 2727,
    "putOi": 0
   }
  ],
  "maxPain": 500.0,
  "trend": [
-  {
-   "date": "2026-07-24",
-   "score": 89,
-   "price": 494.93
-  },
   {
    "date": "2026-07-27",
    "score": 70,
@@ -194,6 +189,11 @@
    "date": "2026-09-07",
    "score": 52,
    "price": 506.03
+  },
+  {
+   "date": "2026-09-08",
+   "score": 71,
+   "price": 505.83
   }
  ]
 }

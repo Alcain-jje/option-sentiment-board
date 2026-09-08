@@ -1,55 +1,50 @@
 {
  "ticker": "LUV",
  "name": "사우스웨스트",
- "price": 39.62,
- "dataAsOf": "2026-09-07",
- "score": 5,
+ "price": 38.67,
+ "dataAsOf": "2026-09-08",
+ "score": 7,
  "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 5.0배 — 평소보다 뚜렷한 약세",
+ "ratioText": "하락 베팅이 상승의 3.3배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": 32.8,
+   "strike": 32.0,
    "callOi": 50,
-   "putOi": 1191
+   "putOi": 1224
   },
   {
-   "strike": 35.1,
-   "callOi": 597,
-   "putOi": 4205
+   "strike": 34.3,
+   "callOi": 595,
+   "putOi": 4132
   },
   {
-   "strike": 37.4,
-   "callOi": 2179,
-   "putOi": 5215
+   "strike": 36.5,
+   "callOi": 1435,
+   "putOi": 5196
   },
   {
-   "strike": 39.6,
-   "callOi": 6390,
-   "putOi": 8665
+   "strike": 38.7,
+   "callOi": 2349,
+   "putOi": 1448
   },
   {
-   "strike": 41.9,
-   "callOi": 9066,
-   "putOi": 4973
+   "strike": 40.9,
+   "callOi": 7364,
+   "putOi": 9370
   },
   {
-   "strike": 44.1,
-   "callOi": 7910,
-   "putOi": 1945
+   "strike": 43.1,
+   "callOi": 8205,
+   "putOi": 4517
   },
   {
-   "strike": 46.4,
-   "callOi": 5156,
-   "putOi": 207
+   "strike": 45.3,
+   "callOi": 8597,
+   "putOi": 1890
   }
  ],
  "maxPain": 40.0,
  "trend": [
-  {
-   "date": "2026-07-24",
-   "score": 71,
-   "price": 45.08
-  },
   {
    "date": "2026-07-27",
    "score": 86,
@@ -194,6 +189,11 @@
    "date": "2026-09-07",
    "score": 5,
    "price": 39.62
+  },
+  {
+   "date": "2026-09-08",
+   "score": 7,
+   "price": 38.67
   }
  ]
 }
