@@ -1,55 +1,50 @@
 {
  "ticker": "NVDA",
  "name": "엔비디아",
- "price": 225.73,
- "dataAsOf": "2026-09-08",
- "score": 20,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
+ "price": 223.67,
+ "dataAsOf": "2026-09-09",
+ "score": 43,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 187.0,
-   "callOi": 44403,
-   "putOi": 187366
+   "strike": 185.3,
+   "callOi": 167022,
+   "putOi": 342695
   },
   {
-   "strike": 199.9,
-   "callOi": 170408,
-   "putOi": 367076
+   "strike": 198.1,
+   "callOi": 139832,
+   "putOi": 308995
   },
   {
-   "strike": 212.8,
-   "callOi": 156732,
-   "putOi": 216838
+   "strike": 210.9,
+   "callOi": 181448,
+   "putOi": 302704
   },
   {
-   "strike": 225.7,
-   "callOi": 501542,
-   "putOi": 254406
+   "strike": 223.7,
+   "callOi": 598818,
+   "putOi": 325344
   },
   {
-   "strike": 238.6,
-   "callOi": 645915,
-   "putOi": 41426
+   "strike": 236.5,
+   "callOi": 639067,
+   "putOi": 37074
   },
   {
-   "strike": 251.5,
-   "callOi": 365981,
-   "putOi": 6902
+   "strike": 249.2,
+   "callOi": 498846,
+   "putOi": 8599
   },
   {
-   "strike": 264.4,
-   "callOi": 286589,
-   "putOi": 3023
+   "strike": 262.0,
+   "callOi": 214236,
+   "putOi": 1935
   }
  ],
  "maxPain": 210.0,
  "trend": [
-  {
-   "date": "2026-07-27",
-   "score": 77,
-   "price": 196.51
-  },
   {
    "date": "2026-07-28",
    "score": 78,
@@ -194,6 +189,11 @@
    "date": "2026-09-08",
    "score": 20,
    "price": 225.73
+  },
+  {
+   "date": "2026-09-09",
+   "score": 43,
+   "price": 223.67
   }
  ]
 }

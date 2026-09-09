@@ -1,55 +1,50 @@
 {
  "ticker": "DG",
  "name": "달러제너럴",
- "price": 127.87,
- "dataAsOf": "2026-09-08",
- "score": 62,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 1.2배 — 강세 우위",
+ "price": 124.57,
+ "dataAsOf": "2026-09-09",
+ "score": 43,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 105.9,
-   "callOi": 110,
-   "putOi": 1709
+   "strike": 103.2,
+   "callOi": 214,
+   "putOi": 3363
   },
   {
-   "strike": 113.3,
-   "callOi": 547,
-   "putOi": 3525
+   "strike": 110.3,
+   "callOi": 305,
+   "putOi": 2262
   },
   {
-   "strike": 120.6,
-   "callOi": 984,
-   "putOi": 5408
+   "strike": 117.5,
+   "callOi": 1082,
+   "putOi": 6457
   },
   {
-   "strike": 127.9,
-   "callOi": 2510,
-   "putOi": 1781
+   "strike": 124.6,
+   "callOi": 1586,
+   "putOi": 1984
   },
   {
-   "strike": 135.2,
-   "callOi": 2425,
-   "putOi": 260
+   "strike": 131.7,
+   "callOi": 3264,
+   "putOi": 696
   },
   {
-   "strike": 142.5,
-   "callOi": 3199,
-   "putOi": 72
+   "strike": 138.8,
+   "callOi": 2563,
+   "putOi": 57
   },
   {
-   "strike": 149.8,
-   "callOi": 1459,
-   "putOi": 13
+   "strike": 145.9,
+   "callOi": 1328,
+   "putOi": 25
   }
  ],
  "maxPain": 125.0,
  "trend": [
-  {
-   "date": "2026-07-27",
-   "score": 72,
-   "price": 123.22
-  },
   {
    "date": "2026-07-28",
    "score": 62,
@@ -194,6 +189,11 @@
    "date": "2026-09-08",
    "score": 62,
    "price": 127.87
+  },
+  {
+   "date": "2026-09-09",
+   "score": 43,
+   "price": 124.57
   }
  ]
 }

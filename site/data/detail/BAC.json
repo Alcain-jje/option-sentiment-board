@@ -1,55 +1,50 @@
 {
  "ticker": "BAC",
  "name": "뱅크오브아메리카",
- "price": 62.39,
- "dataAsOf": "2026-09-08",
- "score": 49,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 62.67,
+ "dataAsOf": "2026-09-09",
+ "score": 98,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 3.9배 — 평소보다 훨씬 강세",
  "buckets": [
   {
-   "strike": 51.7,
-   "callOi": 1754,
-   "putOi": 72503
+   "strike": 51.9,
+   "callOi": 1150,
+   "putOi": 18591
   },
   {
-   "strike": 55.3,
-   "callOi": 12250,
-   "putOi": 39793
+   "strike": 55.5,
+   "callOi": 12280,
+   "putOi": 39839
   },
   {
-   "strike": 58.8,
-   "callOi": 44007,
-   "putOi": 61100
+   "strike": 59.1,
+   "callOi": 44084,
+   "putOi": 64600
   },
   {
-   "strike": 62.4,
-   "callOi": 66936,
-   "putOi": 41482
+   "strike": 62.7,
+   "callOi": 73715,
+   "putOi": 44485
   },
   {
-   "strike": 66.0,
-   "callOi": 122067,
-   "putOi": 7242
+   "strike": 66.3,
+   "callOi": 126763,
+   "putOi": 7134
   },
   {
-   "strike": 69.5,
-   "callOi": 15825,
-   "putOi": 202
+   "strike": 69.8,
+   "callOi": 14413,
+   "putOi": 181
   },
   {
-   "strike": 73.1,
-   "callOi": 1567,
+   "strike": 73.4,
+   "callOi": 5045,
    "putOi": 0
   }
  ],
  "maxPain": 60.0,
  "trend": [
-  {
-   "date": "2026-07-27",
-   "score": 70,
-   "price": 62.13
-  },
   {
    "date": "2026-07-28",
    "score": 76,
@@ -194,6 +189,11 @@
    "date": "2026-09-08",
    "score": 49,
    "price": 62.39
+  },
+  {
+   "date": "2026-09-09",
+   "score": 98,
+   "price": 62.67
   }
  ]
 }

@@ -1,55 +1,50 @@
 {
  "ticker": "HUM",
  "name": "휴마나",
- "price": 403.09,
- "dataAsOf": "2026-09-08",
- "score": 87,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 1.6배 — 강세 우위",
+ "price": 400.02,
+ "dataAsOf": "2026-09-09",
+ "score": 33,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 1.4배 — 약세 우위",
  "buckets": [
   {
-   "strike": 334.0,
-   "callOi": 402,
-   "putOi": 2398
+   "strike": 331.4,
+   "callOi": 388,
+   "putOi": 2367
   },
   {
-   "strike": 357.0,
-   "callOi": 886,
-   "putOi": 1809
+   "strike": 354.3,
+   "callOi": 899,
+   "putOi": 1919
   },
   {
-   "strike": 380.1,
-   "callOi": 6470,
-   "putOi": 9063
+   "strike": 377.2,
+   "callOi": 4481,
+   "putOi": 8690
   },
   {
-   "strike": 403.1,
-   "callOi": 8235,
-   "putOi": 1006
+   "strike": 400.0,
+   "callOi": 10579,
+   "putOi": 1876
   },
   {
-   "strike": 426.1,
-   "callOi": 3785,
-   "putOi": 116
+   "strike": 422.9,
+   "callOi": 3755,
+   "putOi": 129
   },
   {
-   "strike": 449.2,
-   "callOi": 6254,
+   "strike": 445.7,
+   "callOi": 5553,
    "putOi": 93
   },
   {
-   "strike": 472.2,
-   "callOi": 969,
-   "putOi": 43
+   "strike": 468.6,
+   "callOi": 1886,
+   "putOi": 63
   }
  ],
  "maxPain": 380.0,
  "trend": [
-  {
-   "date": "2026-07-27",
-   "score": 10,
-   "price": 381.15
-  },
   {
    "date": "2026-07-28",
    "score": 24,
@@ -194,6 +189,11 @@
    "date": "2026-09-08",
    "score": 87,
    "price": 403.09
+  },
+  {
+   "date": "2026-09-09",
+   "score": 33,
+   "price": 400.02
   }
  ]
 }
