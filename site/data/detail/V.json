@@ -1,55 +1,50 @@
 {
  "ticker": "V",
  "name": "비자",
- "price": 367.39,
- "dataAsOf": "2026-09-09",
- "score": 54,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 367.21,
+ "dataAsOf": "2026-09-10",
+ "score": 74,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.2배 — 강세 우위",
  "buckets": [
   {
-   "strike": 304.4,
+   "strike": 304.3,
    "callOi": 723,
-   "putOi": 11591
+   "putOi": 11549
   },
   {
-   "strike": 325.4,
-   "callOi": 3251,
-   "putOi": 15815
+   "strike": 325.2,
+   "callOi": 3274,
+   "putOi": 15851
   },
   {
-   "strike": 346.4,
-   "callOi": 9914,
-   "putOi": 14641
+   "strike": 346.2,
+   "callOi": 9854,
+   "putOi": 15049
   },
   {
-   "strike": 367.4,
-   "callOi": 26038,
-   "putOi": 14967
+   "strike": 367.2,
+   "callOi": 27832,
+   "putOi": 18024
   },
   {
-   "strike": 388.4,
-   "callOi": 24751,
-   "putOi": 1478
+   "strike": 388.2,
+   "callOi": 24843,
+   "putOi": 1330
   },
   {
-   "strike": 409.4,
-   "callOi": 11764,
-   "putOi": 89
+   "strike": 409.2,
+   "callOi": 11772,
+   "putOi": 70
   },
   {
-   "strike": 430.4,
-   "callOi": 3405,
+   "strike": 430.2,
+   "callOi": 3447,
    "putOi": 2
   }
  ],
  "maxPain": 360.0,
  "trend": [
-  {
-   "date": "2026-07-28",
-   "score": 70,
-   "price": 366.59
-  },
   {
    "date": "2026-07-29",
    "score": 65,
@@ -194,6 +189,11 @@
    "date": "2026-09-09",
    "score": 54,
    "price": 367.39
+  },
+  {
+   "date": "2026-09-10",
+   "score": 74,
+   "price": 367.21
   }
  ]
 }

@@ -1,55 +1,50 @@
 {
  "ticker": "NOC",
  "name": "노스럽그러먼",
- "price": 515.57,
- "dataAsOf": "2026-09-09",
- "score": 76,
+ "price": 518.95,
+ "dataAsOf": "2026-09-10",
+ "score": 60,
  "label": "강세",
- "ratioText": "상승 베팅이 하락의 1.2배 — 강세 우위",
+ "ratioText": "상승 베팅이 하락의 0.9배 — 강세 우위",
  "buckets": [
   {
-   "strike": 427.2,
+   "strike": 430.0,
    "callOi": 0,
-   "putOi": 406
+   "putOi": 346
   },
   {
-   "strike": 456.6,
+   "strike": 459.6,
    "callOi": 1,
-   "putOi": 559
+   "putOi": 562
   },
   {
-   "strike": 486.1,
-   "callOi": 32,
-   "putOi": 1091
+   "strike": 489.3,
+   "callOi": 33,
+   "putOi": 1111
   },
   {
-   "strike": 515.6,
-   "callOi": 688,
-   "putOi": 831
+   "strike": 519.0,
+   "callOi": 893,
+   "putOi": 852
   },
   {
-   "strike": 545.0,
-   "callOi": 692,
-   "putOi": 510
+   "strike": 548.6,
+   "callOi": 987,
+   "putOi": 604
   },
   {
-   "strike": 574.5,
-   "callOi": 1035,
-   "putOi": 194
+   "strike": 578.3,
+   "callOi": 958,
+   "putOi": 96
   },
   {
-   "strike": 604.0,
-   "callOi": 1190,
+   "strike": 607.9,
+   "callOi": 1158,
    "putOi": 28
   }
  ],
- "maxPain": 535.0,
+ "maxPain": 530.0,
  "trend": [
-  {
-   "date": "2026-07-24",
-   "score": 10,
-   "price": 542.24
-  },
   {
    "date": "2026-07-27",
    "score": 10,
@@ -194,6 +189,11 @@
    "date": "2026-09-09",
    "score": 76,
    "price": 515.57
+  },
+  {
+   "date": "2026-09-10",
+   "score": 60,
+   "price": 518.95
   }
  ]
 }

@@ -1,55 +1,50 @@
 {
  "ticker": "BSX",
  "name": "보스턴사이언티픽",
- "price": 44.96,
- "dataAsOf": "2026-09-09",
- "score": 98,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 2.1배 — 평소보다 훨씬 강세",
+ "price": 43.1,
+ "dataAsOf": "2026-09-10",
+ "score": 11,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 5.6배 — 약세 우위",
  "buckets": [
   {
-   "strike": 37.3,
+   "strike": 35.7,
+   "callOi": 60,
+   "putOi": 843
+  },
+  {
+   "strike": 38.2,
    "callOi": 0,
    "putOi": 57
   },
   {
-   "strike": 39.8,
-   "callOi": 1542,
-   "putOi": 29551
+   "strike": 40.6,
+   "callOi": 1795,
+   "putOi": 29810
   },
   {
-   "strike": 42.4,
-   "callOi": 65,
-   "putOi": 2147
+   "strike": 43.1,
+   "callOi": 99,
+   "putOi": 7580
   },
   {
-   "strike": 45.0,
-   "callOi": 9809,
-   "putOi": 34134
+   "strike": 45.6,
+   "callOi": 10367,
+   "putOi": 33602
   },
   {
-   "strike": 47.5,
-   "callOi": 6591,
-   "putOi": 16889
+   "strike": 48.0,
+   "callOi": 11031,
+   "putOi": 14117
   },
   {
-   "strike": 50.1,
-   "callOi": 26811,
-   "putOi": 12927
-  },
-  {
-   "strike": 52.7,
-   "callOi": 4106,
-   "putOi": 501
+   "strike": 50.5,
+   "callOi": 24371,
+   "putOi": 11090
   }
  ],
- "maxPain": 49.0,
+ "maxPain": 48.0,
  "trend": [
-  {
-   "date": "2026-07-28",
-   "score": 78,
-   "price": 46.06
-  },
   {
    "date": "2026-07-29",
    "score": 64,
@@ -194,6 +189,11 @@
    "date": "2026-09-09",
    "score": 98,
    "price": 44.96
+  },
+  {
+   "date": "2026-09-10",
+   "score": 11,
+   "price": 43.1
   }
  ]
 }

@@ -1,55 +1,50 @@
 {
  "ticker": "COP",
  "name": "코노코필립스",
- "price": 136.53,
- "dataAsOf": "2026-09-09",
- "score": 28,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.5배 — 약세 우위",
+ "price": 137.04,
+ "dataAsOf": "2026-09-10",
+ "score": 81,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 4.0배 — 강세 우위",
  "buckets": [
   {
-   "strike": 113.1,
-   "callOi": 3456,
-   "putOi": 6747
+   "strike": 113.5,
+   "callOi": 3499,
+   "putOi": 6759
   },
   {
-   "strike": 120.9,
-   "callOi": 8204,
-   "putOi": 2774
+   "strike": 121.4,
+   "callOi": 14072,
+   "putOi": 5951
   },
   {
-   "strike": 128.7,
-   "callOi": 14135,
-   "putOi": 7019
+   "strike": 129.2,
+   "callOi": 8355,
+   "putOi": 5739
   },
   {
-   "strike": 136.5,
-   "callOi": 18762,
-   "putOi": 3241
+   "strike": 137.0,
+   "callOi": 18846,
+   "putOi": 3559
   },
   {
-   "strike": 144.3,
-   "callOi": 5415,
+   "strike": 144.9,
+   "callOi": 5540,
    "putOi": 328
   },
   {
-   "strike": 152.1,
-   "callOi": 2357,
+   "strike": 152.7,
+   "callOi": 2373,
    "putOi": 15
   },
   {
-   "strike": 159.9,
-   "callOi": 708,
+   "strike": 160.5,
+   "callOi": 714,
    "putOi": 3
   }
  ],
- "maxPain": 120.0,
+ "maxPain": 125.0,
  "trend": [
-  {
-   "date": "2026-07-28",
-   "score": 78,
-   "price": 114.1
-  },
   {
    "date": "2026-07-29",
    "score": 89,
@@ -194,6 +189,11 @@
    "date": "2026-09-09",
    "score": 28,
    "price": 136.53
+  },
+  {
+   "date": "2026-09-10",
+   "score": 81,
+   "price": 137.04
   }
  ]
 }

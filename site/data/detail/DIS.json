@@ -1,55 +1,50 @@
 {
  "ticker": "DIS",
  "name": "디즈니",
- "price": 104.18,
- "dataAsOf": "2026-09-09",
- "score": 2,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.2배 — 평소보다 뚜렷한 약세",
+ "price": 105.82,
+ "dataAsOf": "2026-09-10",
+ "score": 49,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 86.3,
-   "callOi": 279,
-   "putOi": 7463
+   "strike": 87.7,
+   "callOi": 1101,
+   "putOi": 24288
   },
   {
-   "strike": 92.3,
-   "callOi": 2816,
-   "putOi": 23948
+   "strike": 93.7,
+   "callOi": 2086,
+   "putOi": 8251
   },
   {
-   "strike": 98.2,
-   "callOi": 7144,
-   "putOi": 31767
+   "strike": 99.8,
+   "callOi": 7350,
+   "putOi": 34650
   },
   {
-   "strike": 104.2,
-   "callOi": 14619,
-   "putOi": 17326
+   "strike": 105.8,
+   "callOi": 18480,
+   "putOi": 18925
   },
   {
-   "strike": 110.1,
-   "callOi": 23942,
-   "putOi": 6924
+   "strike": 111.9,
+   "callOi": 23524,
+   "putOi": 5367
   },
   {
-   "strike": 116.1,
-   "callOi": 29132,
-   "putOi": 742
+   "strike": 117.9,
+   "callOi": 41081,
+   "putOi": 834
   },
   {
-   "strike": 122.0,
-   "callOi": 22652,
-   "putOi": 243
+   "strike": 124.0,
+   "callOi": 10342,
+   "putOi": 73
   }
  ],
  "maxPain": 105.0,
  "trend": [
-  {
-   "date": "2026-07-28",
-   "score": 67,
-   "price": 98.89
-  },
   {
    "date": "2026-07-29",
    "score": 64,
@@ -194,6 +189,11 @@
    "date": "2026-09-09",
    "score": 2,
    "price": 104.18
+  },
+  {
+   "date": "2026-09-10",
+   "score": 49,
+   "price": 105.82
   }
  ]
 }

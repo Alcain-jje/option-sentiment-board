@@ -1,55 +1,50 @@
 {
  "ticker": "BLK",
  "name": "블랙록",
- "price": 1072.03,
- "dataAsOf": "2026-09-09",
- "score": 93,
+ "price": 1062.4,
+ "dataAsOf": "2026-09-10",
+ "score": 91,
  "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 4.0배 — 평소보다 훨씬 강세",
+ "ratioText": "상승 베팅이 하락의 3.5배 — 평소보다 훨씬 강세",
  "buckets": [
   {
-   "strike": 888.3,
+   "strike": 880.3,
    "callOi": 2,
-   "putOi": 624
+   "putOi": 657
   },
   {
-   "strike": 949.5,
-   "callOi": 48,
-   "putOi": 829
+   "strike": 941.0,
+   "callOi": 42,
+   "putOi": 631
   },
   {
-   "strike": 1010.8,
-   "callOi": 483,
-   "putOi": 1424
+   "strike": 1001.7,
+   "callOi": 473,
+   "putOi": 1400
   },
   {
-   "strike": 1072.0,
-   "callOi": 1592,
-   "putOi": 1644
+   "strike": 1062.4,
+   "callOi": 1207,
+   "putOi": 1411
   },
   {
-   "strike": 1133.3,
-   "callOi": 1308,
-   "putOi": 1001
+   "strike": 1123.1,
+   "callOi": 1657,
+   "putOi": 1355
   },
   {
-   "strike": 1194.5,
-   "callOi": 1940,
-   "putOi": 68
+   "strike": 1183.8,
+   "callOi": 1644,
+   "putOi": 78
   },
   {
-   "strike": 1255.8,
-   "callOi": 1264,
-   "putOi": 58
+   "strike": 1244.5,
+   "callOi": 1584,
+   "putOi": 0
   }
  ],
  "maxPain": 1090.0,
  "trend": [
-  {
-   "date": "2026-07-28",
-   "score": 10,
-   "price": 1097.55
-  },
   {
    "date": "2026-07-29",
    "score": 10,
@@ -194,6 +189,11 @@
    "date": "2026-09-09",
    "score": 93,
    "price": 1072.03
+  },
+  {
+   "date": "2026-09-10",
+   "score": 91,
+   "price": 1062.4
   }
  ]
 }
