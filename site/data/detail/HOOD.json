@@ -1,55 +1,50 @@
 {
  "ticker": "HOOD",
  "name": "로빈후드",
- "price": 113.33,
- "dataAsOf": "2026-09-10",
- "score": 40,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 112.57,
+ "dataAsOf": "2026-09-11",
+ "score": 77,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 2.6배 — 강세 우위",
  "buckets": [
   {
-   "strike": 93.9,
-   "callOi": 14802,
-   "putOi": 20530
+   "strike": 93.3,
+   "callOi": 14369,
+   "putOi": 19372
   },
   {
-   "strike": 100.4,
-   "callOi": 17455,
-   "putOi": 20746
+   "strike": 99.7,
+   "callOi": 16983,
+   "putOi": 23179
   },
   {
-   "strike": 106.9,
-   "callOi": 43393,
-   "putOi": 43926
+   "strike": 106.1,
+   "callOi": 22925,
+   "putOi": 27384
   },
   {
-   "strike": 113.3,
-   "callOi": 23825,
-   "putOi": 29001
+   "strike": 112.6,
+   "callOi": 46915,
+   "putOi": 53889
   },
   {
-   "strike": 119.8,
-   "callOi": 52125,
-   "putOi": 28416
+   "strike": 119.0,
+   "callOi": 65085,
+   "putOi": 28003
   },
   {
-   "strike": 126.3,
-   "callOi": 46162,
-   "putOi": 6448
+   "strike": 125.4,
+   "callOi": 43405,
+   "putOi": 6697
   },
   {
-   "strike": 132.8,
-   "callOi": 52353,
-   "putOi": 5964
+   "strike": 131.9,
+   "callOi": 48875,
+   "putOi": 5252
   }
  ],
  "maxPain": 110.0,
  "trend": [
-  {
-   "date": "2026-07-29",
-   "score": 76,
-   "price": 89.84
-  },
   {
    "date": "2026-07-30",
    "score": 85,
@@ -194,6 +189,11 @@
    "date": "2026-09-10",
    "score": 40,
    "price": 113.33
+  },
+  {
+   "date": "2026-09-11",
+   "score": 77,
+   "price": 112.57
   }
  ]
 }

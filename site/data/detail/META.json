@@ -1,55 +1,50 @@
 {
  "ticker": "META",
  "name": "메타",
- "price": 644.38,
- "dataAsOf": "2026-09-10",
- "score": 17,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
+ "price": 648.03,
+ "dataAsOf": "2026-09-11",
+ "score": 46,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 533.9,
-   "callOi": 15006,
-   "putOi": 70562
+   "strike": 536.9,
+   "callOi": 16896,
+   "putOi": 81008
   },
   {
-   "strike": 570.7,
-   "callOi": 36402,
-   "putOi": 59661
+   "strike": 574.0,
+   "callOi": 42579,
+   "putOi": 65483
   },
   {
-   "strike": 607.6,
-   "callOi": 102585,
-   "putOi": 65778
+   "strike": 611.0,
+   "callOi": 92533,
+   "putOi": 69256
   },
   {
-   "strike": 644.4,
-   "callOi": 112776,
-   "putOi": 41671
+   "strike": 648.0,
+   "callOi": 133255,
+   "putOi": 50252
   },
   {
-   "strike": 681.2,
-   "callOi": 84758,
-   "putOi": 8115
+   "strike": 685.1,
+   "callOi": 144092,
+   "putOi": 8683
   },
   {
-   "strike": 718.0,
-   "callOi": 94281,
-   "putOi": 3567
+   "strike": 722.1,
+   "callOi": 64965,
+   "putOi": 1760
   },
   {
-   "strike": 754.8,
-   "callOi": 64823,
-   "putOi": 493
+   "strike": 759.1,
+   "callOi": 73675,
+   "putOi": 441
   }
  ],
- "maxPain": 600.0,
+ "maxPain": 605.0,
  "trend": [
-  {
-   "date": "2026-07-29",
-   "score": 75,
-   "price": 585.61
-  },
   {
    "date": "2026-07-30",
    "score": 65,
@@ -194,6 +189,11 @@
    "date": "2026-09-10",
    "score": 17,
    "price": 644.38
+  },
+  {
+   "date": "2026-09-11",
+   "score": 46,
+   "price": 648.03
   }
  ]
 }

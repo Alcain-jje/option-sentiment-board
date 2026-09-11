@@ -1,55 +1,50 @@
 {
  "ticker": "USB",
  "name": "US뱅코프",
- "price": 62.41,
- "dataAsOf": "2026-09-10",
- "score": 32,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
+ "price": 62.84,
+ "dataAsOf": "2026-09-11",
+ "score": 4,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 1.7배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": 51.7,
-   "callOi": 951,
-   "putOi": 6580
+   "strike": 52.1,
+   "callOi": 710,
+   "putOi": 1882
   },
   {
-   "strike": 55.3,
-   "callOi": 4130,
-   "putOi": 2946
+   "strike": 55.7,
+   "callOi": 4129,
+   "putOi": 2980
   },
   {
-   "strike": 58.8,
-   "callOi": 5949,
-   "putOi": 3652
+   "strike": 59.2,
+   "callOi": 6034,
+   "putOi": 3915
   },
   {
-   "strike": 62.4,
-   "callOi": 6603,
-   "putOi": 5118
+   "strike": 62.8,
+   "callOi": 6898,
+   "putOi": 5592
   },
   {
-   "strike": 66.0,
-   "callOi": 19989,
-   "putOi": 1074
+   "strike": 66.4,
+   "callOi": 20327,
+   "putOi": 971
   },
   {
-   "strike": 69.5,
-   "callOi": 5218,
+   "strike": 70.0,
+   "callOi": 4771,
    "putOi": 1
   },
   {
-   "strike": 73.1,
-   "callOi": 1012,
-   "putOi": 0
+   "strike": 73.6,
+   "callOi": 1331,
+   "putOi": 1
   }
  ],
  "maxPain": 60.0,
  "trend": [
-  {
-   "date": "2026-07-29",
-   "score": 10,
-   "price": 62.82
-  },
   {
    "date": "2026-07-30",
    "score": 39,
@@ -194,6 +189,11 @@
    "date": "2026-09-10",
    "score": 32,
    "price": 62.41
+  },
+  {
+   "date": "2026-09-11",
+   "score": 4,
+   "price": 62.84
   }
  ]
 }

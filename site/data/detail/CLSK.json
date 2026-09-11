@@ -1,55 +1,50 @@
 {
  "ticker": "CLSK",
  "name": "클린스파크",
- "price": 12.8,
- "dataAsOf": "2026-09-10",
- "score": 4,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 0.9배 — 평소보다 뚜렷한 약세",
+ "price": 13.67,
+ "dataAsOf": "2026-09-11",
+ "score": 31,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.5배 — 약세 우위",
  "buckets": [
   {
-   "strike": 10.6,
-   "callOi": 174,
-   "putOi": 2763
-  },
-  {
    "strike": 11.3,
-   "callOi": 4926,
-   "putOi": 15520
+   "callOi": 4962,
+   "putOi": 15474
   },
   {
    "strike": 12.1,
-   "callOi": 22674,
-   "putOi": 7673
+   "callOi": 22716,
+   "putOi": 8518
   },
   {
-   "strike": 12.8,
-   "callOi": 24791,
-   "putOi": 14033
+   "strike": 12.9,
+   "callOi": 24869,
+   "putOi": 14138
   },
   {
-   "strike": 13.5,
-   "callOi": 13822,
-   "putOi": 1087
+   "strike": 13.7,
+   "callOi": 38457,
+   "putOi": 12367
   },
   {
-   "strike": 14.3,
-   "callOi": 29424,
-   "putOi": 11141
+   "strike": 14.5,
+   "callOi": 5195,
+   "putOi": 80
   },
   {
-   "strike": 15.0,
-   "callOi": 36896,
-   "putOi": 1116
+   "strike": 15.2,
+   "callOi": 38727,
+   "putOi": 1072
+  },
+  {
+   "strike": 16.0,
+   "callOi": 13501,
+   "putOi": 779
   }
  ],
  "maxPain": 12.0,
  "trend": [
-  {
-   "date": "2026-07-29",
-   "score": 90,
-   "price": 12.01
-  },
   {
    "date": "2026-07-30",
    "score": 90,
@@ -194,6 +189,11 @@
    "date": "2026-09-10",
    "score": 4,
    "price": 12.8
+  },
+  {
+   "date": "2026-09-11",
+   "score": 31,
+   "price": 13.67
   }
  ]
 }

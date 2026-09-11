@@ -1,55 +1,50 @@
 {
  "ticker": "ASML",
  "name": "ASML",
- "price": 1687.43,
- "dataAsOf": "2026-09-10",
- "score": 32,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.4배 — 약세 우위",
+ "price": 1698.3,
+ "dataAsOf": "2026-09-11",
+ "score": 44,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 1398.2,
-   "callOi": 556,
-   "putOi": 5054
+   "strike": 1407.2,
+   "callOi": 547,
+   "putOi": 5088
   },
   {
-   "strike": 1494.6,
+   "strike": 1504.2,
    "callOi": 816,
-   "putOi": 6298
+   "putOi": 6963
   },
   {
-   "strike": 1591.0,
-   "callOi": 1133,
-   "putOi": 7231
+   "strike": 1601.3,
+   "callOi": 1475,
+   "putOi": 7472
   },
   {
-   "strike": 1687.4,
-   "callOi": 4155,
-   "putOi": 6821
+   "strike": 1698.3,
+   "callOi": 5023,
+   "putOi": 6914
   },
   {
-   "strike": 1783.9,
-   "callOi": 7470,
-   "putOi": 3086
+   "strike": 1795.3,
+   "callOi": 7090,
+   "putOi": 2434
   },
   {
-   "strike": 1880.3,
-   "callOi": 5235,
-   "putOi": 1049
+   "strike": 1892.4,
+   "callOi": 5457,
+   "putOi": 971
   },
   {
-   "strike": 1976.7,
-   "callOi": 5630,
-   "putOi": 213
+   "strike": 1989.4,
+   "callOi": 5291,
+   "putOi": 201
   }
  ],
  "maxPain": 1700.0,
  "trend": [
-  {
-   "date": "2026-07-29",
-   "score": 46,
-   "price": 1550.69
-  },
   {
    "date": "2026-07-30",
    "score": 51,
@@ -194,6 +189,11 @@
    "date": "2026-09-10",
    "score": 32,
    "price": 1687.43
+  },
+  {
+   "date": "2026-09-11",
+   "score": 44,
+   "price": 1698.3
   }
  ]
 }

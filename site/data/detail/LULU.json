@@ -1,55 +1,50 @@
 {
  "ticker": "LULU",
  "name": "룰루레몬",
- "price": 96.88,
- "dataAsOf": "2026-09-10",
- "score": 0,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 2.6배 — 평소보다 뚜렷한 약세",
+ "price": 98.97,
+ "dataAsOf": "2026-09-11",
+ "score": 62,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.5배 — 강세 우위",
  "buckets": [
   {
-   "strike": 80.3,
+   "strike": 82.0,
    "callOi": 284,
-   "putOi": 2928
+   "putOi": 3326
   },
   {
-   "strike": 85.8,
-   "callOi": 85,
-   "putOi": 11530
+   "strike": 87.7,
+   "callOi": 992,
+   "putOi": 28832
   },
   {
-   "strike": 91.3,
-   "callOi": 805,
-   "putOi": 16252
+   "strike": 93.3,
+   "callOi": 1987,
+   "putOi": 15349
   },
   {
-   "strike": 96.9,
-   "callOi": 1890,
-   "putOi": 15940
+   "strike": 99.0,
+   "callOi": 11083,
+   "putOi": 16028
   },
   {
-   "strike": 102.4,
-   "callOi": 20146,
-   "putOi": 21574
+   "strike": 104.6,
+   "callOi": 17306,
+   "putOi": 6753
   },
   {
-   "strike": 108.0,
-   "callOi": 12441,
-   "putOi": 7175
+   "strike": 110.3,
+   "callOi": 10231,
+   "putOi": 5388
   },
   {
-   "strike": 113.5,
-   "callOi": 9607,
-   "putOi": 3875
+   "strike": 115.9,
+   "callOi": 9715,
+   "putOi": 1525
   }
  ],
- "maxPain": 105.0,
+ "maxPain": 104.0,
  "trend": [
-  {
-   "date": "2026-07-29",
-   "score": 52,
-   "price": 119.03
-  },
   {
    "date": "2026-07-30",
    "score": 64,
@@ -194,6 +189,11 @@
    "date": "2026-09-10",
    "score": 0,
    "price": 96.88
+  },
+  {
+   "date": "2026-09-11",
+   "score": 62,
+   "price": 98.97
   }
  ]
 }

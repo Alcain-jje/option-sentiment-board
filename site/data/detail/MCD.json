@@ -1,55 +1,50 @@
 {
  "ticker": "MCD",
  "name": "맥도날드",
- "price": 253.05,
- "dataAsOf": "2026-09-10",
- "score": 2,
+ "price": 252.53,
+ "dataAsOf": "2026-09-11",
+ "score": 6,
  "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 2.5배 — 평소보다 뚜렷한 약세",
+ "ratioText": "하락 베팅이 상승의 1.7배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": 209.7,
+   "strike": 209.2,
    "callOi": 0,
-   "putOi": 1239
+   "putOi": 1302
   },
   {
-   "strike": 224.1,
-   "callOi": 96,
-   "putOi": 4357
+   "strike": 223.7,
+   "callOi": 95,
+   "putOi": 4607
   },
   {
-   "strike": 238.6,
-   "callOi": 146,
-   "putOi": 11550
+   "strike": 238.1,
+   "callOi": 157,
+   "putOi": 11823
   },
   {
-   "strike": 253.1,
-   "callOi": 8060,
-   "putOi": 23869
+   "strike": 252.5,
+   "callOi": 5068,
+   "putOi": 15747
   },
   {
-   "strike": 267.5,
-   "callOi": 18046,
-   "putOi": 8586
+   "strike": 267.0,
+   "callOi": 22627,
+   "putOi": 15466
   },
   {
-   "strike": 282.0,
-   "callOi": 18249,
-   "putOi": 3331
+   "strike": 281.4,
+   "callOi": 19017,
+   "putOi": 3102
   },
   {
-   "strike": 296.4,
-   "callOi": 22705,
+   "strike": 295.8,
+   "callOi": 22660,
    "putOi": 1120
   }
  ],
  "maxPain": 265.0,
  "trend": [
-  {
-   "date": "2026-07-29",
-   "score": 79,
-   "price": 271.52
-  },
   {
    "date": "2026-07-30",
    "score": 76,
@@ -194,6 +189,11 @@
    "date": "2026-09-10",
    "score": 2,
    "price": 253.05
+  },
+  {
+   "date": "2026-09-11",
+   "score": 6,
+   "price": 252.53
   }
  ]
 }

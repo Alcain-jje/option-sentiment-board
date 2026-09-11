@@ -1,55 +1,50 @@
 {
  "ticker": "LIN",
  "name": "린데",
- "price": 461.62,
- "dataAsOf": "2026-09-10",
- "score": 68,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 1.6배 — 강세 우위",
+ "price": 466.22,
+ "dataAsOf": "2026-09-11",
+ "score": 86,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 2.1배 — 강세 우위",
  "buckets": [
   {
-   "strike": 382.5,
-   "callOi": 22,
-   "putOi": 370
-  },
-  {
-   "strike": 408.9,
+   "strike": 386.3,
    "callOi": 12,
-   "putOi": 1153
+   "putOi": 217
   },
   {
-   "strike": 435.2,
-   "callOi": 8,
-   "putOi": 1912
+   "strike": 412.9,
+   "callOi": 12,
+   "putOi": 1233
   },
   {
-   "strike": 461.6,
-   "callOi": 229,
-   "putOi": 4085
+   "strike": 439.6,
+   "callOi": 43,
+   "putOi": 2670
   },
   {
-   "strike": 488.0,
-   "callOi": 2248,
-   "putOi": 2994
+   "strike": 466.2,
+   "callOi": 282,
+   "putOi": 4241
   },
   {
-   "strike": 514.4,
-   "callOi": 2454,
-   "putOi": 279
+   "strike": 492.9,
+   "callOi": 2379,
+   "putOi": 1695
   },
   {
-   "strike": 540.8,
-   "callOi": 1913,
-   "putOi": 85
+   "strike": 519.5,
+   "callOi": 2685,
+   "putOi": 174
+  },
+  {
+   "strike": 546.1,
+   "callOi": 2047,
+   "putOi": 65
   }
  ],
- "maxPain": 490.0,
+ "maxPain": 485.0,
  "trend": [
-  {
-   "date": "2026-07-28",
-   "score": 72,
-   "price": 511.18
-  },
   {
    "date": "2026-07-30",
    "score": 73,
@@ -194,6 +189,11 @@
    "date": "2026-09-10",
    "score": 68,
    "price": 461.62
+  },
+  {
+   "date": "2026-09-11",
+   "score": 86,
+   "price": 466.22
   }
  ]
 }

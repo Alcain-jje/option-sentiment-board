@@ -1,55 +1,50 @@
 {
  "ticker": "STZ",
  "name": "컨스텔레이션브랜즈",
- "price": 123.81,
- "dataAsOf": "2026-09-10",
- "score": 94,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 2.1배 — 평소보다 훨씬 강세",
+ "price": 122.45,
+ "dataAsOf": "2026-09-11",
+ "score": 12,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 2.3배 — 약세 우위",
  "buckets": [
   {
-   "strike": 102.6,
-   "callOi": 49,
-   "putOi": 330
+   "strike": 101.5,
+   "callOi": 19,
+   "putOi": 87
   },
   {
-   "strike": 109.7,
-   "callOi": 26,
-   "putOi": 1060
+   "strike": 108.5,
+   "callOi": 50,
+   "putOi": 1304
   },
   {
-   "strike": 116.7,
-   "callOi": 186,
-   "putOi": 3506
+   "strike": 115.5,
+   "callOi": 27,
+   "putOi": 1031
   },
   {
-   "strike": 123.8,
-   "callOi": 897,
-   "putOi": 6792
+   "strike": 122.4,
+   "callOi": 1304,
+   "putOi": 8822
   },
   {
-   "strike": 130.9,
-   "callOi": 2278,
-   "putOi": 3317
+   "strike": 129.4,
+   "callOi": 4483,
+   "putOi": 3595
   },
   {
-   "strike": 138.0,
-   "callOi": 4968,
-   "putOi": 1708
+   "strike": 136.4,
+   "callOi": 2479,
+   "putOi": 882
   },
   {
-   "strike": 145.0,
-   "callOi": 2255,
-   "putOi": 240
+   "strike": 143.4,
+   "callOi": 5106,
+   "putOi": 1025
   }
  ],
- "maxPain": 131.0,
+ "maxPain": 130.0,
  "trend": [
-  {
-   "date": "2026-07-29",
-   "score": 46,
-   "price": 131.75
-  },
   {
    "date": "2026-07-30",
    "score": 24,
@@ -194,6 +189,11 @@
    "date": "2026-09-10",
    "score": 94,
    "price": 123.81
+  },
+  {
+   "date": "2026-09-11",
+   "score": 12,
+   "price": 122.45
   }
  ]
 }
