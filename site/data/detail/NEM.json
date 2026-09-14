@@ -1,55 +1,50 @@
 {
  "ticker": "NEM",
  "name": "뉴몬트",
- "price": 126.81,
- "dataAsOf": "2026-09-11",
- "score": 75,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 3.5배 — 강세 우위",
+ "price": 123.07,
+ "dataAsOf": "2026-09-14",
+ "score": 6,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 1.0배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": 105.1,
-   "callOi": 3596,
-   "putOi": 13195
+   "strike": 102.0,
+   "callOi": 8241,
+   "putOi": 17930
   },
   {
-   "strike": 112.3,
-   "callOi": 7802,
-   "putOi": 31533
+   "strike": 109.0,
+   "callOi": 3562,
+   "putOi": 15694
   },
   {
-   "strike": 119.6,
-   "callOi": 6780,
-   "putOi": 9196
+   "strike": 116.0,
+   "callOi": 4259,
+   "putOi": 15709
   },
   {
-   "strike": 126.8,
-   "callOi": 25307,
-   "putOi": 8532
+   "strike": 123.1,
+   "callOi": 14468,
+   "putOi": 11132
   },
   {
-   "strike": 134.1,
-   "callOi": 19029,
-   "putOi": 2135
+   "strike": 130.1,
+   "callOi": 18350,
+   "putOi": 4181
   },
   {
-   "strike": 141.3,
-   "callOi": 16052,
-   "putOi": 331
+   "strike": 137.1,
+   "callOi": 30673,
+   "putOi": 1005
   },
   {
-   "strike": 148.5,
-   "callOi": 8449,
-   "putOi": 142
+   "strike": 144.2,
+   "callOi": 4455,
+   "putOi": 225
   }
  ],
- "maxPain": 120.0,
+ "maxPain": 115.0,
  "trend": [
-  {
-   "date": "2026-07-30",
-   "score": 90,
-   "price": 95.76
-  },
   {
    "date": "2026-07-31",
    "score": 90,
@@ -194,6 +189,11 @@
    "date": "2026-09-11",
    "score": 75,
    "price": 126.81
+  },
+  {
+   "date": "2026-09-14",
+   "score": 6,
+   "price": 123.07
   }
  ]
 }

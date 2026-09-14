@@ -1,55 +1,50 @@
 {
  "ticker": "MS",
  "name": "모건스탠리",
- "price": 214.38,
- "dataAsOf": "2026-09-11",
- "score": 69,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 2.6배 — 강세 우위",
+ "price": 206.58,
+ "dataAsOf": "2026-09-14",
+ "score": 12,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 1.1배 — 약세 우위",
  "buckets": [
   {
-   "strike": 177.6,
-   "callOi": 1522,
-   "putOi": 5409
+   "strike": 171.2,
+   "callOi": 1208,
+   "putOi": 4825
   },
   {
-   "strike": 189.9,
-   "callOi": 2973,
-   "putOi": 12687
+   "strike": 183.0,
+   "callOi": 1515,
+   "putOi": 6974
   },
   {
-   "strike": 202.1,
-   "callOi": 4513,
-   "putOi": 11277
+   "strike": 194.8,
+   "callOi": 6745,
+   "putOi": 16449
   },
   {
-   "strike": 214.4,
-   "callOi": 15415,
-   "putOi": 12899
+   "strike": 206.6,
+   "callOi": 4757,
+   "putOi": 7905
   },
   {
-   "strike": 226.6,
-   "callOi": 13524,
-   "putOi": 850
+   "strike": 218.4,
+   "callOi": 10073,
+   "putOi": 4767
   },
   {
-   "strike": 238.9,
-   "callOi": 14228,
+   "strike": 230.2,
+   "callOi": 20309,
+   "putOi": 880
+  },
+  {
+   "strike": 242.0,
+   "callOi": 4273,
    "putOi": 21
-  },
-  {
-   "strike": 251.1,
-   "callOi": 2800,
-   "putOi": 1
   }
  ],
  "maxPain": 210.0,
  "trend": [
-  {
-   "date": "2026-07-30",
-   "score": 90,
-   "price": 210.06
-  },
   {
    "date": "2026-07-31",
    "score": 95,
@@ -194,6 +189,11 @@
    "date": "2026-09-11",
    "score": 69,
    "price": 214.38
+  },
+  {
+   "date": "2026-09-14",
+   "score": 12,
+   "price": 206.58
   }
  ]
 }

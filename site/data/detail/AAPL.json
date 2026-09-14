@@ -1,55 +1,50 @@
 {
  "ticker": "AAPL",
  "name": "애플",
- "price": 332.27,
- "dataAsOf": "2026-09-11",
- "score": 31,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
+ "price": 333.08,
+ "dataAsOf": "2026-09-14",
+ "score": 12,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
  "buckets": [
   {
-   "strike": 275.3,
-   "callOi": 21787,
-   "putOi": 76106
+   "strike": 276.0,
+   "callOi": 29611,
+   "putOi": 93685
   },
   {
-   "strike": 294.3,
-   "callOi": 77570,
-   "putOi": 192700
+   "strike": 295.0,
+   "callOi": 63433,
+   "putOi": 142884
   },
   {
-   "strike": 313.3,
-   "callOi": 212240,
-   "putOi": 196622
+   "strike": 314.0,
+   "callOi": 169027,
+   "putOi": 161238
   },
   {
-   "strike": 332.3,
-   "callOi": 452919,
-   "putOi": 56979
+   "strike": 333.1,
+   "callOi": 384642,
+   "putOi": 99632
   },
   {
-   "strike": 351.3,
-   "callOi": 320982,
-   "putOi": 3673
+   "strike": 352.1,
+   "callOi": 257995,
+   "putOi": 10539
   },
   {
-   "strike": 370.2,
-   "callOi": 38206,
-   "putOi": 7
+   "strike": 371.1,
+   "callOi": 52275,
+   "putOi": 33
   },
   {
-   "strike": 389.2,
-   "callOi": 33957,
+   "strike": 390.2,
+   "callOi": 22347,
    "putOi": 0
   }
  ],
  "maxPain": 310.0,
  "trend": [
-  {
-   "date": "2026-07-30",
-   "score": 54,
-   "price": 333.43
-  },
   {
    "date": "2026-07-31",
    "score": 45,
@@ -194,6 +189,11 @@
    "date": "2026-09-11",
    "score": 31,
    "price": 332.27
+  },
+  {
+   "date": "2026-09-14",
+   "score": 12,
+   "price": 333.08
   }
  ]
 }

@@ -1,55 +1,50 @@
 {
  "ticker": "GILD",
  "name": "길리어드",
- "price": 143.72,
- "dataAsOf": "2026-09-11",
- "score": 65,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 1.7배 — 강세 우위",
+ "price": 146.41,
+ "dataAsOf": "2026-09-14",
+ "score": 100,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 17.9배 — 평소보다 훨씬 강세",
  "buckets": [
   {
-   "strike": 119.1,
-   "callOi": 1444,
-   "putOi": 2801
+   "strike": 121.3,
+   "callOi": 1677,
+   "putOi": 3026
   },
   {
-   "strike": 127.3,
-   "callOi": 1664,
-   "putOi": 3111
+   "strike": 129.7,
+   "callOi": 1264,
+   "putOi": 1712
   },
   {
-   "strike": 135.5,
-   "callOi": 2338,
-   "putOi": 1724
+   "strike": 138.0,
+   "callOi": 6481,
+   "putOi": 5392
   },
   {
-   "strike": 143.7,
-   "callOi": 8073,
-   "putOi": 5305
+   "strike": 146.4,
+   "callOi": 10875,
+   "putOi": 2393
   },
   {
-   "strike": 151.9,
-   "callOi": 11286,
-   "putOi": 1503
+   "strike": 154.8,
+   "callOi": 3271,
+   "putOi": 271
   },
   {
-   "strike": 160.1,
-   "callOi": 4646,
+   "strike": 163.1,
+   "callOi": 5124,
    "putOi": 8
   },
   {
-   "strike": 168.4,
-   "callOi": 1146,
-   "putOi": 2
+   "strike": 171.5,
+   "callOi": 659,
+   "putOi": 0
   }
  ],
  "maxPain": 140.0,
  "trend": [
-  {
-   "date": "2026-07-30",
-   "score": 80,
-   "price": 131.28
-  },
   {
    "date": "2026-07-31",
    "score": 25,
@@ -194,6 +189,11 @@
    "date": "2026-09-11",
    "score": 65,
    "price": 143.72
+  },
+  {
+   "date": "2026-09-14",
+   "score": 100,
+   "price": 146.41
   }
  ]
 }

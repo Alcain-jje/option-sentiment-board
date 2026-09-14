@@ -1,55 +1,50 @@
 {
  "ticker": "CSX",
  "name": "CSX",
- "price": 48.95,
- "dataAsOf": "2026-09-11",
- "score": 4,
+ "price": 48.91,
+ "dataAsOf": "2026-09-14",
+ "score": 16,
  "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.3배 — 평소보다 뚜렷한 약세",
+ "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
  "buckets": [
   {
-   "strike": 40.6,
-   "callOi": 6,
+   "strike": 40.5,
+   "callOi": 17,
    "putOi": 1558
   },
   {
-   "strike": 43.4,
-   "callOi": 108,
-   "putOi": 1321
+   "strike": 43.3,
+   "callOi": 20,
+   "putOi": 1319
   },
   {
-   "strike": 46.2,
-   "callOi": 2142,
-   "putOi": 6574
+   "strike": 46.1,
+   "callOi": 2069,
+   "putOi": 6475
   },
   {
-   "strike": 49.0,
-   "callOi": 11357,
-   "putOi": 5613
+   "strike": 48.9,
+   "callOi": 8315,
+   "putOi": 4750
   },
   {
    "strike": 51.7,
-   "callOi": 19136,
-   "putOi": 549
+   "callOi": 18697,
+   "putOi": 526
   },
   {
    "strike": 54.5,
-   "callOi": 22410,
+   "callOi": 22283,
    "putOi": 4
   },
   {
    "strike": 57.3,
-   "callOi": 283,
+   "callOi": 281,
    "putOi": 0
   }
  ],
- "maxPain": 49.5,
+ "maxPain": 50.0,
  "trend": [
-  {
-   "date": "2026-07-30",
-   "score": 82,
-   "price": 50.19
-  },
   {
    "date": "2026-07-31",
    "score": 0,
@@ -194,6 +189,11 @@
    "date": "2026-09-11",
    "score": 4,
    "price": 48.95
+  },
+  {
+   "date": "2026-09-14",
+   "score": 16,
+   "price": 48.91
   }
  ]
 }

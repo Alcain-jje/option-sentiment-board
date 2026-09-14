@@ -1,55 +1,50 @@
 {
  "ticker": "KMI",
  "name": "킨더모건",
- "price": 30.86,
- "dataAsOf": "2026-09-11",
- "score": 54,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 30.96,
+ "dataAsOf": "2026-09-14",
+ "score": 65,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 2.9배 — 강세 우위",
  "buckets": [
   {
-   "strike": 25.6,
+   "strike": 25.7,
    "callOi": 154,
-   "putOi": 3620
+   "putOi": 3666
   },
   {
-   "strike": 27.3,
+   "strike": 27.4,
    "callOi": 162,
-   "putOi": 15137
+   "putOi": 15145
   },
   {
-   "strike": 29.1,
-   "callOi": 936,
-   "putOi": 8282
+   "strike": 29.2,
+   "callOi": 4673,
+   "putOi": 13279
   },
   {
-   "strike": 30.9,
-   "callOi": 9234,
-   "putOi": 14937
+   "strike": 31.0,
+   "callOi": 5556,
+   "putOi": 9213
   },
   {
-   "strike": 32.6,
-   "callOi": 29940,
-   "putOi": 4767
+   "strike": 32.7,
+   "callOi": 28226,
+   "putOi": 4708
   },
   {
-   "strike": 34.4,
-   "callOi": 41639,
-   "putOi": 23
+   "strike": 34.5,
+   "callOi": 38140,
+   "putOi": 21
   },
   {
-   "strike": 36.2,
-   "callOi": 12629,
+   "strike": 36.3,
+   "callOi": 12617,
    "putOi": 0
   }
  ],
  "maxPain": 31.0,
  "trend": [
-  {
-   "date": "2026-07-30",
-   "score": 10,
-   "price": 31.66
-  },
   {
    "date": "2026-07-31",
    "score": 75,
@@ -194,6 +189,11 @@
    "date": "2026-09-11",
    "score": 54,
    "price": 30.86
+  },
+  {
+   "date": "2026-09-14",
+   "score": 65,
+   "price": 30.96
   }
  ]
 }
