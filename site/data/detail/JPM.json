@@ -1,55 +1,50 @@
 {
  "ticker": "JPM",
  "name": "JP모건",
- "price": 350.13,
- "dataAsOf": "2026-09-14",
- "score": 16,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.0배 — 약세 우위",
+ "price": 352.49,
+ "dataAsOf": "2026-09-15",
+ "score": 62,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.6배 — 강세 우위",
  "buckets": [
   {
-   "strike": 290.1,
-   "callOi": 2162,
-   "putOi": 15839
+   "strike": 292.1,
+   "callOi": 2146,
+   "putOi": 17350
   },
   {
-   "strike": 310.1,
-   "callOi": 5911,
-   "putOi": 14274
+   "strike": 312.2,
+   "callOi": 5935,
+   "putOi": 14997
   },
   {
-   "strike": 330.1,
-   "callOi": 11394,
-   "putOi": 20928
+   "strike": 332.3,
+   "callOi": 11495,
+   "putOi": 24481
   },
   {
-   "strike": 350.1,
-   "callOi": 29154,
-   "putOi": 20647
+   "strike": 352.5,
+   "callOi": 33384,
+   "putOi": 22762
   },
   {
-   "strike": 370.1,
-   "callOi": 43497,
-   "putOi": 2275
+   "strike": 372.6,
+   "callOi": 42224,
+   "putOi": 2217
   },
   {
-   "strike": 390.1,
-   "callOi": 13822,
+   "strike": 392.8,
+   "callOi": 14282,
    "putOi": 144
   },
   {
-   "strike": 410.2,
-   "callOi": 5043,
+   "strike": 412.9,
+   "callOi": 5025,
    "putOi": 2
   }
  ],
  "maxPain": 345.0,
  "trend": [
-  {
-   "date": "2026-07-31",
-   "score": 15,
-   "price": 351.79
-  },
   {
    "date": "2026-08-03",
    "score": 5,
@@ -194,6 +189,11 @@
    "date": "2026-09-14",
    "score": 16,
    "price": 350.13
+  },
+  {
+   "date": "2026-09-15",
+   "score": 62,
+   "price": 352.49
   }
  ]
 }

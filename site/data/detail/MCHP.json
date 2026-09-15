@@ -1,55 +1,50 @@
 {
  "ticker": "MCHP",
  "name": "마이크로칩",
- "price": 71.48,
- "dataAsOf": "2026-09-14",
- "score": 86,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 5.2배 — 강세 우위",
+ "price": 71.49,
+ "dataAsOf": "2026-09-15",
+ "score": 56,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
    "strike": 59.2,
    "callOi": 628,
-   "putOi": 13042
+   "putOi": 13045
   },
   {
    "strike": 63.3,
-   "callOi": 783,
-   "putOi": 6530
+   "callOi": 784,
+   "putOi": 6633
   },
   {
    "strike": 67.4,
-   "callOi": 395,
-   "putOi": 7287
+   "callOi": 400,
+   "putOi": 7711
   },
   {
    "strike": 71.5,
-   "callOi": 165895,
-   "putOi": 10591
+   "callOi": 166573,
+   "putOi": 10752
   },
   {
    "strike": 75.6,
-   "callOi": 67930,
-   "putOi": 13310
+   "callOi": 68379,
+   "putOi": 13330
   },
   {
-   "strike": 79.6,
-   "callOi": 15552,
-   "putOi": 4020
+   "strike": 79.7,
+   "callOi": 15584,
+   "putOi": 3998
   },
   {
    "strike": 83.7,
-   "callOi": 19363,
-   "putOi": 6661
+   "callOi": 19384,
+   "putOi": 6662
   }
  ],
  "maxPain": 72.5,
  "trend": [
-  {
-   "date": "2026-07-31",
-   "score": 95,
-   "price": 74.29
-  },
   {
    "date": "2026-08-03",
    "score": 71,
@@ -194,6 +189,11 @@
    "date": "2026-09-14",
    "score": 86,
    "price": 71.48
+  },
+  {
+   "date": "2026-09-15",
+   "score": 56,
+   "price": 71.49
   }
  ]
 }

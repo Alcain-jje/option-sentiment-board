@@ -1,55 +1,50 @@
 {
  "ticker": "AFRM",
  "name": "어펌",
- "price": 73.38,
- "dataAsOf": "2026-09-14",
- "score": 0,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.2배 — 평소보다 뚜렷한 약세",
+ "price": 72.09,
+ "dataAsOf": "2026-09-15",
+ "score": 90,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 2.6배 — 평소보다 훨씬 강세",
  "buckets": [
   {
-   "strike": 60.8,
-   "callOi": 550,
-   "putOi": 6623
+   "strike": 59.7,
+   "callOi": 306,
+   "putOi": 6005
   },
   {
-   "strike": 65.0,
-   "callOi": 1034,
-   "putOi": 6956
+   "strike": 63.9,
+   "callOi": 977,
+   "putOi": 7567
   },
   {
-   "strike": 69.2,
-   "callOi": 7142,
-   "putOi": 6529
+   "strike": 68.0,
+   "callOi": 6860,
+   "putOi": 10256
   },
   {
-   "strike": 73.4,
-   "callOi": 5427,
-   "putOi": 3543
+   "strike": 72.1,
+   "callOi": 3245,
+   "putOi": 2540
   },
   {
-   "strike": 77.6,
-   "callOi": 3323,
-   "putOi": 4153
+   "strike": 76.2,
+   "callOi": 6776,
+   "putOi": 5892
   },
   {
-   "strike": 81.8,
-   "callOi": 11087,
-   "putOi": 1219
+   "strike": 80.3,
+   "callOi": 8741,
+   "putOi": 949
   },
   {
-   "strike": 86.0,
-   "callOi": 5822,
-   "putOi": 194
+   "strike": 84.4,
+   "callOi": 8618,
+   "putOi": 526
   }
  ],
- "maxPain": 70.0,
+ "maxPain": 71.0,
  "trend": [
-  {
-   "date": "2026-07-31",
-   "score": 80,
-   "price": 71.51
-  },
   {
    "date": "2026-08-03",
    "score": 38,
@@ -194,6 +189,11 @@
    "date": "2026-09-14",
    "score": 0,
    "price": 73.38
+  },
+  {
+   "date": "2026-09-15",
+   "score": 90,
+   "price": 72.09
   }
  ]
 }
