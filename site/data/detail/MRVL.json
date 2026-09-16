@@ -1,55 +1,50 @@
 {
  "ticker": "MRVL",
  "name": "마벨",
- "price": 221.7,
- "dataAsOf": "2026-09-15",
- "score": 58,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 229.71,
+ "dataAsOf": "2026-09-16",
+ "score": 31,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
  "buckets": [
   {
-   "strike": 183.7,
-   "callOi": 6929,
-   "putOi": 33192
+   "strike": 190.3,
+   "callOi": 5595,
+   "putOi": 35881
   },
   {
-   "strike": 196.4,
-   "callOi": 7357,
-   "putOi": 37647
+   "strike": 203.5,
+   "callOi": 14854,
+   "putOi": 44439
   },
   {
-   "strike": 209.0,
-   "callOi": 11613,
-   "putOi": 23726
+   "strike": 216.6,
+   "callOi": 15268,
+   "putOi": 18332
   },
   {
-   "strike": 221.7,
-   "callOi": 19586,
-   "putOi": 15037
+   "strike": 229.7,
+   "callOi": 27686,
+   "putOi": 16776
   },
   {
-   "strike": 234.4,
-   "callOi": 35404,
-   "putOi": 22157
+   "strike": 242.8,
+   "callOi": 29161,
+   "putOi": 10597
   },
   {
-   "strike": 247.0,
-   "callOi": 43156,
-   "putOi": 8794
+   "strike": 256.0,
+   "callOi": 66190,
+   "putOi": 10778
   },
   {
-   "strike": 259.7,
-   "callOi": 35836,
-   "putOi": 3696
+   "strike": 269.1,
+   "callOi": 24677,
+   "putOi": 2844
   }
  ],
- "maxPain": 212.5,
+ "maxPain": 215.0,
  "trend": [
-  {
-   "date": "2026-08-03",
-   "score": 38,
-   "price": 193.77
-  },
   {
    "date": "2026-08-04",
    "score": 95,
@@ -194,6 +189,11 @@
    "date": "2026-09-15",
    "score": 58,
    "price": 221.7
+  },
+  {
+   "date": "2026-09-16",
+   "score": 31,
+   "price": 229.71
   }
  ]
 }

@@ -1,55 +1,50 @@
 {
  "ticker": "COST",
  "name": "코스트코",
- "price": 901.35,
- "dataAsOf": "2026-09-15",
- "score": 56,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 893.74,
+ "dataAsOf": "2026-09-16",
+ "score": 76,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.0배 — 강세 우위",
  "buckets": [
   {
-   "strike": 746.8,
-   "callOi": 165,
-   "putOi": 6017
+   "strike": 740.5,
+   "callOi": 199,
+   "putOi": 6115
   },
   {
-   "strike": 798.3,
-   "callOi": 319,
-   "putOi": 7389
+   "strike": 791.6,
+   "callOi": 243,
+   "putOi": 6455
   },
   {
-   "strike": 849.8,
-   "callOi": 1496,
-   "putOi": 17496
+   "strike": 842.7,
+   "callOi": 1481,
+   "putOi": 15511
   },
   {
-   "strike": 901.3,
-   "callOi": 6762,
-   "putOi": 24320
+   "strike": 893.7,
+   "callOi": 4306,
+   "putOi": 24529
   },
   {
-   "strike": 952.9,
-   "callOi": 18003,
-   "putOi": 8014
+   "strike": 944.8,
+   "callOi": 21445,
+   "putOi": 12204
   },
   {
-   "strike": 1004.4,
-   "callOi": 16876,
-   "putOi": 1448
+   "strike": 995.9,
+   "callOi": 17452,
+   "putOi": 1620
   },
   {
-   "strike": 1055.9,
-   "callOi": 5822,
-   "putOi": 22
+   "strike": 1047.0,
+   "callOi": 5245,
+   "putOi": 38
   }
  ],
  "maxPain": 925.0,
  "trend": [
-  {
-   "date": "2026-08-03",
-   "score": 14,
-   "price": 954.08
-  },
   {
    "date": "2026-08-04",
    "score": 41,
@@ -194,6 +189,11 @@
    "date": "2026-09-15",
    "score": 56,
    "price": 901.35
+  },
+  {
+   "date": "2026-09-16",
+   "score": 76,
+   "price": 893.74
   }
  ]
 }
