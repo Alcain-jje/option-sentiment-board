@@ -1,55 +1,50 @@
 {
  "ticker": "FDX",
  "name": "페덱스",
- "price": 301.72,
- "dataAsOf": "2026-09-16",
- "score": 20,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.1배 — 약세 우위",
+ "price": 305.88,
+ "dataAsOf": "2026-09-17",
+ "score": 62,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.5배 — 강세 우위",
  "buckets": [
   {
-   "strike": 250.0,
-   "callOi": 2,
-   "putOi": 304
+   "strike": 253.4,
+   "callOi": 19,
+   "putOi": 553
   },
   {
-   "strike": 267.2,
-   "callOi": 56,
-   "putOi": 548
+   "strike": 270.9,
+   "callOi": 39,
+   "putOi": 316
   },
   {
-   "strike": 284.5,
-   "callOi": 91,
-   "putOi": 1867
+   "strike": 288.4,
+   "callOi": 102,
+   "putOi": 2213
   },
   {
-   "strike": 301.7,
-   "callOi": 1343,
-   "putOi": 3898
+   "strike": 305.9,
+   "callOi": 1648,
+   "putOi": 4180
   },
   {
-   "strike": 319.0,
-   "callOi": 3399,
-   "putOi": 2780
+   "strike": 323.4,
+   "callOi": 6393,
+   "putOi": 3318
   },
   {
-   "strike": 336.2,
-   "callOi": 8732,
-   "putOi": 1653
+   "strike": 340.8,
+   "callOi": 6096,
+   "putOi": 283
   },
   {
-   "strike": 353.4,
-   "callOi": 3830,
-   "putOi": 115
+   "strike": 358.3,
+   "callOi": 3605,
+   "putOi": 93
   }
  ],
  "maxPain": 320.0,
  "trend": [
-  {
-   "date": "2026-08-04",
-   "score": 95,
-   "price": 313.34
-  },
   {
    "date": "2026-08-05",
    "score": 70,
@@ -194,6 +189,11 @@
    "date": "2026-09-16",
    "score": 20,
    "price": 301.72
+  },
+  {
+   "date": "2026-09-17",
+   "score": 62,
+   "price": 305.88
   }
  ]
 }

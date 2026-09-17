@@ -1,55 +1,50 @@
 {
  "ticker": "DDOG",
  "name": "데이터도그",
- "price": 230.79,
- "dataAsOf": "2026-09-16",
- "score": 20,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.2배 — 약세 우위",
+ "price": 236.0,
+ "dataAsOf": "2026-09-17",
+ "score": 48,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 191.2,
-   "callOi": 2814,
-   "putOi": 4143
+   "strike": 195.5,
+   "callOi": 4156,
+   "putOi": 8238
   },
   {
-   "strike": 204.4,
-   "callOi": 4860,
-   "putOi": 8313
+   "strike": 209.0,
+   "callOi": 2758,
+   "putOi": 5303
   },
   {
-   "strike": 217.6,
-   "callOi": 4554,
-   "putOi": 3782
+   "strike": 222.5,
+   "callOi": 4681,
+   "putOi": 4229
   },
   {
-   "strike": 230.8,
-   "callOi": 3869,
-   "putOi": 2979
+   "strike": 236.0,
+   "callOi": 6467,
+   "putOi": 5616
   },
   {
-   "strike": 244.0,
-   "callOi": 6885,
-   "putOi": 4948
+   "strike": 249.5,
+   "callOi": 4698,
+   "putOi": 1233
   },
   {
-   "strike": 257.2,
-   "callOi": 3172,
-   "putOi": 1012
+   "strike": 263.0,
+   "callOi": 3037,
+   "putOi": 773
   },
   {
-   "strike": 270.4,
-   "callOi": 4754,
-   "putOi": 263
+   "strike": 276.5,
+   "callOi": 7072,
+   "putOi": 468
   }
  ],
  "maxPain": 210.0,
  "trend": [
-  {
-   "date": "2026-08-04",
-   "score": 45,
-   "price": 288.15
-  },
   {
    "date": "2026-08-05",
    "score": 17,
@@ -194,6 +189,11 @@
    "date": "2026-09-16",
    "score": 20,
    "price": 230.79
+  },
+  {
+   "date": "2026-09-17",
+   "score": 48,
+   "price": 236.0
   }
  ]
 }

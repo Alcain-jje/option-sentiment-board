@@ -1,55 +1,50 @@
 {
  "ticker": "JNJ",
  "name": "존슨앤드존슨",
- "price": 267.28,
- "dataAsOf": "2026-09-16",
- "score": 86,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 5.1배 — 강세 우위",
+ "price": 270.22,
+ "dataAsOf": "2026-09-17",
+ "score": 44,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 221.5,
-   "callOi": 232,
-   "putOi": 10450
+   "strike": 223.9,
+   "callOi": 1208,
+   "putOi": 17145
   },
   {
-   "strike": 236.7,
-   "callOi": 2213,
-   "putOi": 12426
+   "strike": 239.3,
+   "callOi": 1248,
+   "putOi": 6328
   },
   {
-   "strike": 252.0,
-   "callOi": 7499,
-   "putOi": 16966
+   "strike": 254.8,
+   "callOi": 16561,
+   "putOi": 27869
   },
   {
-   "strike": 267.3,
-   "callOi": 28127,
-   "putOi": 15072
+   "strike": 270.2,
+   "callOi": 23536,
+   "putOi": 6338
   },
   {
-   "strike": 282.6,
-   "callOi": 40258,
-   "putOi": 705
+   "strike": 285.7,
+   "callOi": 36627,
+   "putOi": 240
   },
   {
-   "strike": 297.8,
-   "callOi": 10227,
+   "strike": 301.1,
+   "callOi": 10116,
    "putOi": 10
   },
   {
-   "strike": 313.1,
-   "callOi": 2682,
+   "strike": 316.5,
+   "callOi": 2683,
    "putOi": 0
   }
  ],
  "maxPain": 260.0,
  "trend": [
-  {
-   "date": "2026-08-04",
-   "score": 82,
-   "price": 254.93
-  },
   {
    "date": "2026-08-05",
    "score": 22,
@@ -194,6 +189,11 @@
    "date": "2026-09-16",
    "score": 86,
    "price": 267.28
+  },
+  {
+   "date": "2026-09-17",
+   "score": 44,
+   "price": 270.22
   }
  ]
 }

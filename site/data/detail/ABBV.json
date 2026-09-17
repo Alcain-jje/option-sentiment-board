@@ -1,55 +1,50 @@
 {
  "ticker": "ABBV",
  "name": "애브비",
- "price": 262.51,
- "dataAsOf": "2026-09-16",
- "score": 12,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
+ "price": 264.02,
+ "dataAsOf": "2026-09-17",
+ "score": 31,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
  "buckets": [
   {
-   "strike": 217.5,
-   "callOi": 1244,
-   "putOi": 3397
+   "strike": 218.8,
+   "callOi": 1234,
+   "putOi": 3398
   },
   {
-   "strike": 232.5,
-   "callOi": 4837,
-   "putOi": 7155
+   "strike": 233.8,
+   "callOi": 4788,
+   "putOi": 7171
   },
   {
-   "strike": 247.5,
-   "callOi": 5351,
-   "putOi": 4531
+   "strike": 248.9,
+   "callOi": 5333,
+   "putOi": 4952
   },
   {
-   "strike": 262.5,
-   "callOi": 19885,
-   "putOi": 1939
+   "strike": 264.0,
+   "callOi": 20045,
+   "putOi": 1965
   },
   {
-   "strike": 277.5,
-   "callOi": 18082,
-   "putOi": 449
+   "strike": 279.1,
+   "callOi": 18289,
+   "putOi": 451
   },
   {
-   "strike": 292.5,
-   "callOi": 6623,
+   "strike": 294.2,
+   "callOi": 6634,
    "putOi": 2
   },
   {
-   "strike": 307.5,
-   "callOi": 475,
+   "strike": 309.3,
+   "callOi": 593,
    "putOi": 0
   }
  ],
  "maxPain": 240.0,
  "trend": [
-  {
-   "date": "2026-08-04",
-   "score": 41,
-   "price": 243.8
-  },
   {
    "date": "2026-08-05",
    "score": 22,
@@ -194,6 +189,11 @@
    "date": "2026-09-16",
    "score": 12,
    "price": 262.51
+  },
+  {
+   "date": "2026-09-17",
+   "score": 31,
+   "price": 264.02
   }
  ]
 }

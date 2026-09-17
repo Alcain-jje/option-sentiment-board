@@ -1,55 +1,50 @@
 {
  "ticker": "DOW",
  "name": "다우",
- "price": 30.08,
- "dataAsOf": "2026-09-16",
- "score": 8,
+ "price": 29.49,
+ "dataAsOf": "2026-09-17",
+ "score": 4,
  "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 2.4배 — 평소보다 뚜렷한 약세",
+ "ratioText": "하락 베팅이 상승의 3.6배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": 24.9,
-   "callOi": 104,
-   "putOi": 13300
+   "strike": 24.4,
+   "callOi": 263,
+   "putOi": 13486
   },
   {
-   "strike": 26.6,
-   "callOi": 657,
-   "putOi": 21490
+   "strike": 26.1,
+   "callOi": 57,
+   "putOi": 2183
   },
   {
-   "strike": 28.4,
-   "callOi": 1647,
-   "putOi": 16152
+   "strike": 27.8,
+   "callOi": 934,
+   "putOi": 25092
   },
   {
-   "strike": 30.1,
-   "callOi": 12186,
-   "putOi": 12502
+   "strike": 29.5,
+   "callOi": 12447,
+   "putOi": 17013
   },
   {
-   "strike": 31.8,
-   "callOi": 20468,
-   "putOi": 2674
+   "strike": 31.2,
+   "callOi": 13045,
+   "putOi": 836
   },
   {
-   "strike": 33.5,
-   "callOi": 3729,
-   "putOi": 210
+   "strike": 32.9,
+   "callOi": 12041,
+   "putOi": 2228
   },
   {
-   "strike": 35.2,
-   "callOi": 17175,
-   "putOi": 2334
+   "strike": 34.5,
+   "callOi": 18189,
+   "putOi": 2470
   }
  ],
  "maxPain": 30.0,
  "trend": [
-  {
-   "date": "2026-08-04",
-   "score": 59,
-   "price": 30.33
-  },
   {
    "date": "2026-08-05",
    "score": 30,
@@ -194,6 +189,11 @@
    "date": "2026-09-16",
    "score": 8,
    "price": 30.08
+  },
+  {
+   "date": "2026-09-17",
+   "score": 4,
+   "price": 29.49
   }
  ]
 }

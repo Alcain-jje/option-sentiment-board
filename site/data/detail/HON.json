@@ -1,55 +1,50 @@
 {
  "ticker": "HON",
  "name": "하니웰",
- "price": 207.66,
- "dataAsOf": "2026-09-16",
- "score": 39,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.0배 — 약세 우위",
+ "price": 206.49,
+ "dataAsOf": "2026-09-17",
+ "score": 56,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 172.1,
+   "strike": 171.1,
    "callOi": 36,
-   "putOi": 52
+   "putOi": 50
   },
   {
-   "strike": 183.9,
+   "strike": 182.9,
    "callOi": 67,
-   "putOi": 306
+   "putOi": 304
   },
   {
-   "strike": 195.8,
-   "callOi": 382,
-   "putOi": 3896
+   "strike": 194.7,
+   "callOi": 381,
+   "putOi": 3675
   },
   {
-   "strike": 207.7,
-   "callOi": 2090,
-   "putOi": 2408
+   "strike": 206.5,
+   "callOi": 1938,
+   "putOi": 2266
   },
   {
-   "strike": 219.5,
-   "callOi": 3204,
-   "putOi": 625
+   "strike": 218.3,
+   "callOi": 3400,
+   "putOi": 906
   },
   {
-   "strike": 231.4,
-   "callOi": 3306,
-   "putOi": 265
+   "strike": 230.1,
+   "callOi": 3677,
+   "putOi": 278
   },
   {
-   "strike": 243.3,
-   "callOi": 9735,
+   "strike": 241.9,
+   "callOi": 9734,
    "putOi": 139
   }
  ],
  "maxPain": 210.0,
  "trend": [
-  {
-   "date": "2026-08-04",
-   "score": 82,
-   "price": 248.79
-  },
   {
    "date": "2026-08-05",
    "score": 0,
@@ -194,6 +189,11 @@
    "date": "2026-09-16",
    "score": 39,
    "price": 207.66
+  },
+  {
+   "date": "2026-09-17",
+   "score": 56,
+   "price": 206.49
   }
  ]
 }

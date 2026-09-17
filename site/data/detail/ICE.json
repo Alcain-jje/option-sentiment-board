@@ -1,55 +1,50 @@
 {
  "ticker": "ICE",
  "name": "인터콘티넨탈익스체인지",
- "price": 154.1,
- "dataAsOf": "2026-09-16",
- "score": 98,
+ "price": 153.3,
+ "dataAsOf": "2026-09-17",
+ "score": 96,
  "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 17.4배 — 평소보다 훨씬 강세",
+ "ratioText": "상승 베팅이 하락의 7.4배 — 평소보다 훨씬 강세",
  "buckets": [
   {
-   "strike": 127.7,
+   "strike": 127.0,
    "callOi": 5,
    "putOi": 1240
   },
   {
-   "strike": 136.5,
+   "strike": 135.8,
    "callOi": 61,
-   "putOi": 763
+   "putOi": 815
   },
   {
-   "strike": 145.3,
-   "callOi": 91,
-   "putOi": 908
+   "strike": 144.5,
+   "callOi": 89,
+   "putOi": 1381
   },
   {
-   "strike": 154.1,
-   "callOi": 1334,
-   "putOi": 3478
+   "strike": 153.3,
+   "callOi": 2004,
+   "putOi": 3530
   },
   {
-   "strike": 162.9,
-   "callOi": 11433,
-   "putOi": 694
+   "strike": 162.1,
+   "callOi": 11414,
+   "putOi": 710
   },
   {
-   "strike": 171.7,
-   "callOi": 2256,
-   "putOi": 22
+   "strike": 170.8,
+   "callOi": 2253,
+   "putOi": 11
   },
   {
-   "strike": 180.5,
+   "strike": 179.6,
    "callOi": 555,
    "putOi": 6
   }
  ],
  "maxPain": 155.0,
  "trend": [
-  {
-   "date": "2026-08-04",
-   "score": 14,
-   "price": 149.2
-  },
   {
    "date": "2026-08-05",
    "score": 43,
@@ -194,6 +189,11 @@
    "date": "2026-09-16",
    "score": 98,
    "price": 154.1
+  },
+  {
+   "date": "2026-09-17",
+   "score": 96,
+   "price": 153.3
   }
  ]
 }
