@@ -1,55 +1,50 @@
 {
  "ticker": "BA",
  "name": "보잉",
- "price": 197.0,
- "dataAsOf": "2026-09-17",
- "score": 0,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.2배 — 평소보다 뚜렷한 약세",
+ "price": 198.2,
+ "dataAsOf": "2026-09-18",
+ "score": 60,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 2.0배 — 강세 우위",
  "buckets": [
   {
-   "strike": 163.2,
-   "callOi": 253,
-   "putOi": 3854
+   "strike": 164.2,
+   "callOi": 252,
+   "putOi": 3888
   },
   {
-   "strike": 174.5,
-   "callOi": 924,
-   "putOi": 13906
+   "strike": 175.5,
+   "callOi": 1035,
+   "putOi": 15389
   },
   {
-   "strike": 185.7,
-   "callOi": 1317,
-   "putOi": 20890
+   "strike": 186.9,
+   "callOi": 1884,
+   "putOi": 25635
   },
   {
-   "strike": 197.0,
-   "callOi": 5981,
-   "putOi": 28564
+   "strike": 198.2,
+   "callOi": 12684,
+   "putOi": 30340
   },
   {
-   "strike": 208.3,
-   "callOi": 20102,
-   "putOi": 26148
+   "strike": 209.5,
+   "callOi": 42205,
+   "putOi": 24847
   },
   {
-   "strike": 219.5,
-   "callOi": 42949,
-   "putOi": 16117
+   "strike": 220.9,
+   "callOi": 31369,
+   "putOi": 3476
   },
   {
-   "strike": 230.8,
-   "callOi": 22556,
-   "putOi": 5132
+   "strike": 232.2,
+   "callOi": 22837,
+   "putOi": 4327
   }
  ],
- "maxPain": 210.0,
+ "maxPain": 205.0,
  "trend": [
-  {
-   "date": "2026-08-05",
-   "score": 4,
-   "price": 240.19
-  },
   {
    "date": "2026-08-07",
    "score": 12,
@@ -194,6 +189,11 @@
    "date": "2026-09-17",
    "score": 0,
    "price": 197.0
+  },
+  {
+   "date": "2026-09-18",
+   "score": 60,
+   "price": 198.2
   }
  ]
 }

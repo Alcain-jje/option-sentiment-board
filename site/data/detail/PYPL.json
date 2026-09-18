@@ -1,55 +1,50 @@
 {
  "ticker": "PYPL",
  "name": "페이팔",
- "price": 52.94,
- "dataAsOf": "2026-09-17",
- "score": 6,
+ "price": 52.41,
+ "dataAsOf": "2026-09-18",
+ "score": 2,
  "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 0.6배 — 평소보다 뚜렷한 약세",
+ "ratioText": "하락 베팅이 상승의 0.7배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": 43.9,
-   "callOi": 7644,
-   "putOi": 13299
+   "strike": 43.4,
+   "callOi": 1261,
+   "putOi": 5450
   },
   {
-   "strike": 46.9,
-   "callOi": 5031,
-   "putOi": 4534
+   "strike": 46.4,
+   "callOi": 10975,
+   "putOi": 11977
   },
   {
-   "strike": 49.9,
-   "callOi": 9217,
-   "putOi": 42108
+   "strike": 49.4,
+   "callOi": 9336,
+   "putOi": 33171
   },
   {
-   "strike": 52.9,
-   "callOi": 14387,
-   "putOi": 19389
+   "strike": 52.4,
+   "callOi": 9620,
+   "putOi": 27015
   },
   {
-   "strike": 56.0,
-   "callOi": 33346,
-   "putOi": 14737
+   "strike": 55.4,
+   "callOi": 40139,
+   "putOi": 16693
   },
   {
-   "strike": 59.0,
-   "callOi": 67644,
-   "putOi": 10432
+   "strike": 58.4,
+   "callOi": 24186,
+   "putOi": 5353
   },
   {
-   "strike": 62.0,
-   "callOi": 25794,
-   "putOi": 1315
+   "strike": 61.4,
+   "callOi": 71612,
+   "putOi": 3307
   }
  ],
- "maxPain": 53.0,
+ "maxPain": 52.5,
  "trend": [
-  {
-   "date": "2026-08-05",
-   "score": 17,
-   "price": 57.93
-  },
   {
    "date": "2026-08-07",
    "score": 62,
@@ -194,6 +189,11 @@
    "date": "2026-09-17",
    "score": 6,
    "price": 52.94
+  },
+  {
+   "date": "2026-09-18",
+   "score": 2,
+   "price": 52.41
   }
  ]
 }

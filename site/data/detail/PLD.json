@@ -1,55 +1,50 @@
 {
  "ticker": "PLD",
  "name": "프로로지스",
- "price": 135.18,
- "dataAsOf": "2026-09-17",
- "score": 85,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 1.9배 — 강세 우위",
+ "price": 134.84,
+ "dataAsOf": "2026-09-18",
+ "score": 43,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 112.0,
+   "strike": 111.7,
    "callOi": 6,
    "putOi": 975
   },
   {
-   "strike": 119.7,
+   "strike": 119.4,
    "callOi": 0,
-   "putOi": 312
+   "putOi": 321
   },
   {
-   "strike": 127.5,
-   "callOi": 12,
-   "putOi": 3900
+   "strike": 127.1,
+   "callOi": 11,
+   "putOi": 4076
   },
   {
-   "strike": 135.2,
-   "callOi": 1054,
-   "putOi": 3524
+   "strike": 134.8,
+   "callOi": 1152,
+   "putOi": 3446
   },
   {
-   "strike": 142.9,
-   "callOi": 5355,
-   "putOi": 952
+   "strike": 142.5,
+   "callOi": 5680,
+   "putOi": 645
   },
   {
-   "strike": 150.6,
-   "callOi": 2674,
-   "putOi": 10
+   "strike": 150.3,
+   "callOi": 2628,
+   "putOi": 0
   },
   {
-   "strike": 158.4,
+   "strike": 158.0,
    "callOi": 5336,
    "putOi": 7
   }
  ],
  "maxPain": 135.0,
  "trend": [
-  {
-   "date": "2026-07-21",
-   "score": 54,
-   "price": 149.94
-  },
   {
    "date": "2026-07-22",
    "score": 48,
@@ -194,6 +189,11 @@
    "date": "2026-09-17",
    "score": 85,
    "price": 135.18
+  },
+  {
+   "date": "2026-09-18",
+   "score": 43,
+   "price": 134.84
   }
  ]
 }

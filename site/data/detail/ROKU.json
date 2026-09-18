@@ -1,55 +1,50 @@
 {
  "ticker": "ROKU",
  "name": "로쿠",
- "price": 154.08,
- "dataAsOf": "2026-09-17",
- "score": 38,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.3배 — 약세 우위",
+ "price": 153.64,
+ "dataAsOf": "2026-09-18",
+ "score": 6,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 0.7배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": 127.7,
-   "callOi": 475,
+   "strike": 127.3,
+   "callOi": 474,
    "putOi": 525
   },
   {
-   "strike": 136.5,
-   "callOi": 2549,
-   "putOi": 4690
+   "strike": 136.1,
+   "callOi": 2548,
+   "putOi": 4691
   },
   {
-   "strike": 145.3,
-   "callOi": 855,
-   "putOi": 1330
+   "strike": 144.9,
+   "callOi": 834,
+   "putOi": 1337
   },
   {
-   "strike": 154.1,
-   "callOi": 3075,
-   "putOi": 1803
+   "strike": 153.6,
+   "callOi": 3061,
+   "putOi": 1684
   },
   {
-   "strike": 162.9,
-   "callOi": 2639,
-   "putOi": 163
+   "strike": 162.4,
+   "callOi": 2670,
+   "putOi": 123
   },
   {
-   "strike": 171.7,
-   "callOi": 1148,
+   "strike": 171.2,
+   "callOi": 1172,
    "putOi": 0
   },
   {
-   "strike": 180.5,
+   "strike": 180.0,
    "callOi": 599,
    "putOi": 0
   }
  ],
  "maxPain": 125.0,
  "trend": [
-  {
-   "date": "2026-08-05",
-   "score": 43,
-   "price": 146.96
-  },
   {
    "date": "2026-08-07",
    "score": 21,
@@ -194,6 +189,11 @@
    "date": "2026-09-17",
    "score": 38,
    "price": 154.08
+  },
+  {
+   "date": "2026-09-18",
+   "score": 6,
+   "price": 153.64
   }
  ]
 }

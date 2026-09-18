@@ -1,55 +1,50 @@
 {
  "ticker": "MMM",
  "name": "3M",
- "price": 164.71,
- "dataAsOf": "2026-09-17",
- "score": 77,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 2.1배 — 강세 우위",
+ "price": 165.89,
+ "dataAsOf": "2026-09-18",
+ "score": 81,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 2.3배 — 강세 우위",
  "buckets": [
   {
-   "strike": 136.5,
-   "callOi": 32,
-   "putOi": 1666
+   "strike": 137.5,
+   "callOi": 31,
+   "putOi": 1663
   },
   {
-   "strike": 145.9,
-   "callOi": 123,
-   "putOi": 1835
+   "strike": 146.9,
+   "callOi": 131,
+   "putOi": 1913
   },
   {
-   "strike": 155.3,
-   "callOi": 733,
-   "putOi": 3890
+   "strike": 156.4,
+   "callOi": 761,
+   "putOi": 3905
   },
   {
-   "strike": 164.7,
-   "callOi": 3365,
-   "putOi": 3206
+   "strike": 165.9,
+   "callOi": 10086,
+   "putOi": 4820
   },
   {
-   "strike": 174.1,
-   "callOi": 9293,
-   "putOi": 2477
+   "strike": 175.4,
+   "callOi": 4788,
+   "putOi": 664
   },
   {
-   "strike": 183.5,
-   "callOi": 3338,
-   "putOi": 316
+   "strike": 184.8,
+   "callOi": 1359,
+   "putOi": 18
   },
   {
-   "strike": 192.9,
-   "callOi": 10125,
-   "putOi": 2
+   "strike": 194.3,
+   "callOi": 10119,
+   "putOi": 1
   }
  ],
  "maxPain": 165.0,
  "trend": [
-  {
-   "date": "2026-08-05",
-   "score": 83,
-   "price": 182.08
-  },
   {
    "date": "2026-08-07",
    "score": 75,
@@ -194,6 +189,11 @@
    "date": "2026-09-17",
    "score": 77,
    "price": 164.71
+  },
+  {
+   "date": "2026-09-18",
+   "score": 81,
+   "price": 165.89
   }
  ]
 }

@@ -1,55 +1,50 @@
 {
  "ticker": "DOCU",
  "name": "도큐사인",
- "price": 70.64,
- "dataAsOf": "2026-09-17",
- "score": 6,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.8배 — 평소보다 뚜렷한 약세",
+ "price": 69.07,
+ "dataAsOf": "2026-09-18",
+ "score": 23,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 1.4배 — 약세 우위",
  "buckets": [
   {
-   "strike": 58.5,
-   "callOi": 3260,
-   "putOi": 3302
-  },
-  {
-   "strike": 62.6,
-   "callOi": 1916,
+   "strike": 57.2,
+   "callOi": 1178,
    "putOi": 1407
   },
   {
-   "strike": 66.6,
-   "callOi": 4443,
-   "putOi": 1517
+   "strike": 61.2,
+   "callOi": 3913,
+   "putOi": 3231
   },
   {
-   "strike": 70.6,
-   "callOi": 4350,
-   "putOi": 1173
+   "strike": 65.1,
+   "callOi": 2911,
+   "putOi": 1752
   },
   {
-   "strike": 74.7,
-   "callOi": 2783,
-   "putOi": 104
+   "strike": 69.1,
+   "callOi": 4700,
+   "putOi": 1597
   },
   {
-   "strike": 78.7,
-   "callOi": 1770,
-   "putOi": 40
+   "strike": 73.0,
+   "callOi": 2347,
+   "putOi": 171
   },
   {
-   "strike": 82.7,
-   "callOi": 52,
-   "putOi": 0
+   "strike": 77.0,
+   "callOi": 2516,
+   "putOi": 77
+  },
+  {
+   "strike": 80.9,
+   "callOi": 1296,
+   "putOi": 6
   }
  ],
- "maxPain": 59.0,
+ "maxPain": 60.0,
  "trend": [
-  {
-   "date": "2026-08-05",
-   "score": 4,
-   "price": 57.49
-  },
   {
    "date": "2026-08-07",
    "score": 17,
@@ -194,6 +189,11 @@
    "date": "2026-09-17",
    "score": 6,
    "price": 70.64
+  },
+  {
+   "date": "2026-09-18",
+   "score": 23,
+   "price": 69.07
   }
  ]
 }

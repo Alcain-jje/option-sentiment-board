@@ -1,55 +1,50 @@
 {
  "ticker": "CMG",
  "name": "치폴레",
- "price": 33.51,
- "dataAsOf": "2026-09-17",
- "score": 19,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.1배 — 약세 우위",
+ "price": 33.43,
+ "dataAsOf": "2026-09-18",
+ "score": 25,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
  "buckets": [
   {
-   "strike": 27.8,
-   "callOi": 459,
-   "putOi": 10534
+   "strike": 27.7,
+   "callOi": 462,
+   "putOi": 10537
   },
   {
-   "strike": 29.7,
-   "callOi": 3133,
-   "putOi": 19019
+   "strike": 29.6,
+   "callOi": 3100,
+   "putOi": 19035
   },
   {
-   "strike": 31.6,
-   "callOi": 17762,
-   "putOi": 25920
+   "strike": 31.5,
+   "callOi": 275,
+   "putOi": 2345
   },
   {
-   "strike": 33.5,
-   "callOi": 3006,
-   "putOi": 7224
+   "strike": 33.4,
+   "callOi": 20642,
+   "putOi": 32667
   },
   {
-   "strike": 35.4,
-   "callOi": 26033,
-   "putOi": 37285
+   "strike": 35.3,
+   "callOi": 27398,
+   "putOi": 33399
   },
   {
    "strike": 37.3,
-   "callOi": 22542,
-   "putOi": 11225
+   "callOi": 27646,
+   "putOi": 2936
   },
   {
-   "strike": 39.3,
-   "callOi": 79650,
-   "putOi": 1021
+   "strike": 39.2,
+   "callOi": 80078,
+   "putOi": 727
   }
  ],
  "maxPain": 35.0,
  "trend": [
-  {
-   "date": "2026-08-05",
-   "score": 30,
-   "price": 34.5
-  },
   {
    "date": "2026-08-07",
    "score": 29,
@@ -194,6 +189,11 @@
    "date": "2026-09-17",
    "score": 19,
    "price": 33.51
+  },
+  {
+   "date": "2026-09-18",
+   "score": 25,
+   "price": 33.43
   }
  ]
 }

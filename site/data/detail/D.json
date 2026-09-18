@@ -1,55 +1,50 @@
 {
  "ticker": "D",
  "name": "도미니언에너지",
- "price": 63.51,
- "dataAsOf": "2026-09-16",
- "score": 37,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.4배 — 약세 우위",
+ "price": 63.58,
+ "dataAsOf": "2026-09-18",
+ "score": 42,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 52.6,
-   "callOi": 0,
-   "putOi": 296
+   "strike": 52.7,
+   "callOi": 1,
+   "putOi": 312
   },
   {
    "strike": 56.3,
-   "callOi": 2,
-   "putOi": 1121
+   "callOi": 4,
+   "putOi": 1127
   },
   {
    "strike": 59.9,
-   "callOi": 20,
-   "putOi": 1117
+   "callOi": 30,
+   "putOi": 1160
   },
   {
-   "strike": 63.5,
-   "callOi": 881,
-   "putOi": 5640
+   "strike": 63.6,
+   "callOi": 931,
+   "putOi": 5722
   },
   {
-   "strike": 67.1,
-   "callOi": 4049,
-   "putOi": 672
+   "strike": 67.2,
+   "callOi": 3963,
+   "putOi": 243
   },
   {
    "strike": 70.8,
-   "callOi": 9643,
+   "callOi": 9531,
    "putOi": 80
   },
   {
-   "strike": 74.4,
-   "callOi": 1344,
+   "strike": 74.5,
+   "callOi": 1374,
    "putOi": 0
   }
  ],
  "maxPain": 65.0,
  "trend": [
-  {
-   "date": "2026-07-17",
-   "score": 90,
-   "price": 71.04
-  },
   {
    "date": "2026-07-20",
    "score": 90,
@@ -194,6 +189,11 @@
    "date": "2026-09-16",
    "score": 37,
    "price": 63.51
+  },
+  {
+   "date": "2026-09-18",
+   "score": 42,
+   "price": 63.58
   }
  ]
 }

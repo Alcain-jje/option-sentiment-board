@@ -1,55 +1,50 @@
 {
  "ticker": "RDDT",
  "name": "레딧",
- "price": 152.83,
- "dataAsOf": "2026-09-17",
- "score": 12,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
+ "price": 150.85,
+ "dataAsOf": "2026-09-18",
+ "score": 57,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 126.6,
-   "callOi": 452,
-   "putOi": 10619
+   "strike": 125.0,
+   "callOi": 132,
+   "putOi": 3647
   },
   {
-   "strike": 135.4,
-   "callOi": 248,
-   "putOi": 7999
+   "strike": 133.6,
+   "callOi": 553,
+   "putOi": 16968
   },
   {
-   "strike": 144.1,
-   "callOi": 2525,
-   "putOi": 10986
+   "strike": 142.2,
+   "callOi": 1823,
+   "putOi": 13672
   },
   {
-   "strike": 152.8,
-   "callOi": 7280,
-   "putOi": 8443
+   "strike": 150.9,
+   "callOi": 9794,
+   "putOi": 11761
   },
   {
-   "strike": 161.6,
-   "callOi": 17784,
-   "putOi": 5168
+   "strike": 159.5,
+   "callOi": 11197,
+   "putOi": 3595
   },
   {
-   "strike": 170.3,
-   "callOi": 15735,
-   "putOi": 3200
+   "strike": 168.1,
+   "callOi": 21937,
+   "putOi": 3678
   },
   {
-   "strike": 179.0,
-   "callOi": 17543,
-   "putOi": 1886
+   "strike": 176.7,
+   "callOi": 18887,
+   "putOi": 1602
   }
  ],
  "maxPain": 155.0,
  "trend": [
-  {
-   "date": "2026-08-05",
-   "score": 13,
-   "price": 155.26
-  },
   {
    "date": "2026-08-07",
    "score": 54,
@@ -194,6 +189,11 @@
    "date": "2026-09-17",
    "score": 12,
    "price": 152.83
+  },
+  {
+   "date": "2026-09-18",
+   "score": 57,
+   "price": 150.85
   }
  ]
 }
