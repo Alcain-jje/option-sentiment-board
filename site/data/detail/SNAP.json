@@ -1,55 +1,50 @@
 {
  "ticker": "SNAP",
  "name": "스냅",
- "price": 5.53,
- "dataAsOf": "2026-09-18",
- "score": 13,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 0.5배 — 약세 우위",
+ "price": NaN,
+ "dataAsOf": "2026-09-22",
+ "score": 96,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 6.6배 — 평소보다 훨씬 강세",
  "buckets": [
   {
-   "strike": 4.6,
-   "callOi": 243,
-   "putOi": 1180
-  },
-  {
-   "strike": 4.9,
-   "callOi": 17375,
-   "putOi": 48572
-  },
-  {
-   "strike": 5.2,
+   "strike": NaN,
    "callOi": 0,
    "putOi": 0
   },
   {
-   "strike": 5.5,
-   "callOi": 16025,
-   "putOi": 21728
-  },
-  {
-   "strike": 5.8,
-   "callOi": 94166,
-   "putOi": 10228
-  },
-  {
-   "strike": 6.2,
+   "strike": NaN,
    "callOi": 0,
    "putOi": 0
   },
   {
-   "strike": 6.5,
-   "callOi": 71893,
-   "putOi": 351
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
+  },
+  {
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
+  },
+  {
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
+  },
+  {
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
+  },
+  {
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   }
  ],
  "maxPain": 5.5,
  "trend": [
-  {
-   "date": "2026-08-07",
-   "score": 71,
-   "price": 5.33
-  },
   {
    "date": "2026-08-10",
    "score": 92,
@@ -194,6 +189,11 @@
    "date": "2026-09-18",
    "score": 13,
    "price": 5.53
+  },
+  {
+   "date": "2026-09-22",
+   "score": 96,
+   "price": NaN
   }
  ]
 }

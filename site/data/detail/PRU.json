@@ -1,55 +1,50 @@
 {
  "ticker": "PRU",
  "name": "푸르덴셜",
- "price": 118.4,
- "dataAsOf": "2026-09-18",
- "score": 64,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 11.1배 — 강세 우위",
+ "price": NaN,
+ "dataAsOf": "2026-09-22",
+ "score": 20,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 1.1배 — 약세 우위",
  "buckets": [
   {
-   "strike": 98.1,
+   "strike": NaN,
    "callOi": 0,
-   "putOi": 1984
-  },
-  {
-   "strike": 104.9,
-   "callOi": 10,
-   "putOi": 976
-  },
-  {
-   "strike": 111.6,
-   "callOi": 325,
-   "putOi": 2618
-  },
-  {
-   "strike": 118.4,
-   "callOi": 2092,
-   "putOi": 659
-  },
-  {
-   "strike": 125.2,
-   "callOi": 1447,
-   "putOi": 171
-  },
-  {
-   "strike": 131.9,
-   "callOi": 1726,
    "putOi": 0
   },
   {
-   "strike": 138.7,
-   "callOi": 107,
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
+  },
+  {
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
+  },
+  {
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
+  },
+  {
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
+  },
+  {
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
+  },
+  {
+   "strike": NaN,
+   "callOi": 0,
    "putOi": 0
   }
  ],
- "maxPain": 120.0,
+ "maxPain": 115.0,
  "trend": [
-  {
-   "date": "2026-08-03",
-   "score": 30,
-   "price": 122.98
-  },
   {
    "date": "2026-08-04",
    "score": 88,
@@ -194,6 +189,11 @@
    "date": "2026-09-18",
    "score": 64,
    "price": 118.4
+  },
+  {
+   "date": "2026-09-22",
+   "score": 20,
+   "price": NaN
   }
  ]
 }

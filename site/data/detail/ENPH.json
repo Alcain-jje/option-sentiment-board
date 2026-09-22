@@ -1,55 +1,50 @@
 {
  "ticker": "ENPH",
  "name": "엔페이즈",
- "price": 34.64,
- "dataAsOf": "2026-09-18",
- "score": 60,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 1.9배 — 강세 우위",
+ "price": NaN,
+ "dataAsOf": "2026-09-22",
+ "score": 35,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
  "buckets": [
   {
-   "strike": 28.7,
-   "callOi": 11,
-   "putOi": 692
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 30.7,
-   "callOi": 470,
-   "putOi": 7794
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 32.7,
-   "callOi": 78,
-   "putOi": 6529
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 34.6,
-   "callOi": 2959,
-   "putOi": 15825
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 36.6,
-   "callOi": 7657,
-   "putOi": 2521
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 38.6,
-   "callOi": 4664,
-   "putOi": 857
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 40.6,
-   "callOi": 15576,
-   "putOi": 9348
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   }
  ],
- "maxPain": 38.0,
+ "maxPain": 40.0,
  "trend": [
-  {
-   "date": "2026-08-07",
-   "score": 54,
-   "price": 41.87
-  },
   {
    "date": "2026-08-10",
    "score": 4,
@@ -194,6 +189,11 @@
    "date": "2026-09-18",
    "score": 60,
    "price": 34.64
+  },
+  {
+   "date": "2026-09-22",
+   "score": 35,
+   "price": NaN
   }
  ]
 }
