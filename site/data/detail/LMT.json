@@ -1,55 +1,50 @@
 {
  "ticker": "LMT",
  "name": "록히드마틴",
- "price": 522.34,
- "dataAsOf": "2026-09-22",
- "score": 13,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.4배 — 약세 우위",
+ "price": 524.68,
+ "dataAsOf": "2026-09-23",
+ "score": 22,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 1.3배 — 약세 우위",
  "buckets": [
   {
-   "strike": 432.8,
+   "strike": 434.7,
    "callOi": 30,
-   "putOi": 794
+   "putOi": 912
   },
   {
-   "strike": 462.6,
-   "callOi": 23,
-   "putOi": 1002
+   "strike": 464.7,
+   "callOi": 26,
+   "putOi": 2737
   },
   {
-   "strike": 492.5,
-   "callOi": 236,
-   "putOi": 2361
+   "strike": 494.7,
+   "callOi": 259,
+   "putOi": 3228
   },
   {
-   "strike": 522.3,
-   "callOi": 1123,
-   "putOi": 2753
+   "strike": 524.7,
+   "callOi": 1686,
+   "putOi": 3322
   },
   {
-   "strike": 552.2,
-   "callOi": 3716,
-   "putOi": 1562
+   "strike": 554.7,
+   "callOi": 3769,
+   "putOi": 1358
   },
   {
-   "strike": 582.0,
-   "callOi": 1998,
-   "putOi": 262
+   "strike": 584.6,
+   "callOi": 2032,
+   "putOi": 251
   },
   {
-   "strike": 611.9,
-   "callOi": 1861,
-   "putOi": 133
+   "strike": 614.6,
+   "callOi": 1926,
+   "putOi": 121
   }
  ],
- "maxPain": 540.0,
+ "maxPain": 537.5,
  "trend": [
-  {
-   "date": "2026-08-10",
-   "score": 80,
-   "price": 603.16
-  },
   {
    "date": "2026-08-11",
    "score": 15,
@@ -194,6 +189,11 @@
    "date": "2026-09-22",
    "score": 13,
    "price": 522.34
+  },
+  {
+   "date": "2026-09-23",
+   "score": 22,
+   "price": 524.68
   }
  ]
 }

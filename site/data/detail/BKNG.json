@@ -1,55 +1,50 @@
 {
  "ticker": "BKNG",
  "name": "부킹홀딩스",
- "price": 164.22,
- "dataAsOf": "2026-09-22",
- "score": 70,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 1.6배 — 강세 우위",
+ "price": 155.9,
+ "dataAsOf": "2026-09-23",
+ "score": 13,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 1.2배 — 약세 우위",
  "buckets": [
   {
-   "strike": 136.1,
-   "callOi": 260,
-   "putOi": 578
+   "strike": 129.2,
+   "callOi": 543,
+   "putOi": 538
   },
   {
-   "strike": 145.5,
-   "callOi": 997,
-   "putOi": 4015
+   "strike": 138.1,
+   "callOi": 54,
+   "putOi": 860
   },
   {
-   "strike": 154.8,
-   "callOi": 494,
-   "putOi": 6118
+   "strike": 147.0,
+   "callOi": 1058,
+   "putOi": 5002
   },
   {
-   "strike": 164.2,
-   "callOi": 16936,
-   "putOi": 9272
+   "strike": 155.9,
+   "callOi": 922,
+   "putOi": 11705
   },
   {
-   "strike": 173.6,
-   "callOi": 5516,
-   "putOi": 7762
+   "strike": 164.8,
+   "callOi": 21227,
+   "putOi": 7311
   },
   {
-   "strike": 183.0,
-   "callOi": 4827,
-   "putOi": 3665
+   "strike": 173.7,
+   "callOi": 7648,
+   "putOi": 7727
   },
   {
-   "strike": 192.4,
-   "callOi": 2856,
-   "putOi": 2736
+   "strike": 182.6,
+   "callOi": 5033,
+   "putOi": 3713
   }
  ],
  "maxPain": 165.0,
  "trend": [
-  {
-   "date": "2026-08-10",
-   "score": 56,
-   "price": 212.88
-  },
   {
    "date": "2026-08-11",
    "score": 19,
@@ -194,6 +189,11 @@
    "date": "2026-09-22",
    "score": 70,
    "price": 164.22
+  },
+  {
+   "date": "2026-09-23",
+   "score": 13,
+   "price": 155.9
   }
  ]
 }

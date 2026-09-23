@@ -1,55 +1,50 @@
 {
  "ticker": "MPC",
  "name": "마라톤페트롤리엄",
- "price": 389.68,
- "dataAsOf": "2026-09-22",
- "score": 0,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 3.2배 — 평소보다 뚜렷한 약세",
+ "price": 388.38,
+ "dataAsOf": "2026-09-23",
+ "score": 25,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 1.3배 — 약세 우위",
  "buckets": [
   {
-   "strike": 322.9,
-   "callOi": 715,
-   "putOi": 2784
+   "strike": 321.8,
+   "callOi": 717,
+   "putOi": 2813
   },
   {
-   "strike": 345.1,
-   "callOi": 401,
-   "putOi": 4188
+   "strike": 344.0,
+   "callOi": 406,
+   "putOi": 3963
   },
   {
-   "strike": 367.4,
-   "callOi": 1108,
-   "putOi": 2809
+   "strike": 366.2,
+   "callOi": 1106,
+   "putOi": 2828
   },
   {
-   "strike": 389.7,
-   "callOi": 1198,
-   "putOi": 3437
+   "strike": 388.4,
+   "callOi": 755,
+   "putOi": 2663
   },
   {
-   "strike": 411.9,
-   "callOi": 1613,
-   "putOi": 1173
+   "strike": 410.6,
+   "callOi": 2161,
+   "putOi": 1794
   },
   {
-   "strike": 434.2,
-   "callOi": 1507,
-   "putOi": 407
+   "strike": 432.8,
+   "callOi": 1500,
+   "putOi": 404
   },
   {
-   "strike": 456.5,
-   "callOi": 1140,
+   "strike": 455.0,
+   "callOi": 1123,
    "putOi": 30
   }
  ],
  "maxPain": 380.0,
  "trend": [
-  {
-   "date": "2026-08-10",
-   "score": 56,
-   "price": 320.32
-  },
   {
    "date": "2026-08-11",
    "score": 73,
@@ -194,6 +189,11 @@
    "date": "2026-09-22",
    "score": 0,
    "price": 389.68
+  },
+  {
+   "date": "2026-09-23",
+   "score": 25,
+   "price": 388.38
   }
  ]
 }

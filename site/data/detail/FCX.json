@@ -1,55 +1,50 @@
 {
  "ticker": "FCX",
  "name": "프리포트맥모란",
- "price": 74.35,
- "dataAsOf": "2026-09-22",
- "score": 46,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 72.58,
+ "dataAsOf": "2026-09-23",
+ "score": 78,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 2.4배 — 강세 우위",
  "buckets": [
   {
-   "strike": 61.6,
-   "callOi": 1607,
-   "putOi": 11527
+   "strike": 60.1,
+   "callOi": 1594,
+   "putOi": 11595
   },
   {
-   "strike": 65.9,
-   "callOi": 7770,
-   "putOi": 15110
+   "strike": 64.3,
+   "callOi": 7796,
+   "putOi": 15120
   },
   {
-   "strike": 70.1,
-   "callOi": 14774,
-   "putOi": 15303
+   "strike": 68.4,
+   "callOi": 12448,
+   "putOi": 15587
   },
   {
-   "strike": 74.3,
-   "callOi": 28031,
-   "putOi": 7992
+   "strike": 72.6,
+   "callOi": 9650,
+   "putOi": 4612
   },
   {
-   "strike": 78.6,
-   "callOi": 33369,
-   "putOi": 4183
+   "strike": 76.7,
+   "callOi": 29562,
+   "putOi": 8322
   },
   {
-   "strike": 82.8,
-   "callOi": 2867,
-   "putOi": 103
+   "strike": 80.9,
+   "callOi": 29276,
+   "putOi": 3041
   },
   {
-   "strike": 87.1,
-   "callOi": 16849,
-   "putOi": 145
+   "strike": 85.0,
+   "callOi": 21603,
+   "putOi": 128
   }
  ],
  "maxPain": 70.0,
  "trend": [
-  {
-   "date": "2026-08-10",
-   "score": 44,
-   "price": 70.51
-  },
   {
    "date": "2026-08-11",
    "score": 23,
@@ -194,6 +189,11 @@
    "date": "2026-09-22",
    "score": 46,
    "price": 74.35
+  },
+  {
+   "date": "2026-09-23",
+   "score": 78,
+   "price": 72.58
   }
  ]
 }
