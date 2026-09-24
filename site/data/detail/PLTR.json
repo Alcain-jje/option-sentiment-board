@@ -1,55 +1,50 @@
 {
  "ticker": "PLTR",
  "name": "팔란티어",
- "price": 191.79,
- "dataAsOf": "2026-09-23",
- "score": 58,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 192.59,
+ "dataAsOf": "2026-09-24",
+ "score": 30,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
  "buckets": [
   {
-   "strike": 158.9,
-   "callOi": 15980,
-   "putOi": 55300
+   "strike": 159.6,
+   "callOi": 31472,
+   "putOi": 74932
   },
   {
-   "strike": 169.9,
-   "callOi": 61787,
-   "putOi": 94066
+   "strike": 170.6,
+   "callOi": 44532,
+   "putOi": 72286
   },
   {
-   "strike": 180.8,
-   "callOi": 108498,
-   "putOi": 36686
+   "strike": 181.6,
+   "callOi": 105357,
+   "putOi": 47584
   },
   {
-   "strike": 191.8,
-   "callOi": 68914,
-   "putOi": 5015
+   "strike": 192.6,
+   "callOi": 87315,
+   "putOi": 27172
   },
   {
-   "strike": 202.7,
-   "callOi": 67813,
-   "putOi": 1979
+   "strike": 203.6,
+   "callOi": 69892,
+   "putOi": 2311
   },
   {
-   "strike": 213.7,
-   "callOi": 21089,
-   "putOi": 238
+   "strike": 214.6,
+   "callOi": 49497,
+   "putOi": 501
   },
   {
-   "strike": 224.7,
-   "callOi": 36060,
-   "putOi": 433
+   "strike": 225.6,
+   "callOi": 23144,
+   "putOi": 270
   }
  ],
  "maxPain": 170.0,
  "trend": [
-  {
-   "date": "2026-08-11",
-   "score": 0,
-   "price": 174.94
-  },
   {
    "date": "2026-08-12",
    "score": 0,
@@ -194,6 +189,11 @@
    "date": "2026-09-23",
    "score": 58,
    "price": 191.79
+  },
+  {
+   "date": "2026-09-24",
+   "score": 30,
+   "price": 192.59
   }
  ]
 }

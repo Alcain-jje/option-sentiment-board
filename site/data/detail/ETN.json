@@ -1,55 +1,50 @@
 {
  "ticker": "ETN",
  "name": "이튼",
- "price": 438.76,
- "dataAsOf": "2026-09-23",
- "score": 100,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 2.6배 — 평소보다 훨씬 강세",
+ "price": 440.0,
+ "dataAsOf": "2026-09-24",
+ "score": 79,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.4배 — 강세 우위",
  "buckets": [
   {
-   "strike": 363.5,
+   "strike": 364.6,
    "callOi": 95,
-   "putOi": 4646
+   "putOi": 4635
   },
   {
-   "strike": 388.6,
-   "callOi": 561,
-   "putOi": 3082
+   "strike": 389.7,
+   "callOi": 568,
+   "putOi": 3107
   },
   {
-   "strike": 413.7,
-   "callOi": 2412,
-   "putOi": 4028
+   "strike": 414.9,
+   "callOi": 2392,
+   "putOi": 4056
   },
   {
-   "strike": 438.8,
-   "callOi": 3690,
-   "putOi": 709
+   "strike": 440.0,
+   "callOi": 3978,
+   "putOi": 734
   },
   {
-   "strike": 463.8,
-   "callOi": 2223,
+   "strike": 465.1,
+   "callOi": 2400,
    "putOi": 103
   },
   {
-   "strike": 488.9,
-   "callOi": 1305,
+   "strike": 490.3,
+   "callOi": 1328,
    "putOi": 16
   },
   {
-   "strike": 514.0,
-   "callOi": 651,
+   "strike": 515.4,
+   "callOi": 895,
    "putOi": 0
   }
  ],
  "maxPain": 420.0,
  "trend": [
-  {
-   "date": "2026-08-11",
-   "score": 8,
-   "price": 459.29
-  },
   {
    "date": "2026-08-12",
    "score": 33,
@@ -194,6 +189,11 @@
    "date": "2026-09-23",
    "score": 100,
    "price": 438.76
+  },
+  {
+   "date": "2026-09-24",
+   "score": 79,
+   "price": 440.0
   }
  ]
 }
