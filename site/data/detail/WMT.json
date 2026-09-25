@@ -1,55 +1,50 @@
 {
  "ticker": "WMT",
  "name": "월마트",
- "price": 107.59,
- "dataAsOf": "2026-09-24",
- "score": 14,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
+ "price": 107.98,
+ "dataAsOf": "2026-09-25",
+ "score": 63,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 2.7배 — 강세 우위",
  "buckets": [
   {
-   "strike": 89.1,
-   "callOi": 715,
-   "putOi": 4130
+   "strike": 89.5,
+   "callOi": 741,
+   "putOi": 4161
   },
   {
-   "strike": 95.3,
-   "callOi": 703,
-   "putOi": 13058
+   "strike": 95.6,
+   "callOi": 702,
+   "putOi": 13238
   },
   {
-   "strike": 101.4,
-   "callOi": 5307,
-   "putOi": 44135
+   "strike": 101.8,
+   "callOi": 5340,
+   "putOi": 45111
   },
   {
-   "strike": 107.6,
-   "callOi": 101034,
-   "putOi": 55469
+   "strike": 108.0,
+   "callOi": 116075,
+   "putOi": 69698
   },
   {
-   "strike": 113.7,
-   "callOi": 88202,
-   "putOi": 9919
+   "strike": 114.2,
+   "callOi": 85305,
+   "putOi": 8761
   },
   {
-   "strike": 119.9,
-   "callOi": 24547,
-   "putOi": 2569
+   "strike": 120.3,
+   "callOi": 22737,
+   "putOi": 2559
   },
   {
-   "strike": 126.0,
-   "callOi": 13615,
-   "putOi": 1253
+   "strike": 126.5,
+   "callOi": 13648,
+   "putOi": 1254
   }
  ],
  "maxPain": 108.0,
  "trend": [
-  {
-   "date": "2026-08-12",
-   "score": 63,
-   "price": 116.01
-  },
   {
    "date": "2026-08-13",
    "score": 46,
@@ -194,6 +189,11 @@
    "date": "2026-09-24",
    "score": 14,
    "price": 107.59
+  },
+  {
+   "date": "2026-09-25",
+   "score": 63,
+   "price": 107.98
   }
  ]
 }

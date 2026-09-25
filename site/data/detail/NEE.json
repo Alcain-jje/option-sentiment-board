@@ -1,55 +1,50 @@
 {
  "ticker": "NEE",
  "name": "넥스트에라에너지",
- "price": 75.62,
- "dataAsOf": "2026-09-24",
- "score": 57,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 76.08,
+ "dataAsOf": "2026-09-25",
+ "score": 72,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 2.2배 — 강세 우위",
  "buckets": [
   {
-   "strike": 62.7,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": 67.0,
+   "strike": 63.0,
    "callOi": 75,
-   "putOi": 13
+   "putOi": 29
   },
   {
-   "strike": 71.3,
-   "callOi": 57,
-   "putOi": 2132
+   "strike": 67.4,
+   "callOi": 0,
+   "putOi": 1
   },
   {
-   "strike": 75.6,
-   "callOi": 752,
-   "putOi": 30730
+   "strike": 71.7,
+   "callOi": 55,
+   "putOi": 2309
   },
   {
-   "strike": 79.9,
-   "callOi": 10895,
-   "putOi": 14584
+   "strike": 76.1,
+   "callOi": 5701,
+   "putOi": 38525
   },
   {
-   "strike": 84.3,
-   "callOi": 14223,
-   "putOi": 4450
+   "strike": 80.4,
+   "callOi": 14546,
+   "putOi": 8720
   },
   {
-   "strike": 88.6,
-   "callOi": 12349,
-   "putOi": 39
+   "strike": 84.8,
+   "callOi": 11889,
+   "putOi": 545
+  },
+  {
+   "strike": 89.1,
+   "callOi": 12420,
+   "putOi": 2
   }
  ],
  "maxPain": 80.0,
  "trend": [
-  {
-   "date": "2026-08-12",
-   "score": 85,
-   "price": 85.78
-  },
   {
    "date": "2026-08-13",
    "score": 64,
@@ -194,6 +189,11 @@
    "date": "2026-09-24",
    "score": 57,
    "price": 75.62
+  },
+  {
+   "date": "2026-09-25",
+   "score": 72,
+   "price": 76.08
   }
  ]
 }

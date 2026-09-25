@@ -1,55 +1,50 @@
 {
  "ticker": "TTWO",
  "name": "테이크투",
- "price": 202.98,
- "dataAsOf": "2026-09-24",
- "score": 27,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.7배 — 약세 우위",
+ "price": 201.44,
+ "dataAsOf": "2026-09-25",
+ "score": 53,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 168.2,
-   "callOi": 244,
+   "strike": 166.9,
+   "callOi": 246,
    "putOi": 718
   },
   {
-   "strike": 179.8,
-   "callOi": 258,
-   "putOi": 23922
+   "strike": 178.4,
+   "callOi": 187,
+   "putOi": 1572
   },
   {
-   "strike": 191.4,
-   "callOi": 110,
-   "putOi": 7864
+   "strike": 189.9,
+   "callOi": 182,
+   "putOi": 35075
   },
   {
-   "strike": 203.0,
-   "callOi": 1098,
-   "putOi": 3884
+   "strike": 201.4,
+   "callOi": 924,
+   "putOi": 4592
   },
   {
-   "strike": 214.6,
-   "callOi": 7084,
-   "putOi": 8473
+   "strike": 213.0,
+   "callOi": 5249,
+   "putOi": 3348
   },
   {
-   "strike": 226.2,
-   "callOi": 3466,
-   "putOi": 3735
+   "strike": 224.5,
+   "callOi": 7414,
+   "putOi": 7523
   },
   {
-   "strike": 237.8,
-   "callOi": 4032,
-   "putOi": 3499
+   "strike": 236.0,
+   "callOi": 4100,
+   "putOi": 3487
   }
  ],
  "maxPain": 220.0,
  "trend": [
-  {
-   "date": "2026-08-12",
-   "score": 56,
-   "price": 243.0
-  },
   {
    "date": "2026-08-13",
    "score": 96,
@@ -194,6 +189,11 @@
    "date": "2026-09-24",
    "score": 27,
    "price": 202.98
+  },
+  {
+   "date": "2026-09-25",
+   "score": 53,
+   "price": 201.44
   }
  ]
 }

@@ -1,55 +1,50 @@
 {
  "ticker": "VZ",
  "name": "버라이즌",
- "price": 47.32,
- "dataAsOf": "2026-09-24",
- "score": 32,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
+ "price": 47.08,
+ "dataAsOf": "2026-09-25",
+ "score": 46,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 39.2,
-   "callOi": 276,
-   "putOi": 6334
+   "strike": 39.0,
+   "callOi": 350,
+   "putOi": 6340
   },
   {
-   "strike": 41.9,
-   "callOi": 3907,
-   "putOi": 22909
+   "strike": 41.7,
+   "callOi": 3933,
+   "putOi": 23203
   },
   {
-   "strike": 44.6,
-   "callOi": 5943,
-   "putOi": 18020
+   "strike": 44.4,
+   "callOi": 5907,
+   "putOi": 18461
   },
   {
-   "strike": 47.3,
-   "callOi": 28405,
-   "putOi": 36499
+   "strike": 47.1,
+   "callOi": 26042,
+   "putOi": 37020
   },
   {
-   "strike": 50.0,
-   "callOi": 39651,
-   "putOi": 12026
+   "strike": 49.8,
+   "callOi": 44887,
+   "putOi": 12280
   },
   {
-   "strike": 52.7,
-   "callOi": 39863,
-   "putOi": 519
+   "strike": 52.5,
+   "callOi": 30763,
+   "putOi": 523
   },
   {
-   "strike": 55.4,
-   "callOi": 11842,
-   "putOi": 115
+   "strike": 55.2,
+   "callOi": 21132,
+   "putOi": 143
   }
  ],
  "maxPain": 47.0,
  "trend": [
-  {
-   "date": "2026-08-12",
-   "score": 63,
-   "price": 46.98
-  },
   {
    "date": "2026-08-13",
    "score": 82,
@@ -194,6 +189,11 @@
    "date": "2026-09-24",
    "score": 32,
    "price": 47.32
+  },
+  {
+   "date": "2026-09-25",
+   "score": 46,
+   "price": 47.08
   }
  ]
 }

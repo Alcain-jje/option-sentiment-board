@@ -1,55 +1,50 @@
 {
  "ticker": "ELV",
  "name": "엘레반스",
- "price": 398.25,
- "dataAsOf": "2026-09-24",
- "score": 47,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 396.09,
+ "dataAsOf": "2026-09-25",
+ "score": 0,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 4.3배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": 330.0,
+   "strike": 328.2,
    "callOi": 0,
-   "putOi": 128
+   "putOi": 96
   },
   {
-   "strike": 352.7,
-   "callOi": 84,
-   "putOi": 1155
+   "strike": 350.8,
+   "callOi": 83,
+   "putOi": 1253
   },
   {
-   "strike": 375.5,
-   "callOi": 81,
-   "putOi": 541
+   "strike": 373.5,
+   "callOi": 79,
+   "putOi": 543
   },
   {
-   "strike": 398.2,
-   "callOi": 869,
-   "putOi": 1021
+   "strike": 396.1,
+   "callOi": 897,
+   "putOi": 1237
   },
   {
-   "strike": 421.0,
-   "callOi": 1338,
-   "putOi": 413
+   "strike": 418.7,
+   "callOi": 1451,
+   "putOi": 412
   },
   {
-   "strike": 443.8,
-   "callOi": 823,
+   "strike": 441.4,
+   "callOi": 893,
    "putOi": 27
   },
   {
-   "strike": 466.5,
-   "callOi": 544,
-   "putOi": 5
+   "strike": 464.0,
+   "callOi": 545,
+   "putOi": 7
   }
  ],
  "maxPain": 400.0,
  "trend": [
-  {
-   "date": "2026-07-10",
-   "score": 90,
-   "price": 416.23
-  },
   {
    "date": "2026-07-13",
    "score": 45,
@@ -194,6 +189,11 @@
    "date": "2026-09-24",
    "score": 47,
    "price": 398.25
+  },
+  {
+   "date": "2026-09-25",
+   "score": 0,
+   "price": 396.09
   }
  ]
 }
