@@ -1,55 +1,50 @@
 {
  "ticker": "T",
  "name": "AT&T",
- "price": 25.38,
- "dataAsOf": "2026-09-25",
- "score": 46,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": NaN,
+ "dataAsOf": "2026-09-29",
+ "score": 38,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 1.0배 — 약세 우위",
  "buckets": [
   {
-   "strike": 21.0,
-   "callOi": 2030,
-   "putOi": 4158
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 22.5,
-   "callOi": 9041,
-   "putOi": 23791
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 23.9,
-   "callOi": 18985,
-   "putOi": 22087
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 25.4,
-   "callOi": 66096,
-   "putOi": 40573
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 26.8,
-   "callOi": 77064,
-   "putOi": 7311
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 28.3,
-   "callOi": 33745,
-   "putOi": 13130
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 29.7,
-   "callOi": 5819,
-   "putOi": 3315
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   }
  ],
  "maxPain": 25.0,
  "trend": [
-  {
-   "date": "2026-08-13",
-   "score": 25,
-   "price": 24.58
-  },
   {
    "date": "2026-08-14",
    "score": 24,
@@ -194,6 +189,11 @@
    "date": "2026-09-25",
    "score": 46,
    "price": 25.38
+  },
+  {
+   "date": "2026-09-29",
+   "score": 38,
+   "price": NaN
   }
  ]
 }

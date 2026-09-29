@@ -2,10 +2,10 @@
  "ticker": "PRU",
  "name": "푸르덴셜",
  "price": NaN,
- "dataAsOf": "2026-09-22",
- "score": 20,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.1배 — 약세 우위",
+ "dataAsOf": "2026-09-29",
+ "score": 5,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 2.6배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 115.0,
+ "maxPain": 120.0,
  "trend": [
-  {
-   "date": "2026-08-04",
-   "score": 88,
-   "price": 123.54
-  },
   {
    "date": "2026-08-05",
    "score": 59,
@@ -193,6 +188,11 @@
   {
    "date": "2026-09-22",
    "score": 20,
+   "price": NaN
+  },
+  {
+   "date": "2026-09-29",
+   "score": 5,
    "price": NaN
   }
  ]

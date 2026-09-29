@@ -1,55 +1,50 @@
 {
  "ticker": "COF",
  "name": "캐피털원",
- "price": 200.2,
- "dataAsOf": "2026-09-25",
- "score": 35,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
+ "price": NaN,
+ "dataAsOf": "2026-09-29",
+ "score": 2,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 1.7배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": 165.9,
-   "callOi": 15,
-   "putOi": 132
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 177.3,
-   "callOi": 29,
-   "putOi": 1326
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 188.8,
-   "callOi": 58,
-   "putOi": 3011
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 200.2,
-   "callOi": 6437,
-   "putOi": 4221
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 211.6,
-   "callOi": 12994,
-   "putOi": 1034
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 223.1,
-   "callOi": 13293,
-   "putOi": 332
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 234.5,
-   "callOi": 4252,
-   "putOi": 1
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   }
  ],
  "maxPain": 200.0,
  "trend": [
-  {
-   "date": "2026-08-13",
-   "score": 21,
-   "price": 223.83
-  },
   {
    "date": "2026-08-14",
    "score": 100,
@@ -194,6 +189,11 @@
    "date": "2026-09-25",
    "score": 35,
    "price": 200.2
+  },
+  {
+   "date": "2026-09-29",
+   "score": 2,
+   "price": NaN
   }
  ]
 }

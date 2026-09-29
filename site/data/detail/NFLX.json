@@ -1,55 +1,50 @@
 {
  "ticker": "NFLX",
  "name": "넷플릭스",
- "price": 71.14,
- "dataAsOf": "2026-09-25",
- "score": 44,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": NaN,
+ "dataAsOf": "2026-09-29",
+ "score": 26,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
  "buckets": [
   {
-   "strike": 58.9,
-   "callOi": 1550,
-   "putOi": 51150
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 63.0,
-   "callOi": 1942,
-   "putOi": 60369
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 67.1,
-   "callOi": 7512,
-   "putOi": 51503
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 71.1,
-   "callOi": 72981,
-   "putOi": 120731
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 75.2,
-   "callOi": 112793,
-   "putOi": 50337
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 79.3,
-   "callOi": 118132,
-   "putOi": 46713
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 83.3,
-   "callOi": 89043,
-   "putOi": 12494
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   }
  ],
  "maxPain": 75.0,
  "trend": [
-  {
-   "date": "2026-08-13",
-   "score": 71,
-   "price": 78.24
-  },
   {
    "date": "2026-08-14",
    "score": 24,
@@ -194,6 +189,11 @@
    "date": "2026-09-25",
    "score": 44,
    "price": 71.14
+  },
+  {
+   "date": "2026-09-29",
+   "score": 26,
+   "price": NaN
   }
  ]
 }
