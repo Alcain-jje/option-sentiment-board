@@ -2,10 +2,10 @@
  "ticker": "ORCL",
  "name": "오라클",
  "price": NaN,
- "dataAsOf": "2026-09-29",
- "score": 60,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 2.4배 — 강세 우위",
+ "dataAsOf": "2026-09-30",
+ "score": 92,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 3.5배 — 평소보다 훨씬 강세",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 149.0,
+ "maxPain": 145.0,
  "trend": [
-  {
-   "date": "2026-08-14",
-   "score": 10,
-   "price": 150.52
-  },
   {
    "date": "2026-08-17",
    "score": 13,
@@ -193,6 +188,11 @@
   {
    "date": "2026-09-29",
    "score": 60,
+   "price": NaN
+  },
+  {
+   "date": "2026-09-30",
+   "score": 92,
    "price": NaN
   }
  ]

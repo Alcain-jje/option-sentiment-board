@@ -2,10 +2,10 @@
  "ticker": "TSLA",
  "name": "테슬라",
  "price": NaN,
- "dataAsOf": "2026-09-29",
- "score": 98,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 1.9배 — 평소보다 훨씬 강세",
+ "dataAsOf": "2026-09-30",
+ "score": 54,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 370.0,
+ "maxPain": 365.0,
  "trend": [
-  {
-   "date": "2026-08-14",
-   "score": 72,
-   "price": 342.27
-  },
   {
    "date": "2026-08-17",
    "score": 37,
@@ -193,6 +188,11 @@
   {
    "date": "2026-09-29",
    "score": 98,
+   "price": NaN
+  },
+  {
+   "date": "2026-09-30",
+   "score": 54,
    "price": NaN
   }
  ]

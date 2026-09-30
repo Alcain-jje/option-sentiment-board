@@ -2,10 +2,10 @@
  "ticker": "CLSK",
  "name": "클린스파크",
  "price": NaN,
- "dataAsOf": "2026-09-29",
- "score": 60,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 3.0배 — 강세 우위",
+ "dataAsOf": "2026-09-30",
+ "score": 0,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 1.0배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
    "strike": NaN,
@@ -45,11 +45,6 @@
  ],
  "maxPain": 13.0,
  "trend": [
-  {
-   "date": "2026-08-14",
-   "score": 24,
-   "price": 12.09
-  },
   {
    "date": "2026-08-17",
    "score": 17,
@@ -193,6 +188,11 @@
   {
    "date": "2026-09-29",
    "score": 60,
+   "price": NaN
+  },
+  {
+   "date": "2026-09-30",
+   "score": 0,
    "price": NaN
   }
  ]

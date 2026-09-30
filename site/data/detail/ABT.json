@@ -2,10 +2,10 @@
  "ticker": "ABT",
  "name": "애보트",
  "price": NaN,
- "dataAsOf": "2026-09-29",
- "score": 83,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 3.0배 — 강세 우위",
+ "dataAsOf": "2026-09-30",
+ "score": 68,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.6배 — 강세 우위",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 103.0,
+ "maxPain": 102.0,
  "trend": [
-  {
-   "date": "2026-08-14",
-   "score": 17,
-   "price": 111.25
-  },
   {
    "date": "2026-08-17",
    "score": 50,
@@ -193,6 +188,11 @@
   {
    "date": "2026-09-29",
    "score": 83,
+   "price": NaN
+  },
+  {
+   "date": "2026-09-30",
+   "score": 68,
    "price": NaN
   }
  ]
