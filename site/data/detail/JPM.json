@@ -2,10 +2,10 @@
  "ticker": "JPM",
  "name": "JP모건",
  "price": NaN,
- "dataAsOf": "2026-09-30",
- "score": 66,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 1.7배 — 강세 우위",
+ "dataAsOf": "2026-10-01",
+ "score": 53,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
    "strike": NaN,
@@ -45,11 +45,6 @@
  ],
  "maxPain": 340.0,
  "trend": [
-  {
-   "date": "2026-08-17",
-   "score": 17,
-   "price": 360.96
-  },
   {
    "date": "2026-08-18",
    "score": 32,
@@ -193,6 +188,11 @@
   {
    "date": "2026-09-30",
    "score": 66,
+   "price": NaN
+  },
+  {
+   "date": "2026-10-01",
+   "score": 53,
    "price": NaN
   }
  ]

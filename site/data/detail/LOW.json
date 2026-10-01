@@ -2,10 +2,10 @@
  "ticker": "LOW",
  "name": "로우스",
  "price": NaN,
- "dataAsOf": "2026-09-30",
- "score": 85,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 1.6배 — 강세 우위",
+ "dataAsOf": "2026-10-01",
+ "score": 68,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.2배 — 강세 우위",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 200.0,
+ "maxPain": 197.5,
  "trend": [
-  {
-   "date": "2026-08-17",
-   "score": 70,
-   "price": 215.81
-  },
   {
    "date": "2026-08-18",
    "score": 58,
@@ -193,6 +188,11 @@
   {
    "date": "2026-09-30",
    "score": 85,
+   "price": NaN
+  },
+  {
+   "date": "2026-10-01",
+   "score": 68,
    "price": NaN
   }
  ]

@@ -2,10 +2,10 @@
  "ticker": "NFLX",
  "name": "넷플릭스",
  "price": NaN,
- "dataAsOf": "2026-09-30",
- "score": 85,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 2.9배 — 강세 우위",
+ "dataAsOf": "2026-10-01",
+ "score": 40,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 74.0,
+ "maxPain": 73.0,
  "trend": [
-  {
-   "date": "2026-08-17",
-   "score": 10,
-   "price": 76.02
-  },
   {
    "date": "2026-08-18",
    "score": 71,
@@ -193,6 +188,11 @@
   {
    "date": "2026-09-30",
    "score": 85,
+   "price": NaN
+  },
+  {
+   "date": "2026-10-01",
+   "score": 40,
    "price": NaN
   }
  ]
