@@ -2,10 +2,10 @@
  "ticker": "NVDA",
  "name": "엔비디아",
  "price": NaN,
- "dataAsOf": "2026-10-01",
- "score": 85,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 2.2배 — 강세 우위",
+ "dataAsOf": "2026-10-02",
+ "score": 11,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
  "buckets": [
   {
    "strike": NaN,
@@ -45,11 +45,6 @@
  ],
  "maxPain": 215.0,
  "trend": [
-  {
-   "date": "2026-08-18",
-   "score": 29,
-   "price": 219.74
-  },
   {
    "date": "2026-08-19",
    "score": 16,
@@ -193,6 +188,11 @@
   {
    "date": "2026-10-01",
    "score": 85,
+   "price": NaN
+  },
+  {
+   "date": "2026-10-02",
+   "score": 11,
    "price": NaN
   }
  ]

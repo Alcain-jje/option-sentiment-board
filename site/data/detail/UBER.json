@@ -2,10 +2,10 @@
  "ticker": "UBER",
  "name": "우버",
  "price": NaN,
- "dataAsOf": "2026-10-01",
- "score": 57,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "dataAsOf": "2026-10-02",
+ "score": 38,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 71.0,
+ "maxPain": 70.0,
  "trend": [
-  {
-   "date": "2026-08-18",
-   "score": 10,
-   "price": 74.66
-  },
   {
    "date": "2026-08-19",
    "score": 72,
@@ -193,6 +188,11 @@
   {
    "date": "2026-10-01",
    "score": 57,
+   "price": NaN
+  },
+  {
+   "date": "2026-10-02",
+   "score": 38,
    "price": NaN
   }
  ]

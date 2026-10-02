@@ -2,10 +2,10 @@
  "ticker": "MCD",
  "name": "맥도날드",
  "price": NaN,
- "dataAsOf": "2026-10-01",
- "score": 87,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 2.5배 — 강세 우위",
+ "dataAsOf": "2026-10-02",
+ "score": 33,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 245.0,
+ "maxPain": 240.0,
  "trend": [
-  {
-   "date": "2026-08-18",
-   "score": 29,
-   "price": 266.99
-  },
   {
    "date": "2026-08-19",
    "score": 3,
@@ -193,6 +188,11 @@
   {
    "date": "2026-10-01",
    "score": 87,
+   "price": NaN
+  },
+  {
+   "date": "2026-10-02",
+   "score": 33,
    "price": NaN
   }
  ]

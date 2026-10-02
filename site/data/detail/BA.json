@@ -2,10 +2,10 @@
  "ticker": "BA",
  "name": "보잉",
  "price": NaN,
- "dataAsOf": "2026-10-01",
- "score": 58,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "dataAsOf": "2026-10-02",
+ "score": 92,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 2.6배 — 평소보다 훨씬 강세",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 200.0,
+ "maxPain": 197.5,
  "trend": [
-  {
-   "date": "2026-08-18",
-   "score": 71,
-   "price": 223.06
-  },
   {
    "date": "2026-08-19",
    "score": 9,
@@ -193,6 +188,11 @@
   {
    "date": "2026-10-01",
    "score": 58,
+   "price": NaN
+  },
+  {
+   "date": "2026-10-02",
+   "score": 92,
    "price": NaN
   }
  ]
