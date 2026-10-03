@@ -2,10 +2,10 @@
  "ticker": "TGT",
  "name": "타깃",
  "price": NaN,
- "dataAsOf": "2026-10-02",
- "score": 33,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
+ "dataAsOf": "2026-10-03",
+ "score": 60,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.7배 — 강세 우위",
  "buckets": [
   {
    "strike": NaN,
@@ -45,11 +45,6 @@
  ],
  "maxPain": 150.0,
  "trend": [
-  {
-   "date": "2026-08-19",
-   "score": 59,
-   "price": 159.0
-  },
   {
    "date": "2026-08-20",
    "score": 39,
@@ -193,6 +188,11 @@
   {
    "date": "2026-10-02",
    "score": 33,
+   "price": NaN
+  },
+  {
+   "date": "2026-10-03",
+   "score": 60,
    "price": NaN
   }
  ]

@@ -2,10 +2,10 @@
  "ticker": "MA",
  "name": "마스터카드",
  "price": NaN,
- "dataAsOf": "2026-10-02",
- "score": 77,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 1.2배 — 강세 우위",
+ "dataAsOf": "2026-10-03",
+ "score": 97,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 2.0배 — 평소보다 훨씬 강세",
  "buckets": [
   {
    "strike": NaN,
@@ -45,11 +45,6 @@
  ],
  "maxPain": 560.0,
  "trend": [
-  {
-   "date": "2026-08-19",
-   "score": 19,
-   "price": 573.72
-  },
   {
    "date": "2026-08-20",
    "score": 15,
@@ -193,6 +188,11 @@
   {
    "date": "2026-10-02",
    "score": 77,
+   "price": NaN
+  },
+  {
+   "date": "2026-10-03",
+   "score": 97,
    "price": NaN
   }
  ]
