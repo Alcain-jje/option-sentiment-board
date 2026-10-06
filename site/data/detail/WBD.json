@@ -1,55 +1,50 @@
 {
  "ticker": "WBD",
  "name": "워너브라더스디스커버리",
- "price": NaN,
- "dataAsOf": "2026-10-03",
- "score": 94,
+ "price": 30.95,
+ "dataAsOf": "2026-10-06",
+ "score": 92,
  "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 2.0배 — 평소보다 훨씬 강세",
+ "ratioText": "상승 베팅이 하락의 1.9배 — 평소보다 훨씬 강세",
  "buckets": [
   {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 25.6,
+   "callOi": 6473,
+   "putOi": 321635
+  },
+  {
+   "strike": 27.4,
+   "callOi": 109869,
+   "putOi": 197982
+  },
+  {
+   "strike": 29.2,
+   "callOi": 212244,
+   "putOi": 21757
+  },
+  {
+   "strike": 31.0,
+   "callOi": 62613,
+   "putOi": 5034
+  },
+  {
+   "strike": 32.7,
+   "callOi": 29344,
    "putOi": 0
   },
   {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 34.5,
+   "callOi": 112,
    "putOi": 0
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 36.3,
+   "callOi": 3,
    "putOi": 0
   }
  ],
  "maxPain": 28.0,
  "trend": [
-  {
-   "date": "2026-08-20",
-   "score": 52,
-   "price": 28.23
-  },
   {
    "date": "2026-08-21",
    "score": 97,
@@ -194,6 +189,11 @@
    "date": "2026-10-03",
    "score": 94,
    "price": NaN
+  },
+  {
+   "date": "2026-10-06",
+   "score": 92,
+   "price": 30.95
   }
  ]
 }
