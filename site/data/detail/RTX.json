@@ -1,55 +1,50 @@
 {
  "ticker": "RTX",
  "name": "RTX",
- "price": 184.33,
- "dataAsOf": "2026-10-06",
- "score": 0,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 2.2배 — 평소보다 뚜렷한 약세",
+ "price": 183.29,
+ "dataAsOf": "2026-10-07",
+ "score": 64,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.8배 — 강세 우위",
  "buckets": [
   {
-   "strike": 152.7,
+   "strike": 151.9,
    "callOi": 16,
-   "putOi": 1409
+   "putOi": 1420
   },
   {
-   "strike": 163.3,
+   "strike": 162.3,
    "callOi": 59,
-   "putOi": 2085
+   "putOi": 7022
   },
   {
-   "strike": 173.8,
-   "callOi": 141,
-   "putOi": 3512
+   "strike": 172.8,
+   "callOi": 144,
+   "putOi": 3650
   },
   {
-   "strike": 184.3,
-   "callOi": 2205,
-   "putOi": 7553
+   "strike": 183.3,
+   "callOi": 2673,
+   "putOi": 7883
   },
   {
-   "strike": 194.9,
-   "callOi": 9352,
-   "putOi": 6712
+   "strike": 193.8,
+   "callOi": 5619,
+   "putOi": 3837
   },
   {
-   "strike": 205.4,
-   "callOi": 4583,
-   "putOi": 872
+   "strike": 204.2,
+   "callOi": 5556,
+   "putOi": 2700
   },
   {
-   "strike": 215.9,
-   "callOi": 6224,
-   "putOi": 250
+   "strike": 214.7,
+   "callOi": 5847,
+   "putOi": 862
   }
  ],
  "maxPain": 192.5,
  "trend": [
-  {
-   "date": "2026-08-21",
-   "score": 68,
-   "price": 209.91
-  },
   {
    "date": "2026-08-24",
    "score": 69,
@@ -194,6 +189,11 @@
    "date": "2026-10-06",
    "score": 0,
    "price": 184.33
+  },
+  {
+   "date": "2026-10-07",
+   "score": 64,
+   "price": 183.29
   }
  ]
 }

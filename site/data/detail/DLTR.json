@@ -1,55 +1,50 @@
 {
  "ticker": "DLTR",
  "name": "달러트리",
- "price": 113.19,
- "dataAsOf": "2026-10-06",
- "score": 54,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 116.19,
+ "dataAsOf": "2026-10-07",
+ "score": 73,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.6배 — 강세 우위",
  "buckets": [
   {
-   "strike": 93.8,
+   "strike": 96.3,
    "callOi": 1,
-   "putOi": 286
+   "putOi": 460
   },
   {
-   "strike": 100.3,
-   "callOi": 136,
-   "putOi": 617
+   "strike": 102.9,
+   "callOi": 192,
+   "putOi": 1223
   },
   {
-   "strike": 106.7,
-   "callOi": 41,
-   "putOi": 648
+   "strike": 109.6,
+   "callOi": 263,
+   "putOi": 1443
   },
   {
-   "strike": 113.2,
-   "callOi": 1414,
-   "putOi": 2174
+   "strike": 116.2,
+   "callOi": 1693,
+   "putOi": 1021
   },
   {
-   "strike": 119.7,
-   "callOi": 738,
-   "putOi": 446
+   "strike": 122.8,
+   "callOi": 2252,
+   "putOi": 1526
   },
   {
-   "strike": 126.1,
-   "callOi": 1657,
-   "putOi": 1180
+   "strike": 129.5,
+   "callOi": 1438,
+   "putOi": 170
   },
   {
-   "strike": 132.6,
-   "callOi": 2021,
-   "putOi": 191
+   "strike": 136.1,
+   "callOi": 661,
+   "putOi": 13
   }
  ],
- "maxPain": 120.0,
+ "maxPain": 116.0,
  "trend": [
-  {
-   "date": "2026-08-21",
-   "score": 53,
-   "price": 131.48
-  },
   {
    "date": "2026-08-24",
    "score": 34,
@@ -194,6 +189,11 @@
    "date": "2026-10-06",
    "score": 54,
    "price": 113.19
+  },
+  {
+   "date": "2026-10-07",
+   "score": 73,
+   "price": 116.19
   }
  ]
 }

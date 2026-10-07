@@ -1,55 +1,50 @@
 {
  "ticker": "VLO",
  "name": "발레로",
- "price": 419.33,
- "dataAsOf": "2026-10-06",
- "score": 57,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 419.22,
+ "dataAsOf": "2026-10-07",
+ "score": 16,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 1.5배 — 약세 우위",
  "buckets": [
   {
    "strike": 347.4,
-   "callOi": 590,
-   "putOi": 6639
+   "callOi": 1014,
+   "putOi": 6645
   },
   {
-   "strike": 371.4,
-   "callOi": 2172,
-   "putOi": 6632
+   "strike": 371.3,
+   "callOi": 2576,
+   "putOi": 6876
   },
   {
-   "strike": 395.4,
-   "callOi": 3420,
-   "putOi": 2815
+   "strike": 395.3,
+   "callOi": 3351,
+   "putOi": 3403
   },
   {
-   "strike": 419.3,
-   "callOi": 4870,
-   "putOi": 708
+   "strike": 419.2,
+   "callOi": 5631,
+   "putOi": 1016
   },
   {
-   "strike": 443.3,
-   "callOi": 2916,
+   "strike": 443.2,
+   "callOi": 3240,
    "putOi": 87
   },
   {
-   "strike": 467.3,
-   "callOi": 1045,
+   "strike": 467.1,
+   "callOi": 1298,
    "putOi": 60
   },
   {
-   "strike": 491.2,
-   "callOi": 1084,
-   "putOi": 16
+   "strike": 491.1,
+   "callOi": 1129,
+   "putOi": 20
   }
  ],
  "maxPain": 385.0,
  "trend": [
-  {
-   "date": "2026-08-21",
-   "score": 71,
-   "price": 348.86
-  },
   {
    "date": "2026-08-24",
    "score": 20,
@@ -194,6 +189,11 @@
    "date": "2026-10-06",
    "score": 57,
    "price": 419.33
+  },
+  {
+   "date": "2026-10-07",
+   "score": 16,
+   "price": 419.22
   }
  ]
 }

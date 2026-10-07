@@ -1,55 +1,50 @@
 {
  "ticker": "PGR",
  "name": "프로그레시브",
- "price": 212.62,
- "dataAsOf": "2026-10-06",
- "score": 13,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.8배 — 약세 우위",
+ "price": 212.05,
+ "dataAsOf": "2026-10-07",
+ "score": 86,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 2.0배 — 강세 우위",
  "buckets": [
   {
-   "strike": 176.2,
-   "callOi": 0,
-   "putOi": 367
+   "strike": 175.7,
+   "callOi": 4,
+   "putOi": 396
   },
   {
-   "strike": 188.3,
+   "strike": 187.8,
    "callOi": 924,
-   "putOi": 738
+   "putOi": 737
   },
   {
-   "strike": 200.5,
-   "callOi": 212,
-   "putOi": 2477
+   "strike": 199.9,
+   "callOi": 211,
+   "putOi": 2562
   },
   {
-   "strike": 212.6,
-   "callOi": 959,
-   "putOi": 1905
+   "strike": 212.1,
+   "callOi": 1004,
+   "putOi": 2567
   },
   {
-   "strike": 224.8,
-   "callOi": 3384,
-   "putOi": 682
+   "strike": 224.2,
+   "callOi": 3524,
+   "putOi": 683
   },
   {
-   "strike": 236.9,
-   "callOi": 3497,
+   "strike": 236.3,
+   "callOi": 3504,
    "putOi": 27
   },
   {
-   "strike": 249.1,
-   "callOi": 1042,
+   "strike": 248.4,
+   "callOi": 669,
    "putOi": 3
   }
  ],
  "maxPain": 210.0,
  "trend": [
-  {
-   "date": "2026-08-21",
-   "score": 100,
-   "price": 219.28
-  },
   {
    "date": "2026-08-24",
    "score": 91,
@@ -194,6 +189,11 @@
    "date": "2026-10-06",
    "score": 13,
    "price": 212.62
+  },
+  {
+   "date": "2026-10-07",
+   "score": 86,
+   "price": 212.05
   }
  ]
 }
