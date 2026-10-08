@@ -2,10 +2,10 @@
  "ticker": "PSX",
  "name": "필립스66",
  "price": NaN,
- "dataAsOf": "2026-10-07",
- "score": 48,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "dataAsOf": "2026-10-08",
+ "score": 31,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.5배 — 약세 우위",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 230.0,
+ "maxPain": 235.0,
  "trend": [
-  {
-   "date": "2026-08-24",
-   "score": 31,
-   "price": 241.96
-  },
   {
    "date": "2026-08-25",
    "score": 75,
@@ -193,6 +188,11 @@
   {
    "date": "2026-10-07",
    "score": 48,
+   "price": NaN
+  },
+  {
+   "date": "2026-10-08",
+   "score": 31,
    "price": NaN
   }
  ]
