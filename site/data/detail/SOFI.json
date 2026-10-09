@@ -2,10 +2,10 @@
  "ticker": "SOFI",
  "name": "소파이",
  "price": NaN,
- "dataAsOf": "2026-10-08",
- "score": 0,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 0.7배 — 평소보다 뚜렷한 약세",
+ "dataAsOf": "2026-10-09",
+ "score": 65,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 2.7배 — 강세 우위",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 16.5,
+ "maxPain": 16.0,
  "trend": [
-  {
-   "date": "2026-08-25",
-   "score": 97,
-   "price": 19.0
-  },
   {
    "date": "2026-08-27",
    "score": 81,
@@ -193,6 +188,11 @@
   {
    "date": "2026-10-08",
    "score": 0,
+   "price": NaN
+  },
+  {
+   "date": "2026-10-09",
+   "score": 65,
    "price": NaN
   }
  ]

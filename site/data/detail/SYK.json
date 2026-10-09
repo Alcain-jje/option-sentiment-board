@@ -1,55 +1,50 @@
 {
  "ticker": "SYK",
  "name": "스트라이커",
- "price": 278.2,
- "dataAsOf": "2026-10-07",
- "score": 3,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 5.1배 — 평소보다 뚜렷한 약세",
+ "price": NaN,
+ "dataAsOf": "2026-10-09",
+ "score": 93,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 15.7배 — 평소보다 훨씬 강세",
  "buckets": [
   {
-   "strike": 230.5,
+   "strike": NaN,
    "callOi": 0,
-   "putOi": 45
+   "putOi": 0
   },
   {
-   "strike": 246.4,
-   "callOi": 36,
-   "putOi": 517
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 262.3,
-   "callOi": 274,
-   "putOi": 1009
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 278.2,
-   "callOi": 850,
-   "putOi": 209
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 294.1,
-   "callOi": 970,
-   "putOi": 288
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 310.0,
-   "callOi": 1026,
-   "putOi": 13
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 325.9,
-   "callOi": 413,
-   "putOi": 34
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   }
  ],
  "maxPain": 280.0,
  "trend": [
-  {
-   "date": "2026-07-14",
-   "score": 90,
-   "price": 311.07
-  },
   {
    "date": "2026-07-16",
    "score": 90,
@@ -194,6 +189,11 @@
    "date": "2026-10-07",
    "score": 3,
    "price": 278.2
+  },
+  {
+   "date": "2026-10-09",
+   "score": 93,
+   "price": NaN
   }
  ]
 }

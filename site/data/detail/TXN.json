@@ -2,10 +2,10 @@
  "ticker": "TXN",
  "name": "텍사스인스트루먼트",
  "price": NaN,
- "dataAsOf": "2026-10-08",
- "score": 77,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 1.9배 — 강세 우위",
+ "dataAsOf": "2026-10-09",
+ "score": 42,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 270.0,
+ "maxPain": 275.0,
  "trend": [
-  {
-   "date": "2026-08-25",
-   "score": 33,
-   "price": 260.05
-  },
   {
    "date": "2026-08-27",
    "score": 41,
@@ -193,6 +188,11 @@
   {
    "date": "2026-10-08",
    "score": 77,
+   "price": NaN
+  },
+  {
+   "date": "2026-10-09",
+   "score": 42,
    "price": NaN
   }
  ]
