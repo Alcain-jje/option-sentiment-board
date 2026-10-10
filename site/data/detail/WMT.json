@@ -2,10 +2,10 @@
  "ticker": "WMT",
  "name": "월마트",
  "price": NaN,
- "dataAsOf": "2026-10-09",
- "score": 36,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.5배 — 약세 우위",
+ "dataAsOf": "2026-10-10",
+ "score": 10,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 0.8배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 107.0,
+ "maxPain": 108.0,
  "trend": [
-  {
-   "date": "2026-08-27",
-   "score": 84,
-   "price": 104.34
-  },
   {
    "date": "2026-08-28",
    "score": 21,
@@ -193,6 +188,11 @@
   {
    "date": "2026-10-09",
    "score": 36,
+   "price": NaN
+  },
+  {
+   "date": "2026-10-10",
+   "score": 10,
    "price": NaN
   }
  ]

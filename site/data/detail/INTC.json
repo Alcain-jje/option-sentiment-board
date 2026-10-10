@@ -2,10 +2,10 @@
  "ticker": "INTC",
  "name": "인텔",
  "price": NaN,
- "dataAsOf": "2026-10-09",
- "score": 64,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 2.2배 — 강세 우위",
+ "dataAsOf": "2026-10-10",
+ "score": 82,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 2.4배 — 강세 우위",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 105.0,
+ "maxPain": 100.0,
  "trend": [
-  {
-   "date": "2026-08-27",
-   "score": 81,
-   "price": 88.24
-  },
   {
    "date": "2026-08-28",
    "score": 61,
@@ -193,6 +188,11 @@
   {
    "date": "2026-10-09",
    "score": 64,
+   "price": NaN
+  },
+  {
+   "date": "2026-10-10",
+   "score": 82,
    "price": NaN
   }
  ]

@@ -2,10 +2,10 @@
  "ticker": "TMO",
  "name": "써모피셔",
  "price": NaN,
- "dataAsOf": "2026-10-09",
- "score": 38,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.2배 — 약세 우위",
+ "dataAsOf": "2026-10-10",
+ "score": 3,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 2.2배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 650.0,
+ "maxPain": 640.0,
  "trend": [
-  {
-   "date": "2026-08-27",
-   "score": 59,
-   "price": 633.71
-  },
   {
    "date": "2026-08-28",
    "score": 97,
@@ -193,6 +188,11 @@
   {
    "date": "2026-10-09",
    "score": 38,
+   "price": NaN
+  },
+  {
+   "date": "2026-10-10",
+   "score": 3,
    "price": NaN
   }
  ]

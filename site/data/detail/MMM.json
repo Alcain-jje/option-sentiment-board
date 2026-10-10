@@ -2,10 +2,10 @@
  "ticker": "MMM",
  "name": "3M",
  "price": NaN,
- "dataAsOf": "2026-10-09",
- "score": 3,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.3배 — 평소보다 뚜렷한 약세",
+ "dataAsOf": "2026-10-10",
+ "score": 78,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 2.1배 — 강세 우위",
  "buckets": [
   {
    "strike": NaN,
@@ -45,11 +45,6 @@
  ],
  "maxPain": 165.0,
  "trend": [
-  {
-   "date": "2026-08-27",
-   "score": 27,
-   "price": 180.0
-  },
   {
    "date": "2026-08-28",
    "score": 58,
@@ -193,6 +188,11 @@
   {
    "date": "2026-10-09",
    "score": 3,
+   "price": NaN
+  },
+  {
+   "date": "2026-10-10",
+   "score": 78,
    "price": NaN
   }
  ]
