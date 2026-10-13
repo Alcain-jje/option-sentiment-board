@@ -1,55 +1,50 @@
 {
  "ticker": "TXN",
  "name": "텍사스인스트루먼트",
- "price": NaN,
- "dataAsOf": "2026-10-10",
- "score": 66,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 1.5배 — 강세 우위",
+ "price": 281.74,
+ "dataAsOf": "2026-10-13",
+ "score": 6,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 1.5배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 233.4,
+   "callOi": 1589,
+   "putOi": 6572
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 249.5,
+   "callOi": 1296,
+   "putOi": 5355
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 265.6,
+   "callOi": 2946,
+   "putOi": 5774
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 281.7,
+   "callOi": 5530,
+   "putOi": 4453
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 297.8,
+   "callOi": 18043,
+   "putOi": 2038
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 313.9,
+   "callOi": 9260,
+   "putOi": 282
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 330.0,
+   "callOi": 2214,
+   "putOi": 68
   }
  ],
- "maxPain": 270.0,
+ "maxPain": 272.5,
  "trend": [
-  {
-   "date": "2026-08-28",
-   "score": 26,
-   "price": 266.54
-  },
   {
    "date": "2026-08-29",
    "score": 74,
@@ -194,6 +189,11 @@
    "date": "2026-10-10",
    "score": 66,
    "price": NaN
+  },
+  {
+   "date": "2026-10-13",
+   "score": 6,
+   "price": 281.74
   }
  ]
 }

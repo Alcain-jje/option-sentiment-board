@@ -1,55 +1,50 @@
 {
  "ticker": "BRK-B",
  "name": "버크셔해서웨이",
- "price": NaN,
- "dataAsOf": "2026-10-10",
- "score": 51,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 517.6,
+ "dataAsOf": "2026-10-13",
+ "score": 9,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 1.2배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 428.9,
+   "callOi": 275,
+   "putOi": 3280
+  },
+  {
+   "strike": 458.4,
+   "callOi": 566,
+   "putOi": 8304
+  },
+  {
+   "strike": 488.0,
+   "callOi": 2875,
+   "putOi": 20089
+  },
+  {
+   "strike": 517.6,
+   "callOi": 49911,
+   "putOi": 12008
+  },
+  {
+   "strike": 547.2,
+   "callOi": 13199,
+   "putOi": 61
+  },
+  {
+   "strike": 576.8,
+   "callOi": 1474,
    "putOi": 0
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 606.3,
+   "callOi": 689,
    "putOi": 0
   }
  ],
- "maxPain": 505.0,
+ "maxPain": 507.5,
  "trend": [
-  {
-   "date": "2026-08-28",
-   "score": 11,
-   "price": 503.7
-  },
   {
    "date": "2026-08-29",
    "score": 44,
@@ -194,6 +189,11 @@
    "date": "2026-10-10",
    "score": 51,
    "price": NaN
+  },
+  {
+   "date": "2026-10-13",
+   "score": 9,
+   "price": 517.6
   }
  ]
 }

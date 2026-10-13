@@ -1,55 +1,50 @@
 {
  "ticker": "INTC",
  "name": "인텔",
- "price": NaN,
- "dataAsOf": "2026-10-10",
- "score": 82,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 2.4배 — 강세 우위",
+ "price": 101.35,
+ "dataAsOf": "2026-10-13",
+ "score": 62,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 2.1배 — 강세 우위",
  "buckets": [
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 84.0,
+   "callOi": 10610,
+   "putOi": 60335
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 89.8,
+   "callOi": 30111,
+   "putOi": 92970
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 95.6,
+   "callOi": 20761,
+   "putOi": 53896
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 101.3,
+   "callOi": 39228,
+   "putOi": 85562
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 107.1,
+   "callOi": 143725,
+   "putOi": 95220
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 112.9,
+   "callOi": 100416,
+   "putOi": 41186
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 118.7,
+   "callOi": 155626,
+   "putOi": 38074
   }
  ],
- "maxPain": 100.0,
+ "maxPain": 101.0,
  "trend": [
-  {
-   "date": "2026-08-28",
-   "score": 61,
-   "price": 92.09
-  },
   {
    "date": "2026-08-29",
    "score": 56,
@@ -194,6 +189,11 @@
    "date": "2026-10-10",
    "score": 82,
    "price": NaN
+  },
+  {
+   "date": "2026-10-13",
+   "score": 62,
+   "price": 101.35
   }
  ]
 }

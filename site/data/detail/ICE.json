@@ -1,55 +1,50 @@
 {
  "ticker": "ICE",
  "name": "인터콘티넨탈익스체인지",
- "price": NaN,
- "dataAsOf": "2026-10-10",
- "score": 35,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.0배 — 약세 우위",
+ "price": 157.42,
+ "dataAsOf": "2026-10-13",
+ "score": 0,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 5.8배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 130.4,
+   "callOi": 9,
+   "putOi": 71
+  },
+  {
+   "strike": 139.4,
+   "callOi": 15,
+   "putOi": 1156
+  },
+  {
+   "strike": 148.4,
+   "callOi": 271,
+   "putOi": 2101
+  },
+  {
+   "strike": 157.4,
+   "callOi": 3690,
+   "putOi": 1091
+  },
+  {
+   "strike": 166.4,
+   "callOi": 3665,
+   "putOi": 25
+  },
+  {
+   "strike": 175.4,
+   "callOi": 311,
    "putOi": 0
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 184.4,
+   "callOi": 668,
    "putOi": 0
   }
  ],
  "maxPain": 155.0,
  "trend": [
-  {
-   "date": "2026-08-27",
-   "score": 59,
-   "price": 161.92
-  },
   {
    "date": "2026-08-28",
    "score": 71,
@@ -194,6 +189,11 @@
    "date": "2026-10-10",
    "score": 35,
    "price": NaN
+  },
+  {
+   "date": "2026-10-13",
+   "score": 0,
+   "price": 157.42
   }
  ]
 }
