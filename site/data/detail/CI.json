@@ -1,45 +1,45 @@
 {
  "ticker": "CI",
  "name": "시그나",
- "price": NaN,
+ "price": 289.58,
  "dataAsOf": "2026-10-14",
- "score": 0,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 4.8배 — 평소보다 뚜렷한 약세",
+ "score": 20,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 1.5배 — 약세 우위",
  "buckets": [
   {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 239.9,
+   "callOi": 1,
+   "putOi": 336
+  },
+  {
+   "strike": 256.5,
+   "callOi": 65,
+   "putOi": 7021
+  },
+  {
+   "strike": 273.0,
+   "callOi": 2270,
+   "putOi": 3064
+  },
+  {
+   "strike": 289.6,
+   "callOi": 2668,
+   "putOi": 1000
+  },
+  {
+   "strike": 306.1,
+   "callOi": 2766,
+   "putOi": 1620
+  },
+  {
+   "strike": 322.7,
+   "callOi": 442,
    "putOi": 0
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 339.2,
+   "callOi": 90,
    "putOi": 0
   }
  ],
@@ -192,8 +192,8 @@
   },
   {
    "date": "2026-10-14",
-   "score": 0,
-   "price": NaN
+   "score": 20,
+   "price": 289.58
   }
  ]
 }

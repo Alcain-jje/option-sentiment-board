@@ -1,45 +1,45 @@
 {
  "ticker": "KMI",
  "name": "킨더모건",
- "price": NaN,
+ "price": 33.35,
  "dataAsOf": "2026-10-14",
- "score": 72,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 3.0배 — 강세 우위",
+ "score": 41,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 27.6,
+   "callOi": 445,
+   "putOi": 1244
+  },
+  {
+   "strike": 29.5,
+   "callOi": 781,
+   "putOi": 3663
+  },
+  {
+   "strike": 31.4,
+   "callOi": 7010,
+   "putOi": 11169
+  },
+  {
+   "strike": 33.3,
+   "callOi": 34624,
+   "putOi": 1269
+  },
+  {
+   "strike": 35.3,
+   "callOi": 9754,
+   "putOi": 1
+  },
+  {
+   "strike": 37.2,
+   "callOi": 157,
    "putOi": 0
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 39.1,
+   "callOi": 10,
    "putOi": 0
   }
  ],
@@ -192,8 +192,8 @@
   },
   {
    "date": "2026-10-14",
-   "score": 72,
-   "price": NaN
+   "score": 41,
+   "price": 33.35
   }
  ]
 }
