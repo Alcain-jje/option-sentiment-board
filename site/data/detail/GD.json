@@ -1,55 +1,50 @@
 {
  "ticker": "GD",
  "name": "제너럴다이내믹스",
- "price": 334.66,
- "dataAsOf": "2026-10-14",
+ "price": 337.03,
+ "dataAsOf": "2026-10-15",
  "score": 23,
  "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.3배 — 약세 우위",
+ "ratioText": "하락 베팅이 상승의 1.4배 — 약세 우위",
  "buckets": [
   {
-   "strike": 277.3,
+   "strike": 279.3,
    "callOi": 0,
-   "putOi": 420
+   "putOi": 436
   },
   {
-   "strike": 296.4,
+   "strike": 298.5,
    "callOi": 5,
-   "putOi": 130
+   "putOi": 308
   },
   {
-   "strike": 315.5,
-   "callOi": 197,
-   "putOi": 581
+   "strike": 317.8,
+   "callOi": 202,
+   "putOi": 598
   },
   {
-   "strike": 334.7,
-   "callOi": 940,
-   "putOi": 647
+   "strike": 337.0,
+   "callOi": 1041,
+   "putOi": 708
   },
   {
-   "strike": 353.8,
-   "callOi": 1369,
-   "putOi": 543
+   "strike": 356.3,
+   "callOi": 1367,
+   "putOi": 308
   },
   {
-   "strike": 372.9,
-   "callOi": 781,
+   "strike": 375.5,
+   "callOi": 737,
    "putOi": 233
   },
   {
-   "strike": 392.0,
+   "strike": 394.8,
    "callOi": 763,
-   "putOi": 2
+   "putOi": 1
   }
  ],
- "maxPain": 340.0,
+ "maxPain": 335.0,
  "trend": [
-  {
-   "date": "2026-08-18",
-   "score": 3,
-   "price": 393.48
-  },
   {
    "date": "2026-08-19",
    "score": 0,
@@ -194,6 +189,11 @@
    "date": "2026-10-14",
    "score": 23,
    "price": 334.66
+  },
+  {
+   "date": "2026-10-15",
+   "score": 23,
+   "price": 337.03
   }
  ]
 }

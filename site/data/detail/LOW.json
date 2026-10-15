@@ -1,55 +1,50 @@
 {
  "ticker": "LOW",
  "name": "로우스",
- "price": 188.31,
- "dataAsOf": "2026-10-14",
- "score": 12,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 2.1배 — 약세 우위",
+ "price": 195.72,
+ "dataAsOf": "2026-10-15",
+ "score": 96,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 5.5배 — 평소보다 훨씬 강세",
  "buckets": [
   {
-   "strike": 156.0,
-   "callOi": 14,
-   "putOi": 557
+   "strike": 162.2,
+   "callOi": 31,
+   "putOi": 1392
   },
   {
-   "strike": 166.8,
-   "callOi": 41,
-   "putOi": 1714
+   "strike": 173.4,
+   "callOi": 100,
+   "putOi": 2233
   },
   {
-   "strike": 177.5,
-   "callOi": 527,
-   "putOi": 5544
+   "strike": 184.5,
+   "callOi": 5204,
+   "putOi": 8837
   },
   {
-   "strike": 188.3,
-   "callOi": 16129,
-   "putOi": 4686
+   "strike": 195.7,
+   "callOi": 16754,
+   "putOi": 8089
   },
   {
-   "strike": 199.1,
-   "callOi": 16443,
-   "putOi": 8078
+   "strike": 206.9,
+   "callOi": 17013,
+   "putOi": 152
   },
   {
-   "strike": 209.8,
-   "callOi": 9068,
-   "putOi": 166
-  },
-  {
-   "strike": 220.6,
-   "callOi": 1774,
+   "strike": 218.1,
+   "callOi": 5010,
    "putOi": 72
+  },
+  {
+   "strike": 229.3,
+   "callOi": 939,
+   "putOi": 22
   }
  ],
  "maxPain": 192.5,
  "trend": [
-  {
-   "date": "2026-09-01",
-   "score": 15,
-   "price": 200.05
-  },
   {
    "date": "2026-09-02",
    "score": 20,
@@ -194,6 +189,11 @@
    "date": "2026-10-14",
    "score": 12,
    "price": 188.31
+  },
+  {
+   "date": "2026-10-15",
+   "score": 96,
+   "price": 195.72
   }
  ]
 }

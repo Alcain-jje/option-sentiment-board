@@ -1,55 +1,50 @@
 {
  "ticker": "SPGI",
  "name": "S&P글로벌",
- "price": 408.57,
- "dataAsOf": "2026-10-14",
- "score": 3,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 2.3배 — 평소보다 뚜렷한 약세",
+ "price": 424.81,
+ "dataAsOf": "2026-10-15",
+ "score": 63,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.0배 — 강세 우위",
  "buckets": [
   {
-   "strike": 338.5,
+   "strike": 352.0,
    "callOi": 7,
-   "putOi": 1242
+   "putOi": 1616
   },
   {
-   "strike": 361.9,
-   "callOi": 13,
-   "putOi": 2037
+   "strike": 376.3,
+   "callOi": 92,
+   "putOi": 2914
   },
   {
-   "strike": 385.2,
-   "callOi": 220,
-   "putOi": 3947
+   "strike": 400.5,
+   "callOi": 1610,
+   "putOi": 4932
   },
   {
-   "strike": 408.6,
-   "callOi": 2764,
-   "putOi": 2924
+   "strike": 424.8,
+   "callOi": 1884,
+   "putOi": 552
   },
   {
-   "strike": 431.9,
-   "callOi": 1043,
-   "putOi": 286
+   "strike": 449.1,
+   "callOi": 1595,
+   "putOi": 204
   },
   {
-   "strike": 455.3,
-   "callOi": 966,
-   "putOi": 134
-  },
-  {
-   "strike": 478.6,
-   "callOi": 459,
+   "strike": 473.4,
+   "callOi": 332,
    "putOi": 2
+  },
+  {
+   "strike": 497.6,
+   "callOi": 554,
+   "putOi": 0
   }
  ],
  "maxPain": 410.0,
  "trend": [
-  {
-   "date": "2026-09-01",
-   "score": 90,
-   "price": 440.21
-  },
   {
    "date": "2026-09-02",
    "score": 66,
@@ -194,6 +189,11 @@
    "date": "2026-10-14",
    "score": 3,
    "price": 408.57
+  },
+  {
+   "date": "2026-10-15",
+   "score": 63,
+   "price": 424.81
   }
  ]
 }

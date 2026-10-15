@@ -1,55 +1,50 @@
 {
  "ticker": "RIOT",
  "name": "라이엇",
- "price": 15.1,
- "dataAsOf": "2026-10-14",
- "score": 46,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 15.5,
+ "dataAsOf": "2026-10-15",
+ "score": 94,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 3.6배 — 평소보다 훨씬 강세",
  "buckets": [
   {
-   "strike": 12.5,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 12.8,
+   "callOi": 612,
+   "putOi": 1241
   },
   {
-   "strike": 13.4,
-   "callOi": 595,
-   "putOi": 860
+   "strike": 13.7,
+   "callOi": 685,
+   "putOi": 6363
   },
   {
-   "strike": 14.2,
-   "callOi": 458,
-   "putOi": 1844
+   "strike": 14.6,
+   "callOi": 2532,
+   "putOi": 5176
   },
   {
-   "strike": 15.1,
-   "callOi": 591,
-   "putOi": 3241
+   "strike": 15.5,
+   "callOi": 1507,
+   "putOi": 60
   },
   {
-   "strike": 16.0,
-   "callOi": 2931,
-   "putOi": 12694
+   "strike": 16.4,
+   "callOi": 8534,
+   "putOi": 12822
   },
   {
-   "strike": 16.8,
-   "callOi": 5634,
-   "putOi": 26759
+   "strike": 17.3,
+   "callOi": 11302,
+   "putOi": 33773
   },
   {
-   "strike": 17.7,
-   "callOi": 36679,
-   "putOi": 16086
+   "strike": 18.2,
+   "callOi": 41983,
+   "putOi": 14767
   }
  ],
  "maxPain": 18.0,
  "trend": [
-  {
-   "date": "2026-09-01",
-   "score": 75,
-   "price": 17.79
-  },
   {
    "date": "2026-09-02",
    "score": 85,
@@ -194,6 +189,11 @@
    "date": "2026-10-14",
    "score": 46,
    "price": 15.1
+  },
+  {
+   "date": "2026-10-15",
+   "score": 94,
+   "price": 15.5
   }
  ]
 }

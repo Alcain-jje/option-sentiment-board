@@ -1,55 +1,50 @@
 {
  "ticker": "NOW",
  "name": "서비스나우",
- "price": 139.98,
- "dataAsOf": "2026-10-14",
- "score": 55,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 148.57,
+ "dataAsOf": "2026-10-15",
+ "score": 14,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
  "buckets": [
   {
-   "strike": 116.0,
-   "callOi": 2173,
-   "putOi": 12197
+   "strike": 123.1,
+   "callOi": 11940,
+   "putOi": 33701
   },
   {
-   "strike": 124.0,
-   "callOi": 11895,
-   "putOi": 33142
+   "strike": 131.6,
+   "callOi": 12328,
+   "putOi": 26252
   },
   {
-   "strike": 132.0,
-   "callOi": 12469,
-   "putOi": 24999
+   "strike": 140.1,
+   "callOi": 24331,
+   "putOi": 19569
   },
   {
-   "strike": 140.0,
-   "callOi": 22010,
-   "putOi": 17502
+   "strike": 148.6,
+   "callOi": 48131,
+   "putOi": 3618
   },
   {
-   "strike": 148.0,
-   "callOi": 43447,
-   "putOi": 3675
+   "strike": 157.1,
+   "callOi": 26644,
+   "putOi": 906
   },
   {
-   "strike": 156.0,
-   "callOi": 14175,
-   "putOi": 767
+   "strike": 165.5,
+   "callOi": 6579,
+   "putOi": 191
   },
   {
-   "strike": 164.0,
-   "callOi": 20566,
-   "putOi": 742
+   "strike": 174.0,
+   "callOi": 15705,
+   "putOi": 337
   }
  ],
- "maxPain": 132.0,
+ "maxPain": 133.0,
  "trend": [
-  {
-   "date": "2026-09-01",
-   "score": 5,
-   "price": 142.9
-  },
   {
    "date": "2026-09-02",
    "score": 7,
@@ -194,6 +189,11 @@
    "date": "2026-10-14",
    "score": 55,
    "price": 139.98
+  },
+  {
+   "date": "2026-10-15",
+   "score": 14,
+   "price": 148.57
   }
  ]
 }
