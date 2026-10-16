@@ -1,55 +1,50 @@
 {
  "ticker": "MDT",
  "name": "메드트로닉",
- "price": 95.45,
- "dataAsOf": "2026-10-15",
- "score": 14,
+ "price": 94.75,
+ "dataAsOf": "2026-10-16",
+ "score": 11,
  "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.2배 — 약세 우위",
+ "ratioText": "하락 베팅이 상승의 1.6배 — 약세 우위",
  "buckets": [
   {
-   "strike": 79.1,
-   "callOi": 267,
-   "putOi": 4849
+   "strike": 78.5,
+   "callOi": 273,
+   "putOi": 4838
   },
   {
-   "strike": 84.5,
-   "callOi": 2343,
-   "putOi": 9718
+   "strike": 83.9,
+   "callOi": 2104,
+   "putOi": 7926
   },
   {
-   "strike": 90.0,
-   "callOi": 32298,
-   "putOi": 21552
+   "strike": 89.3,
+   "callOi": 22424,
+   "putOi": 20967
   },
   {
-   "strike": 95.4,
-   "callOi": 25426,
-   "putOi": 8079
+   "strike": 94.8,
+   "callOi": 27417,
+   "putOi": 13179
   },
   {
-   "strike": 100.9,
-   "callOi": 6592,
-   "putOi": 200
+   "strike": 100.2,
+   "callOi": 15308,
+   "putOi": 813
   },
   {
-   "strike": 106.4,
-   "callOi": 25048,
+   "strike": 105.6,
+   "callOi": 25156,
    "putOi": 83
   },
   {
-   "strike": 111.8,
-   "callOi": 517,
+   "strike": 111.0,
+   "callOi": 866,
    "putOi": 0
   }
  ],
- "maxPain": 92.5,
+ "maxPain": 90.0,
  "trend": [
-  {
-   "date": "2026-09-02",
-   "score": 88,
-   "price": 92.18
-  },
   {
    "date": "2026-09-03",
    "score": 98,
@@ -194,6 +189,11 @@
    "date": "2026-10-15",
    "score": 14,
    "price": 95.45
+  },
+  {
+   "date": "2026-10-16",
+   "score": 11,
+   "price": 94.75
   }
  ]
 }

@@ -1,55 +1,50 @@
 {
  "ticker": "SLB",
  "name": "슐럼버거",
- "price": 48.37,
- "dataAsOf": "2026-10-15",
- "score": 3,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.1배 — 평소보다 뚜렷한 약세",
+ "price": 49.5,
+ "dataAsOf": "2026-10-16",
+ "score": 24,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
  "buckets": [
   {
-   "strike": 40.1,
-   "callOi": 84,
-   "putOi": 908
+   "strike": 41.0,
+   "callOi": 151,
+   "putOi": 976
   },
   {
-   "strike": 42.8,
-   "callOi": 188,
-   "putOi": 2464
+   "strike": 43.8,
+   "callOi": 591,
+   "putOi": 10217
   },
   {
-   "strike": 45.6,
-   "callOi": 469,
-   "putOi": 7985
+   "strike": 46.7,
+   "callOi": 1719,
+   "putOi": 7831
   },
   {
-   "strike": 48.4,
-   "callOi": 2998,
-   "putOi": 7731
+   "strike": 49.5,
+   "callOi": 16517,
+   "putOi": 6149
   },
   {
-   "strike": 51.1,
-   "callOi": 24120,
-   "putOi": 8585
+   "strike": 52.3,
+   "callOi": 10122,
+   "putOi": 2255
   },
   {
-   "strike": 53.9,
-   "callOi": 22857,
-   "putOi": 1854
+   "strike": 55.2,
+   "callOi": 22521,
+   "putOi": 1857
   },
   {
-   "strike": 56.7,
-   "callOi": 19486,
-   "putOi": 775
+   "strike": 58.0,
+   "callOi": 19492,
+   "putOi": 722
   }
  ],
  "maxPain": 50.0,
  "trend": [
-  {
-   "date": "2026-09-02",
-   "score": 100,
-   "price": 58.13
-  },
   {
    "date": "2026-09-03",
    "score": 95,
@@ -194,6 +189,11 @@
    "date": "2026-10-15",
    "score": 3,
    "price": 48.37
+  },
+  {
+   "date": "2026-10-16",
+   "score": 24,
+   "price": 49.5
   }
  ]
 }

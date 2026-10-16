@@ -1,55 +1,50 @@
 {
  "ticker": "TMO",
  "name": "써모피셔",
- "price": 696.49,
- "dataAsOf": "2026-10-15",
- "score": 21,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.5배 — 약세 우위",
+ "price": 690.0,
+ "dataAsOf": "2026-10-16",
+ "score": 3,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 2.6배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": 577.1,
-   "callOi": 123,
-   "putOi": 6042
+   "strike": 571.7,
+   "callOi": 127,
+   "putOi": 6034
   },
   {
-   "strike": 616.9,
-   "callOi": 531,
-   "putOi": 4016
+   "strike": 611.1,
+   "callOi": 558,
+   "putOi": 3984
   },
   {
-   "strike": 656.7,
-   "callOi": 3062,
-   "putOi": 2538
+   "strike": 650.6,
+   "callOi": 2737,
+   "putOi": 2706
   },
   {
-   "strike": 696.5,
-   "callOi": 3421,
-   "putOi": 53
+   "strike": 690.0,
+   "callOi": 3069,
+   "putOi": 214
   },
   {
-   "strike": 736.3,
-   "callOi": 6949,
+   "strike": 729.4,
+   "callOi": 4789,
+   "putOi": 2
+  },
+  {
+   "strike": 768.9,
+   "callOi": 4205,
    "putOi": 0
   },
   {
-   "strike": 776.1,
-   "callOi": 283,
-   "putOi": 0
-  },
-  {
-   "strike": 815.9,
-   "callOi": 34,
+   "strike": 808.3,
+   "callOi": 55,
    "putOi": 0
   }
  ],
  "maxPain": 650.0,
  "trend": [
-  {
-   "date": "2026-09-02",
-   "score": 37,
-   "price": 608.54
-  },
   {
    "date": "2026-09-03",
    "score": 40,
@@ -194,6 +189,11 @@
    "date": "2026-10-15",
    "score": 21,
    "price": 696.49
+  },
+  {
+   "date": "2026-10-16",
+   "score": 3,
+   "price": 690.0
   }
  ]
 }
