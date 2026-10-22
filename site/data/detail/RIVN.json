@@ -1,55 +1,50 @@
 {
  "ticker": "RIVN",
  "name": "리비안",
- "price": 12.43,
- "dataAsOf": "2026-10-20",
- "score": 78,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 3.1배 — 강세 우위",
+ "price": 12.46,
+ "dataAsOf": "2026-10-21",
+ "score": 85,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 3.9배 — 강세 우위",
  "buckets": [
   {
    "strike": 10.3,
-   "callOi": 5270,
-   "putOi": 27763
+   "callOi": 5278,
+   "putOi": 28661
   },
   {
    "strike": 11.0,
-   "callOi": 1392,
-   "putOi": 6051
+   "callOi": 1495,
+   "putOi": 6522
   },
   {
    "strike": 11.7,
-   "callOi": 5952,
-   "putOi": 10908
+   "callOi": 4757,
+   "putOi": 13492
   },
   {
-   "strike": 12.4,
-   "callOi": 22561,
-   "putOi": 22884
+   "strike": 12.5,
+   "callOi": 28090,
+   "putOi": 22620
   },
   {
-   "strike": 13.1,
-   "callOi": 13429,
-   "putOi": 12977
+   "strike": 13.2,
+   "callOi": 28963,
+   "putOi": 18659
   },
   {
    "strike": 13.9,
-   "callOi": 40211,
-   "putOi": 27792
+   "callOi": 28160,
+   "putOi": 22149
   },
   {
    "strike": 14.6,
-   "callOi": 10176,
-   "putOi": 4105
+   "callOi": 11110,
+   "putOi": 3774
   }
  ],
  "maxPain": 14.0,
  "trend": [
-  {
-   "date": "2026-09-04",
-   "score": 49,
-   "price": 15.74
-  },
   {
    "date": "2026-09-07",
    "score": 75,
@@ -194,6 +189,11 @@
    "date": "2026-10-20",
    "score": 78,
    "price": 12.43
+  },
+  {
+   "date": "2026-10-21",
+   "score": 85,
+   "price": 12.46
   }
  ]
 }

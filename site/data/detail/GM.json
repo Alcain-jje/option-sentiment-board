@@ -1,55 +1,50 @@
 {
  "ticker": "GM",
  "name": "GM",
- "price": 77.09,
- "dataAsOf": "2026-10-20",
- "score": 21,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
+ "price": 76.11,
+ "dataAsOf": "2026-10-21",
+ "score": 47,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 63.9,
+   "strike": 63.1,
    "callOi": 526,
-   "putOi": 2014
+   "putOi": 2183
   },
   {
-   "strike": 68.3,
-   "callOi": 2080,
-   "putOi": 4076
+   "strike": 67.4,
+   "callOi": 389,
+   "putOi": 1122
   },
   {
-   "strike": 72.7,
-   "callOi": 228,
-   "putOi": 6094
+   "strike": 71.8,
+   "callOi": 2440,
+   "putOi": 13993
   },
   {
-   "strike": 77.1,
-   "callOi": 2967,
-   "putOi": 16149
+   "strike": 76.1,
+   "callOi": 6907,
+   "putOi": 19019
   },
   {
-   "strike": 81.5,
-   "callOi": 10593,
-   "putOi": 8666
+   "strike": 80.5,
+   "callOi": 12646,
+   "putOi": 9900
   },
   {
-   "strike": 85.9,
-   "callOi": 13198,
-   "putOi": 3156
+   "strike": 84.8,
+   "callOi": 11536,
+   "putOi": 3375
   },
   {
-   "strike": 90.3,
-   "callOi": 16842,
-   "putOi": 2407
+   "strike": 89.2,
+   "callOi": 16288,
+   "putOi": 2778
   }
  ],
- "maxPain": 80.0,
+ "maxPain": 78.0,
  "trend": [
-  {
-   "date": "2026-09-04",
-   "score": 53,
-   "price": 87.76
-  },
   {
    "date": "2026-09-07",
    "score": 48,
@@ -194,6 +189,11 @@
    "date": "2026-10-20",
    "score": 21,
    "price": 77.09
+  },
+  {
+   "date": "2026-10-21",
+   "score": 47,
+   "price": 76.11
   }
  ]
 }

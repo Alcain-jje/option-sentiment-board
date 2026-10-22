@@ -1,55 +1,50 @@
 {
  "ticker": "LRCX",
  "name": "램리서치",
- "price": 263.45,
- "dataAsOf": "2026-10-20",
- "score": 33,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.1배 — 약세 우위",
+ "price": 260.81,
+ "dataAsOf": "2026-10-21",
+ "score": 79,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.5배 — 강세 우위",
  "buckets": [
   {
-   "strike": 218.3,
-   "callOi": 392,
-   "putOi": 4137
+   "strike": 216.1,
+   "callOi": 1537,
+   "putOi": 10445
   },
   {
-   "strike": 233.3,
-   "callOi": 1419,
-   "putOi": 9624
+   "strike": 231.0,
+   "callOi": 544,
+   "putOi": 7447
   },
   {
-   "strike": 248.4,
-   "callOi": 787,
-   "putOi": 9479
+   "strike": 245.9,
+   "callOi": 1746,
+   "putOi": 13744
   },
   {
-   "strike": 263.5,
-   "callOi": 3535,
-   "putOi": 9941
+   "strike": 260.8,
+   "callOi": 2273,
+   "putOi": 6880
   },
   {
-   "strike": 278.5,
-   "callOi": 8115,
-   "putOi": 8680
+   "strike": 275.7,
+   "callOi": 11598,
+   "putOi": 13140
   },
   {
-   "strike": 293.6,
-   "callOi": 11275,
-   "putOi": 7907
+   "strike": 290.6,
+   "callOi": 6340,
+   "putOi": 4691
   },
   {
-   "strike": 308.6,
-   "callOi": 5712,
-   "putOi": 3900
+   "strike": 305.5,
+   "callOi": 11068,
+   "putOi": 7399
   }
  ],
  "maxPain": 280.0,
  "trend": [
-  {
-   "date": "2026-09-04",
-   "score": 79,
-   "price": 307.65
-  },
   {
    "date": "2026-09-07",
    "score": 86,
@@ -194,6 +189,11 @@
    "date": "2026-10-20",
    "score": 33,
    "price": 263.45
+  },
+  {
+   "date": "2026-10-21",
+   "score": 79,
+   "price": 260.81
   }
  ]
 }

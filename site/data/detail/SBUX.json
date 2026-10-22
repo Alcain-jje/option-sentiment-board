@@ -1,55 +1,50 @@
 {
  "ticker": "SBUX",
  "name": "스타벅스",
- "price": 99.37,
- "dataAsOf": "2026-10-20",
- "score": 57,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 99.08,
+ "dataAsOf": "2026-10-21",
+ "score": 23,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 1.0배 — 약세 우위",
  "buckets": [
   {
-   "strike": 82.3,
-   "callOi": 4035,
-   "putOi": 21736
+   "strike": 82.1,
+   "callOi": 2659,
+   "putOi": 9560
   },
   {
-   "strike": 88.0,
-   "callOi": 4579,
-   "putOi": 14586
+   "strike": 87.8,
+   "callOi": 5970,
+   "putOi": 27294
   },
   {
-   "strike": 93.7,
-   "callOi": 23016,
-   "putOi": 15910
+   "strike": 93.4,
+   "callOi": 22329,
+   "putOi": 16485
   },
   {
-   "strike": 99.4,
-   "callOi": 17405,
-   "putOi": 7912
+   "strike": 99.1,
+   "callOi": 16482,
+   "putOi": 8616
   },
   {
-   "strike": 105.0,
-   "callOi": 10593,
-   "putOi": 1729
+   "strike": 104.7,
+   "callOi": 12274,
+   "putOi": 1734
   },
   {
-   "strike": 110.7,
-   "callOi": 14285,
+   "strike": 110.4,
+   "callOi": 17397,
    "putOi": 2447
   },
   {
-   "strike": 116.4,
-   "callOi": 4575,
+   "strike": 116.1,
+   "callOi": 4606,
    "putOi": 2071
   }
  ],
  "maxPain": 95.0,
  "trend": [
-  {
-   "date": "2026-09-04",
-   "score": 5,
-   "price": 104.47
-  },
   {
    "date": "2026-09-07",
    "score": 18,
@@ -194,6 +189,11 @@
    "date": "2026-10-20",
    "score": 57,
    "price": 99.37
+  },
+  {
+   "date": "2026-10-21",
+   "score": 23,
+   "price": 99.08
   }
  ]
 }
