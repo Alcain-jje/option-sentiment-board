@@ -1,55 +1,50 @@
 {
  "ticker": "QCOM",
  "name": "퀄컴",
- "price": 172.83,
- "dataAsOf": "2026-10-22",
- "score": 20,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
+ "price": 175.91,
+ "dataAsOf": "2026-10-23",
+ "score": 51,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 143.2,
-   "callOi": 1436,
-   "putOi": 13169
+   "strike": 145.8,
+   "callOi": 3048,
+   "putOi": 19779
   },
   {
-   "strike": 153.1,
-   "callOi": 3560,
-   "putOi": 22792
+   "strike": 155.8,
+   "callOi": 3928,
+   "putOi": 21682
   },
   {
-   "strike": 163.0,
-   "callOi": 3804,
-   "putOi": 23957
+   "strike": 165.9,
+   "callOi": 5933,
+   "putOi": 19073
   },
   {
-   "strike": 172.8,
-   "callOi": 13084,
-   "putOi": 23157
+   "strike": 175.9,
+   "callOi": 19853,
+   "putOi": 20848
   },
   {
-   "strike": 182.7,
-   "callOi": 29724,
-   "putOi": 8340
+   "strike": 186.0,
+   "callOi": 29492,
+   "putOi": 6492
   },
   {
-   "strike": 192.6,
-   "callOi": 16038,
-   "putOi": 6304
+   "strike": 196.0,
+   "callOi": 37464,
+   "putOi": 6839
   },
   {
-   "strike": 202.5,
-   "callOi": 32719,
-   "putOi": 4358
+   "strike": 206.1,
+   "callOi": 10213,
+   "putOi": 1116
   }
  ],
- "maxPain": 180.0,
+ "maxPain": 177.5,
  "trend": [
-  {
-   "date": "2026-09-08",
-   "score": 98,
-   "price": 174.09
-  },
   {
    "date": "2026-09-09",
    "score": 93,
@@ -194,6 +189,11 @@
    "date": "2026-10-22",
    "score": 20,
    "price": 172.83
+  },
+  {
+   "date": "2026-10-23",
+   "score": 51,
+   "price": 175.91
   }
  ]
 }

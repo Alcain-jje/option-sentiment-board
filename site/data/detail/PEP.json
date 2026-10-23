@@ -1,55 +1,50 @@
 {
  "ticker": "PEP",
  "name": "펩시코",
- "price": 138.83,
- "dataAsOf": "2026-10-22",
- "score": 72,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 1.6배 — 강세 우위",
+ "price": 135.77,
+ "dataAsOf": "2026-10-23",
+ "score": 99,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 6.0배 — 평소보다 훨씬 강세",
  "buckets": [
   {
-   "strike": 115.0,
-   "callOi": 97,
-   "putOi": 2785
+   "strike": 112.5,
+   "callOi": 267,
+   "putOi": 4715
   },
   {
-   "strike": 123.0,
-   "callOi": 3549,
-   "putOi": 19011
+   "strike": 120.3,
+   "callOi": 678,
+   "putOi": 8206
   },
   {
-   "strike": 130.9,
-   "callOi": 18103,
-   "putOi": 13806
+   "strike": 128.0,
+   "callOi": 13851,
+   "putOi": 25111
   },
   {
-   "strike": 138.8,
-   "callOi": 50974,
-   "putOi": 8305
+   "strike": 135.8,
+   "callOi": 26416,
+   "putOi": 10905
   },
   {
-   "strike": 146.8,
-   "callOi": 12154,
-   "putOi": 2192
+   "strike": 143.5,
+   "callOi": 40171,
+   "putOi": 3248
   },
   {
-   "strike": 154.7,
-   "callOi": 5292,
-   "putOi": 701
+   "strike": 151.3,
+   "callOi": 10018,
+   "putOi": 1821
   },
   {
-   "strike": 162.6,
-   "callOi": 5085,
-   "putOi": 676
+   "strike": 159.0,
+   "callOi": 3580,
+   "putOi": 414
   }
  ],
- "maxPain": 131.0,
+ "maxPain": 132.0,
  "trend": [
-  {
-   "date": "2026-09-08",
-   "score": 91,
-   "price": 138.45
-  },
   {
    "date": "2026-09-09",
    "score": 48,
@@ -194,6 +189,11 @@
    "date": "2026-10-22",
    "score": 72,
    "price": 138.83
+  },
+  {
+   "date": "2026-10-23",
+   "score": 99,
+   "price": 135.77
   }
  ]
 }

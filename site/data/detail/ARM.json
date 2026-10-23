@@ -1,55 +1,50 @@
 {
  "ticker": "ARM",
  "name": "Arm",
- "price": 210.1,
- "dataAsOf": "2026-10-22",
- "score": 43,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 210.33,
+ "dataAsOf": "2026-10-23",
+ "score": 39,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
  "buckets": [
   {
-   "strike": 174.1,
-   "callOi": 2304,
-   "putOi": 10418
+   "strike": 174.3,
+   "callOi": 2292,
+   "putOi": 10101
   },
   {
-   "strike": 186.1,
-   "callOi": 547,
-   "putOi": 10643
+   "strike": 186.3,
+   "callOi": 566,
+   "putOi": 10874
   },
   {
-   "strike": 198.1,
-   "callOi": 2171,
-   "putOi": 16457
+   "strike": 198.3,
+   "callOi": 2237,
+   "putOi": 16967
   },
   {
-   "strike": 210.1,
-   "callOi": 813,
-   "putOi": 9961
+   "strike": 210.3,
+   "callOi": 1610,
+   "putOi": 10846
   },
   {
-   "strike": 222.1,
-   "callOi": 3216,
-   "putOi": 11622
+   "strike": 222.3,
+   "callOi": 9722,
+   "putOi": 11498
   },
   {
-   "strike": 234.1,
-   "callOi": 11947,
-   "putOi": 20578
+   "strike": 234.4,
+   "callOi": 12415,
+   "putOi": 18879
   },
   {
-   "strike": 246.1,
-   "callOi": 11694,
-   "putOi": 10638
+   "strike": 246.4,
+   "callOi": 10715,
+   "putOi": 9783
   }
  ],
- "maxPain": 240.0,
+ "maxPain": 232.5,
  "trend": [
-  {
-   "date": "2026-09-08",
-   "score": 91,
-   "price": 261.53
-  },
   {
    "date": "2026-09-09",
    "score": 93,
@@ -194,6 +189,11 @@
    "date": "2026-10-22",
    "score": 43,
    "price": 210.1
+  },
+  {
+   "date": "2026-10-23",
+   "score": 39,
+   "price": 210.33
   }
  ]
 }

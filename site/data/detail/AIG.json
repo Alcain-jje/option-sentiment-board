@@ -1,55 +1,50 @@
 {
  "ticker": "AIG",
  "name": "AIG",
- "price": NaN,
- "dataAsOf": "2026-10-22",
- "score": 82,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 2.3배 — 강세 우위",
+ "price": 81.26,
+ "dataAsOf": "2026-10-23",
+ "score": 59,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 67.3,
+   "callOi": 424,
+   "putOi": 313
+  },
+  {
+   "strike": 72.0,
+   "callOi": 145,
+   "putOi": 3322
+  },
+  {
+   "strike": 76.6,
+   "callOi": 3522,
+   "putOi": 1395
+  },
+  {
+   "strike": 81.3,
+   "callOi": 2779,
+   "putOi": 1487
+  },
+  {
+   "strike": 85.9,
+   "callOi": 2606,
+   "putOi": 6
+  },
+  {
+   "strike": 90.5,
+   "callOi": 973,
    "putOi": 0
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 95.2,
+   "callOi": 182,
    "putOi": 0
   }
  ],
  "maxPain": 75.0,
  "trend": [
-  {
-   "date": "2026-09-03",
-   "score": 38,
-   "price": 76.86
-  },
   {
    "date": "2026-09-04",
    "score": 15,
@@ -194,6 +189,11 @@
    "date": "2026-10-22",
    "score": 82,
    "price": NaN
+  },
+  {
+   "date": "2026-10-23",
+   "score": 59,
+   "price": 81.26
   }
  ]
 }

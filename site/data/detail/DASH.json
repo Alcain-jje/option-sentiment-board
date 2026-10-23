@@ -1,55 +1,50 @@
 {
  "ticker": "DASH",
  "name": "도어대시",
- "price": 185.94,
- "dataAsOf": "2026-10-22",
- "score": 41,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 179.38,
+ "dataAsOf": "2026-10-23",
+ "score": 33,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 1.2배 — 약세 우위",
  "buckets": [
   {
-   "strike": 154.1,
-   "callOi": 207,
-   "putOi": 5219
+   "strike": 148.6,
+   "callOi": 235,
+   "putOi": 3791
   },
   {
-   "strike": 164.7,
-   "callOi": 276,
-   "putOi": 6298
+   "strike": 158.9,
+   "callOi": 191,
+   "putOi": 5677
   },
   {
-   "strike": 175.3,
-   "callOi": 21303,
-   "putOi": 4630
+   "strike": 169.1,
+   "callOi": 175,
+   "putOi": 2967
   },
   {
-   "strike": 185.9,
-   "callOi": 2298,
-   "putOi": 2852
+   "strike": 179.4,
+   "callOi": 21333,
+   "putOi": 4619
   },
   {
-   "strike": 196.6,
-   "callOi": 4509,
-   "putOi": 2540
+   "strike": 189.6,
+   "callOi": 2664,
+   "putOi": 2388
   },
   {
-   "strike": 207.2,
-   "callOi": 3595,
-   "putOi": 260
+   "strike": 199.9,
+   "callOi": 5487,
+   "putOi": 2263
   },
   {
-   "strike": 217.8,
-   "callOi": 2475,
-   "putOi": 455
+   "strike": 210.1,
+   "callOi": 2881,
+   "putOi": 246
   }
  ],
  "maxPain": 175.0,
  "trend": [
-  {
-   "date": "2026-09-08",
-   "score": 7,
-   "price": 200.44
-  },
   {
    "date": "2026-09-09",
    "score": 9,
@@ -194,6 +189,11 @@
    "date": "2026-10-22",
    "score": 41,
    "price": 185.94
+  },
+  {
+   "date": "2026-10-23",
+   "score": 33,
+   "price": 179.38
   }
  ]
 }

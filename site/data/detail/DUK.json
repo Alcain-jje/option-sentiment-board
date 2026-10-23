@@ -1,55 +1,50 @@
 {
  "ticker": "DUK",
  "name": "듀크에너지",
- "price": NaN,
- "dataAsOf": "2026-10-22",
- "score": 46,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 124.98,
+ "dataAsOf": "2026-10-23",
+ "score": 39,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
  "buckets": [
   {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 103.6,
+   "callOi": 128,
+   "putOi": 1000
+  },
+  {
+   "strike": 110.7,
+   "callOi": 235,
+   "putOi": 2458
+  },
+  {
+   "strike": 117.8,
+   "callOi": 4919,
+   "putOi": 4474
+  },
+  {
+   "strike": 125.0,
+   "callOi": 6989,
+   "putOi": 216
+  },
+  {
+   "strike": 132.1,
+   "callOi": 2633,
+   "putOi": 50
+  },
+  {
+   "strike": 139.3,
+   "callOi": 2405,
    "putOi": 0
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 146.4,
+   "callOi": 274,
    "putOi": 0
   }
  ],
  "maxPain": 120.0,
  "trend": [
-  {
-   "date": "2026-08-29",
-   "score": 65,
-   "price": 120.25
-  },
   {
    "date": "2026-09-01",
    "score": 23,
@@ -194,6 +189,11 @@
    "date": "2026-10-22",
    "score": 46,
    "price": NaN
+  },
+  {
+   "date": "2026-10-23",
+   "score": 39,
+   "price": 124.98
   }
  ]
 }
