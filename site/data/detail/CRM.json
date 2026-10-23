@@ -1,55 +1,50 @@
 {
  "ticker": "CRM",
  "name": "세일즈포스",
- "price": 241.78,
- "dataAsOf": "2026-10-21",
- "score": 36,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
+ "price": 250.29,
+ "dataAsOf": "2026-10-22",
+ "score": 76,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.8배 — 강세 우위",
  "buckets": [
   {
-   "strike": 200.3,
-   "callOi": 10863,
-   "putOi": 12957
+   "strike": 207.4,
+   "callOi": 4198,
+   "putOi": 9137
   },
   {
-   "strike": 214.1,
-   "callOi": 8869,
-   "putOi": 17890
+   "strike": 221.7,
+   "callOi": 5551,
+   "putOi": 15078
   },
   {
-   "strike": 228.0,
-   "callOi": 6622,
-   "putOi": 11301
+   "strike": 236.0,
+   "callOi": 18388,
+   "putOi": 19913
   },
   {
-   "strike": 241.8,
-   "callOi": 15977,
-   "putOi": 11265
+   "strike": 250.3,
+   "callOi": 19749,
+   "putOi": 4643
   },
   {
-   "strike": 255.6,
-   "callOi": 29025,
-   "putOi": 6793
+   "strike": 264.6,
+   "callOi": 23081,
+   "putOi": 3341
   },
   {
-   "strike": 269.4,
-   "callOi": 10470,
-   "putOi": 530
+   "strike": 278.9,
+   "callOi": 7332,
+   "putOi": 212
   },
   {
-   "strike": 283.2,
-   "callOi": 9364,
-   "putOi": 305
+   "strike": 293.2,
+   "callOi": 8019,
+   "putOi": 144
   }
  ],
  "maxPain": 225.0,
  "trend": [
-  {
-   "date": "2026-09-07",
-   "score": 0,
-   "price": 259.23
-  },
   {
    "date": "2026-09-08",
    "score": 20,
@@ -194,6 +189,11 @@
    "date": "2026-10-21",
    "score": 36,
    "price": 241.78
+  },
+  {
+   "date": "2026-10-22",
+   "score": 76,
+   "price": 250.29
   }
  ]
 }

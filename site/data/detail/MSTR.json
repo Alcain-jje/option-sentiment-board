@@ -1,55 +1,50 @@
 {
  "ticker": "MSTR",
  "name": "스트래티지",
- "price": NaN,
- "dataAsOf": "2026-10-21",
- "score": 12,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
+ "price": 145.8,
+ "dataAsOf": "2026-10-22",
+ "score": 23,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
  "buckets": [
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 120.8,
+   "callOi": 4694,
+   "putOi": 44366
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 129.1,
+   "callOi": 9285,
+   "putOi": 57447
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 137.5,
+   "callOi": 86818,
+   "putOi": 47366
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 145.8,
+   "callOi": 80873,
+   "putOi": 34873
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 154.1,
+   "callOi": 95174,
+   "putOi": 46241
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 162.5,
+   "callOi": 58562,
+   "putOi": 46628
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 170.8,
+   "callOi": 29640,
+   "putOi": 6396
   }
  ],
- "maxPain": 144.0,
+ "maxPain": 145.0,
  "trend": [
-  {
-   "date": "2026-09-07",
-   "score": 32,
-   "price": 142.8
-  },
   {
    "date": "2026-09-08",
    "score": 36,
@@ -194,6 +189,11 @@
    "date": "2026-10-21",
    "score": 12,
    "price": NaN
+  },
+  {
+   "date": "2026-10-22",
+   "score": 23,
+   "price": 145.8
   }
  ]
 }

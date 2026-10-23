@@ -1,55 +1,50 @@
 {
  "ticker": "SCHW",
  "name": "찰스슈왑",
- "price": 91.64,
- "dataAsOf": "2026-10-21",
- "score": 100,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 4.1배 — 평소보다 훨씬 강세",
+ "price": 91.44,
+ "dataAsOf": "2026-10-22",
+ "score": 58,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 75.9,
+   "strike": 75.8,
    "callOi": 1,
-   "putOi": 2179
+   "putOi": 2210
   },
   {
-   "strike": 81.2,
-   "callOi": 292,
-   "putOi": 8259
+   "strike": 81.0,
+   "callOi": 293,
+   "putOi": 8271
   },
   {
-   "strike": 86.4,
-   "callOi": 764,
-   "putOi": 8703
+   "strike": 86.2,
+   "callOi": 557,
+   "putOi": 7877
   },
   {
-   "strike": 91.6,
-   "callOi": 7139,
-   "putOi": 20354
+   "strike": 91.4,
+   "callOi": 8724,
+   "putOi": 21777
   },
   {
-   "strike": 96.9,
-   "callOi": 8441,
-   "putOi": 11185
+   "strike": 96.7,
+   "callOi": 17397,
+   "putOi": 11215
   },
   {
-   "strike": 102.1,
-   "callOi": 13138,
-   "putOi": 7091
+   "strike": 101.9,
+   "callOi": 13368,
+   "putOi": 7092
   },
   {
-   "strike": 107.3,
-   "callOi": 26652,
+   "strike": 107.1,
+   "callOi": 26636,
    "putOi": 2428
   }
  ],
  "maxPain": 95.0,
  "trend": [
-  {
-   "date": "2026-09-07",
-   "score": 59,
-   "price": 109.29
-  },
   {
    "date": "2026-09-08",
    "score": 0,
@@ -194,6 +189,11 @@
    "date": "2026-10-21",
    "score": 100,
    "price": 91.64
+  },
+  {
+   "date": "2026-10-22",
+   "score": 58,
+   "price": 91.44
   }
  ]
 }

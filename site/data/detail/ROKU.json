@@ -1,55 +1,50 @@
 {
  "ticker": "ROKU",
  "name": "로쿠",
- "price": NaN,
- "dataAsOf": "2026-10-21",
+ "price": 160.06,
+ "dataAsOf": "2026-10-22",
  "score": 1,
  "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.0배 — 평소보다 뚜렷한 약세",
+ "ratioText": "하락 베팅이 상승의 1.6배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 132.6,
+   "callOi": 288,
+   "putOi": 3434
+  },
+  {
+   "strike": 141.8,
+   "callOi": 1221,
+   "putOi": 266
+  },
+  {
+   "strike": 150.9,
+   "callOi": 1436,
+   "putOi": 1285
+  },
+  {
+   "strike": 160.1,
+   "callOi": 3294,
+   "putOi": 122
+  },
+  {
+   "strike": 169.2,
+   "callOi": 1489,
    "putOi": 0
   },
   {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 178.4,
+   "callOi": 1350,
    "putOi": 0
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 187.5,
+   "callOi": 296,
    "putOi": 0
   }
  ],
  "maxPain": 125.0,
  "trend": [
-  {
-   "date": "2026-09-07",
-   "score": 14,
-   "price": 155.59
-  },
   {
    "date": "2026-09-08",
    "score": 40,
@@ -194,6 +189,11 @@
    "date": "2026-10-21",
    "score": 1,
    "price": NaN
+  },
+  {
+   "date": "2026-10-22",
+   "score": 1,
+   "price": 160.06
   }
  ]
 }

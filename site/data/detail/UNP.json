@@ -1,55 +1,50 @@
 {
  "ticker": "UNP",
  "name": "유니온퍼시픽",
- "price": NaN,
- "dataAsOf": "2026-10-21",
- "score": 48,
+ "price": 298.09,
+ "dataAsOf": "2026-10-22",
+ "score": 50,
  "label": "중립",
  "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 247.0,
+   "callOi": 288,
+   "putOi": 5121
+  },
+  {
+   "strike": 264.0,
+   "callOi": 767,
+   "putOi": 3577
+  },
+  {
+   "strike": 281.1,
+   "callOi": 2543,
+   "putOi": 1992
+  },
+  {
+   "strike": 298.1,
+   "callOi": 11570,
+   "putOi": 1137
+  },
+  {
+   "strike": 315.1,
+   "callOi": 8316,
+   "putOi": 147
+  },
+  {
+   "strike": 332.2,
+   "callOi": 5142,
    "putOi": 0
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 349.2,
+   "callOi": 1590,
+   "putOi": 1
   }
  ],
  "maxPain": 275.0,
  "trend": [
-  {
-   "date": "2026-09-07",
-   "score": 91,
-   "price": 289.62
-  },
   {
    "date": "2026-09-08",
    "score": 93,
@@ -194,6 +189,11 @@
    "date": "2026-10-21",
    "score": 48,
    "price": NaN
+  },
+  {
+   "date": "2026-10-22",
+   "score": 50,
+   "price": 298.09
   }
  ]
 }

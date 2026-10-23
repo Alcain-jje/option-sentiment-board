@@ -1,55 +1,50 @@
 {
  "ticker": "SMCI",
  "name": "슈퍼마이크로",
- "price": 35.57,
- "dataAsOf": "2026-10-21",
- "score": 88,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 4.0배 — 강세 우위",
+ "price": 33.72,
+ "dataAsOf": "2026-10-22",
+ "score": 3,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 0.6배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": 29.5,
-   "callOi": 8895,
-   "putOi": 35271
+   "strike": 27.9,
+   "callOi": 3715,
+   "putOi": 23472
   },
   {
-   "strike": 31.5,
-   "callOi": 25597,
-   "putOi": 33220
+   "strike": 29.9,
+   "callOi": 9009,
+   "putOi": 36561
   },
   {
-   "strike": 33.5,
-   "callOi": 76763,
-   "putOi": 20835
+   "strike": 31.8,
+   "callOi": 22866,
+   "putOi": 34934
+  },
+  {
+   "strike": 33.7,
+   "callOi": 67312,
+   "putOi": 25362
   },
   {
    "strike": 35.6,
-   "callOi": 116202,
-   "putOi": 26024
+   "callOi": 81180,
+   "putOi": 31727
   },
   {
    "strike": 37.6,
-   "callOi": 51694,
-   "putOi": 17779
+   "callOi": 63613,
+   "putOi": 17886
   },
   {
-   "strike": 39.6,
-   "callOi": 57229,
-   "putOi": 22085
-  },
-  {
-   "strike": 41.7,
-   "callOi": 24478,
-   "putOi": 15875
+   "strike": 39.5,
+   "callOi": 75568,
+   "putOi": 21665
   }
  ],
- "maxPain": 34.0,
+ "maxPain": 35.0,
  "trend": [
-  {
-   "date": "2026-09-07",
-   "score": 93,
-   "price": 39.59
-  },
   {
    "date": "2026-09-08",
    "score": 44,
@@ -194,6 +189,11 @@
    "date": "2026-10-21",
    "score": 88,
    "price": 35.57
+  },
+  {
+   "date": "2026-10-22",
+   "score": 3,
+   "price": 33.72
   }
  ]
 }
