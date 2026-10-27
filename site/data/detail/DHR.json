@@ -1,55 +1,50 @@
 {
  "ticker": "DHR",
  "name": "다나허",
- "price": 230.5,
- "dataAsOf": "2026-10-23",
- "score": 29,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
+ "price": NaN,
+ "dataAsOf": "2026-10-27",
+ "score": 96,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 6.7배 — 평소보다 훨씬 강세",
  "buckets": [
   {
-   "strike": 191.0,
-   "callOi": 1505,
-   "putOi": 4268
-  },
-  {
-   "strike": 204.2,
-   "callOi": 2220,
-   "putOi": 7391
-  },
-  {
-   "strike": 217.3,
-   "callOi": 1806,
-   "putOi": 3195
-  },
-  {
-   "strike": 230.5,
-   "callOi": 5430,
-   "putOi": 1472
-  },
-  {
-   "strike": 243.7,
-   "callOi": 6417,
-   "putOi": 446
-  },
-  {
-   "strike": 256.8,
-   "callOi": 2477,
+   "strike": NaN,
+   "callOi": 0,
    "putOi": 0
   },
   {
-   "strike": 270.0,
-   "callOi": 1929,
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
+  },
+  {
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
+  },
+  {
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
+  },
+  {
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
+  },
+  {
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
+  },
+  {
+   "strike": NaN,
+   "callOi": 0,
    "putOi": 0
   }
  ],
- "maxPain": 215.0,
+ "maxPain": 210.0,
  "trend": [
-  {
-   "date": "2026-09-09",
-   "score": 59,
-   "price": 204.85
-  },
   {
    "date": "2026-09-10",
    "score": 94,
@@ -194,6 +189,11 @@
    "date": "2026-10-23",
    "score": 29,
    "price": 230.5
+  },
+  {
+   "date": "2026-10-27",
+   "score": 96,
+   "price": NaN
   }
  ]
 }

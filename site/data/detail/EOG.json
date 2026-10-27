@@ -1,55 +1,50 @@
 {
  "ticker": "EOG",
  "name": "EOG리소시스",
- "price": 163.03,
- "dataAsOf": "2026-10-23",
- "score": 83,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 3.8배 — 강세 우위",
+ "price": NaN,
+ "dataAsOf": "2026-10-27",
+ "score": 14,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
  "buckets": [
   {
-   "strike": 135.1,
-   "callOi": 702,
-   "putOi": 879
-  },
-  {
-   "strike": 144.4,
-   "callOi": 995,
-   "putOi": 1507
-  },
-  {
-   "strike": 153.7,
-   "callOi": 5851,
-   "putOi": 1058
-  },
-  {
-   "strike": 163.0,
-   "callOi": 4680,
-   "putOi": 247
-  },
-  {
-   "strike": 172.3,
-   "callOi": 1233,
-   "putOi": 4
-  },
-  {
-   "strike": 181.7,
-   "callOi": 740,
+   "strike": NaN,
+   "callOi": 0,
    "putOi": 0
   },
   {
-   "strike": 191.0,
-   "callOi": 163,
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
+  },
+  {
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
+  },
+  {
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
+  },
+  {
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
+  },
+  {
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
+  },
+  {
+   "strike": NaN,
+   "callOi": 0,
    "putOi": 0
   }
  ],
- "maxPain": 140.0,
+ "maxPain": 145.0,
  "trend": [
-  {
-   "date": "2026-09-09",
-   "score": 20,
-   "price": 147.01
-  },
   {
    "date": "2026-09-10",
    "score": 91,
@@ -194,6 +189,11 @@
    "date": "2026-10-23",
    "score": 83,
    "price": 163.03
+  },
+  {
+   "date": "2026-10-27",
+   "score": 14,
+   "price": NaN
   }
  ]
 }
