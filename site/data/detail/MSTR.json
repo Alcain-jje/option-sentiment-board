@@ -2,10 +2,10 @@
  "ticker": "MSTR",
  "name": "스트래티지",
  "price": NaN,
- "dataAsOf": "2026-10-27",
- "score": 3,
+ "dataAsOf": "2026-10-28",
+ "score": 13,
  "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.0배 — 평소보다 뚜렷한 약세",
+ "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 148.0,
+ "maxPain": 145.0,
  "trend": [
-  {
-   "date": "2026-09-10",
-   "score": 55,
-   "price": 128.56
-  },
   {
    "date": "2026-09-11",
    "score": 71,
@@ -193,6 +188,11 @@
   {
    "date": "2026-10-27",
    "score": 3,
+   "price": NaN
+  },
+  {
+   "date": "2026-10-28",
+   "score": 13,
    "price": NaN
   }
  ]

@@ -2,10 +2,10 @@
  "ticker": "COIN",
  "name": "코인베이스",
  "price": NaN,
- "dataAsOf": "2026-10-27",
- "score": 14,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
+ "dataAsOf": "2026-10-28",
+ "score": 31,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 172.5,
+ "maxPain": 170.0,
  "trend": [
-  {
-   "date": "2026-09-10",
-   "score": 96,
-   "price": 172.28
-  },
   {
    "date": "2026-09-11",
    "score": 19,
@@ -193,6 +188,11 @@
   {
    "date": "2026-10-27",
    "score": 14,
+   "price": NaN
+  },
+  {
+   "date": "2026-10-28",
+   "score": 31,
    "price": NaN
   }
  ]
