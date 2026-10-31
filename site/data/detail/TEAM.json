@@ -2,10 +2,10 @@
  "ticker": "TEAM",
  "name": "아틀라시안",
  "price": NaN,
- "dataAsOf": "2026-10-30",
- "score": 27,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.3배 — 약세 우위",
+ "dataAsOf": "2026-10-31",
+ "score": 72,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.4배 — 강세 우위",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 185.0,
+ "maxPain": 170.0,
  "trend": [
-  {
-   "date": "2026-09-15",
-   "score": 50,
-   "price": 189.81
-  },
   {
    "date": "2026-09-16",
    "score": 0,
@@ -193,6 +188,11 @@
   {
    "date": "2026-10-30",
    "score": 27,
+   "price": NaN
+  },
+  {
+   "date": "2026-10-31",
+   "score": 72,
    "price": NaN
   }
  ]

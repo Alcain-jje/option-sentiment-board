@@ -2,10 +2,10 @@
  "ticker": "COST",
  "name": "코스트코",
  "price": NaN,
- "dataAsOf": "2026-10-30",
- "score": 100,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 3.1배 — 평소보다 훨씬 강세",
+ "dataAsOf": "2026-10-31",
+ "score": 65,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.1배 — 강세 우위",
  "buckets": [
   {
    "strike": NaN,
@@ -45,11 +45,6 @@
  ],
  "maxPain": 960.0,
  "trend": [
-  {
-   "date": "2026-09-15",
-   "score": 56,
-   "price": 901.35
-  },
   {
    "date": "2026-09-16",
    "score": 76,
@@ -193,6 +188,11 @@
   {
    "date": "2026-10-30",
    "score": 100,
+   "price": NaN
+  },
+  {
+   "date": "2026-10-31",
+   "score": 65,
    "price": NaN
   }
  ]

@@ -1,12 +1,8 @@
 {
- "updatedAt": "2026-10-30T00:54:27+00:00",
- "dataAsOf": "2026-10-30",
- "marketScore": 4,
+ "updatedAt": "2026-10-31T00:44:54+00:00",
+ "dataAsOf": "2026-10-31",
+ "marketScore": 0,
  "marketTrend": [
-  {
-   "date": "2026-09-15",
-   "score": 60
-  },
   {
    "date": "2026-09-16",
    "score": 24
@@ -122,6 +118,10 @@
   {
    "date": "2026-10-30",
    "score": 4
+  },
+  {
+   "date": "2026-10-31",
+   "score": 0
   }
  ],
  "stocks": [
@@ -130,17 +130,16 @@
    "name": "애플",
    "price": NaN,
    "chg": NaN,
-   "score": 4,
+   "score": 0,
    "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 394626,
-   "putVol": 405063,
-   "ratioText": "하락 베팅이 상승의 1.0배 — 평소보다 뚜렷한 약세",
+   "callVol": 180028,
+   "putVol": 385519,
+   "ratioText": "하락 베팅이 상승의 2.1배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "빅테크",
    "spark": [
-    11,
     3,
     1,
     4,
@@ -149,26 +148,26 @@
     0,
     13,
     0,
-    4
+    4,
+    0
    ],
-   "scoreChg": 4
+   "scoreChg": -4
   },
   {
    "ticker": "MSFT",
    "name": "마이크로소프트",
    "price": NaN,
    "chg": NaN,
-   "score": 39,
-   "label": "약세",
+   "score": 15,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 451305,
-   "putVol": 245461,
-   "ratioText": "하락 베팅이 상승의 0.5배 — 약세 우위",
+   "callVol": 138318,
+   "putVol": 100019,
+   "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "빅테크",
    "spark": [
-    33,
     10,
     7,
     26,
@@ -177,26 +176,26 @@
     36,
     16,
     6,
-    39
+    39,
+    15
    ],
-   "scoreChg": 33
+   "scoreChg": -24
   },
   {
    "ticker": "GOOGL",
    "name": "알파벳",
    "price": NaN,
    "chg": NaN,
-   "score": 4,
-   "label": "매우 약세",
+   "score": 28,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 735350,
-   "putVol": 490812,
-   "ratioText": "하락 베팅이 상승의 0.7배 — 평소보다 뚜렷한 약세",
+   "callVol": 258978,
+   "putVol": 134199,
+   "ratioText": "하락 베팅이 상승의 0.5배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "빅테크",
    "spark": [
-    40,
     15,
     17,
     44,
@@ -205,26 +204,26 @@
     41,
     62,
     29,
-    4
+    4,
+    28
    ],
-   "scoreChg": -25
+   "scoreChg": 24
   },
   {
    "ticker": "AMZN",
    "name": "아마존",
    "price": NaN,
    "chg": NaN,
-   "score": 8,
-   "label": "매우 약세",
+   "score": 55,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 665484,
-   "putVol": 393944,
-   "ratioText": "하락 베팅이 상승의 0.6배 — 평소보다 뚜렷한 약세",
+   "callVol": 579543,
+   "putVol": 251676,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "빅테크",
    "spark": [
-    74,
     0,
     79,
     37,
@@ -233,26 +232,26 @@
     86,
     95,
     0,
-    8
+    8,
+    55
    ],
-   "scoreChg": 8
+   "scoreChg": 47
   },
   {
    "ticker": "META",
    "name": "메타",
    "price": NaN,
    "chg": NaN,
-   "score": 78,
-   "label": "강세",
+   "score": 19,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 421879,
-   "putVol": 180583,
-   "ratioText": "상승 베팅이 하락의 2.3배 — 강세 우위",
+   "callVol": 142011,
+   "putVol": 89137,
+   "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "빅테크",
    "spark": [
-    64,
     1,
     10,
     11,
@@ -261,9 +260,10 @@
     36,
     25,
     42,
-    78
+    78,
+    19
    ],
-   "scoreChg": 36
+   "scoreChg": -59
   },
   {
    "ticker": "NFLX",
@@ -273,14 +273,13 @@
    "score": 0,
    "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 222595,
-   "putVol": 240466,
+   "callVol": 126887,
+   "putVol": 137756,
    "ratioText": "하락 베팅이 상승의 1.1배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "빅테크",
    "spark": [
-    77,
     6,
     3,
     23,
@@ -289,26 +288,26 @@
     4,
     42,
     59,
+    0,
     0
    ],
-   "scoreChg": -59
+   "scoreChg": 0
   },
   {
    "ticker": "UBER",
    "name": "우버",
    "price": NaN,
    "chg": NaN,
-   "score": 18,
-   "label": "매우 약세",
+   "score": 32,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 41660,
-   "putVol": 37869,
-   "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
+   "callVol": 29609,
+   "putVol": 21159,
+   "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "빅테크",
    "spark": [
-    11,
     7,
     0,
     1,
@@ -317,26 +316,26 @@
     29,
     68,
     10,
-    18
+    18,
+    32
    ],
-   "scoreChg": 8
+   "scoreChg": 14
   },
   {
    "ticker": "ABNB",
    "name": "에어비앤비",
    "price": NaN,
    "chg": NaN,
-   "score": 66,
-   "label": "강세",
+   "score": 1,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 3686,
-   "putVol": 3043,
-   "ratioText": "상승 베팅이 하락의 1.2배 — 강세 우위",
+   "callVol": 2152,
+   "putVol": 3429,
+   "ratioText": "하락 베팅이 상승의 1.6배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "빅테크",
    "spark": [
-    39,
     31,
     8,
     33,
@@ -345,26 +344,26 @@
     82,
     39,
     12,
-    66
+    66,
+    1
    ],
-   "scoreChg": 54
+   "scoreChg": -65
   },
   {
    "ticker": "NVDA",
    "name": "엔비디아",
    "price": NaN,
    "chg": NaN,
-   "score": 0,
-   "label": "매우 약세",
+   "score": 45,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 825928,
-   "putVol": 691965,
-   "ratioText": "하락 베팅이 상승의 0.8배 — 평소보다 뚜렷한 약세",
+   "callVol": 1296153,
+   "putVol": 739125,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "반도체",
    "spark": [
-    54,
     11,
     29,
     38,
@@ -373,26 +372,26 @@
     25,
     56,
     21,
-    0
+    0,
+    45
    ],
-   "scoreChg": -21
+   "scoreChg": 45
   },
   {
    "ticker": "AVGO",
    "name": "브로드컴",
    "price": NaN,
    "chg": NaN,
-   "score": 30,
-   "label": "약세",
+   "score": 15,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 106370,
-   "putVol": 72468,
-   "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
+   "callVol": 104885,
+   "putVol": 85101,
+   "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "반도체",
    "spark": [
-    4,
     20,
     44,
     26,
@@ -401,26 +400,26 @@
     59,
     64,
     68,
-    30
+    30,
+    15
    ],
-   "scoreChg": -38
+   "scoreChg": -15
   },
   {
    "ticker": "AMD",
    "name": "AMD",
    "price": NaN,
    "chg": NaN,
-   "score": 68,
-   "label": "강세",
+   "score": 29,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 159589,
-   "putVol": 114692,
-   "ratioText": "상승 베팅이 하락의 1.4배 — 강세 우위",
+   "callVol": 194183,
+   "putVol": 171357,
+   "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "반도체",
    "spark": [
-    87,
     48,
     56,
     77,
@@ -429,26 +428,26 @@
     76,
     75,
     46,
-    68
+    68,
+    29
    ],
-   "scoreChg": 22
+   "scoreChg": -39
   },
   {
    "ticker": "QCOM",
    "name": "퀄컴",
    "price": NaN,
    "chg": NaN,
-   "score": 18,
+   "score": 3,
    "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 15795,
-   "putVol": 11903,
-   "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
+   "callVol": 30200,
+   "putVol": 29276,
+   "ratioText": "하락 베팅이 상승의 1.0배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "반도체",
    "spark": [
-    89,
     10,
     81,
     79,
@@ -457,26 +456,26 @@
     78,
     42,
     35,
-    18
+    18,
+    3
    ],
-   "scoreChg": -17
+   "scoreChg": -15
   },
   {
    "ticker": "INTC",
    "name": "인텔",
    "price": NaN,
    "chg": NaN,
-   "score": 3,
-   "label": "매우 약세",
+   "score": 20,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 330332,
-   "putVol": 258123,
-   "ratioText": "하락 베팅이 상승의 0.8배 — 평소보다 뚜렷한 약세",
+   "callVol": 690154,
+   "putVol": 423510,
+   "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "반도체",
    "spark": [
-    14,
     27,
     61,
     96,
@@ -485,26 +484,26 @@
     92,
     45,
     50,
-    3
+    3,
+    20
    ],
-   "scoreChg": -47
+   "scoreChg": 17
   },
   {
    "ticker": "MU",
    "name": "마이크론",
    "price": NaN,
    "chg": NaN,
-   "score": 48,
-   "label": "중립",
+   "score": 7,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 407377,
-   "putVol": 307627,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 282660,
+   "putVol": 322318,
+   "ratioText": "하락 베팅이 상승의 1.1배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "반도체",
    "spark": [
-    83,
     38,
     38,
     52,
@@ -513,26 +512,26 @@
     37,
     47,
     35,
-    48
+    48,
+    7
    ],
-   "scoreChg": 13
+   "scoreChg": -41
   },
   {
    "ticker": "TXN",
    "name": "텍사스인스트루먼트",
    "price": NaN,
    "chg": NaN,
-   "score": 100,
-   "label": "매우 강세",
+   "score": 78,
+   "label": "강세",
    "scoreMode": "percentile",
-   "callVol": 44627,
-   "putVol": 4843,
-   "ratioText": "상승 베팅이 하락의 9.2배 — 평소보다 훨씬 강세",
+   "callVol": 10623,
+   "putVol": 5579,
+   "ratioText": "상승 베팅이 하락의 1.9배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "반도체",
    "spark": [
-    1,
     70,
     6,
     36,
@@ -541,26 +540,26 @@
     72,
     79,
     23,
-    100
+    100,
+    78
    ],
-   "scoreChg": 77
+   "scoreChg": -22
   },
   {
    "ticker": "ARM",
    "name": "Arm",
    "price": NaN,
    "chg": NaN,
-   "score": 76,
-   "label": "강세",
+   "score": 0,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 22201,
-   "putVol": 13412,
-   "ratioText": "상승 베팅이 하락의 1.7배 — 강세 우위",
+   "callVol": 20560,
+   "putVol": 36895,
+   "ratioText": "하락 베팅이 상승의 1.8배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "반도체",
    "spark": [
-    67,
     58,
     18,
     77,
@@ -569,26 +568,26 @@
     63,
     13,
     81,
-    76
+    76,
+    0
    ],
-   "scoreChg": -5
+   "scoreChg": -76
   },
   {
    "ticker": "SMCI",
    "name": "슈퍼마이크로",
    "price": NaN,
    "chg": NaN,
-   "score": 3,
-   "label": "매우 약세",
+   "score": 71,
+   "label": "강세",
    "scoreMode": "percentile",
-   "callVol": 66244,
-   "putVol": 42389,
-   "ratioText": "하락 베팅이 상승의 0.6배 — 평소보다 뚜렷한 약세",
+   "callVol": 172937,
+   "putVol": 48328,
+   "ratioText": "상승 베팅이 하락의 3.6배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "반도체",
    "spark": [
-    0,
     7,
     99,
     88,
@@ -597,26 +596,26 @@
     30,
     64,
     41,
-    3
+    3,
+    71
    ],
-   "scoreChg": -38
+   "scoreChg": 68
   },
   {
    "ticker": "AMAT",
    "name": "어플라이드머티어리얼즈",
    "price": NaN,
    "chg": NaN,
-   "score": 91,
-   "label": "매우 강세",
+   "score": 44,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 19413,
-   "putVol": 13484,
-   "ratioText": "상승 베팅이 하락의 1.4배 — 평소보다 훨씬 강세",
+   "callVol": 10004,
+   "putVol": 11513,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "반도체",
    "spark": [
-    26,
     32,
     24,
     45,
@@ -625,26 +624,26 @@
     79,
     100,
     87,
-    91
+    91,
+    44
    ],
-   "scoreChg": 4
+   "scoreChg": -47
   },
   {
    "ticker": "LRCX",
    "name": "램리서치",
    "price": NaN,
    "chg": NaN,
-   "score": 41,
-   "label": "중립",
+   "score": 3,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 19879,
-   "putVol": 19386,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 13836,
+   "putVol": 34845,
+   "ratioText": "하락 베팅이 상승의 2.5배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "반도체",
    "spark": [
-    11,
     77,
     33,
     79,
@@ -653,26 +652,26 @@
     55,
     45,
     49,
-    41
+    41,
+    3
    ],
-   "scoreChg": -8
+   "scoreChg": -38
   },
   {
    "ticker": "KLAC",
    "name": "KLA",
    "price": NaN,
    "chg": NaN,
-   "score": 82,
-   "label": "매우 강세",
+   "score": 61,
+   "label": "강세",
    "scoreMode": "percentile",
-   "callVol": 16305,
-   "putVol": 12424,
-   "ratioText": "상승 베팅이 하락의 1.3배 — 강세 우위",
+   "callVol": 6108,
+   "putVol": 6565,
+   "ratioText": "상승 베팅이 하락의 0.9배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "반도체",
    "spark": [
-    96,
     85,
     74,
     70,
@@ -681,26 +680,26 @@
     72,
     86,
     79,
-    82
+    82,
+    61
    ],
-   "scoreChg": 3
+   "scoreChg": -21
   },
   {
    "ticker": "ORCL",
    "name": "오라클",
    "price": NaN,
    "chg": NaN,
-   "score": 35,
-   "label": "약세",
+   "score": 4,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 278508,
-   "putVol": 154709,
-   "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
+   "callVol": 126380,
+   "putVol": 103463,
+   "ratioText": "하락 베팅이 상승의 0.8배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "소프트웨어",
    "spark": [
-    4,
     3,
     22,
     38,
@@ -709,26 +708,26 @@
     16,
     48,
     45,
-    35
+    35,
+    4
    ],
-   "scoreChg": -10
+   "scoreChg": -31
   },
   {
    "ticker": "CRM",
    "name": "세일즈포스",
    "price": NaN,
    "chg": NaN,
-   "score": 37,
-   "label": "약세",
+   "score": 11,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 16292,
-   "putVol": 13868,
-   "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
+   "callVol": 8963,
+   "putVol": 10685,
+   "ratioText": "하락 베팅이 상승의 1.2배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "소프트웨어",
    "spark": [
-    69,
     46,
     78,
     36,
@@ -737,26 +736,26 @@
     21,
     34,
     60,
-    37
+    37,
+    11
    ],
-   "scoreChg": -23
+   "scoreChg": -26
   },
   {
    "ticker": "ADBE",
    "name": "어도비",
    "price": NaN,
    "chg": NaN,
-   "score": 23,
-   "label": "약세",
+   "score": 80,
+   "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 9852,
-   "putVol": 10841,
-   "ratioText": "하락 베팅이 상승의 1.1배 — 약세 우위",
+   "callVol": 11827,
+   "putVol": 7406,
+   "ratioText": "상승 베팅이 하락의 1.6배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "소프트웨어",
    "spark": [
-    43,
     49,
     40,
     71,
@@ -765,9 +764,10 @@
     55,
     48,
     56,
-    23
+    23,
+    80
    ],
-   "scoreChg": -33
+   "scoreChg": 57
   },
   {
    "ticker": "NOW",
@@ -777,14 +777,13 @@
    "score": 4,
    "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 260764,
-   "putVol": 255747,
+   "callVol": 69201,
+   "putVol": 71586,
    "ratioText": "하락 베팅이 상승의 1.0배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "소프트웨어",
    "spark": [
-    14,
     24,
     32,
     14,
@@ -793,26 +792,26 @@
     3,
     0,
     1,
+    4,
     4
    ],
-   "scoreChg": 3
+   "scoreChg": 0
   },
   {
    "ticker": "INTU",
    "name": "인튜이트",
    "price": NaN,
    "chg": NaN,
-   "score": 44,
-   "label": "중립",
+   "score": 7,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 3927,
-   "putVol": 3892,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 2525,
+   "putVol": 3929,
+   "ratioText": "하락 베팅이 상승의 1.6배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "소프트웨어",
    "spark": [
-    30,
     46,
     71,
     60,
@@ -821,26 +820,26 @@
     3,
     26,
     92,
-    44
+    44,
+    7
    ],
-   "scoreChg": -48
+   "scoreChg": -37
   },
   {
    "ticker": "SNOW",
    "name": "스노우플레이크",
    "price": NaN,
    "chg": NaN,
-   "score": 4,
-   "label": "매우 약세",
+   "score": 66,
+   "label": "강세",
    "scoreMode": "percentile",
-   "callVol": 11386,
-   "putVol": 13739,
-   "ratioText": "하락 베팅이 상승의 1.2배 — 평소보다 뚜렷한 약세",
+   "callVol": 22374,
+   "putVol": 14483,
+   "ratioText": "상승 베팅이 하락의 1.5배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "소프트웨어",
    "spark": [
-    56,
     25,
     100,
     37,
@@ -849,26 +848,26 @@
     50,
     3,
     22,
-    4
+    4,
+    66
    ],
-   "scoreChg": -18
+   "scoreChg": 62
   },
   {
    "ticker": "PANW",
    "name": "팔로알토",
    "price": NaN,
    "chg": NaN,
-   "score": 51,
-   "label": "중립",
+   "score": 30,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 15976,
-   "putVol": 17187,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 9480,
+   "putVol": 12761,
+   "ratioText": "하락 베팅이 상승의 1.3배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "소프트웨어",
    "spark": [
-    37,
     56,
     75,
     88,
@@ -877,26 +876,26 @@
     89,
     25,
     40,
-    51
+    51,
+    30
    ],
-   "scoreChg": 11
+   "scoreChg": -21
   },
   {
    "ticker": "SHOP",
    "name": "쇼피파이",
    "price": NaN,
    "chg": NaN,
-   "score": 10,
+   "score": 3,
    "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 7962,
-   "putVol": 14883,
-   "ratioText": "하락 베팅이 상승의 1.9배 — 평소보다 뚜렷한 약세",
+   "callVol": 10237,
+   "putVol": 24182,
+   "ratioText": "하락 베팅이 상승의 2.4배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "소프트웨어",
    "spark": [
-    6,
     23,
     19,
     55,
@@ -905,26 +904,26 @@
     0,
     8,
     4,
-    10
+    10,
+    3
    ],
-   "scoreChg": 6
+   "scoreChg": -7
   },
   {
    "ticker": "PLTR",
    "name": "팔란티어",
    "price": NaN,
    "chg": NaN,
-   "score": 56,
-   "label": "중립",
+   "score": 10,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 158029,
-   "putVol": 94670,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 126380,
+   "putVol": 124377,
+   "ratioText": "하락 베팅이 상승의 1.0배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "소프트웨어",
    "spark": [
-    23,
     23,
     6,
     18,
@@ -933,26 +932,26 @@
     28,
     43,
     58,
-    56
+    56,
+    10
    ],
-   "scoreChg": -2
+   "scoreChg": -46
   },
   {
    "ticker": "CSCO",
    "name": "시스코",
    "price": NaN,
    "chg": NaN,
-   "score": 3,
-   "label": "매우 약세",
+   "score": 82,
+   "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 9730,
-   "putVol": 13706,
-   "ratioText": "하락 베팅이 상승의 1.4배 — 평소보다 뚜렷한 약세",
+   "callVol": 28798,
+   "putVol": 10090,
+   "ratioText": "상승 베팅이 하락의 2.9배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "소프트웨어",
    "spark": [
-    11,
     1,
     10,
     36,
@@ -961,26 +960,26 @@
     16,
     4,
     4,
-    3
+    3,
+    82
    ],
-   "scoreChg": -1
+   "scoreChg": 79
   },
   {
    "ticker": "JPM",
    "name": "JP모건",
    "price": NaN,
    "chg": NaN,
-   "score": 28,
-   "label": "약세",
+   "score": 15,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 21219,
-   "putVol": 15976,
-   "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
+   "callVol": 17289,
+   "putVol": 16157,
+   "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "금융",
    "spark": [
-    41,
     25,
     71,
     64,
@@ -989,26 +988,26 @@
     55,
     97,
     49,
-    28
+    28,
+    15
    ],
-   "scoreChg": -21
+   "scoreChg": -13
   },
   {
    "ticker": "BAC",
    "name": "뱅크오브아메리카",
    "price": NaN,
    "chg": NaN,
-   "score": 19,
-   "label": "매우 약세",
+   "score": 49,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 44132,
-   "putVol": 43245,
-   "ratioText": "하락 베팅이 상승의 1.0배 — 약세 우위",
+   "callVol": 64480,
+   "putVol": 42877,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "금융",
    "spark": [
-    0,
     14,
     97,
     81,
@@ -1017,26 +1016,26 @@
     68,
     49,
     63,
-    19
+    19,
+    49
    ],
-   "scoreChg": -44
+   "scoreChg": 30
   },
   {
    "ticker": "GS",
    "name": "골드만삭스",
    "price": NaN,
    "chg": NaN,
-   "score": 44,
+   "score": 40,
    "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 9064,
-   "putVol": 10993,
+   "callVol": 10775,
+   "putVol": 13588,
    "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "금융",
    "spark": [
-    66,
     61,
     74,
     75,
@@ -1045,26 +1044,26 @@
     66,
     53,
     58,
-    44
+    44,
+    40
    ],
-   "scoreChg": -14
+   "scoreChg": -4
   },
   {
    "ticker": "WFC",
    "name": "웰스파고",
    "price": NaN,
    "chg": NaN,
-   "score": 59,
+   "score": 45,
    "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 10976,
-   "putVol": 7938,
+   "callVol": 14922,
+   "putVol": 12449,
    "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "금융",
    "spark": [
-    64,
     72,
     26,
     74,
@@ -1073,26 +1072,26 @@
     17,
     51,
     40,
-    59
+    59,
+    45
    ],
-   "scoreChg": 19
+   "scoreChg": -14
   },
   {
    "ticker": "C",
    "name": "씨티그룹",
    "price": NaN,
    "chg": NaN,
-   "score": 68,
-   "label": "강세",
+   "score": 96,
+   "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 24861,
-   "putVol": 12582,
-   "ratioText": "상승 베팅이 하락의 2.0배 — 강세 우위",
+   "callVol": 97359,
+   "putVol": 26161,
+   "ratioText": "상승 베팅이 하락의 3.7배 — 평소보다 훨씬 강세",
    "status": "ok",
    "stale": false,
    "sector": "금융",
    "spark": [
-    4,
     4,
     3,
     14,
@@ -1101,26 +1100,26 @@
     24,
     68,
     19,
-    68
+    68,
+    96
    ],
-   "scoreChg": 49
+   "scoreChg": 28
   },
   {
    "ticker": "MS",
    "name": "모건스탠리",
    "price": NaN,
    "chg": NaN,
-   "score": 94,
-   "label": "매우 강세",
+   "score": 66,
+   "label": "강세",
    "scoreMode": "percentile",
-   "callVol": 27560,
-   "putVol": 5712,
-   "ratioText": "상승 베팅이 하락의 4.8배 — 평소보다 훨씬 강세",
+   "callVol": 17011,
+   "putVol": 8177,
+   "ratioText": "상승 베팅이 하락의 2.1배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "금융",
    "spark": [
-    24,
     4,
     71,
     99,
@@ -1129,26 +1128,26 @@
     41,
     0,
     41,
-    94
+    94,
+    66
    ],
-   "scoreChg": 53
+   "scoreChg": -28
   },
   {
    "ticker": "SCHW",
    "name": "찰스슈왑",
    "price": NaN,
    "chg": NaN,
-   "score": 16,
-   "label": "매우 약세",
+   "score": 45,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 4581,
-   "putVol": 9084,
-   "ratioText": "하락 베팅이 상승의 2.0배 — 약세 우위",
+   "callVol": 9974,
+   "putVol": 10337,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "금융",
    "spark": [
-    9,
     8,
     26,
     100,
@@ -1157,26 +1156,26 @@
     0,
     35,
     1,
-    16
+    16,
+    45
    ],
-   "scoreChg": 15
+   "scoreChg": 29
   },
   {
    "ticker": "BLK",
    "name": "블랙록",
    "price": NaN,
    "chg": NaN,
-   "score": 63,
-   "label": "강세",
+   "score": 35,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 1523,
-   "putVol": 1311,
-   "ratioText": "상승 베팅이 하락의 1.2배 — 강세 우위",
+   "callVol": 1252,
+   "putVol": 2123,
+   "ratioText": "하락 베팅이 상승의 1.7배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "금융",
    "spark": [
-    69,
     73,
     78,
     79,
@@ -1185,26 +1184,26 @@
     39,
     39,
     79,
-    63
+    63,
+    35
    ],
-   "scoreChg": -16
+   "scoreChg": -28
   },
   {
    "ticker": "BRK-B",
    "name": "버크셔해서웨이",
    "price": NaN,
    "chg": NaN,
-   "score": 8,
+   "score": 3,
    "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 5802,
-   "putVol": 9561,
-   "ratioText": "하락 베팅이 상승의 1.6배 — 평소보다 뚜렷한 약세",
+   "callVol": 8283,
+   "putVol": 14755,
+   "ratioText": "하락 베팅이 상승의 1.8배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "금융",
    "spark": [
-    16,
     23,
     11,
     4,
@@ -1213,26 +1212,26 @@
     5,
     9,
     21,
-    8
+    8,
+    3
    ],
-   "scoreChg": -13
+   "scoreChg": -5
   },
   {
    "ticker": "AXP",
    "name": "아메리칸익스프레스",
    "price": NaN,
    "chg": NaN,
-   "score": 95,
-   "label": "매우 강세",
+   "score": 26,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 14401,
-   "putVol": 4079,
-   "ratioText": "상승 베팅이 하락의 3.5배 — 평소보다 훨씬 강세",
+   "callVol": 3690,
+   "putVol": 5163,
+   "ratioText": "하락 베팅이 상승의 1.4배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "금융",
    "spark": [
-    79,
     96,
     82,
     77,
@@ -1241,26 +1240,26 @@
     71,
     73,
     51,
-    95
+    95,
+    26
    ],
-   "scoreChg": 44
+   "scoreChg": -69
   },
   {
    "ticker": "V",
    "name": "비자",
    "price": NaN,
    "chg": NaN,
-   "score": 78,
-   "label": "강세",
+   "score": 1,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 16145,
-   "putVol": 11771,
-   "ratioText": "상승 베팅이 하락의 1.4배 — 강세 우위",
+   "callVol": 9549,
+   "putVol": 19982,
+   "ratioText": "하락 베팅이 상승의 2.1배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "핀테크",
    "spark": [
-    61,
     37,
     65,
     36,
@@ -1269,26 +1268,26 @@
     30,
     39,
     55,
-    78
+    78,
+    1
    ],
-   "scoreChg": 23
+   "scoreChg": -77
   },
   {
    "ticker": "MA",
    "name": "마스터카드",
    "price": NaN,
    "chg": NaN,
-   "score": 76,
-   "label": "강세",
+   "score": 0,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 6927,
-   "putVol": 5506,
-   "ratioText": "상승 베팅이 하락의 1.3배 — 강세 우위",
+   "callVol": 1941,
+   "putVol": 4162,
+   "ratioText": "하락 베팅이 상승의 2.1배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "핀테크",
    "spark": [
-    79,
     86,
     75,
     59,
@@ -1297,26 +1296,26 @@
     12,
     94,
     83,
-    76
+    76,
+    0
    ],
-   "scoreChg": -7
+   "scoreChg": -76
   },
   {
    "ticker": "PYPL",
    "name": "페이팔",
    "price": NaN,
    "chg": NaN,
-   "score": 42,
-   "label": "중립",
+   "score": 88,
+   "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 21843,
-   "putVol": 8492,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 23779,
+   "putVol": 4238,
+   "ratioText": "상승 베팅이 하락의 5.6배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "핀테크",
    "spark": [
-    84,
     97,
     69,
     99,
@@ -1325,26 +1324,26 @@
     1,
     6,
     26,
-    42
+    42,
+    88
    ],
-   "scoreChg": 16
+   "scoreChg": 46
   },
   {
    "ticker": "SOFI",
    "name": "소파이",
    "price": NaN,
    "chg": NaN,
-   "score": 90,
-   "label": "매우 강세",
+   "score": 35,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 312450,
-   "putVol": 98361,
-   "ratioText": "상승 베팅이 하락의 3.2배 — 평소보다 훨씬 강세",
+   "callVol": 176807,
+   "putVol": 80658,
+   "ratioText": "하락 베팅이 상승의 0.5배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "핀테크",
    "spark": [
-    50,
     77,
     97,
     84,
@@ -1353,26 +1352,26 @@
     70,
     12,
     47,
-    90
+    90,
+    35
    ],
-   "scoreChg": 43
+   "scoreChg": -55
   },
   {
    "ticker": "AFRM",
    "name": "어펌",
    "price": NaN,
    "chg": NaN,
-   "score": 43,
-   "label": "중립",
+   "score": 4,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 9200,
-   "putVol": 7507,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 4373,
+   "putVol": 5853,
+   "ratioText": "하락 베팅이 상승의 1.3배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "핀테크",
    "spark": [
-    70,
     1,
     25,
     12,
@@ -1381,26 +1380,26 @@
     39,
     39,
     3,
-    43
+    43,
+    4
    ],
-   "scoreChg": 40
+   "scoreChg": -39
   },
   {
    "ticker": "HOOD",
    "name": "로빈후드",
    "price": NaN,
    "chg": NaN,
-   "score": 29,
-   "label": "약세",
+   "score": 4,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 192620,
-   "putVol": 103944,
-   "ratioText": "하락 베팅이 상승의 0.5배 — 약세 우위",
+   "callVol": 170692,
+   "putVol": 117827,
+   "ratioText": "하락 베팅이 상승의 0.7배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "핀테크",
    "spark": [
-    54,
     0,
     92,
     90,
@@ -1409,26 +1408,26 @@
     29,
     34,
     5,
-    29
+    29,
+    4
    ],
-   "scoreChg": 24
+   "scoreChg": -25
   },
   {
    "ticker": "LLY",
    "name": "일라이릴리",
    "price": NaN,
    "chg": NaN,
-   "score": 38,
-   "label": "약세",
+   "score": 4,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 29605,
-   "putVol": 37254,
-   "ratioText": "하락 베팅이 상승의 1.3배 — 약세 우위",
+   "callVol": 12402,
+   "putVol": 31688,
+   "ratioText": "하락 베팅이 상승의 2.6배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "헬스케어",
    "spark": [
-    81,
     58,
     50,
     14,
@@ -1437,26 +1436,26 @@
     22,
     10,
     14,
-    38
+    38,
+    4
    ],
-   "scoreChg": 24
+   "scoreChg": -34
   },
   {
    "ticker": "UNH",
    "name": "유나이티드헬스",
    "price": NaN,
    "chg": NaN,
-   "score": 58,
-   "label": "중립",
+   "score": 24,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 22407,
-   "putVol": 14858,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 14730,
+   "putVol": 13645,
+   "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "헬스케어",
    "spark": [
-    90,
     37,
     76,
     52,
@@ -1465,26 +1464,26 @@
     92,
     32,
     67,
-    58
+    58,
+    24
    ],
-   "scoreChg": -9
+   "scoreChg": -34
   },
   {
    "ticker": "JNJ",
    "name": "존슨앤드존슨",
    "price": NaN,
    "chg": NaN,
-   "score": 30,
+   "score": 28,
    "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 8348,
-   "putVol": 6170,
-   "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
+   "callVol": 7459,
+   "putVol": 6343,
+   "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "헬스케어",
    "spark": [
-    64,
     66,
     71,
     34,
@@ -1493,26 +1492,26 @@
     39,
     1,
     47,
-    30
+    30,
+    28
    ],
-   "scoreChg": -17
+   "scoreChg": -2
   },
   {
    "ticker": "ABBV",
    "name": "애브비",
    "price": NaN,
    "chg": NaN,
-   "score": 41,
-   "label": "중립",
+   "score": 7,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 8848,
-   "putVol": 5401,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 8034,
+   "putVol": 6974,
+   "ratioText": "하락 베팅이 상승의 0.9배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "헬스케어",
    "spark": [
-    71,
     80,
     35,
     15,
@@ -1521,26 +1520,26 @@
     66,
     62,
     51,
-    41
+    41,
+    7
    ],
-   "scoreChg": -10
+   "scoreChg": -34
   },
   {
    "ticker": "MRK",
    "name": "머크",
    "price": NaN,
    "chg": NaN,
-   "score": 27,
+   "score": 22,
    "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 23382,
-   "putVol": 12407,
-   "ratioText": "하락 베팅이 상승의 0.5배 — 약세 우위",
+   "callVol": 10546,
+   "putVol": 6162,
+   "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "헬스케어",
    "spark": [
-    41,
     30,
     6,
     53,
@@ -1549,26 +1548,26 @@
     5,
     12,
     17,
-    27
+    27,
+    22
    ],
-   "scoreChg": 10
+   "scoreChg": -5
   },
   {
    "ticker": "PFE",
    "name": "화이자",
    "price": NaN,
    "chg": NaN,
-   "score": 73,
+   "score": 75,
    "label": "강세",
    "scoreMode": "percentile",
-   "callVol": 23152,
-   "putVol": 7343,
-   "ratioText": "상승 베팅이 하락의 3.2배 — 강세 우위",
+   "callVol": 42577,
+   "putVol": 12813,
+   "ratioText": "상승 베팅이 하락의 3.3배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "헬스케어",
    "spark": [
-    76,
     92,
     6,
     60,
@@ -1577,26 +1576,26 @@
     42,
     30,
     37,
-    73
+    73,
+    75
    ],
-   "scoreChg": 36
+   "scoreChg": 2
   },
   {
    "ticker": "AMGN",
    "name": "암젠",
    "price": NaN,
    "chg": NaN,
-   "score": 97,
-   "label": "매우 강세",
+   "score": 52,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 9638,
-   "putVol": 2196,
-   "ratioText": "상승 베팅이 하락의 4.4배 — 평소보다 훨씬 강세",
+   "callVol": 8245,
+   "putVol": 6139,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "헬스케어",
    "spark": [
-    17,
     15,
     19,
     22,
@@ -1605,26 +1604,26 @@
     41,
     82,
     77,
-    97
+    97,
+    52
    ],
-   "scoreChg": 20
+   "scoreChg": -45
   },
   {
    "ticker": "GILD",
    "name": "길리어드",
    "price": NaN,
    "chg": NaN,
-   "score": 41,
-   "label": "중립",
+   "score": 75,
+   "label": "강세",
    "scoreMode": "percentile",
-   "callVol": 7658,
-   "putVol": 5537,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 4467,
+   "putVol": 2161,
+   "ratioText": "상승 베팅이 하락의 2.1배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "헬스케어",
    "spark": [
-    83,
     82,
     11,
     23,
@@ -1633,26 +1632,26 @@
     8,
     0,
     3,
-    41
+    41,
+    75
    ],
-   "scoreChg": 38
+   "scoreChg": 34
   },
   {
    "ticker": "ABT",
    "name": "애보트",
    "price": NaN,
    "chg": NaN,
-   "score": 90,
+   "score": 92,
    "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 5146,
-   "putVol": 1557,
-   "ratioText": "상승 베팅이 하락의 3.3배 — 평소보다 훨씬 강세",
+   "callVol": 5813,
+   "putVol": 1703,
+   "ratioText": "상승 베팅이 하락의 3.4배 — 평소보다 훨씬 강세",
    "status": "ok",
    "stale": false,
    "sector": "헬스케어",
    "spark": [
-    77,
     76,
     26,
     21,
@@ -1661,26 +1660,26 @@
     79,
     77,
     96,
-    90
+    90,
+    92
    ],
-   "scoreChg": -6
+   "scoreChg": 2
   },
   {
    "ticker": "TMO",
    "name": "써모피셔",
    "price": NaN,
    "chg": NaN,
-   "score": 14,
+   "score": 18,
    "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 1768,
-   "putVol": 3256,
-   "ratioText": "하락 베팅이 상승의 1.8배 — 약세 우위",
+   "callVol": 882,
+   "putVol": 1518,
+   "ratioText": "하락 베팅이 상승의 1.7배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "헬스케어",
    "spark": [
-    21,
     3,
     74,
     4,
@@ -1689,7 +1688,8 @@
     58,
     9,
     10,
-    14
+    14,
+    18
    ],
    "scoreChg": 4
   },
@@ -1698,17 +1698,16 @@
    "name": "모더나",
    "price": NaN,
    "chg": NaN,
-   "score": 56,
+   "score": 59,
    "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 58894,
-   "putVol": 42044,
+   "callVol": 33887,
+   "putVol": 23133,
    "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "바이오",
    "spark": [
-    51,
     34,
     21,
     14,
@@ -1717,26 +1716,26 @@
     9,
     8,
     58,
-    56
+    56,
+    59
    ],
-   "scoreChg": -2
+   "scoreChg": 3
   },
   {
    "ticker": "VRTX",
    "name": "버텍스",
    "price": NaN,
    "chg": NaN,
-   "score": 0,
-   "label": "매우 약세",
+   "score": 20,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 547,
-   "putVol": 2904,
-   "ratioText": "하락 베팅이 상승의 5.3배 — 평소보다 뚜렷한 약세",
+   "callVol": 1031,
+   "putVol": 2483,
+   "ratioText": "하락 베팅이 상승의 2.4배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "바이오",
    "spark": [
-    100,
     99,
     96,
     90,
@@ -1745,26 +1744,26 @@
     11,
     35,
     33,
-    0
+    0,
+    20
    ],
-   "scoreChg": -33
+   "scoreChg": 20
   },
   {
    "ticker": "WMT",
    "name": "월마트",
    "price": NaN,
    "chg": NaN,
-   "score": 59,
-   "label": "중립",
+   "score": 32,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 63873,
-   "putVol": 27293,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 44900,
+   "putVol": 26404,
+   "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "소비유통",
    "spark": [
-    14,
     49,
     11,
     23,
@@ -1773,26 +1772,26 @@
     18,
     22,
     23,
-    59
+    59,
+    32
    ],
-   "scoreChg": 36
+   "scoreChg": -27
   },
   {
    "ticker": "COST",
    "name": "코스트코",
    "price": NaN,
    "chg": NaN,
-   "score": 100,
-   "label": "매우 강세",
+   "score": 65,
+   "label": "강세",
    "scoreMode": "percentile",
-   "callVol": 30581,
-   "putVol": 9717,
-   "ratioText": "상승 베팅이 하락의 3.1배 — 평소보다 훨씬 강세",
+   "callVol": 13150,
+   "putVol": 12506,
+   "ratioText": "상승 베팅이 하락의 1.1배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "소비유통",
    "spark": [
-    76,
     70,
     35,
     67,
@@ -1801,26 +1800,26 @@
     55,
     44,
     29,
-    100
+    100,
+    65
    ],
-   "scoreChg": 71
+   "scoreChg": -35
   },
   {
    "ticker": "HD",
    "name": "홈디포",
    "price": NaN,
    "chg": NaN,
-   "score": 82,
+   "score": 88,
    "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 12238,
-   "putVol": 5690,
-   "ratioText": "상승 베팅이 하락의 2.2배 — 강세 우위",
+   "callVol": 10459,
+   "putVol": 4304,
+   "ratioText": "상승 베팅이 하락의 2.4배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "소비유통",
    "spark": [
-    90,
     34,
     76,
     7,
@@ -1829,7 +1828,8 @@
     43,
     64,
     76,
-    82
+    82,
+    88
    ],
    "scoreChg": 6
   },
@@ -1838,17 +1838,16 @@
    "name": "타깃",
    "price": NaN,
    "chg": NaN,
-   "score": 56,
-   "label": "중립",
+   "score": 21,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 9460,
-   "putVol": 5640,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 5162,
+   "putVol": 4875,
+   "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "소비유통",
    "spark": [
-    74,
     70,
     64,
     49,
@@ -1857,26 +1856,26 @@
     17,
     18,
     14,
-    56
+    56,
+    21
    ],
-   "scoreChg": 42
+   "scoreChg": -35
   },
   {
    "ticker": "LOW",
    "name": "로우스",
    "price": NaN,
    "chg": NaN,
-   "score": 66,
-   "label": "강세",
+   "score": 84,
+   "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 3619,
-   "putVol": 2750,
-   "ratioText": "상승 베팅이 하락의 1.3배 — 강세 우위",
+   "callVol": 2515,
+   "putVol": 1375,
+   "ratioText": "상승 베팅이 하락의 1.8배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "소비유통",
    "spark": [
-    96,
     41,
     94,
     90,
@@ -1885,26 +1884,26 @@
     83,
     83,
     74,
-    66
+    66,
+    84
    ],
-   "scoreChg": -8
+   "scoreChg": 18
   },
   {
    "ticker": "PG",
    "name": "P&G",
    "price": NaN,
    "chg": NaN,
-   "score": 48,
+   "score": 56,
    "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 8802,
-   "putVol": 4289,
+   "callVol": 14599,
+   "putVol": 5927,
    "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "소비유통",
    "spark": [
-    74,
     83,
     82,
     51,
@@ -1913,26 +1912,26 @@
     87,
     78,
     58,
-    48
+    48,
+    56
    ],
-   "scoreChg": -10
+   "scoreChg": 8
   },
   {
    "ticker": "NKE",
    "name": "나이키",
    "price": NaN,
    "chg": NaN,
-   "score": 49,
-   "label": "중립",
+   "score": 71,
+   "label": "강세",
    "scoreMode": "percentile",
-   "callVol": 52332,
-   "putVol": 29675,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 31178,
+   "putVol": 14773,
+   "ratioText": "상승 베팅이 하락의 2.1배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "소비유통",
    "spark": [
-    57,
     28,
     90,
     18,
@@ -1941,26 +1940,26 @@
     17,
     6,
     40,
-    49
+    49,
+    71
    ],
-   "scoreChg": 9
+   "scoreChg": 22
   },
   {
    "ticker": "KO",
    "name": "코카콜라",
    "price": NaN,
    "chg": NaN,
-   "score": 8,
-   "label": "매우 약세",
+   "score": 21,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 38687,
-   "putVol": 32964,
-   "ratioText": "하락 베팅이 상승의 0.9배 — 평소보다 뚜렷한 약세",
+   "callVol": 24031,
+   "putVol": 16944,
+   "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "음식료",
    "spark": [
-    51,
     10,
     0,
     14,
@@ -1969,26 +1968,26 @@
     14,
     49,
     73,
-    8
+    8,
+    21
    ],
-   "scoreChg": -65
+   "scoreChg": 13
   },
   {
    "ticker": "PEP",
    "name": "펩시코",
    "price": NaN,
    "chg": NaN,
-   "score": 73,
-   "label": "강세",
+   "score": 57,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 8319,
-   "putVol": 4849,
-   "ratioText": "상승 베팅이 하락의 1.7배 — 강세 우위",
+   "callVol": 14711,
+   "putVol": 9681,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "음식료",
    "spark": [
-    50,
     76,
     93,
     89,
@@ -1997,26 +1996,26 @@
     96,
     69,
     65,
-    73
+    73,
+    57
    ],
-   "scoreChg": 8
+   "scoreChg": -16
   },
   {
    "ticker": "MCD",
    "name": "맥도날드",
    "price": NaN,
    "chg": NaN,
-   "score": 51,
-   "label": "중립",
+   "score": 18,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 21884,
-   "putVol": 12171,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 10722,
+   "putVol": 8901,
+   "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "음식료",
    "spark": [
-    76,
     96,
     86,
     41,
@@ -2025,26 +2024,26 @@
     80,
     34,
     62,
-    51
+    51,
+    18
    ],
-   "scoreChg": -11
+   "scoreChg": -33
   },
   {
    "ticker": "SBUX",
    "name": "스타벅스",
    "price": NaN,
    "chg": NaN,
-   "score": 0,
-   "label": "매우 약세",
+   "score": 21,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 23271,
-   "putVol": 50179,
-   "ratioText": "하락 베팅이 상승의 2.2배 — 평소보다 뚜렷한 약세",
+   "callVol": 7129,
+   "putVol": 7373,
+   "ratioText": "하락 베팅이 상승의 1.0배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "음식료",
    "spark": [
-    47,
     23,
     57,
     23,
@@ -2053,26 +2052,26 @@
     13,
     53,
     45,
-    0
+    0,
+    21
    ],
-   "scoreChg": -45
+   "scoreChg": 21
   },
   {
    "ticker": "CMG",
    "name": "치폴레",
    "price": NaN,
    "chg": NaN,
-   "score": 71,
+   "score": 64,
    "label": "강세",
    "scoreMode": "percentile",
-   "callVol": 66929,
-   "putVol": 27840,
-   "ratioText": "상승 베팅이 하락의 2.4배 — 강세 우위",
+   "callVol": 23707,
+   "putVol": 11468,
+   "ratioText": "상승 베팅이 하락의 2.1배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "음식료",
    "spark": [
-    50,
     4,
     67,
     1,
@@ -2081,26 +2080,26 @@
     34,
     0,
     79,
-    71
+    71,
+    64
    ],
-   "scoreChg": -8
+   "scoreChg": -7
   },
   {
    "ticker": "TSLA",
    "name": "테슬라",
    "price": NaN,
    "chg": NaN,
-   "score": 27,
-   "label": "약세",
+   "score": 0,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 603482,
-   "putVol": 502161,
-   "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
+   "callVol": 415264,
+   "putVol": 510807,
+   "ratioText": "하락 베팅이 상승의 1.2배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "자동차",
    "spark": [
-    61,
     72,
     54,
     40,
@@ -2109,9 +2108,10 @@
     16,
     42,
     13,
-    27
+    27,
+    0
    ],
-   "scoreChg": 14
+   "scoreChg": -27
   },
   {
    "ticker": "F",
@@ -2121,14 +2121,13 @@
    "score": 70,
    "label": "강세",
    "scoreMode": "percentile",
-   "callVol": 78294,
-   "putVol": 33909,
-   "ratioText": "상승 베팅이 하락의 2.3배 — 강세 우위",
+   "callVol": 35074,
+   "putVol": 14817,
+   "ratioText": "상승 베팅이 하락의 2.4배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "자동차",
    "spark": [
-    86,
     6,
     79,
     5,
@@ -2137,26 +2136,26 @@
     70,
     64,
     49,
+    70,
     70
    ],
-   "scoreChg": 21
+   "scoreChg": 0
   },
   {
    "ticker": "GM",
    "name": "GM",
    "price": NaN,
    "chg": NaN,
-   "score": 35,
-   "label": "약세",
+   "score": 3,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 15143,
-   "putVol": 11186,
-   "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
+   "callVol": 8037,
+   "putVol": 12476,
+   "ratioText": "하락 베팅이 상승의 1.6배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "자동차",
    "spark": [
-    14,
     49,
     21,
     47,
@@ -2165,26 +2164,26 @@
     62,
     35,
     60,
-    35
+    35,
+    3
    ],
-   "scoreChg": -25
+   "scoreChg": -32
   },
   {
    "ticker": "RIVN",
    "name": "리비안",
    "price": NaN,
    "chg": NaN,
-   "score": 16,
+   "score": 19,
    "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 94651,
-   "putVol": 50903,
+   "callVol": 72101,
+   "putVol": 38221,
    "ratioText": "하락 베팅이 상승의 0.5배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "자동차",
    "spark": [
-    1,
     11,
     78,
     85,
@@ -2193,26 +2192,26 @@
     79,
     90,
     67,
-    16
+    16,
+    19
    ],
-   "scoreChg": -51
+   "scoreChg": 3
   },
   {
    "ticker": "LCID",
    "name": "루시드",
    "price": NaN,
    "chg": NaN,
-   "score": 11,
+   "score": 0,
    "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 3359,
-   "putVol": 5922,
-   "ratioText": "하락 베팅이 상승의 1.8배 — 약세 우위",
+   "callVol": 10391,
+   "putVol": 73292,
+   "ratioText": "하락 베팅이 상승의 7.1배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "자동차",
    "spark": [
-    87,
     86,
     38,
     88,
@@ -2221,26 +2220,26 @@
     49,
     26,
     42,
-    11
+    11,
+    0
    ],
-   "scoreChg": -31
+   "scoreChg": -11
   },
   {
    "ticker": "XOM",
    "name": "엑슨모빌",
    "price": NaN,
    "chg": NaN,
-   "score": 1,
-   "label": "매우 약세",
+   "score": 55,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 18700,
-   "putVol": 20903,
-   "ratioText": "하락 베팅이 상승의 1.1배 — 평소보다 뚜렷한 약세",
+   "callVol": 76402,
+   "putVol": 24805,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "에너지",
    "spark": [
-    37,
     63,
     40,
     15,
@@ -2249,26 +2248,26 @@
     12,
     1,
     5,
-    1
+    1,
+    55
    ],
-   "scoreChg": -4
+   "scoreChg": 54
   },
   {
    "ticker": "CVX",
    "name": "셰브론",
    "price": NaN,
    "chg": NaN,
-   "score": 28,
-   "label": "약세",
+   "score": 86,
+   "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 13484,
-   "putVol": 7601,
-   "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
+   "callVol": 42547,
+   "putVol": 10472,
+   "ratioText": "상승 베팅이 하락의 4.1배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "에너지",
    "spark": [
-    74,
     92,
     8,
     16,
@@ -2277,26 +2276,26 @@
     9,
     3,
     42,
-    28
+    28,
+    86
    ],
-   "scoreChg": -14
+   "scoreChg": 58
   },
   {
    "ticker": "COP",
    "name": "코노코필립스",
    "price": NaN,
    "chg": NaN,
-   "score": 1,
+   "score": 4,
    "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 2092,
-   "putVol": 3414,
-   "ratioText": "하락 베팅이 상승의 1.6배 — 평소보다 뚜렷한 약세",
+   "callVol": 2936,
+   "putVol": 4090,
+   "ratioText": "하락 베팅이 상승의 1.4배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "에너지",
    "spark": [
-    31,
     97,
     21,
     23,
@@ -2305,26 +2304,26 @@
     5,
     1,
     5,
-    1
+    1,
+    4
    ],
-   "scoreChg": -4
+   "scoreChg": 3
   },
   {
    "ticker": "SLB",
    "name": "슐럼버거",
    "price": NaN,
    "chg": NaN,
-   "score": 34,
-   "label": "약세",
+   "score": 49,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 4479,
-   "putVol": 2463,
-   "ratioText": "하락 베팅이 상승의 0.5배 — 약세 우위",
+   "callVol": 2705,
+   "putVol": 1218,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "에너지",
    "spark": [
-    3,
     24,
     56,
     30,
@@ -2333,26 +2332,26 @@
     8,
     68,
     0,
-    34
+    34,
+    49
    ],
-   "scoreChg": 34
+   "scoreChg": 15
   },
   {
    "ticker": "OXY",
    "name": "옥시덴탈",
    "price": NaN,
    "chg": NaN,
-   "score": 71,
-   "label": "강세",
+   "score": 29,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 47121,
-   "putVol": 7893,
-   "ratioText": "상승 베팅이 하락의 6.0배 — 강세 우위",
+   "callVol": 11364,
+   "putVol": 5326,
+   "ratioText": "하락 베팅이 상승의 0.5배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "에너지",
    "spark": [
-    7,
     99,
     54,
     16,
@@ -2361,26 +2360,26 @@
     18,
     18,
     3,
-    71
+    71,
+    29
    ],
-   "scoreChg": 68
+   "scoreChg": -42
   },
   {
    "ticker": "EOG",
    "name": "EOG리소시스",
    "price": NaN,
    "chg": NaN,
-   "score": 9,
-   "label": "매우 약세",
+   "score": 72,
+   "label": "강세",
    "scoreMode": "percentile",
-   "callVol": 1169,
-   "putVol": 1207,
-   "ratioText": "하락 베팅이 상승의 1.0배 — 평소보다 뚜렷한 약세",
+   "callVol": 2268,
+   "putVol": 797,
+   "ratioText": "상승 베팅이 하락의 2.8배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "에너지",
    "spark": [
-    100,
     97,
     82,
     85,
@@ -2389,26 +2388,26 @@
     14,
     6,
     9,
-    9
+    9,
+    72
    ],
-   "scoreChg": 0
+   "scoreChg": 63
   },
   {
    "ticker": "BA",
    "name": "보잉",
    "price": NaN,
    "chg": NaN,
-   "score": 0,
+   "score": 5,
    "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 77199,
-   "putVol": 159995,
-   "ratioText": "하락 베팅이 상승의 2.1배 — 평소보다 뚜렷한 약세",
+   "callVol": 24865,
+   "putVol": 26947,
+   "ratioText": "하락 베팅이 상승의 1.1배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "산업방산",
    "spark": [
-    0,
     52,
     72,
     85,
@@ -2417,26 +2416,26 @@
     22,
     6,
     6,
-    0
+    0,
+    5
    ],
-   "scoreChg": -6
+   "scoreChg": 5
   },
   {
    "ticker": "CAT",
    "name": "캐터필러",
    "price": NaN,
    "chg": NaN,
-   "score": 30,
-   "label": "약세",
+   "score": 16,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 21490,
-   "putVol": 32630,
-   "ratioText": "하락 베팅이 상승의 1.5배 — 약세 우위",
+   "callVol": 9579,
+   "putVol": 17161,
+   "ratioText": "하락 베팅이 상승의 1.8배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "산업방산",
    "spark": [
-    70,
     85,
     92,
     97,
@@ -2445,9 +2444,10 @@
     99,
     99,
     100,
-    30
+    30,
+    16
    ],
-   "scoreChg": -70
+   "scoreChg": -14
   },
   {
    "ticker": "GE",
@@ -2457,14 +2457,13 @@
    "score": 100,
    "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 58401,
-   "putVol": 7505,
-   "ratioText": "상승 베팅이 하락의 7.8배 — 평소보다 훨씬 강세",
+   "callVol": 45564,
+   "putVol": 3750,
+   "ratioText": "상승 베팅이 하락의 12.2배 — 평소보다 훨씬 강세",
    "status": "ok",
    "stale": false,
    "sector": "산업방산",
    "spark": [
-    57,
     90,
     83,
     84,
@@ -2473,26 +2472,26 @@
     97,
     88,
     96,
+    100,
     100
    ],
-   "scoreChg": 4
+   "scoreChg": 0
   },
   {
    "ticker": "DE",
    "name": "존디어",
    "price": NaN,
    "chg": NaN,
-   "score": 24,
+   "score": 22,
    "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 2379,
-   "putVol": 2726,
-   "ratioText": "하락 베팅이 상승의 1.1배 — 약세 우위",
+   "callVol": 1499,
+   "putVol": 1763,
+   "ratioText": "하락 베팅이 상승의 1.2배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "산업방산",
    "spark": [
-    57,
     54,
     50,
     79,
@@ -2501,26 +2500,26 @@
     33,
     51,
     73,
-    24
+    24,
+    22
    ],
-   "scoreChg": -49
+   "scoreChg": -2
   },
   {
    "ticker": "HON",
    "name": "하니웰",
    "price": NaN,
    "chg": NaN,
-   "score": 65,
-   "label": "강세",
+   "score": 55,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 1696,
-   "putVol": 1220,
-   "ratioText": "상승 베팅이 하락의 1.4배 — 강세 우위",
+   "callVol": 1003,
+   "putVol": 759,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "산업방산",
    "spark": [
-    19,
     86,
     18,
     15,
@@ -2529,26 +2528,26 @@
     78,
     44,
     76,
-    65
+    65,
+    55
    ],
-   "scoreChg": -11
+   "scoreChg": -10
   },
   {
    "ticker": "UNP",
    "name": "유니온퍼시픽",
    "price": NaN,
    "chg": NaN,
-   "score": 33,
-   "label": "약세",
+   "score": 46,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 1244,
-   "putVol": 772,
-   "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
+   "callVol": 1241,
+   "putVol": 590,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "산업방산",
    "spark": [
-    49,
     45,
     3,
     48,
@@ -2557,26 +2556,26 @@
     59,
     64,
     41,
-    33
+    33,
+    46
    ],
-   "scoreChg": -8
+   "scoreChg": 13
   },
   {
    "ticker": "RTX",
    "name": "RTX",
    "price": NaN,
    "chg": NaN,
-   "score": 62,
-   "label": "강세",
+   "score": 82,
+   "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 6602,
-   "putVol": 3575,
-   "ratioText": "상승 베팅이 하락의 1.8배 — 강세 우위",
+   "callVol": 4532,
+   "putVol": 1930,
+   "ratioText": "상승 베팅이 하락의 2.3배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "산업방산",
    "spark": [
-    84,
     79,
     65,
     15,
@@ -2585,26 +2584,26 @@
     92,
     27,
     56,
-    62
+    62,
+    82
    ],
-   "scoreChg": 6
+   "scoreChg": 20
   },
   {
    "ticker": "LMT",
    "name": "록히드마틴",
    "price": NaN,
    "chg": NaN,
-   "score": 42,
-   "label": "중립",
+   "score": 16,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 3941,
-   "putVol": 3320,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 2200,
+   "putVol": 2760,
+   "ratioText": "하락 베팅이 상승의 1.3배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "산업방산",
    "spark": [
-    66,
     92,
     25,
     36,
@@ -2613,26 +2612,26 @@
     95,
     45,
     27,
-    42
+    42,
+    16
    ],
-   "scoreChg": 15
+   "scoreChg": -26
   },
   {
    "ticker": "DAL",
    "name": "델타항공",
    "price": NaN,
    "chg": NaN,
-   "score": 61,
-   "label": "강세",
+   "score": 50,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 27116,
-   "putVol": 9289,
-   "ratioText": "상승 베팅이 하락의 2.9배 — 강세 우위",
+   "callVol": 15236,
+   "putVol": 6703,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "항공여행",
    "spark": [
-    66,
     3,
     69,
     99,
@@ -2641,26 +2640,26 @@
     99,
     96,
     79,
-    61
+    61,
+    50
    ],
-   "scoreChg": -18
+   "scoreChg": -11
   },
   {
    "ticker": "AAL",
    "name": "아메리칸항공",
    "price": NaN,
    "chg": NaN,
-   "score": 70,
-   "label": "강세",
+   "score": 49,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 25441,
-   "putVol": 19755,
-   "ratioText": "상승 베팅이 하락의 1.3배 — 강세 우위",
+   "callVol": 24184,
+   "putVol": 24354,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "항공여행",
    "spark": [
-    36,
     1,
     10,
     0,
@@ -2669,26 +2668,26 @@
     82,
     91,
     77,
-    70
+    70,
+    49
    ],
-   "scoreChg": -7
+   "scoreChg": -21
   },
   {
    "ticker": "T",
    "name": "AT&T",
    "price": NaN,
    "chg": NaN,
-   "score": 5,
-   "label": "매우 약세",
+   "score": 92,
+   "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 18971,
-   "putVol": 36828,
-   "ratioText": "하락 베팅이 상승의 1.9배 — 평소보다 뚜렷한 약세",
+   "callVol": 31175,
+   "putVol": 9100,
+   "ratioText": "상승 베팅이 하락의 3.4배 — 평소보다 훨씬 강세",
    "status": "ok",
    "stale": false,
    "sector": "통신미디어",
    "spark": [
-    77,
     83,
     56,
     63,
@@ -2697,26 +2696,26 @@
     86,
     69,
     49,
-    5
+    5,
+    92
    ],
-   "scoreChg": -44
+   "scoreChg": 87
   },
   {
    "ticker": "VZ",
    "name": "버라이즌",
    "price": NaN,
    "chg": NaN,
-   "score": 27,
-   "label": "약세",
+   "score": 72,
+   "label": "강세",
    "scoreMode": "percentile",
-   "callVol": 19804,
-   "putVol": 19000,
-   "ratioText": "하락 베팅이 상승의 1.0배 — 약세 우위",
+   "callVol": 22641,
+   "putVol": 13781,
+   "ratioText": "상승 베팅이 하락의 1.6배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "통신미디어",
    "spark": [
-    84,
     72,
     6,
     40,
@@ -2725,26 +2724,26 @@
     21,
     66,
     17,
-    27
+    27,
+    72
    ],
-   "scoreChg": 10
+   "scoreChg": 45
   },
   {
    "ticker": "CMCSA",
    "name": "컴캐스트",
    "price": NaN,
    "chg": NaN,
-   "score": 14,
-   "label": "매우 약세",
+   "score": 46,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 7201,
-   "putVol": 12471,
-   "ratioText": "하락 베팅이 상승의 1.7배 — 약세 우위",
+   "callVol": 10080,
+   "putVol": 9574,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "통신미디어",
    "spark": [
-    87,
     56,
     6,
     14,
@@ -2753,26 +2752,26 @@
     17,
     12,
     29,
-    14
+    14,
+    46
    ],
-   "scoreChg": -15
+   "scoreChg": 32
   },
   {
    "ticker": "DIS",
    "name": "디즈니",
    "price": NaN,
    "chg": NaN,
-   "score": 29,
-   "label": "약세",
+   "score": 46,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 8553,
-   "putVol": 6834,
-   "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
+   "callVol": 8183,
+   "putVol": 5179,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "통신미디어",
    "spark": [
-    4,
     31,
     25,
     7,
@@ -2781,9 +2780,10 @@
     5,
     38,
     92,
-    29
+    29,
+    46
    ],
-   "scoreChg": -63
+   "scoreChg": 17
   },
   {
    "ticker": "COIN",
@@ -2793,14 +2793,13 @@
    "score": 4,
    "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 39465,
-   "putVol": 42043,
+   "callVol": 71530,
+   "putVol": 78433,
    "ratioText": "하락 베팅이 상승의 1.1배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "크립토밈",
    "spark": [
-    54,
     25,
     85,
     70,
@@ -2809,26 +2808,26 @@
     14,
     31,
     1,
+    4,
     4
    ],
-   "scoreChg": 3
+   "scoreChg": 0
   },
   {
    "ticker": "MSTR",
    "name": "스트래티지",
    "price": NaN,
    "chg": NaN,
-   "score": 24,
-   "label": "약세",
+   "score": 54,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 132664,
-   "putVol": 101793,
-   "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
+   "callVol": 295285,
+   "putVol": 170919,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "크립토밈",
    "spark": [
-    74,
     41,
     10,
     12,
@@ -2837,9 +2836,10 @@
     3,
     13,
     53,
-    24
+    24,
+    54
    ],
-   "scoreChg": -29
+   "scoreChg": 30
   },
   {
    "ticker": "MARA",
@@ -2849,14 +2849,13 @@
    "score": 49,
    "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 85151,
-   "putVol": 30298,
+   "callVol": 151488,
+   "putVol": 53933,
    "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "크립토밈",
    "spark": [
-    89,
     70,
     39,
     53,
@@ -2865,26 +2864,26 @@
     70,
     71,
     47,
+    49,
     49
    ],
-   "scoreChg": 2
+   "scoreChg": 0
   },
   {
    "ticker": "RIOT",
    "name": "라이엇",
    "price": NaN,
    "chg": NaN,
-   "score": 72,
-   "label": "강세",
+   "score": 88,
+   "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 28039,
-   "putVol": 10303,
-   "ratioText": "상승 베팅이 하락의 2.7배 — 강세 우위",
+   "callVol": 84843,
+   "putVol": 23747,
+   "ratioText": "상승 베팅이 하락의 3.6배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "크립토밈",
    "spark": [
-    94,
     10,
     85,
     99,
@@ -2893,26 +2892,26 @@
     96,
     83,
     100,
-    72
+    72,
+    88
    ],
-   "scoreChg": -28
+   "scoreChg": 16
   },
   {
    "ticker": "GME",
    "name": "게임스톱",
    "price": NaN,
    "chg": NaN,
-   "score": 87,
+   "score": 81,
    "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 155491,
-   "putVol": 19101,
-   "ratioText": "상승 베팅이 하락의 8.1배 — 강세 우위",
+   "callVol": 154076,
+   "putVol": 20917,
+   "ratioText": "상승 베팅이 하락의 7.4배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "크립토밈",
    "spark": [
-    69,
     83,
     90,
     84,
@@ -2921,26 +2920,26 @@
     82,
     78,
     72,
-    87
+    87,
+    81
    ],
-   "scoreChg": 15
+   "scoreChg": -6
   },
   {
    "ticker": "SPOT",
    "name": "스포티파이",
    "price": NaN,
    "chg": NaN,
-   "score": 15,
-   "label": "매우 약세",
+   "score": 52,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 2765,
-   "putVol": 3585,
-   "ratioText": "하락 베팅이 상승의 1.3배 — 약세 우위",
+   "callVol": 3982,
+   "putVol": 3421,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "빅테크",
    "spark": [
-    53,
     42,
     54,
     37,
@@ -2949,26 +2948,26 @@
     37,
     48,
     60,
-    15
+    15,
+    52
    ],
-   "scoreChg": -45
+   "scoreChg": 37
   },
   {
    "ticker": "PINS",
    "name": "핀터레스트",
    "price": NaN,
    "chg": NaN,
-   "score": 6,
-   "label": "매우 약세",
+   "score": 20,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 21141,
-   "putVol": 37227,
-   "ratioText": "하락 베팅이 상승의 1.8배 — 평소보다 뚜렷한 약세",
+   "callVol": 13346,
+   "putVol": 13912,
+   "ratioText": "하락 베팅이 상승의 1.0배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "빅테크",
    "spark": [
-    4,
     10,
     43,
     95,
@@ -2977,26 +2976,26 @@
     21,
     6,
     10,
-    6
+    6,
+    20
    ],
-   "scoreChg": -4
+   "scoreChg": 14
   },
   {
    "ticker": "SNAP",
    "name": "스냅",
    "price": NaN,
    "chg": NaN,
-   "score": 6,
-   "label": "매우 약세",
+   "score": 21,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 21797,
-   "putVol": 12298,
-   "ratioText": "하락 베팅이 상승의 0.6배 — 평소보다 뚜렷한 약세",
+   "callVol": 28480,
+   "putVol": 11468,
+   "ratioText": "하락 베팅이 상승의 0.4배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "빅테크",
    "spark": [
-    13,
     55,
     58,
     41,
@@ -3005,26 +3004,26 @@
     93,
     44,
     21,
-    6
+    6,
+    21
    ],
-   "scoreChg": -15
+   "scoreChg": 15
   },
   {
    "ticker": "RDDT",
    "name": "레딧",
    "price": NaN,
    "chg": NaN,
-   "score": 20,
-   "label": "약세",
+   "score": 3,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 51747,
-   "putVol": 46233,
-   "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
+   "callVol": 29568,
+   "putVol": 40540,
+   "ratioText": "하락 베팅이 상승의 1.4배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "빅테크",
    "spark": [
-    39,
     6,
     3,
     3,
@@ -3033,26 +3032,26 @@
     47,
     75,
     8,
-    20
+    20,
+    3
    ],
-   "scoreChg": 12
+   "scoreChg": -17
   },
   {
    "ticker": "DASH",
    "name": "도어대시",
    "price": NaN,
    "chg": NaN,
-   "score": 87,
-   "label": "매우 강세",
+   "score": 79,
+   "label": "강세",
    "scoreMode": "percentile",
-   "callVol": 10595,
-   "putVol": 4519,
-   "ratioText": "상승 베팅이 하락의 2.3배 — 강세 우위",
+   "callVol": 3545,
+   "putVol": 2075,
+   "ratioText": "상승 베팅이 하락의 1.7배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "빅테크",
    "spark": [
-    56,
     68,
     53,
     74,
@@ -3061,26 +3060,26 @@
     82,
     83,
     100,
-    87
+    87,
+    79
    ],
-   "scoreChg": -13
+   "scoreChg": -8
   },
   {
    "ticker": "ROKU",
    "name": "로쿠",
    "price": NaN,
    "chg": NaN,
-   "score": 58,
-   "label": "중립",
+   "score": 24,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 2414,
-   "putVol": 579,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 2215,
+   "putVol": 942,
+   "ratioText": "하락 베팅이 상승의 0.4배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "빅테크",
    "spark": [
-    99,
     49,
     7,
     1,
@@ -3089,26 +3088,26 @@
     1,
     4,
     69,
-    58
+    58,
+    24
    ],
-   "scoreChg": -11
+   "scoreChg": -34
   },
   {
    "ticker": "DDOG",
    "name": "데이터도그",
    "price": NaN,
    "chg": NaN,
-   "score": 5,
-   "label": "매우 약세",
+   "score": 78,
+   "label": "강세",
    "scoreMode": "percentile",
-   "callVol": 5780,
-   "putVol": 10069,
-   "ratioText": "하락 베팅이 상승의 1.7배 — 평소보다 뚜렷한 약세",
+   "callVol": 7325,
+   "putVol": 5365,
+   "ratioText": "상승 베팅이 하락의 1.4배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "빅테크",
    "spark": [
-    20,
     62,
     24,
     42,
@@ -3117,26 +3116,26 @@
     32,
     26,
     40,
-    5
+    5,
+    78
    ],
-   "scoreChg": -35
+   "scoreChg": 73
   },
   {
    "ticker": "NET",
    "name": "클라우드플레어",
    "price": NaN,
    "chg": NaN,
-   "score": 46,
-   "label": "중립",
+   "score": 31,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 8136,
-   "putVol": 8662,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 7671,
+   "putVol": 9442,
+   "ratioText": "하락 베팅이 상승의 1.2배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "빅테크",
    "spark": [
-    50,
     25,
     99,
     95,
@@ -3145,9 +3144,10 @@
     57,
     18,
     5,
-    46
+    46,
+    31
    ],
-   "scoreChg": 41
+   "scoreChg": -15
   },
   {
    "ticker": "MRVL",
@@ -3157,14 +3157,13 @@
    "score": 6,
    "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 130283,
-   "putVol": 116610,
+   "callVol": 94206,
+   "putVol": 84893,
    "ratioText": "하락 베팅이 상승의 0.9배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "반도체",
    "spark": [
-    9,
     3,
     17,
     12,
@@ -3173,26 +3172,26 @@
     91,
     5,
     0,
+    6,
     6
    ],
-   "scoreChg": 6
+   "scoreChg": 0
   },
   {
    "ticker": "NXPI",
    "name": "NXP",
    "price": NaN,
    "chg": NaN,
-   "score": 78,
-   "label": "강세",
+   "score": 12,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 6924,
-   "putVol": 1640,
-   "ratioText": "상승 베팅이 하락의 4.2배 — 강세 우위",
+   "callVol": 1068,
+   "putVol": 1912,
+   "ratioText": "하락 베팅이 상승의 1.8배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "반도체",
    "spark": [
-    80,
     21,
     88,
     98,
@@ -3201,26 +3200,26 @@
     85,
     67,
     72,
-    78
+    78,
+    12
    ],
-   "scoreChg": 6
+   "scoreChg": -66
   },
   {
    "ticker": "MCHP",
    "name": "마이크로칩",
    "price": NaN,
    "chg": NaN,
-   "score": 95,
-   "label": "매우 강세",
+   "score": 26,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 21199,
-   "putVol": 2065,
-   "ratioText": "상승 베팅이 하락의 10.3배 — 평소보다 훨씬 강세",
+   "callVol": 2381,
+   "putVol": 2211,
+   "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "반도체",
    "spark": [
-    64,
     83,
     12,
     33,
@@ -3229,26 +3228,26 @@
     3,
     51,
     22,
-    95
+    95,
+    26
    ],
-   "scoreChg": 73
+   "scoreChg": -69
   },
   {
    "ticker": "ON",
    "name": "온세미",
    "price": NaN,
    "chg": NaN,
-   "score": 28,
-   "label": "약세",
+   "score": 86,
+   "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 3401,
-   "putVol": 3335,
-   "ratioText": "하락 베팅이 상승의 1.0배 — 약세 우위",
+   "callVol": 9710,
+   "putVol": 2818,
+   "ratioText": "상승 베팅이 하락의 3.4배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "반도체",
    "spark": [
-    59,
     52,
     72,
     63,
@@ -3257,26 +3256,26 @@
     54,
     90,
     12,
-    28
+    28,
+    86
    ],
-   "scoreChg": 16
+   "scoreChg": 58
   },
   {
    "ticker": "ASML",
    "name": "ASML",
    "price": NaN,
    "chg": NaN,
-   "score": 73,
-   "label": "강세",
+   "score": 88,
+   "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 7492,
-   "putVol": 7737,
-   "ratioText": "상승 베팅이 하락의 1.0배 — 강세 우위",
+   "callVol": 9297,
+   "putVol": 8739,
+   "ratioText": "상승 베팅이 하락의 1.1배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "반도체",
    "spark": [
-    97,
     42,
     78,
     88,
@@ -3285,26 +3284,26 @@
     97,
     49,
     97,
-    73
+    73,
+    88
    ],
-   "scoreChg": -24
+   "scoreChg": 15
   },
   {
    "ticker": "TSM",
    "name": "TSMC",
    "price": NaN,
    "chg": NaN,
-   "score": 80,
-   "label": "매우 강세",
+   "score": 56,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 29986,
-   "putVol": 21831,
-   "ratioText": "상승 베팅이 하락의 1.4배 — 강세 우위",
+   "callVol": 48715,
+   "putVol": 46059,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "반도체",
    "spark": [
-    59,
     41,
     92,
     78,
@@ -3313,26 +3312,26 @@
     16,
     56,
     53,
-    80
+    80,
+    56
    ],
-   "scoreChg": 27
+   "scoreChg": -24
   },
   {
    "ticker": "ADI",
    "name": "아나로그디바이스",
    "price": NaN,
    "chg": NaN,
-   "score": 56,
-   "label": "중립",
+   "score": 20,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 2807,
-   "putVol": 2221,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 1490,
+   "putVol": 2093,
+   "ratioText": "하락 베팅이 상승의 1.4배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "반도체",
    "spark": [
-    34,
     42,
     39,
     60,
@@ -3341,26 +3340,26 @@
     76,
     31,
     58,
-    56
+    56,
+    20
    ],
-   "scoreChg": -2
+   "scoreChg": -36
   },
   {
    "ticker": "WDAY",
    "name": "워크데이",
    "price": NaN,
    "chg": NaN,
-   "score": 22,
-   "label": "약세",
+   "score": 1,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 2144,
-   "putVol": 3309,
-   "ratioText": "하락 베팅이 상승의 1.5배 — 약세 우위",
+   "callVol": 843,
+   "putVol": 2416,
+   "ratioText": "하락 베팅이 상승의 2.9배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "소프트웨어",
    "spark": [
-    84,
     38,
     47,
     10,
@@ -3369,26 +3368,26 @@
     8,
     10,
     9,
-    22
+    22,
+    1
    ],
-   "scoreChg": 13
+   "scoreChg": -21
   },
   {
    "ticker": "TEAM",
    "name": "아틀라시안",
    "price": NaN,
    "chg": NaN,
-   "score": 27,
-   "label": "약세",
+   "score": 72,
+   "label": "강세",
    "scoreMode": "percentile",
-   "callVol": 4945,
-   "putVol": 6594,
-   "ratioText": "하락 베팅이 상승의 1.3배 — 약세 우위",
+   "callVol": 3769,
+   "putVol": 2697,
+   "ratioText": "상승 베팅이 하락의 1.4배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "소프트웨어",
    "spark": [
-    14,
     8,
     47,
     37,
@@ -3397,26 +3396,26 @@
     0,
     4,
     0,
-    27
+    27,
+    72
    ],
-   "scoreChg": 27
+   "scoreChg": 45
   },
   {
    "ticker": "DOCU",
    "name": "도큐사인",
    "price": NaN,
    "chg": NaN,
-   "score": 16,
-   "label": "매우 약세",
+   "score": 21,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 1693,
-   "putVol": 3091,
-   "ratioText": "하락 베팅이 상승의 1.8배 — 약세 우위",
+   "callVol": 1443,
+   "putVol": 2335,
+   "ratioText": "하락 베팅이 상승의 1.6배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "소프트웨어",
    "spark": [
-    67,
     46,
     65,
     29,
@@ -3425,26 +3424,26 @@
     33,
     9,
     6,
-    16
+    16,
+    21
    ],
-   "scoreChg": 10
+   "scoreChg": 5
   },
   {
    "ticker": "TWLO",
    "name": "트윌리오",
    "price": NaN,
    "chg": NaN,
-   "score": 25,
-   "label": "약세",
+   "score": 15,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 14031,
-   "putVol": 16031,
-   "ratioText": "하락 베팅이 상승의 1.1배 — 약세 우위",
+   "callVol": 4040,
+   "putVol": 5327,
+   "ratioText": "하락 베팅이 상승의 1.3배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "소프트웨어",
    "spark": [
-    1,
     62,
     54,
     47,
@@ -3453,26 +3452,26 @@
     39,
     19,
     5,
-    25
+    25,
+    15
    ],
-   "scoreChg": 20
+   "scoreChg": -10
   },
   {
    "ticker": "DELL",
    "name": "델",
    "price": NaN,
    "chg": NaN,
-   "score": 20,
-   "label": "약세",
+   "score": 4,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 31766,
-   "putVol": 37426,
-   "ratioText": "하락 베팅이 상승의 1.2배 — 약세 우위",
+   "callVol": 28544,
+   "putVol": 41060,
+   "ratioText": "하락 베팅이 상승의 1.4배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "소프트웨어",
    "spark": [
-    39,
     85,
     85,
     81,
@@ -3481,26 +3480,26 @@
     88,
     81,
     49,
-    20
+    20,
+    4
    ],
-   "scoreChg": -29
+   "scoreChg": -16
   },
   {
    "ticker": "IBM",
    "name": "IBM",
    "price": NaN,
    "chg": NaN,
-   "score": 81,
-   "label": "매우 강세",
+   "score": 62,
+   "label": "강세",
    "scoreMode": "percentile",
-   "callVol": 25313,
-   "putVol": 9220,
-   "ratioText": "상승 베팅이 하락의 2.7배 — 강세 우위",
+   "callVol": 19063,
+   "putVol": 8119,
+   "ratioText": "상승 베팅이 하락의 2.3배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "소프트웨어",
    "spark": [
-    33,
     11,
     44,
     10,
@@ -3509,26 +3508,26 @@
     50,
     42,
     83,
-    81
+    81,
+    62
    ],
-   "scoreChg": -2
+   "scoreChg": -19
   },
   {
    "ticker": "ANET",
    "name": "아리스타",
    "price": NaN,
    "chg": NaN,
-   "score": 44,
-   "label": "중립",
+   "score": 14,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 6375,
-   "putVol": 4028,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 8008,
+   "putVol": 6849,
+   "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "소프트웨어",
    "spark": [
-    1,
     4,
     75,
     97,
@@ -3537,26 +3536,26 @@
     64,
     69,
     71,
-    44
+    44,
+    14
    ],
-   "scoreChg": -27
+   "scoreChg": -30
   },
   {
    "ticker": "USB",
    "name": "US뱅코프",
    "price": NaN,
    "chg": NaN,
-   "score": 49,
-   "label": "중립",
+   "score": 36,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 2987,
-   "putVol": 2281,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 2310,
+   "putVol": 2100,
+   "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "금융",
    "spark": [
-    16,
     42,
     71,
     37,
@@ -3565,26 +3564,26 @@
     43,
     21,
     12,
-    49
+    49,
+    36
    ],
-   "scoreChg": 37
+   "scoreChg": -13
   },
   {
    "ticker": "PNC",
    "name": "PNC",
    "price": NaN,
    "chg": NaN,
-   "score": 15,
+   "score": 1,
    "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 867,
-   "putVol": 1815,
-   "ratioText": "하락 베팅이 상승의 2.1배 — 약세 우위",
+   "callVol": 518,
+   "putVol": 1771,
+   "ratioText": "하락 베팅이 상승의 3.4배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "금융",
    "spark": [
-    16,
     45,
     0,
     0,
@@ -3593,26 +3592,26 @@
     9,
     1,
     4,
-    15
+    15,
+    1
    ],
-   "scoreChg": 11
+   "scoreChg": -14
   },
   {
    "ticker": "COF",
    "name": "캐피털원",
    "price": NaN,
    "chg": NaN,
-   "score": 13,
-   "label": "매우 약세",
+   "score": 54,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 2701,
-   "putVol": 3147,
-   "ratioText": "하락 베팅이 상승의 1.2배 — 약세 우위",
+   "callVol": 3098,
+   "putVol": 1887,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "금융",
    "spark": [
-    37,
     75,
     8,
     45,
@@ -3621,35 +3620,54 @@
     29,
     8,
     9,
-    13
+    13,
+    54
    ],
-   "scoreChg": 4
+   "scoreChg": 41
   },
   {
    "ticker": "MET",
    "name": "메트라이프",
    "price": NaN,
    "chg": NaN,
-   "status": "insufficient",
+   "score": 82,
+   "label": "매우 강세",
+   "scoreMode": "percentile",
+   "callVol": 1940,
+   "putVol": 373,
+   "ratioText": "상승 베팅이 하락의 5.2배 — 강세 우위",
+   "status": "ok",
    "stale": false,
-   "sector": "금융"
+   "sector": "금융",
+   "spark": [
+    86,
+    67,
+    6,
+    2,
+    7,
+    71,
+    0,
+    7,
+    5,
+    82
+   ],
+   "scoreChg": 77
   },
   {
    "ticker": "PRU",
    "name": "푸르덴셜",
    "price": NaN,
    "chg": NaN,
-   "score": 54,
-   "label": "중립",
+   "score": 65,
+   "label": "강세",
    "scoreMode": "percentile",
-   "callVol": 1781,
-   "putVol": 577,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 1743,
+   "putVol": 265,
+   "ratioText": "상승 베팅이 하락의 6.6배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "금융",
    "spark": [
-    44,
     50,
     51,
     58,
@@ -3658,26 +3676,26 @@
     61,
     25,
     51,
-    54
+    54,
+    65
    ],
-   "scoreChg": 3
+   "scoreChg": 11
   },
   {
    "ticker": "AIG",
    "name": "AIG",
    "price": NaN,
    "chg": NaN,
-   "score": 11,
-   "label": "매우 약세",
+   "score": 23,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 612,
-   "putVol": 1039,
-   "ratioText": "하락 베팅이 상승의 1.7배 — 약세 우위",
+   "callVol": 497,
+   "putVol": 708,
+   "ratioText": "하락 베팅이 상승의 1.4배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "금융",
    "spark": [
-    88,
     88,
     44,
     10,
@@ -3686,26 +3704,26 @@
     50,
     23,
     3,
-    11
+    11,
+    23
    ],
-   "scoreChg": 8
+   "scoreChg": 12
   },
   {
    "ticker": "SPGI",
    "name": "S&P글로벌",
    "price": NaN,
    "chg": NaN,
-   "score": 10,
-   "label": "매우 약세",
+   "score": 40,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 838,
-   "putVol": 1562,
-   "ratioText": "하락 베팅이 상승의 1.9배 — 평소보다 뚜렷한 약세",
+   "callVol": 821,
+   "putVol": 1152,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "금융",
    "spark": [
-    63,
     45,
     40,
     34,
@@ -3714,26 +3732,26 @@
     13,
     48,
     83,
-    10
+    10,
+    40
    ],
-   "scoreChg": -73
+   "scoreChg": 30
   },
   {
    "ticker": "ICE",
    "name": "인터콘티넨탈익스체인지",
    "price": NaN,
    "chg": NaN,
-   "score": 31,
-   "label": "약세",
+   "score": 53,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 2104,
-   "putVol": 2438,
-   "ratioText": "하락 베팅이 상승의 1.2배 — 약세 우위",
+   "callVol": 861,
+   "putVol": 567,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "금융",
    "spark": [
-    3,
     54,
     4,
     12,
@@ -3742,26 +3760,26 @@
     56,
     50,
     0,
-    31
+    31,
+    53
    ],
-   "scoreChg": 31
+   "scoreChg": 22
   },
   {
    "ticker": "CME",
    "name": "CME그룹",
    "price": NaN,
    "chg": NaN,
-   "score": 0,
+   "score": 6,
    "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 960,
-   "putVol": 4463,
-   "ratioText": "하락 베팅이 상승의 4.6배 — 평소보다 뚜렷한 약세",
+   "callVol": 1500,
+   "putVol": 3507,
+   "ratioText": "하락 베팅이 상승의 2.3배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "금융",
    "spark": [
-    17,
     85,
     24,
     8,
@@ -3770,54 +3788,35 @@
     8,
     1,
     6,
-    0
+    0,
+    6
    ],
-   "scoreChg": -6
+   "scoreChg": 6
   },
   {
    "ticker": "PGR",
    "name": "프로그레시브",
    "price": NaN,
    "chg": NaN,
-   "score": 70,
-   "label": "강세",
-   "scoreMode": "percentile",
-   "callVol": 1575,
-   "putVol": 1115,
-   "ratioText": "상승 베팅이 하락의 1.4배 — 강세 우위",
-   "status": "ok",
+   "status": "insufficient",
    "stale": false,
-   "sector": "금융",
-   "spark": [
-    80,
-    68,
-    32,
-    16,
-    66,
-    75,
-    21,
-    29,
-    96,
-    70
-   ],
-   "scoreChg": -26
+   "sector": "금융"
   },
   {
    "ticker": "BMY",
    "name": "브리스톨마이어스",
    "price": NaN,
    "chg": NaN,
-   "score": 1,
+   "score": 10,
    "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 8972,
-   "putVol": 20559,
-   "ratioText": "하락 베팅이 상승의 2.3배 — 평소보다 뚜렷한 약세",
+   "callVol": 8443,
+   "putVol": 10899,
+   "ratioText": "하락 베팅이 상승의 1.3배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "헬스케어",
    "spark": [
-    93,
     31,
     8,
     30,
@@ -3826,26 +3825,26 @@
     21,
     58,
     67,
-    1
+    1,
+    10
    ],
-   "scoreChg": -66
+   "scoreChg": 9
   },
   {
    "ticker": "CI",
    "name": "시그나",
    "price": NaN,
    "chg": NaN,
-   "score": 25,
-   "label": "약세",
+   "score": 49,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 959,
-   "putVol": 1286,
-   "ratioText": "하락 베팅이 상승의 1.3배 — 약세 우위",
+   "callVol": 1298,
+   "putVol": 1281,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "헬스케어",
    "spark": [
-    3,
     96,
     38,
     25,
@@ -3854,26 +3853,26 @@
     51,
     56,
     27,
-    25
+    25,
+    49
    ],
-   "scoreChg": -2
+   "scoreChg": 24
   },
   {
    "ticker": "HUM",
    "name": "휴마나",
    "price": NaN,
    "chg": NaN,
-   "score": 29,
-   "label": "약세",
+   "score": 5,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 3377,
-   "putVol": 4507,
-   "ratioText": "하락 베팅이 상승의 1.3배 — 약세 우위",
+   "callVol": 2046,
+   "putVol": 3867,
+   "ratioText": "하락 베팅이 상승의 1.9배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "헬스케어",
    "spark": [
-    96,
     38,
     47,
     38,
@@ -3882,9 +3881,10 @@
     38,
     17,
     18,
-    29
+    29,
+    5
    ],
-   "scoreChg": 11
+   "scoreChg": -24
   },
   {
    "ticker": "ELV",
@@ -3900,17 +3900,16 @@
    "name": "인튜이티브서지컬",
    "price": NaN,
    "chg": NaN,
-   "score": 49,
-   "label": "중립",
+   "score": 28,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 2331,
-   "putVol": 2217,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 2479,
+   "putVol": 2740,
+   "ratioText": "하락 베팅이 상승의 1.1배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "헬스케어",
    "spark": [
-    96,
     100,
     29,
     49,
@@ -3919,26 +3918,26 @@
     33,
     90,
     45,
-    49
+    49,
+    28
    ],
-   "scoreChg": 4
+   "scoreChg": -21
   },
   {
    "ticker": "MDT",
    "name": "메드트로닉",
    "price": NaN,
    "chg": NaN,
-   "score": 94,
-   "label": "매우 강세",
+   "score": 0,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 9983,
-   "putVol": 2203,
-   "ratioText": "상승 베팅이 하락의 4.5배 — 평소보다 훨씬 강세",
+   "callVol": 2286,
+   "putVol": 6843,
+   "ratioText": "하락 베팅이 상승의 3.0배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "헬스케어",
    "spark": [
-    14,
     11,
     44,
     36,
@@ -3947,26 +3946,26 @@
     26,
     21,
     96,
-    94
+    94,
+    0
    ],
-   "scoreChg": -2
+   "scoreChg": -94
   },
   {
    "ticker": "SYK",
    "name": "스트라이커",
    "price": NaN,
    "chg": NaN,
-   "score": 81,
-   "label": "매우 강세",
+   "score": 32,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 11095,
-   "putVol": 1738,
-   "ratioText": "상승 베팅이 하락의 6.4배 — 강세 우위",
+   "callVol": 1973,
+   "putVol": 1306,
+   "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "헬스케어",
    "spark": [
-    75,
     3,
     93,
     65,
@@ -3975,26 +3974,26 @@
     79,
     23,
     86,
-    81
+    81,
+    32
    ],
-   "scoreChg": -5
+   "scoreChg": -49
   },
   {
    "ticker": "BSX",
    "name": "보스턴사이언티픽",
    "price": NaN,
    "chg": NaN,
-   "score": 41,
-   "label": "중립",
+   "score": 18,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 12807,
-   "putVol": 17999,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 3218,
+   "putVol": 9163,
+   "ratioText": "하락 베팅이 상승의 2.8배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "헬스케어",
    "spark": [
-    57,
     58,
     81,
     84,
@@ -4003,26 +4002,26 @@
     67,
     38,
     32,
-    41
+    41,
+    18
    ],
-   "scoreChg": 9
+   "scoreChg": -23
   },
   {
    "ticker": "DHR",
    "name": "다나허",
    "price": NaN,
    "chg": NaN,
-   "score": 58,
-   "label": "중립",
+   "score": 9,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 1402,
-   "putVol": 975,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 949,
+   "putVol": 1392,
+   "ratioText": "하락 베팅이 상승의 1.5배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "헬스케어",
    "spark": [
-    29,
     75,
     25,
     26,
@@ -4031,26 +4030,26 @@
     96,
     35,
     47,
-    58
+    58,
+    9
    ],
-   "scoreChg": 11
+   "scoreChg": -49
   },
   {
    "ticker": "REGN",
    "name": "리제네론",
    "price": NaN,
    "chg": NaN,
-   "score": 13,
-   "label": "매우 약세",
+   "score": 80,
+   "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 1075,
-   "putVol": 1956,
-   "ratioText": "하락 베팅이 상승의 1.8배 — 약세 우위",
+   "callVol": 1423,
+   "putVol": 897,
+   "ratioText": "상승 베팅이 하락의 1.6배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "헬스케어",
    "spark": [
-    71,
     76,
     85,
     43,
@@ -4059,26 +4058,26 @@
     23,
     26,
     56,
-    13
+    13,
+    80
    ],
-   "scoreChg": -43
+   "scoreChg": 67
   },
   {
    "ticker": "BIIB",
    "name": "바이오젠",
    "price": NaN,
    "chg": NaN,
-   "score": 17,
+   "score": 13,
    "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 2411,
-   "putVol": 2986,
-   "ratioText": "하락 베팅이 상승의 1.2배 — 약세 우위",
+   "callVol": 1233,
+   "putVol": 1819,
+   "ratioText": "하락 베팅이 상승의 1.5배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "바이오",
    "spark": [
-    82,
     47,
     6,
     0,
@@ -4087,26 +4086,26 @@
     7,
     1,
     5,
-    17
+    17,
+    13
    ],
-   "scoreChg": 12
+   "scoreChg": -4
   },
   {
    "ticker": "TJX",
    "name": "TJX",
    "price": NaN,
    "chg": NaN,
-   "score": 15,
-   "label": "매우 약세",
+   "score": 56,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 1484,
-   "putVol": 3569,
-   "ratioText": "하락 베팅이 상승의 2.4배 — 약세 우위",
+   "callVol": 1727,
+   "putVol": 1437,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "소비유통",
    "spark": [
-    63,
     92,
     82,
     30,
@@ -4115,26 +4114,26 @@
     26,
     13,
     14,
-    15
+    15,
+    56
    ],
-   "scoreChg": 1
+   "scoreChg": 41
   },
   {
    "ticker": "ROST",
    "name": "로스스토어스",
    "price": NaN,
    "chg": NaN,
-   "score": 71,
-   "label": "강세",
+   "score": 34,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 1162,
-   "putVol": 1005,
-   "ratioText": "상승 베팅이 하락의 1.2배 — 강세 우위",
+   "callVol": 583,
+   "putVol": 1579,
+   "ratioText": "하락 베팅이 상승의 2.7배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "소비유통",
    "spark": [
-    18,
     31,
     76,
     64,
@@ -4143,26 +4142,26 @@
     21,
     8,
     62,
-    71
+    71,
+    34
    ],
-   "scoreChg": 9
+   "scoreChg": -37
   },
   {
    "ticker": "DG",
    "name": "달러제너럴",
    "price": NaN,
    "chg": NaN,
-   "score": 13,
+   "score": 11,
    "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 2024,
-   "putVol": 2759,
+   "callVol": 1361,
+   "putVol": 1897,
    "ratioText": "하락 베팅이 상승의 1.4배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "소비유통",
    "spark": [
-    89,
     87,
     57,
     84,
@@ -4171,26 +4170,26 @@
     28,
     6,
     26,
-    13
+    13,
+    11
    ],
-   "scoreChg": -13
+   "scoreChg": -2
   },
   {
    "ticker": "DLTR",
    "name": "달러트리",
    "price": NaN,
    "chg": NaN,
-   "score": 78,
-   "label": "강세",
+   "score": 98,
+   "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 2425,
-   "putVol": 1404,
-   "ratioText": "상승 베팅이 하락의 1.7배 — 강세 우위",
+   "callVol": 3815,
+   "putVol": 1338,
+   "ratioText": "상승 베팅이 하락의 2.9배 — 평소보다 훨씬 강세",
    "status": "ok",
    "stale": false,
    "sector": "소비유통",
    "spark": [
-    61,
     65,
     71,
     99,
@@ -4199,26 +4198,26 @@
     26,
     35,
     46,
-    78
+    78,
+    98
    ],
-   "scoreChg": 32
+   "scoreChg": 20
   },
   {
    "ticker": "ULTA",
    "name": "울타뷰티",
    "price": NaN,
    "chg": NaN,
-   "score": 27,
+   "score": 22,
    "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 1996,
-   "putVol": 2772,
-   "ratioText": "하락 베팅이 상승의 1.4배 — 약세 우위",
+   "callVol": 1281,
+   "putVol": 1898,
+   "ratioText": "하락 베팅이 상승의 1.5배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "소비유통",
    "spark": [
-    30,
     34,
     17,
     16,
@@ -4227,26 +4226,26 @@
     42,
     16,
     21,
-    27
+    27,
+    22
    ],
-   "scoreChg": 6
+   "scoreChg": -5
   },
   {
    "ticker": "EBAY",
    "name": "이베이",
    "price": NaN,
    "chg": NaN,
-   "score": 92,
-   "label": "매우 강세",
+   "score": 10,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 22977,
-   "putVol": 9544,
-   "ratioText": "상승 베팅이 하락의 2.4배 — 평소보다 훨씬 강세",
+   "callVol": 2767,
+   "putVol": 7301,
+   "ratioText": "하락 베팅이 상승의 2.6배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "소비유통",
    "spark": [
-    89,
     13,
     3,
     10,
@@ -4255,26 +4254,26 @@
     3,
     1,
     9,
-    92
+    92,
+    10
    ],
-   "scoreChg": 83
+   "scoreChg": -82
   },
   {
    "ticker": "CHWY",
    "name": "츄이",
    "price": NaN,
    "chg": NaN,
-   "score": 30,
-   "label": "약세",
+   "score": 86,
+   "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 3419,
-   "putVol": 2671,
-   "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
+   "callVol": 10484,
+   "putVol": 3890,
+   "ratioText": "상승 베팅이 하락의 2.7배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "소비유통",
    "spark": [
-    91,
     63,
     38,
     88,
@@ -4283,26 +4282,26 @@
     41,
     31,
     56,
-    30
+    30,
+    86
    ],
-   "scoreChg": -26
+   "scoreChg": 56
   },
   {
    "ticker": "LULU",
    "name": "룰루레몬",
    "price": NaN,
    "chg": NaN,
-   "score": 5,
+   "score": 3,
    "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 17274,
-   "putVol": 27827,
-   "ratioText": "하락 베팅이 상승의 1.6배 — 평소보다 뚜렷한 약세",
+   "callVol": 8959,
+   "putVol": 23028,
+   "ratioText": "하락 베팅이 상승의 2.6배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "소비유통",
    "spark": [
-    49,
     14,
     1,
     0,
@@ -4311,26 +4310,26 @@
     57,
     6,
     50,
-    5
+    5,
+    3
    ],
-   "scoreChg": -45
+   "scoreChg": -2
   },
   {
    "ticker": "MDLZ",
    "name": "몬델리즈",
    "price": NaN,
    "chg": NaN,
-   "score": 11,
-   "label": "매우 약세",
+   "score": 43,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 1897,
-   "putVol": 3008,
-   "ratioText": "하락 베팅이 상승의 1.6배 — 약세 우위",
+   "callVol": 1329,
+   "putVol": 912,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "음식료",
    "spark": [
-    43,
     80,
     32,
     22,
@@ -4339,26 +4338,26 @@
     29,
     27,
     13,
-    11
+    11,
+    43
    ],
-   "scoreChg": -2
+   "scoreChg": 32
   },
   {
    "ticker": "MO",
    "name": "알트리아",
    "price": NaN,
    "chg": NaN,
-   "score": 8,
-   "label": "매우 약세",
+   "score": 40,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 15699,
-   "putVol": 17740,
-   "ratioText": "하락 베팅이 상승의 1.1배 — 평소보다 뚜렷한 약세",
+   "callVol": 19510,
+   "putVol": 12654,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "음식료",
    "spark": [
-    93,
     45,
     7,
     55,
@@ -4367,26 +4366,26 @@
     21,
     64,
     85,
-    8
+    8,
+    40
    ],
-   "scoreChg": -77
+   "scoreChg": 32
   },
   {
    "ticker": "PM",
    "name": "필립모리스",
    "price": NaN,
    "chg": NaN,
-   "score": 66,
-   "label": "강세",
+   "score": 90,
+   "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 5133,
-   "putVol": 3308,
-   "ratioText": "상승 베팅이 하락의 1.6배 — 강세 우위",
+   "callVol": 5195,
+   "putVol": 2028,
+   "ratioText": "상승 베팅이 하락의 2.6배 — 평소보다 훨씬 강세",
    "status": "ok",
    "stale": false,
    "sector": "음식료",
    "spark": [
-    90,
     92,
     61,
     59,
@@ -4395,26 +4394,26 @@
     61,
     90,
     90,
-    66
+    66,
+    90
    ],
-   "scoreChg": -24
+   "scoreChg": 24
   },
   {
    "ticker": "KHC",
    "name": "크래프트하인즈",
    "price": NaN,
    "chg": NaN,
-   "score": 82,
-   "label": "매우 강세",
+   "score": 19,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 84741,
-   "putVol": 5496,
-   "ratioText": "상승 베팅이 하락의 15.4배 — 강세 우위",
+   "callVol": 5412,
+   "putVol": 3892,
+   "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "음식료",
    "spark": [
-    73,
     77,
     65,
     44,
@@ -4423,18 +4422,38 @@
     5,
     5,
     22,
-    82
+    82,
+    19
    ],
-   "scoreChg": 60
+   "scoreChg": -63
   },
   {
    "ticker": "KDP",
    "name": "큐리그닥터페퍼",
    "price": NaN,
    "chg": NaN,
-   "status": "insufficient",
+   "score": 95,
+   "label": "매우 강세",
+   "scoreMode": "percentile",
+   "callVol": 10584,
+   "putVol": 154,
+   "ratioText": "상승 베팅이 하락의 68.7배 — 평소보다 훨씬 강세",
+   "status": "ok",
    "stale": false,
-   "sector": "음식료"
+   "sector": "음식료",
+   "spark": [
+    63,
+    6,
+    9,
+    6,
+    18,
+    3,
+    28,
+    27,
+    92,
+    95
+   ],
+   "scoreChg": 3
   },
   {
    "ticker": "STZ",
@@ -4444,14 +4463,13 @@
    "score": 99,
    "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 5672,
-   "putVol": 2236,
-   "ratioText": "상승 베팅이 하락의 2.5배 — 평소보다 훨씬 강세",
+   "callVol": 3562,
+   "putVol": 1327,
+   "ratioText": "상승 베팅이 하락의 2.7배 — 평소보다 훨씬 강세",
    "status": "ok",
    "stale": false,
    "sector": "음식료",
    "spark": [
-    87,
     86,
     71,
     53,
@@ -4460,9 +4478,10 @@
     11,
     16,
     12,
+    99,
     99
    ],
-   "scoreChg": 87
+   "scoreChg": 0
   },
   {
    "ticker": "TM",
@@ -4478,17 +4497,16 @@
    "name": "필립스66",
    "price": NaN,
    "chg": NaN,
-   "score": 15,
-   "label": "매우 약세",
+   "score": 35,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 2970,
-   "putVol": 2095,
-   "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
+   "callVol": 2614,
+   "putVol": 1506,
+   "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "에너지",
    "spark": [
-    17,
     27,
     32,
     21,
@@ -4497,26 +4515,26 @@
     42,
     19,
     22,
-    15
+    15,
+    35
    ],
-   "scoreChg": -7
+   "scoreChg": 20
   },
   {
    "ticker": "MPC",
    "name": "마라톤페트롤리엄",
    "price": NaN,
    "chg": NaN,
-   "score": 44,
+   "score": 45,
    "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 1712,
-   "putVol": 1744,
+   "callVol": 1140,
+   "putVol": 1160,
    "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "에너지",
    "spark": [
-    19,
     70,
     8,
     42,
@@ -4525,26 +4543,26 @@
     58,
     42,
     44,
-    44
+    44,
+    45
    ],
-   "scoreChg": 0
+   "scoreChg": 1
   },
   {
    "ticker": "VLO",
    "name": "발레로",
    "price": NaN,
    "chg": NaN,
-   "score": 37,
-   "label": "약세",
+   "score": 0,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 4335,
-   "putVol": 5151,
-   "ratioText": "하락 베팅이 상승의 1.2배 — 약세 우위",
+   "callVol": 3011,
+   "putVol": 17688,
+   "ratioText": "하락 베팅이 상승의 5.9배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "에너지",
    "spark": [
-    36,
     62,
     25,
     38,
@@ -4553,26 +4571,26 @@
     57,
     21,
     63,
-    37
+    37,
+    0
    ],
-   "scoreChg": -26
+   "scoreChg": -37
   },
   {
    "ticker": "KMI",
    "name": "킨더모건",
    "price": NaN,
    "chg": NaN,
-   "score": 25,
-   "label": "약세",
+   "score": 95,
+   "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 1872,
-   "putVol": 1447,
-   "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
+   "callVol": 8290,
+   "putVol": 1370,
+   "ratioText": "상승 베팅이 하락의 6.1배 — 평소보다 훨씬 강세",
    "status": "ok",
    "stale": false,
    "sector": "에너지",
    "spark": [
-    21,
     89,
     78,
     1,
@@ -4581,26 +4599,26 @@
     45,
     47,
     67,
-    25
+    25,
+    95
    ],
-   "scoreChg": -42
+   "scoreChg": 70
   },
   {
    "ticker": "WMB",
    "name": "윌리엄스",
    "price": NaN,
    "chg": NaN,
-   "score": 58,
-   "label": "중립",
+   "score": 4,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 3921,
-   "putVol": 2305,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 4613,
+   "putVol": 28855,
+   "ratioText": "하락 베팅이 상승의 6.3배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "에너지",
    "spark": [
-    14,
     17,
     58,
     95,
@@ -4609,26 +4627,26 @@
     86,
     99,
     92,
-    58
+    58,
+    4
    ],
-   "scoreChg": -34
+   "scoreChg": -54
   },
   {
    "ticker": "ENPH",
    "name": "엔페이즈",
    "price": NaN,
    "chg": NaN,
-   "score": 10,
-   "label": "매우 약세",
+   "score": 96,
+   "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 10941,
-   "putVol": 13578,
-   "ratioText": "하락 베팅이 상승의 1.2배 — 평소보다 뚜렷한 약세",
+   "callVol": 13721,
+   "putVol": 3326,
+   "ratioText": "상승 베팅이 하락의 4.1배 — 평소보다 훨씬 강세",
    "status": "ok",
    "stale": false,
    "sector": "에너지",
    "spark": [
-    90,
     83,
     26,
     4,
@@ -4637,26 +4655,26 @@
     18,
     23,
     6,
-    10
+    10,
+    96
    ],
-   "scoreChg": 4
+   "scoreChg": 86
   },
   {
    "ticker": "FSLR",
    "name": "퍼스트솔라",
    "price": NaN,
    "chg": NaN,
-   "score": 67,
-   "label": "강세",
+   "score": 82,
+   "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 13539,
-   "putVol": 7165,
-   "ratioText": "상승 베팅이 하락의 1.9배 — 강세 우위",
+   "callVol": 13391,
+   "putVol": 4661,
+   "ratioText": "상승 베팅이 하락의 2.9배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "에너지",
    "spark": [
-    51,
     54,
     78,
     59,
@@ -4665,26 +4683,26 @@
     91,
     100,
     92,
-    67
+    67,
+    82
    ],
-   "scoreChg": -25
+   "scoreChg": 15
   },
   {
    "ticker": "MMM",
    "name": "3M",
    "price": NaN,
    "chg": NaN,
-   "score": 96,
+   "score": 98,
    "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 6199,
-   "putVol": 1332,
-   "ratioText": "상승 베팅이 하락의 4.7배 — 평소보다 훨씬 강세",
+   "callVol": 6960,
+   "putVol": 1351,
+   "ratioText": "상승 베팅이 하락의 5.2배 — 평소보다 훨씬 강세",
    "status": "ok",
    "stale": false,
    "sector": "산업방산",
    "spark": [
-    41,
     15,
     71,
     11,
@@ -4693,26 +4711,26 @@
     83,
     86,
     14,
-    96
+    96,
+    98
    ],
-   "scoreChg": 82
+   "scoreChg": 2
   },
   {
    "ticker": "EMR",
    "name": "에머슨",
    "price": NaN,
    "chg": NaN,
-   "score": 24,
-   "label": "약세",
+   "score": 63,
+   "label": "강세",
    "scoreMode": "percentile",
-   "callVol": 861,
-   "putVol": 457,
-   "ratioText": "하락 베팅이 상승의 0.5배 — 약세 우위",
+   "callVol": 1249,
+   "putVol": 291,
+   "ratioText": "상승 베팅이 하락의 4.3배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "산업방산",
    "spark": [
-    10,
     39,
     21,
     18,
@@ -4721,26 +4739,26 @@
     17,
     16,
     39,
-    24
+    24,
+    63
    ],
-   "scoreChg": -15
+   "scoreChg": 39
   },
   {
    "ticker": "ETN",
    "name": "이튼",
    "price": NaN,
    "chg": NaN,
-   "score": 95,
+   "score": 99,
    "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 11280,
-   "putVol": 3096,
-   "ratioText": "상승 베팅이 하락의 3.6배 — 평소보다 훨씬 강세",
+   "callVol": 24881,
+   "putVol": 1593,
+   "ratioText": "상승 베팅이 하락의 15.6배 — 평소보다 훨씬 강세",
    "status": "ok",
    "stale": false,
    "sector": "산업방산",
    "spark": [
-    100,
     15,
     12,
     27,
@@ -4749,9 +4767,10 @@
     61,
     73,
     100,
-    95
+    95,
+    99
    ],
-   "scoreChg": -5
+   "scoreChg": 4
   },
   {
    "ticker": "ITW",
@@ -4767,17 +4786,16 @@
    "name": "제너럴다이내믹스",
    "price": NaN,
    "chg": NaN,
-   "score": 33,
+   "score": 39,
    "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 1730,
-   "putVol": 2171,
-   "ratioText": "하락 베팅이 상승의 1.3배 — 약세 우위",
+   "callVol": 1086,
+   "putVol": 1254,
+   "ratioText": "하락 베팅이 상승의 1.2배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "산업방산",
    "spark": [
-    23,
     29,
     14,
     19,
@@ -4786,26 +4804,26 @@
     33,
     21,
     16,
-    33
+    33,
+    39
    ],
-   "scoreChg": 17
+   "scoreChg": 6
   },
   {
    "ticker": "NOC",
    "name": "노스럽그러먼",
    "price": NaN,
    "chg": NaN,
-   "score": 73,
+   "score": 74,
    "label": "강세",
    "scoreMode": "percentile",
-   "callVol": 1128,
-   "putVol": 848,
+   "callVol": 987,
+   "putVol": 740,
    "ratioText": "상승 베팅이 하락의 1.3배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "산업방산",
    "spark": [
-    73,
     100,
     84,
     62,
@@ -4814,26 +4832,26 @@
     69,
     72,
     67,
-    73
+    73,
+    74
    ],
-   "scoreChg": 6
+   "scoreChg": 1
   },
   {
    "ticker": "CSX",
    "name": "CSX",
    "price": NaN,
    "chg": NaN,
-   "score": 1,
-   "label": "매우 약세",
+   "score": 22,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 2218,
-   "putVol": 6279,
-   "ratioText": "하락 베팅이 상승의 2.8배 — 평소보다 뚜렷한 약세",
+   "callVol": 1514,
+   "putVol": 910,
+   "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "산업방산",
    "spark": [
-    76,
     79,
     43,
     15,
@@ -4842,26 +4860,26 @@
     50,
     58,
     22,
-    1
+    1,
+    22
    ],
-   "scoreChg": -21
+   "scoreChg": 21
   },
   {
    "ticker": "FDX",
    "name": "페덱스",
    "price": NaN,
    "chg": NaN,
-   "score": 18,
-   "label": "매우 약세",
+   "score": 36,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 4423,
-   "putVol": 5863,
-   "ratioText": "하락 베팅이 상승의 1.3배 — 약세 우위",
+   "callVol": 3910,
+   "putVol": 3791,
+   "ratioText": "하락 베팅이 상승의 1.0배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "산업방산",
    "spark": [
-    51,
     23,
     92,
     14,
@@ -4870,26 +4888,26 @@
     8,
     97,
     24,
-    18
+    18,
+    36
    ],
-   "scoreChg": -6
+   "scoreChg": 18
   },
   {
    "ticker": "LUV",
    "name": "사우스웨스트",
    "price": NaN,
    "chg": NaN,
-   "score": 25,
+   "score": 29,
    "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 1598,
-   "putVol": 2391,
-   "ratioText": "하락 베팅이 상승의 1.5배 — 약세 우위",
+   "callVol": 2149,
+   "putVol": 2912,
+   "ratioText": "하락 베팅이 상승의 1.4배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "항공여행",
    "spark": [
-    43,
     31,
     39,
     49,
@@ -4898,26 +4916,26 @@
     87,
     60,
     60,
-    25
+    25,
+    29
    ],
-   "scoreChg": -35
+   "scoreChg": 4
   },
   {
    "ticker": "UAL",
    "name": "유나이티드항공",
    "price": NaN,
    "chg": NaN,
-   "score": 95,
+   "score": 89,
    "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 43529,
-   "putVol": 7644,
-   "ratioText": "상승 베팅이 하락의 5.7배 — 평소보다 훨씬 강세",
+   "callVol": 10533,
+   "putVol": 3341,
+   "ratioText": "상승 베팅이 하락의 3.2배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "항공여행",
    "spark": [
-    66,
     55,
     49,
     97,
@@ -4926,26 +4944,26 @@
     93,
     99,
     95,
-    95
+    95,
+    89
    ],
-   "scoreChg": 0
+   "scoreChg": -6
   },
   {
    "ticker": "CCL",
    "name": "카니발",
    "price": NaN,
    "chg": NaN,
-   "score": 37,
-   "label": "약세",
+   "score": 16,
+   "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 16725,
-   "putVol": 14013,
-   "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
+   "callVol": 16778,
+   "putVol": 20926,
+   "ratioText": "하락 베팅이 상승의 1.2배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "항공여행",
    "spark": [
-    44,
     37,
     81,
     74,
@@ -4954,26 +4972,26 @@
     50,
     9,
     37,
-    37
+    37,
+    16
    ],
-   "scoreChg": 0
+   "scoreChg": -21
   },
   {
    "ticker": "RCL",
    "name": "로열캐리비안",
    "price": NaN,
    "chg": NaN,
-   "score": 63,
-   "label": "강세",
+   "score": 30,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 3747,
-   "putVol": 3653,
-   "ratioText": "상승 베팅이 하락의 1.0배 — 강세 우위",
+   "callVol": 1775,
+   "putVol": 2383,
+   "ratioText": "하락 베팅이 상승의 1.3배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "항공여행",
    "spark": [
-    69,
     97,
     78,
     79,
@@ -4982,26 +5000,26 @@
     67,
     4,
     77,
-    63
+    63,
+    30
    ],
-   "scoreChg": -14
+   "scoreChg": -33
   },
   {
    "ticker": "NCLH",
    "name": "노르웨이지안크루즈",
    "price": NaN,
    "chg": NaN,
-   "score": 95,
-   "label": "매우 강세",
+   "score": 45,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 51546,
-   "putVol": 13495,
-   "ratioText": "상승 베팅이 하락의 3.8배 — 평소보다 훨씬 강세",
+   "callVol": 7286,
+   "putVol": 5505,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "항공여행",
    "spark": [
-    76,
     54,
     74,
     40,
@@ -5010,26 +5028,26 @@
     88,
     71,
     94,
-    95
+    95,
+    45
    ],
-   "scoreChg": 1
+   "scoreChg": -50
   },
   {
    "ticker": "MAR",
    "name": "메리어트",
    "price": NaN,
    "chg": NaN,
-   "score": 82,
-   "label": "매우 강세",
+   "score": 21,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 1522,
-   "putVol": 1048,
-   "ratioText": "상승 베팅이 하락의 1.5배 — 강세 우위",
+   "callVol": 1174,
+   "putVol": 1755,
+   "ratioText": "하락 베팅이 상승의 1.5배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "항공여행",
    "spark": [
-    81,
     61,
     85,
     78,
@@ -5038,26 +5056,26 @@
     1,
     92,
     90,
-    82
+    82,
+    21
    ],
-   "scoreChg": -8
+   "scoreChg": -61
   },
   {
    "ticker": "BKNG",
    "name": "부킹홀딩스",
    "price": NaN,
    "chg": NaN,
-   "score": 44,
-   "label": "중립",
+   "score": 39,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 5231,
-   "putVol": 4597,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 5360,
+   "putVol": 4922,
+   "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "항공여행",
    "spark": [
-    39,
     30,
     14,
     15,
@@ -5066,26 +5084,26 @@
     25,
     100,
     69,
-    44
+    44,
+    39
    ],
-   "scoreChg": -25
+   "scoreChg": -5
   },
   {
    "ticker": "TMUS",
    "name": "T모바일",
    "price": NaN,
    "chg": NaN,
-   "score": 13,
-   "label": "매우 약세",
+   "score": 66,
+   "label": "강세",
    "scoreMode": "percentile",
-   "callVol": 7569,
-   "putVol": 9750,
-   "ratioText": "하락 베팅이 상승의 1.3배 — 약세 우위",
+   "callVol": 8031,
+   "putVol": 4240,
+   "ratioText": "상승 베팅이 하락의 1.9배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "통신미디어",
    "spark": [
-    50,
     23,
     17,
     8,
@@ -5094,26 +5112,26 @@
     22,
     36,
     69,
-    13
+    13,
+    66
    ],
-   "scoreChg": -56
+   "scoreChg": 53
   },
   {
    "ticker": "CHTR",
    "name": "차터커뮤니케이션",
    "price": NaN,
    "chg": NaN,
-   "score": 99,
-   "label": "매우 강세",
+   "score": 48,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 3978,
-   "putVol": 2231,
-   "ratioText": "상승 베팅이 하락의 1.8배 — 평소보다 훨씬 강세",
+   "callVol": 2217,
+   "putVol": 2209,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "통신미디어",
    "spark": [
-    67,
     82,
     19,
     38,
@@ -5122,9 +5140,10 @@
     74,
     91,
     94,
-    99
+    99,
+    48
    ],
-   "scoreChg": 5
+   "scoreChg": -51
   },
   {
    "ticker": "WBD",
@@ -5189,17 +5208,16 @@
    "name": "테이크투",
    "price": NaN,
    "chg": NaN,
-   "score": 41,
-   "label": "중립",
+   "score": 75,
+   "label": "강세",
    "scoreMode": "percentile",
-   "callVol": 8996,
-   "putVol": 11433,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 9286,
+   "putVol": 5703,
+   "ratioText": "상승 베팅이 하락의 1.6배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "통신미디어",
    "spark": [
-    20,
     7,
     44,
     48,
@@ -5208,26 +5226,26 @@
     33,
     49,
     73,
-    41
+    41,
+    75
    ],
-   "scoreChg": -32
+   "scoreChg": 34
   },
   {
    "ticker": "CLSK",
    "name": "클린스파크",
    "price": NaN,
    "chg": NaN,
-   "score": 13,
-   "label": "매우 약세",
+   "score": 86,
+   "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 12890,
-   "putVol": 8383,
-   "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
+   "callVol": 42228,
+   "putVol": 9368,
+   "ratioText": "상승 베팅이 하락의 4.5배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "크립토밈",
    "spark": [
-    93,
     38,
     92,
     51,
@@ -5236,26 +5254,26 @@
     88,
     92,
     58,
-    13
+    13,
+    86
    ],
-   "scoreChg": -45
+   "scoreChg": 73
   },
   {
    "ticker": "CVNA",
    "name": "카바나",
    "price": NaN,
    "chg": NaN,
-   "score": 61,
-   "label": "강세",
+   "score": 91,
+   "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 80566,
-   "putVol": 66963,
-   "ratioText": "상승 베팅이 하락의 1.2배 — 강세 우위",
+   "callVol": 25969,
+   "putVol": 14245,
+   "ratioText": "상승 베팅이 하락의 1.8배 — 평소보다 훨씬 강세",
    "status": "ok",
    "stale": false,
    "sector": "크립토밈",
    "spark": [
-    24,
     15,
     28,
     100,
@@ -5264,26 +5282,26 @@
     68,
     57,
     27,
-    61
+    61,
+    91
    ],
-   "scoreChg": 34
+   "scoreChg": 30
   },
   {
    "ticker": "PLD",
    "name": "프로로지스",
    "price": NaN,
    "chg": NaN,
-   "score": 92,
+   "score": 86,
    "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 812,
-   "putVol": 223,
-   "ratioText": "상승 베팅이 하락의 3.6배 — 평소보다 훨씬 강세",
+   "callVol": 675,
+   "putVol": 328,
+   "ratioText": "상승 베팅이 하락의 2.1배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "리츠",
    "spark": [
-    41,
     40,
     79,
     73,
@@ -5292,26 +5310,26 @@
     55,
     69,
     92,
-    92
+    92,
+    86
    ],
-   "scoreChg": 0
+   "scoreChg": -6
   },
   {
    "ticker": "AMT",
    "name": "아메리칸타워",
    "price": NaN,
    "chg": NaN,
-   "score": 80,
-   "label": "매우 강세",
+   "score": 79,
+   "label": "강세",
    "scoreMode": "percentile",
-   "callVol": 1318,
-   "putVol": 627,
-   "ratioText": "상승 베팅이 하락의 2.1배 — 강세 우위",
+   "callVol": 950,
+   "putVol": 464,
+   "ratioText": "상승 베팅이 하락의 2.0배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "리츠",
    "spark": [
-    30,
     89,
     100,
     31,
@@ -5320,26 +5338,26 @@
     25,
     38,
     48,
-    80
+    80,
+    79
    ],
-   "scoreChg": 32
+   "scoreChg": -1
   },
   {
    "ticker": "EQIX",
    "name": "에퀴닉스",
    "price": NaN,
    "chg": NaN,
-   "score": 43,
-   "label": "중립",
+   "score": 68,
+   "label": "강세",
    "scoreMode": "percentile",
-   "callVol": 717,
-   "putVol": 392,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 836,
+   "putVol": 337,
+   "ratioText": "상승 베팅이 하락의 2.5배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "리츠",
    "spark": [
-    93,
     93,
     90,
     23,
@@ -5348,9 +5366,10 @@
     39,
     5,
     56,
-    43
+    43,
+    68
    ],
-   "scoreChg": -13
+   "scoreChg": 25
   },
   {
    "ticker": "SPG",
@@ -5366,17 +5385,16 @@
    "name": "리얼티인컴",
    "price": NaN,
    "chg": NaN,
-   "score": 6,
+   "score": 10,
    "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 1321,
-   "putVol": 3561,
-   "ratioText": "하락 베팅이 상승의 2.7배 — 평소보다 뚜렷한 약세",
+   "callVol": 1703,
+   "putVol": 3798,
+   "ratioText": "하락 베팅이 상승의 2.2배 — 평소보다 뚜렷한 약세",
    "status": "ok",
    "stale": false,
    "sector": "리츠",
    "spark": [
-    9,
     13,
     6,
     3,
@@ -5385,26 +5403,26 @@
     1,
     0,
     0,
-    6
+    6,
+    10
    ],
-   "scoreChg": 6
+   "scoreChg": 4
   },
   {
    "ticker": "NEE",
    "name": "넥스트에라에너지",
    "price": NaN,
    "chg": NaN,
-   "score": 20,
-   "label": "약세",
+   "score": 57,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 3184,
-   "putVol": 3563,
-   "ratioText": "하락 베팅이 상승의 1.1배 — 약세 우위",
+   "callVol": 10397,
+   "putVol": 6550,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "유틸리티",
    "spark": [
-    31,
     55,
     62,
     15,
@@ -5413,26 +5431,26 @@
     50,
     53,
     1,
-    20
+    20,
+    57
    ],
-   "scoreChg": 19
+   "scoreChg": 37
   },
   {
    "ticker": "DUK",
    "name": "듀크에너지",
    "price": NaN,
    "chg": NaN,
-   "score": 35,
-   "label": "약세",
+   "score": 45,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 955,
-   "putVol": 751,
-   "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
+   "callVol": 1050,
+   "putVol": 610,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "유틸리티",
    "spark": [
-    76,
     90,
     95,
     8,
@@ -5441,26 +5459,26 @@
     89,
     18,
     21,
-    35
+    35,
+    45
    ],
-   "scoreChg": 14
+   "scoreChg": 10
   },
   {
    "ticker": "SO",
    "name": "서던컴퍼니",
    "price": NaN,
    "chg": NaN,
-   "score": 22,
-   "label": "약세",
+   "score": 44,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 5067,
-   "putVol": 3221,
-   "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
+   "callVol": 3641,
+   "putVol": 1569,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "유틸리티",
    "spark": [
-    49,
     58,
     3,
     95,
@@ -5469,54 +5487,35 @@
     0,
     10,
     14,
-    22
+    22,
+    44
    ],
-   "scoreChg": 8
+   "scoreChg": 22
   },
   {
    "ticker": "D",
    "name": "도미니언에너지",
    "price": NaN,
    "chg": NaN,
-   "score": 68,
-   "label": "강세",
-   "scoreMode": "percentile",
-   "callVol": 874,
-   "putVol": 171,
-   "ratioText": "상승 베팅이 하락의 5.1배 — 강세 우위",
-   "status": "ok",
+   "status": "insufficient",
    "stale": false,
-   "sector": "유틸리티",
-   "spark": [
-    66,
-    21,
-    47,
-    37,
-    42,
-    78,
-    5,
-    41,
-    50,
-    68
-   ],
-   "scoreChg": 18
+   "sector": "유틸리티"
   },
   {
    "ticker": "LIN",
    "name": "린데",
    "price": NaN,
    "chg": NaN,
-   "score": 59,
-   "label": "중립",
+   "score": 34,
+   "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 833,
-   "putVol": 616,
-   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+   "callVol": 636,
+   "putVol": 704,
+   "ratioText": "하락 베팅이 상승의 1.1배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "소재",
    "spark": [
-    8,
     98,
     10,
     54,
@@ -5525,26 +5524,26 @@
     58,
     21,
     16,
-    59
+    59,
+    34
    ],
-   "scoreChg": 43
+   "scoreChg": -25
   },
   {
    "ticker": "FCX",
    "name": "프리포트맥모란",
    "price": NaN,
    "chg": NaN,
-   "score": 25,
+   "score": 35,
    "label": "약세",
    "scoreMode": "percentile",
-   "callVol": 14332,
-   "putVol": 12928,
-   "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
+   "callVol": 12833,
+   "putVol": 9647,
+   "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "소재",
    "spark": [
-    6,
     17,
     1,
     53,
@@ -5553,26 +5552,26 @@
     50,
     94,
     46,
-    25
+    25,
+    35
    ],
-   "scoreChg": -21
+   "scoreChg": 10
   },
   {
    "ticker": "NEM",
    "name": "뉴몬트",
    "price": NaN,
    "chg": NaN,
-   "score": 15,
+   "score": 11,
    "label": "매우 약세",
    "scoreMode": "percentile",
-   "callVol": 4296,
-   "putVol": 3897,
-   "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
+   "callVol": 7142,
+   "putVol": 7204,
+   "ratioText": "하락 베팅이 상승의 1.0배 — 약세 우위",
    "status": "ok",
    "stale": false,
    "sector": "소재",
    "spark": [
-    40,
     38,
     21,
     21,
@@ -5581,26 +5580,26 @@
     25,
     42,
     67,
-    15
+    15,
+    11
    ],
-   "scoreChg": -52
+   "scoreChg": -4
   },
   {
    "ticker": "NUE",
    "name": "뉴코어",
    "price": NaN,
    "chg": NaN,
-   "score": 93,
+   "score": 85,
    "label": "매우 강세",
    "scoreMode": "percentile",
-   "callVol": 2254,
-   "putVol": 777,
-   "ratioText": "상승 베팅이 하락의 2.9배 — 평소보다 훨씬 강세",
+   "callVol": 2288,
+   "putVol": 896,
+   "ratioText": "상승 베팅이 하락의 2.6배 — 강세 우위",
    "status": "ok",
    "stale": false,
    "sector": "소재",
    "spark": [
-    47,
     70,
     95,
     80,
@@ -5609,26 +5608,26 @@
     49,
     65,
     97,
-    93
+    93,
+    85
    ],
-   "scoreChg": -4
+   "scoreChg": -8
   },
   {
    "ticker": "DOW",
    "name": "다우",
    "price": NaN,
    "chg": NaN,
-   "score": 15,
-   "label": "매우 약세",
+   "score": 41,
+   "label": "중립",
    "scoreMode": "percentile",
-   "callVol": 4571,
-   "putVol": 7189,
-   "ratioText": "하락 베팅이 상승의 1.6배 — 약세 우위",
+   "callVol": 4846,
+   "putVol": 3307,
+   "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
    "status": "ok",
    "stale": false,
    "sector": "소재",
    "spark": [
-    50,
     73,
     67,
     29,
@@ -5637,9 +5636,10 @@
     95,
     36,
     49,
-    15
+    15,
+    41
    ],
-   "scoreChg": -34
+   "scoreChg": 26
   }
  ]
 }

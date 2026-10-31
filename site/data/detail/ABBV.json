@@ -2,10 +2,10 @@
  "ticker": "ABBV",
  "name": "애브비",
  "price": NaN,
- "dataAsOf": "2026-10-30",
- "score": 41,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "dataAsOf": "2026-10-31",
+ "score": 7,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 0.9배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
    "strike": NaN,
@@ -45,11 +45,6 @@
  ],
  "maxPain": 260.0,
  "trend": [
-  {
-   "date": "2026-09-15",
-   "score": 10,
-   "price": 263.04
-  },
   {
    "date": "2026-09-16",
    "score": 12,
@@ -193,6 +188,11 @@
   {
    "date": "2026-10-30",
    "score": 41,
+   "price": NaN
+  },
+  {
+   "date": "2026-10-31",
+   "score": 7,
    "price": NaN
   }
  ]

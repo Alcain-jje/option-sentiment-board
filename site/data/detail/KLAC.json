@@ -2,10 +2,10 @@
  "ticker": "KLAC",
  "name": "KLA",
  "price": NaN,
- "dataAsOf": "2026-10-30",
- "score": 82,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 1.3배 — 강세 우위",
+ "dataAsOf": "2026-10-31",
+ "score": 61,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 0.9배 — 강세 우위",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 174.0,
+ "maxPain": 180.0,
  "trend": [
-  {
-   "date": "2026-09-15",
-   "score": 42,
-   "price": 168.02
-  },
   {
    "date": "2026-09-16",
    "score": 2,
@@ -193,6 +188,11 @@
   {
    "date": "2026-10-30",
    "score": 82,
+   "price": NaN
+  },
+  {
+   "date": "2026-10-31",
+   "score": 61,
    "price": NaN
   }
  ]

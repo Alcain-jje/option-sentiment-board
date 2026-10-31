@@ -2,10 +2,10 @@
  "ticker": "AXP",
  "name": "아메리칸익스프레스",
  "price": NaN,
- "dataAsOf": "2026-10-30",
- "score": 95,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 3.5배 — 평소보다 훨씬 강세",
+ "dataAsOf": "2026-10-31",
+ "score": 26,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 1.4배 — 약세 우위",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 317.5,
+ "maxPain": 320.0,
  "trend": [
-  {
-   "date": "2026-09-15",
-   "score": 34,
-   "price": 324.43
-  },
   {
    "date": "2026-09-16",
    "score": 88,
@@ -193,6 +188,11 @@
   {
    "date": "2026-10-30",
    "score": 95,
+   "price": NaN
+  },
+  {
+   "date": "2026-10-31",
+   "score": 26,
    "price": NaN
   }
  ]

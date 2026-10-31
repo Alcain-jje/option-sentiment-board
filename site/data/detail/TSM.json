@@ -2,10 +2,10 @@
  "ticker": "TSM",
  "name": "TSMC",
  "price": NaN,
- "dataAsOf": "2026-10-30",
- "score": 80,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 1.4배 — 강세 우위",
+ "dataAsOf": "2026-10-31",
+ "score": 56,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 427.5,
+ "maxPain": 430.0,
  "trend": [
-  {
-   "date": "2026-09-15",
-   "score": 100,
-   "price": 413.75
-  },
   {
    "date": "2026-09-16",
    "score": 94,
@@ -193,6 +188,11 @@
   {
    "date": "2026-10-30",
    "score": 80,
+   "price": NaN
+  },
+  {
+   "date": "2026-10-31",
+   "score": 56,
    "price": NaN
   }
  ]

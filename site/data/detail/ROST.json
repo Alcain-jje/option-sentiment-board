@@ -2,10 +2,10 @@
  "ticker": "ROST",
  "name": "로스스토어스",
  "price": NaN,
- "dataAsOf": "2026-10-30",
- "score": 71,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 1.2배 — 강세 우위",
+ "dataAsOf": "2026-10-31",
+ "score": 34,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 2.7배 — 약세 우위",
  "buckets": [
   {
    "strike": NaN,
@@ -45,11 +45,6 @@
  ],
  "maxPain": 250.0,
  "trend": [
-  {
-   "date": "2026-09-09",
-   "score": 76,
-   "price": 225.27
-  },
   {
    "date": "2026-09-10",
    "score": 62,
@@ -193,6 +188,11 @@
   {
    "date": "2026-10-30",
    "score": 71,
+   "price": NaN
+  },
+  {
+   "date": "2026-10-31",
+   "score": 34,
    "price": NaN
   }
  ]
