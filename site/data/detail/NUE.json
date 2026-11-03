@@ -1,55 +1,50 @@
 {
  "ticker": "NUE",
  "name": "뉴코어",
- "price": NaN,
- "dataAsOf": "2026-10-31",
- "score": 85,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 2.6배 — 강세 우위",
+ "price": 277.65,
+ "dataAsOf": "2026-11-03",
+ "score": 67,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.6배 — 강세 우위",
  "buckets": [
   {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 230.1,
+   "callOi": 198,
+   "putOi": 1128
+  },
+  {
+   "strike": 245.9,
+   "callOi": 880,
+   "putOi": 1451
+  },
+  {
+   "strike": 261.8,
+   "callOi": 1062,
+   "putOi": 677
+  },
+  {
+   "strike": 277.6,
+   "callOi": 2680,
+   "putOi": 379
+  },
+  {
+   "strike": 293.5,
+   "callOi": 1552,
+   "putOi": 33
+  },
+  {
+   "strike": 309.4,
+   "callOi": 357,
    "putOi": 0
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 325.2,
+   "callOi": 612,
    "putOi": 0
   }
  ],
  "maxPain": 240.0,
  "trend": [
-  {
-   "date": "2026-09-07",
-   "score": 67,
-   "price": 261.07
-  },
   {
    "date": "2026-09-08",
    "score": 52,
@@ -194,6 +189,11 @@
    "date": "2026-10-31",
    "score": 85,
    "price": NaN
+  },
+  {
+   "date": "2026-11-03",
+   "score": 67,
+   "price": 277.65
   }
  ]
 }
