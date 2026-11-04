@@ -1,55 +1,50 @@
 {
  "ticker": "COST",
  "name": "코스트코",
- "price": 1040.55,
- "dataAsOf": "2026-11-03",
- "score": 99,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 1.6배 — 평소보다 훨씬 강세",
+ "price": NaN,
+ "dataAsOf": "2026-11-04",
+ "score": 12,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 1.4배 — 약세 우위",
  "buckets": [
   {
-   "strike": 862.2,
-   "callOi": 1386,
-   "putOi": 13710
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 921.6,
-   "callOi": 4550,
-   "putOi": 15312
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 981.1,
-   "callOi": 13716,
-   "putOi": 7918
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 1040.6,
-   "callOi": 10708,
-   "putOi": 1466
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 1100.0,
-   "callOi": 6429,
-   "putOi": 81
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 1159.5,
-   "callOi": 3753,
-   "putOi": 67
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 1218.9,
-   "callOi": 3525,
+   "strike": NaN,
+   "callOi": 0,
    "putOi": 0
   }
  ],
- "maxPain": 960.0,
+ "maxPain": 975.0,
  "trend": [
-  {
-   "date": "2026-09-17",
-   "score": 40,
-   "price": 893.93
-  },
   {
    "date": "2026-09-18",
    "score": 87,
@@ -194,6 +189,11 @@
    "date": "2026-11-03",
    "score": 99,
    "price": 1040.55
+  },
+  {
+   "date": "2026-11-04",
+   "score": 12,
+   "price": NaN
   }
  ]
 }
