@@ -2,10 +2,10 @@
  "ticker": "AIG",
  "name": "AIG",
  "price": NaN,
- "dataAsOf": "2026-11-04",
- "score": 68,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 1.5배 — 강세 우위",
+ "dataAsOf": "2026-11-05",
+ "score": 92,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 2.8배 — 평소보다 훨씬 강세",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 75.0,
+ "maxPain": 78.0,
  "trend": [
-  {
-   "date": "2026-09-15",
-   "score": 94,
-   "price": 75.98
-  },
   {
    "date": "2026-09-16",
    "score": 85,
@@ -193,6 +188,11 @@
   {
    "date": "2026-11-04",
    "score": 68,
+   "price": NaN
+  },
+  {
+   "date": "2026-11-05",
+   "score": 92,
    "price": NaN
   }
  ]
