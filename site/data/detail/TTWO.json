@@ -2,10 +2,10 @@
  "ticker": "TTWO",
  "name": "테이크투",
  "price": NaN,
- "dataAsOf": "2026-11-05",
- "score": 75,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 1.8배 — 강세 우위",
+ "dataAsOf": "2026-11-06",
+ "score": 82,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 2.2배 — 강세 우위",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 205.0,
+ "maxPain": 200.0,
  "trend": [
-  {
-   "date": "2026-09-22",
-   "score": 22,
-   "price": 205.53
-  },
   {
    "date": "2026-09-23",
    "score": 85,
@@ -193,6 +188,11 @@
   {
    "date": "2026-11-05",
    "score": 75,
+   "price": NaN
+  },
+  {
+   "date": "2026-11-06",
+   "score": 82,
    "price": NaN
   }
  ]
