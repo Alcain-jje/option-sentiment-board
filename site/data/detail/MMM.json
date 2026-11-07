@@ -1,55 +1,50 @@
 {
  "ticker": "MMM",
  "name": "3M",
- "price": NaN,
- "dataAsOf": "2026-11-06",
- "score": 68,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 2.1배 — 강세 우위",
+ "price": 185.15,
+ "dataAsOf": "2026-11-07",
+ "score": 13,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 1.1배 — 약세 우위",
  "buckets": [
   {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 153.4,
+   "callOi": 660,
+   "putOi": 2132
+  },
+  {
+   "strike": 164.0,
+   "callOi": 2357,
+   "putOi": 5685
+  },
+  {
+   "strike": 174.6,
+   "callOi": 10411,
+   "putOi": 1998
+  },
+  {
+   "strike": 185.1,
+   "callOi": 14032,
+   "putOi": 2801
+  },
+  {
+   "strike": 195.7,
+   "callOi": 8611,
+   "putOi": 156
+  },
+  {
+   "strike": 206.3,
+   "callOi": 535,
    "putOi": 0
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 216.9,
+   "callOi": 105,
+   "putOi": 2
   }
  ],
  "maxPain": 170.0,
  "trend": [
-  {
-   "date": "2026-09-23",
-   "score": 96,
-   "price": 170.3
-  },
   {
    "date": "2026-09-24",
    "score": 68,
@@ -194,6 +189,11 @@
    "date": "2026-11-06",
    "score": 68,
    "price": NaN
+  },
+  {
+   "date": "2026-11-07",
+   "score": 13,
+   "price": 185.15
   }
  ]
 }

@@ -1,55 +1,50 @@
 {
  "ticker": "MA",
  "name": "마스터카드",
- "price": NaN,
- "dataAsOf": "2026-11-06",
- "score": 79,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 1.3배 — 강세 우위",
+ "price": 652.7,
+ "dataAsOf": "2026-11-07",
+ "score": 49,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 540.8,
+   "callOi": 1858,
+   "putOi": 6165
+  },
+  {
+   "strike": 578.1,
+   "callOi": 4391,
+   "putOi": 4694
+  },
+  {
+   "strike": 615.4,
+   "callOi": 5734,
+   "putOi": 5568
+  },
+  {
+   "strike": 652.7,
+   "callOi": 8652,
+   "putOi": 2379
+  },
+  {
+   "strike": 690.0,
+   "callOi": 4418,
+   "putOi": 51
+  },
+  {
+   "strike": 727.3,
+   "callOi": 1342,
    "putOi": 0
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 764.6,
+   "callOi": 135,
    "putOi": 0
   }
  ],
- "maxPain": 615.0,
+ "maxPain": 600.0,
  "trend": [
-  {
-   "date": "2026-09-23",
-   "score": 84,
-   "price": 559.92
-  },
   {
    "date": "2026-09-24",
    "score": 29,
@@ -194,6 +189,11 @@
    "date": "2026-11-06",
    "score": 79,
    "price": NaN
+  },
+  {
+   "date": "2026-11-07",
+   "score": 49,
+   "price": 652.7
   }
  ]
 }

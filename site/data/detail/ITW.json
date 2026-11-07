@@ -1,49 +1,49 @@
 {
  "ticker": "ITW",
  "name": "일리노이툴웍스",
- "price": NaN,
- "dataAsOf": "2026-11-06",
+ "price": 280.95,
+ "dataAsOf": "2026-11-07",
  "score": 10,
  "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 4.2배 — 약세 우위",
+ "ratioText": "하락 베팅이 상승의 3.6배 — 약세 우위",
  "buckets": [
   {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 232.8,
+   "callOi": 43,
+   "putOi": 213
+  },
+  {
+   "strike": 248.8,
+   "callOi": 16,
+   "putOi": 252
+  },
+  {
+   "strike": 264.9,
+   "callOi": 586,
+   "putOi": 558
+  },
+  {
+   "strike": 281.0,
+   "callOi": 2584,
+   "putOi": 927
+  },
+  {
+   "strike": 297.0,
+   "callOi": 1703,
+   "putOi": 78
+  },
+  {
+   "strike": 313.1,
+   "callOi": 815,
    "putOi": 0
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 329.1,
+   "callOi": 118,
    "putOi": 0
   }
  ],
- "maxPain": 270.0,
+ "maxPain": 280.0,
  "trend": [
   {
    "date": "2026-07-09",
@@ -139,6 +139,11 @@
    "date": "2026-11-06",
    "score": 10,
    "price": NaN
+  },
+  {
+   "date": "2026-11-07",
+   "score": 10,
+   "price": 280.95
   }
  ]
 }
