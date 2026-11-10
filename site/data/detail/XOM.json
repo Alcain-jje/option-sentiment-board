@@ -1,55 +1,50 @@
 {
  "ticker": "XOM",
  "name": "엑슨모빌",
- "price": 165.87,
- "dataAsOf": "2026-11-07",
- "score": 68,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 4.4배 — 강세 우위",
+ "price": 164.73,
+ "dataAsOf": "2026-11-10",
+ "score": 21,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
  "buckets": [
   {
-   "strike": 137.4,
-   "callOi": 11139,
-   "putOi": 17631
+   "strike": 136.5,
+   "callOi": 11131,
+   "putOi": 17681
   },
   {
-   "strike": 146.9,
-   "callOi": 11260,
-   "putOi": 46260
+   "strike": 145.9,
+   "callOi": 11292,
+   "putOi": 47006
   },
   {
-   "strike": 156.4,
-   "callOi": 13830,
-   "putOi": 21770
+   "strike": 155.3,
+   "callOi": 13826,
+   "putOi": 22908
   },
   {
-   "strike": 165.9,
-   "callOi": 31473,
-   "putOi": 20060
+   "strike": 164.7,
+   "callOi": 10482,
+   "putOi": 12148
   },
   {
-   "strike": 175.3,
-   "callOi": 32621,
-   "putOi": 16037
+   "strike": 174.1,
+   "callOi": 43352,
+   "putOi": 16590
   },
   {
-   "strike": 184.8,
-   "callOi": 34622,
-   "putOi": 2232
+   "strike": 183.6,
+   "callOi": 64945,
+   "putOi": 9974
   },
   {
-   "strike": 194.3,
-   "callOi": 59794,
+   "strike": 193.0,
+   "callOi": 60121,
    "putOi": 432
   }
  ],
  "maxPain": 160.0,
  "trend": [
-  {
-   "date": "2026-09-24",
-   "score": 12,
-   "price": 162.14
-  },
   {
    "date": "2026-09-25",
    "score": 32,
@@ -194,6 +189,11 @@
    "date": "2026-11-07",
    "score": 68,
    "price": 165.87
+  },
+  {
+   "date": "2026-11-10",
+   "score": 21,
+   "price": 164.73
   }
  ]
 }

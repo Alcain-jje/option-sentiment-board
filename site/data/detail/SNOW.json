@@ -1,55 +1,50 @@
 {
  "ticker": "SNOW",
  "name": "스노우플레이크",
- "price": 275.88,
- "dataAsOf": "2026-11-07",
- "score": 62,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 1.5배 — 강세 우위",
+ "price": 291.14,
+ "dataAsOf": "2026-11-10",
+ "score": 27,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
  "buckets": [
   {
-   "strike": 228.6,
-   "callOi": 991,
-   "putOi": 1425
-  },
-  {
-   "strike": 244.4,
-   "callOi": 4206,
-   "putOi": 5369
-  },
-  {
-   "strike": 260.1,
-   "callOi": 1388,
+   "strike": 241.2,
+   "callOi": 2547,
    "putOi": 2913
   },
   {
-   "strike": 275.9,
-   "callOi": 2905,
-   "putOi": 6267
+   "strike": 257.9,
+   "callOi": 3506,
+   "putOi": 6178
   },
   {
-   "strike": 291.6,
-   "callOi": 2096,
-   "putOi": 5576
+   "strike": 274.5,
+   "callOi": 5450,
+   "putOi": 7138
   },
   {
-   "strike": 307.4,
-   "callOi": 6614,
-   "putOi": 8136
+   "strike": 291.1,
+   "callOi": 4315,
+   "putOi": 5610
   },
   {
-   "strike": 323.2,
-   "callOi": 12062,
-   "putOi": 3834
+   "strike": 307.8,
+   "callOi": 7692,
+   "putOi": 8247
+  },
+  {
+   "strike": 324.4,
+   "callOi": 12042,
+   "putOi": 3965
+  },
+  {
+   "strike": 341.0,
+   "callOi": 6969,
+   "putOi": 3169
   }
  ],
  "maxPain": 280.0,
  "trend": [
-  {
-   "date": "2026-09-24",
-   "score": 80,
-   "price": 334.0
-  },
   {
    "date": "2026-09-25",
    "score": 100,
@@ -194,6 +189,11 @@
    "date": "2026-11-07",
    "score": 62,
    "price": 275.88
+  },
+  {
+   "date": "2026-11-10",
+   "score": 27,
+   "price": 291.14
   }
  ]
 }

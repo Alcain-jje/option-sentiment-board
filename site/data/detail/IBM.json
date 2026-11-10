@@ -1,55 +1,50 @@
 {
  "ticker": "IBM",
  "name": "IBM",
- "price": 245.0,
- "dataAsOf": "2026-11-07",
- "score": 26,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
+ "price": 246.11,
+ "dataAsOf": "2026-11-10",
+ "score": 99,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 5.1배 — 평소보다 훨씬 강세",
  "buckets": [
   {
-   "strike": 203.0,
-   "callOi": 1073,
-   "putOi": 7552
+   "strike": 203.9,
+   "callOi": 1682,
+   "putOi": 11469
   },
   {
-   "strike": 217.0,
-   "callOi": 3468,
-   "putOi": 13268
+   "strike": 218.0,
+   "callOi": 4010,
+   "putOi": 13245
   },
   {
-   "strike": 231.0,
-   "callOi": 6352,
-   "putOi": 12712
+   "strike": 232.0,
+   "callOi": 5618,
+   "putOi": 9892
   },
   {
-   "strike": 245.0,
-   "callOi": 17282,
-   "putOi": 12785
+   "strike": 246.1,
+   "callOi": 20172,
+   "putOi": 14094
   },
   {
-   "strike": 259.0,
-   "callOi": 17669,
-   "putOi": 5736
+   "strike": 260.2,
+   "callOi": 17815,
+   "putOi": 4860
   },
   {
-   "strike": 273.0,
-   "callOi": 14471,
-   "putOi": 1496
+   "strike": 274.2,
+   "callOi": 19977,
+   "putOi": 2384
   },
   {
-   "strike": 287.0,
-   "callOi": 10279,
-   "putOi": 1337
+   "strike": 288.3,
+   "callOi": 5929,
+   "putOi": 616
   }
  ],
  "maxPain": 245.0,
  "trend": [
-  {
-   "date": "2026-09-24",
-   "score": 20,
-   "price": 227.06
-  },
   {
    "date": "2026-09-25",
    "score": 14,
@@ -194,6 +189,11 @@
    "date": "2026-11-07",
    "score": 26,
    "price": 245.0
+  },
+  {
+   "date": "2026-11-10",
+   "score": 99,
+   "price": 246.11
   }
  ]
 }

@@ -1,55 +1,50 @@
 {
  "ticker": "CHTR",
  "name": "차터커뮤니케이션",
- "price": 118.07,
- "dataAsOf": "2026-11-07",
+ "price": 121.2,
+ "dataAsOf": "2026-11-10",
  "score": 100,
  "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 3.0배 — 평소보다 훨씬 강세",
+ "ratioText": "상승 베팅이 하락의 5.4배 — 평소보다 훨씬 강세",
  "buckets": [
   {
-   "strike": 97.8,
-   "callOi": 182,
-   "putOi": 2523
+   "strike": 100.4,
+   "callOi": 152,
+   "putOi": 1934
   },
   {
-   "strike": 104.6,
-   "callOi": 449,
-   "putOi": 1497
+   "strike": 107.3,
+   "callOi": 2113,
+   "putOi": 3233
   },
   {
-   "strike": 111.3,
-   "callOi": 1752,
+   "strike": 114.3,
+   "callOi": 3673,
+   "putOi": 1315
+  },
+  {
+   "strike": 121.2,
+   "callOi": 2113,
+   "putOi": 4306
+  },
+  {
+   "strike": 128.1,
+   "callOi": 6751,
+   "putOi": 1337
+  },
+  {
+   "strike": 135.1,
+   "callOi": 1341,
+   "putOi": 550
+  },
+  {
+   "strike": 142.0,
+   "callOi": 1218,
    "putOi": 2268
-  },
-  {
-   "strike": 118.1,
-   "callOi": 5386,
-   "putOi": 7573
-  },
-  {
-   "strike": 124.8,
-   "callOi": 1080,
-   "putOi": 942
-  },
-  {
-   "strike": 131.6,
-   "callOi": 987,
-   "putOi": 394
-  },
-  {
-   "strike": 138.3,
-   "callOi": 1834,
-   "putOi": 2407
   }
  ],
  "maxPain": 120.0,
  "trend": [
-  {
-   "date": "2026-09-24",
-   "score": 55,
-   "price": 117.55
-  },
   {
    "date": "2026-09-25",
    "score": 81,
@@ -194,6 +189,11 @@
    "date": "2026-11-07",
    "score": 100,
    "price": 118.07
+  },
+  {
+   "date": "2026-11-10",
+   "score": 100,
+   "price": 121.2
   }
  ]
 }

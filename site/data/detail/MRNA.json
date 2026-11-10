@@ -1,55 +1,50 @@
 {
  "ticker": "MRNA",
  "name": "모더나",
- "price": 254.19,
- "dataAsOf": "2026-11-07",
- "score": 35,
+ "price": 269.0,
+ "dataAsOf": "2026-11-10",
+ "score": 29,
  "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
+ "ratioText": "하락 베팅이 상승의 1.0배 — 약세 우위",
  "buckets": [
   {
-   "strike": 210.6,
-   "callOi": 4051,
-   "putOi": 4148
+   "strike": 222.9,
+   "callOi": 11735,
+   "putOi": 6501
   },
   {
-   "strike": 225.1,
-   "callOi": 11439,
-   "putOi": 4531
+   "strike": 238.3,
+   "callOi": 4577,
+   "putOi": 4153
   },
   {
-   "strike": 239.7,
-   "callOi": 4725,
-   "putOi": 3195
+   "strike": 253.6,
+   "callOi": 9668,
+   "putOi": 3302
   },
   {
-   "strike": 254.2,
-   "callOi": 9224,
-   "putOi": 1825
+   "strike": 269.0,
+   "callOi": 5618,
+   "putOi": 539
   },
   {
-   "strike": 268.7,
-   "callOi": 4540,
-   "putOi": 126
+   "strike": 284.4,
+   "callOi": 17304,
+   "putOi": 476
   },
   {
-   "strike": 283.2,
-   "callOi": 5552,
-   "putOi": 425
+   "strike": 299.7,
+   "callOi": 15460,
+   "putOi": 215
   },
   {
-   "strike": 297.8,
-   "callOi": 3317,
-   "putOi": 201
+   "strike": 315.1,
+   "callOi": 5579,
+   "putOi": 38
   }
  ],
- "maxPain": 165.0,
+ "maxPain": 170.0,
  "trend": [
-  {
-   "date": "2026-09-24",
-   "score": 34,
-   "price": 194.82
-  },
   {
    "date": "2026-09-25",
    "score": 63,
@@ -194,6 +189,11 @@
    "date": "2026-11-07",
    "score": 35,
    "price": 254.19
+  },
+  {
+   "date": "2026-11-10",
+   "score": 29,
+   "price": 269.0
   }
  ]
 }
