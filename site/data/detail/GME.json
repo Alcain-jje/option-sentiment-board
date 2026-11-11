@@ -1,55 +1,50 @@
 {
  "ticker": "GME",
  "name": "게임스톱",
- "price": 25.59,
- "dataAsOf": "2026-11-10",
- "score": 51,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": NaN,
+ "dataAsOf": "2026-11-11",
+ "score": 69,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 6.9배 — 강세 우위",
  "buckets": [
   {
-   "strike": 21.2,
-   "callOi": 5988,
-   "putOi": 9743
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 22.7,
-   "callOi": 25937,
-   "putOi": 23767
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 24.1,
-   "callOi": 22230,
-   "putOi": 14943
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 25.6,
-   "callOi": 100659,
-   "putOi": 16648
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 27.1,
-   "callOi": 42915,
-   "putOi": 6349
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 28.5,
-   "callOi": 38762,
-   "putOi": 1411
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 30.0,
-   "callOi": 67589,
-   "putOi": 2927
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   }
  ],
  "maxPain": 23.0,
  "trend": [
-  {
-   "date": "2026-09-25",
-   "score": 30,
-   "price": 23.39
-  },
   {
    "date": "2026-09-29",
    "score": 52,
@@ -194,6 +189,11 @@
    "date": "2026-11-10",
    "score": 51,
    "price": 25.59
+  },
+  {
+   "date": "2026-11-11",
+   "score": 69,
+   "price": NaN
   }
  ]
 }

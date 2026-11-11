@@ -1,55 +1,50 @@
 {
  "ticker": "TSLA",
  "name": "테슬라",
- "price": 378.05,
- "dataAsOf": "2026-11-10",
- "score": 9,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.0배 — 평소보다 뚜렷한 약세",
+ "price": NaN,
+ "dataAsOf": "2026-11-11",
+ "score": 20,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
  "buckets": [
   {
-   "strike": 313.2,
-   "callOi": 9722,
-   "putOi": 56113
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 334.8,
-   "callOi": 25414,
-   "putOi": 82204
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 356.4,
-   "callOi": 73011,
-   "putOi": 84517
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 378.0,
-   "callOi": 94876,
-   "putOi": 61103
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 399.7,
-   "callOi": 126806,
-   "putOi": 54791
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 421.3,
-   "callOi": 67666,
-   "putOi": 17959
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 442.9,
-   "callOi": 83009,
-   "putOi": 8785
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   }
  ],
- "maxPain": 362.5,
+ "maxPain": 365.0,
  "trend": [
-  {
-   "date": "2026-09-25",
-   "score": 91,
-   "price": 372.11
-  },
   {
    "date": "2026-09-29",
    "score": 98,
@@ -194,6 +189,11 @@
    "date": "2026-11-10",
    "score": 9,
    "price": 378.05
+  },
+  {
+   "date": "2026-11-11",
+   "score": 20,
+   "price": NaN
   }
  ]
 }
