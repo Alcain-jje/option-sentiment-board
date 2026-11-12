@@ -2,10 +2,10 @@
  "ticker": "MU",
  "name": "마이크론",
  "price": NaN,
- "dataAsOf": "2026-11-11",
- "score": 34,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
+ "dataAsOf": "2026-11-12",
+ "score": 73,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.5배 — 강세 우위",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 790.0,
+ "maxPain": 800.0,
  "trend": [
-  {
-   "date": "2026-09-29",
-   "score": 52,
-   "price": NaN
-  },
   {
    "date": "2026-09-30",
    "score": 93,
@@ -193,6 +188,11 @@
   {
    "date": "2026-11-11",
    "score": 34,
+   "price": NaN
+  },
+  {
+   "date": "2026-11-12",
+   "score": 73,
    "price": NaN
   }
  ]

@@ -2,10 +2,10 @@
  "ticker": "CSCO",
  "name": "시스코",
  "price": NaN,
- "dataAsOf": "2026-11-11",
- "score": 97,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 4.6배 — 평소보다 훨씬 강세",
+ "dataAsOf": "2026-11-12",
+ "score": 18,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 102.0,
+ "maxPain": 101.0,
  "trend": [
-  {
-   "date": "2026-09-29",
-   "score": 55,
-   "price": NaN
-  },
   {
    "date": "2026-09-30",
    "score": 81,
@@ -193,6 +188,11 @@
   {
    "date": "2026-11-11",
    "score": 97,
+   "price": NaN
+  },
+  {
+   "date": "2026-11-12",
+   "score": 18,
    "price": NaN
   }
  ]
