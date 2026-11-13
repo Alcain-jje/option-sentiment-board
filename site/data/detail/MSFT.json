@@ -2,10 +2,10 @@
  "ticker": "MSFT",
  "name": "마이크로소프트",
  "price": NaN,
- "dataAsOf": "2026-11-12",
- "score": 23,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
+ "dataAsOf": "2026-11-13",
+ "score": 2,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 0.9배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 490.0,
+ "maxPain": 495.0,
  "trend": [
-  {
-   "date": "2026-09-30",
-   "score": 56,
-   "price": NaN
-  },
   {
    "date": "2026-10-01",
    "score": 48,
@@ -193,6 +188,11 @@
   {
    "date": "2026-11-12",
    "score": 23,
+   "price": NaN
+  },
+  {
+   "date": "2026-11-13",
+   "score": 2,
    "price": NaN
   }
  ]
