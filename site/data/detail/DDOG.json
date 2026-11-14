@@ -2,10 +2,10 @@
  "ticker": "DDOG",
  "name": "데이터도그",
  "price": NaN,
- "dataAsOf": "2026-11-13",
- "score": 82,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 1.5배 — 강세 우위",
+ "dataAsOf": "2026-11-14",
+ "score": 63,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.2배 — 강세 우위",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 190.0,
+ "maxPain": 185.0,
  "trend": [
-  {
-   "date": "2026-10-01",
-   "score": 50,
-   "price": NaN
-  },
   {
    "date": "2026-10-02",
    "score": 2,
@@ -193,6 +188,11 @@
   {
    "date": "2026-11-13",
    "score": 82,
+   "price": NaN
+  },
+  {
+   "date": "2026-11-14",
+   "score": 63,
    "price": NaN
   }
  ]

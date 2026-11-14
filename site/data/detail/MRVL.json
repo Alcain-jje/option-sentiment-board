@@ -2,10 +2,10 @@
  "ticker": "MRVL",
  "name": "마벨",
  "price": NaN,
- "dataAsOf": "2026-11-13",
- "score": 35,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
+ "dataAsOf": "2026-11-14",
+ "score": 12,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
  "buckets": [
   {
    "strike": NaN,
@@ -43,13 +43,8 @@
    "putOi": 0
   }
  ],
- "maxPain": 175.0,
+ "maxPain": 180.0,
  "trend": [
-  {
-   "date": "2026-10-01",
-   "score": 23,
-   "price": NaN
-  },
   {
    "date": "2026-10-02",
    "score": 92,
@@ -193,6 +188,11 @@
   {
    "date": "2026-11-13",
    "score": 35,
+   "price": NaN
+  },
+  {
+   "date": "2026-11-14",
+   "score": 12,
    "price": NaN
   }
  ]
