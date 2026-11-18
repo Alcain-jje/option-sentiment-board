@@ -1,55 +1,50 @@
 {
  "ticker": "TWLO",
  "name": "트윌리오",
- "price": 199.42,
- "dataAsOf": "2026-11-17",
- "score": 20,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.2배 — 약세 우위",
+ "price": 194.13,
+ "dataAsOf": "2026-11-18",
+ "score": 14,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 1.4배 — 약세 우위",
  "buckets": [
   {
-   "strike": 165.2,
-   "callOi": 960,
-   "putOi": 2347
+   "strike": 160.9,
+   "callOi": 345,
+   "putOi": 1333
   },
   {
-   "strike": 176.6,
-   "callOi": 446,
-   "putOi": 2527
+   "strike": 171.9,
+   "callOi": 700,
+   "putOi": 1831
   },
   {
-   "strike": 188.0,
-   "callOi": 712,
-   "putOi": 2191
+   "strike": 183.0,
+   "callOi": 727,
+   "putOi": 2407
   },
   {
-   "strike": 199.4,
-   "callOi": 2280,
-   "putOi": 3640
+   "strike": 194.1,
+   "callOi": 794,
+   "putOi": 3875
   },
   {
-   "strike": 210.8,
-   "callOi": 1830,
-   "putOi": 1722
+   "strike": 205.2,
+   "callOi": 3498,
+   "putOi": 2800
   },
   {
-   "strike": 222.2,
-   "callOi": 2502,
-   "putOi": 1785
+   "strike": 216.3,
+   "callOi": 2575,
+   "putOi": 2171
   },
   {
-   "strike": 233.6,
-   "callOi": 1091,
-   "putOi": 1182
+   "strike": 227.4,
+   "callOi": 977,
+   "putOi": 1259
   }
  ],
  "maxPain": 200.0,
  "trend": [
-  {
-   "date": "2026-10-03",
-   "score": 24,
-   "price": NaN
-  },
   {
    "date": "2026-10-06",
    "score": 57,
@@ -194,6 +189,11 @@
    "date": "2026-11-17",
    "score": 20,
    "price": 199.42
+  },
+  {
+   "date": "2026-11-18",
+   "score": 14,
+   "price": 194.13
   }
  ]
 }

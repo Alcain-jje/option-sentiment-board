@@ -1,55 +1,50 @@
 {
  "ticker": "AVGO",
  "name": "브로드컴",
- "price": 333.4,
- "dataAsOf": "2026-11-17",
- "score": 13,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
+ "price": 341.6,
+ "dataAsOf": "2026-11-18",
+ "score": 38,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
  "buckets": [
   {
-   "strike": 276.2,
-   "callOi": 9246,
-   "putOi": 60181
+   "strike": 283.0,
+   "callOi": 7223,
+   "putOi": 77739
   },
   {
-   "strike": 295.3,
-   "callOi": 11883,
-   "putOi": 84847
+   "strike": 302.6,
+   "callOi": 21515,
+   "putOi": 94164
   },
   {
-   "strike": 314.3,
-   "callOi": 25970,
-   "putOi": 84075
+   "strike": 322.1,
+   "callOi": 37400,
+   "putOi": 94363
   },
   {
-   "strike": 333.4,
-   "callOi": 65538,
-   "putOi": 76656
+   "strike": 341.6,
+   "callOi": 87903,
+   "putOi": 76619
   },
   {
-   "strike": 352.5,
-   "callOi": 74810,
-   "putOi": 60919
+   "strike": 361.1,
+   "callOi": 79623,
+   "putOi": 37647
   },
   {
-   "strike": 371.5,
-   "callOi": 75195,
-   "putOi": 30761
+   "strike": 380.6,
+   "callOi": 80473,
+   "putOi": 22029
   },
   {
-   "strike": 390.6,
-   "callOi": 82699,
-   "putOi": 13664
+   "strike": 400.2,
+   "callOi": 49152,
+   "putOi": 7925
   }
  ],
  "maxPain": 340.0,
  "trend": [
-  {
-   "date": "2026-10-03",
-   "score": 87,
-   "price": NaN
-  },
   {
    "date": "2026-10-06",
    "score": 65,
@@ -194,6 +189,11 @@
    "date": "2026-11-17",
    "score": 13,
    "price": 333.4
+  },
+  {
+   "date": "2026-11-18",
+   "score": 38,
+   "price": 341.6
   }
  ]
 }

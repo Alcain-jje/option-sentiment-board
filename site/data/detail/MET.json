@@ -1,11 +1,11 @@
 {
  "ticker": "MET",
  "name": "메트라이프",
- "price": 101.45,
- "dataAsOf": "2026-11-17",
- "score": 23,
+ "price": 101.5,
+ "dataAsOf": "2026-11-18",
+ "score": 35,
  "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
+ "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
  "buckets": [
   {
    "strike": 84.1,
@@ -14,42 +14,37 @@
   },
   {
    "strike": 89.9,
-   "callOi": 3354,
-   "putOi": 6546
+   "callOi": 3353,
+   "putOi": 6562
   },
   {
    "strike": 95.7,
-   "callOi": 5528,
-   "putOi": 1702
+   "callOi": 5518,
+   "putOi": 1739
   },
   {
-   "strike": 101.4,
-   "callOi": 5175,
-   "putOi": 1076
+   "strike": 101.5,
+   "callOi": 5174,
+   "putOi": 1154
   },
   {
-   "strike": 107.2,
-   "callOi": 7519,
-   "putOi": 402
+   "strike": 107.3,
+   "callOi": 7523,
+   "putOi": 401
   },
   {
-   "strike": 113.0,
-   "callOi": 4006,
+   "strike": 113.1,
+   "callOi": 4014,
    "putOi": 0
   },
   {
-   "strike": 118.8,
+   "strike": 118.9,
    "callOi": 459,
    "putOi": 0
   }
  ],
  "maxPain": 87.5,
  "trend": [
-  {
-   "date": "2026-09-14",
-   "score": 83,
-   "price": 97.75
-  },
   {
    "date": "2026-09-15",
    "score": 12,
@@ -194,6 +189,11 @@
    "date": "2026-11-17",
    "score": 23,
    "price": 101.45
+  },
+  {
+   "date": "2026-11-18",
+   "score": 35,
+   "price": 101.5
   }
  ]
 }
