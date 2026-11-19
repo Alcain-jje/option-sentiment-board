@@ -1,55 +1,50 @@
 {
  "ticker": "CI",
  "name": "시그나",
- "price": 294.06,
- "dataAsOf": "2026-11-18",
- "score": 27,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.4배 — 약세 우위",
+ "price": 285.37,
+ "dataAsOf": "2026-11-19",
+ "score": 4,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 2.4배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": 243.6,
-   "callOi": 1309,
-   "putOi": 5058
+   "strike": 236.4,
+   "callOi": 240,
+   "putOi": 1687
   },
   {
-   "strike": 260.5,
-   "callOi": 5596,
-   "putOi": 1957
+   "strike": 252.8,
+   "callOi": 6753,
+   "putOi": 5725
   },
   {
-   "strike": 277.3,
-   "callOi": 4407,
-   "putOi": 3557
+   "strike": 269.1,
+   "callOi": 590,
+   "putOi": 1967
   },
   {
-   "strike": 294.1,
-   "callOi": 3733,
-   "putOi": 2142
+   "strike": 285.4,
+   "callOi": 4813,
+   "putOi": 3559
   },
   {
-   "strike": 310.9,
-   "callOi": 2762,
-   "putOi": 574
+   "strike": 301.7,
+   "callOi": 3359,
+   "putOi": 1014
   },
   {
-   "strike": 327.7,
-   "callOi": 2438,
-   "putOi": 217
+   "strike": 318.0,
+   "callOi": 3490,
+   "putOi": 554
   },
   {
-   "strike": 344.5,
-   "callOi": 3508,
-   "putOi": 277
+   "strike": 334.3,
+   "callOi": 3530,
+   "putOi": 206
   }
  ],
  "maxPain": 250.0,
  "trend": [
-  {
-   "date": "2026-10-06",
-   "score": 76,
-   "price": 271.29
-  },
   {
    "date": "2026-10-07",
    "score": 67,
@@ -194,6 +189,11 @@
    "date": "2026-11-18",
    "score": 27,
    "price": 294.06
+  },
+  {
+   "date": "2026-11-19",
+   "score": 4,
+   "price": 285.37
   }
  ]
 }

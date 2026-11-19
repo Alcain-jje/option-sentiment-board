@@ -1,55 +1,50 @@
 {
  "ticker": "PINS",
  "name": "핀터레스트",
- "price": 18.07,
- "dataAsOf": "2026-11-18",
- "score": 22,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.1배 — 약세 우위",
+ "price": 17.69,
+ "dataAsOf": "2026-11-19",
+ "score": 51,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 15.0,
+   "strike": 14.7,
    "callOi": 1485,
-   "putOi": 14573
+   "putOi": 14574
   },
   {
-   "strike": 16.0,
-   "callOi": 283,
-   "putOi": 2969
+   "strike": 15.7,
+   "callOi": 282,
+   "putOi": 2738
   },
   {
-   "strike": 17.0,
+   "strike": 16.7,
    "callOi": 171,
-   "putOi": 3096
+   "putOi": 2667
   },
   {
-   "strike": 18.1,
-   "callOi": 2181,
-   "putOi": 16652
+   "strike": 17.7,
+   "callOi": 2017,
+   "putOi": 15355
   },
   {
-   "strike": 19.1,
-   "callOi": 4386,
-   "putOi": 6267
+   "strike": 18.7,
+   "callOi": 3342,
+   "putOi": 7466
   },
   {
-   "strike": 20.1,
-   "callOi": 18443,
-   "putOi": 5589
+   "strike": 19.7,
+   "callOi": 14898,
+   "putOi": 6001
   },
   {
-   "strike": 21.2,
-   "callOi": 3712,
-   "putOi": 2764
+   "strike": 20.7,
+   "callOi": 7962,
+   "putOi": 3056
   }
  ],
  "maxPain": 20.0,
  "trend": [
-  {
-   "date": "2026-10-06",
-   "score": 100,
-   "price": 20.06
-  },
   {
    "date": "2026-10-07",
    "score": 61,
@@ -194,6 +189,11 @@
    "date": "2026-11-18",
    "score": 22,
    "price": 18.07
+  },
+  {
+   "date": "2026-11-19",
+   "score": 51,
+   "price": 17.69
   }
  ]
 }
