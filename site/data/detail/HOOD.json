@@ -1,55 +1,50 @@
 {
  "ticker": "HOOD",
  "name": "로빈후드",
- "price": 69.17,
- "dataAsOf": "2026-11-19",
- "score": 87,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 2.8배 — 강세 우위",
+ "price": NaN,
+ "dataAsOf": "2026-11-20",
+ "score": 1,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 0.8배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": 57.3,
+   "strike": NaN,
    "callOi": 0,
    "putOi": 0
   },
   {
-   "strike": 61.3,
-   "callOi": 4316,
-   "putOi": 28352
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 65.2,
-   "callOi": 3461,
-   "putOi": 33581
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 69.2,
-   "callOi": 13193,
-   "putOi": 45021
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 73.1,
-   "callOi": 24317,
-   "putOi": 38565
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 77.1,
-   "callOi": 19160,
-   "putOi": 13515
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   },
   {
-   "strike": 81.0,
-   "callOi": 30467,
-   "putOi": 45620
+   "strike": NaN,
+   "callOi": 0,
+   "putOi": 0
   }
  ],
- "maxPain": 85.0,
+ "maxPain": 80.0,
  "trend": [
-  {
-   "date": "2026-10-07",
-   "score": 55,
-   "price": NaN
-  },
   {
    "date": "2026-10-08",
    "score": 37,
@@ -194,6 +189,11 @@
    "date": "2026-11-19",
    "score": 87,
    "price": 69.17
+  },
+  {
+   "date": "2026-11-20",
+   "score": 1,
+   "price": NaN
   }
  ]
 }
