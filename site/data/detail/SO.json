@@ -1,55 +1,50 @@
 {
  "ticker": "SO",
  "name": "서던컴퍼니",
- "price": NaN,
- "dataAsOf": "2026-11-21",
- "score": 55,
+ "price": 93.11,
+ "dataAsOf": "2026-11-24",
+ "score": 43,
  "label": "중립",
  "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 77.1,
+   "callOi": 31,
+   "putOi": 2373
+  },
+  {
+   "strike": 82.5,
+   "callOi": 567,
+   "putOi": 6966
+  },
+  {
+   "strike": 87.8,
+   "callOi": 4561,
+   "putOi": 2851
+  },
+  {
+   "strike": 93.1,
+   "callOi": 8932,
+   "putOi": 4077
+  },
+  {
+   "strike": 98.4,
+   "callOi": 14920,
+   "putOi": 294
+  },
+  {
+   "strike": 103.8,
+   "callOi": 2614,
    "putOi": 0
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
+   "strike": 109.1,
+   "callOi": 1120,
+   "putOi": 1
   }
  ],
  "maxPain": 90.0,
  "trend": [
-  {
-   "date": "2026-10-09",
-   "score": 2,
-   "price": NaN
-  },
   {
    "date": "2026-10-10",
    "score": 22,
@@ -194,6 +189,11 @@
    "date": "2026-11-21",
    "score": 55,
    "price": NaN
+  },
+  {
+   "date": "2026-11-24",
+   "score": 43,
+   "price": 93.11
   }
  ]
 }

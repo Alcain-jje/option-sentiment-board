@@ -1,55 +1,50 @@
 {
  "ticker": "D",
  "name": "도미니언에너지",
- "price": NaN,
- "dataAsOf": "2026-11-21",
- "score": 64,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 3.8배 — 강세 우위",
+ "price": 66.79,
+ "dataAsOf": "2026-11-24",
+ "score": 52,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 55.3,
+   "callOi": 474,
+   "putOi": 1018
+  },
+  {
+   "strike": 59.2,
+   "callOi": 744,
+   "putOi": 3477
+  },
+  {
+   "strike": 63.0,
+   "callOi": 1430,
+   "putOi": 1269
+  },
+  {
+   "strike": 66.8,
+   "callOi": 11650,
+   "putOi": 4075
+  },
+  {
+   "strike": 70.6,
+   "callOi": 4884,
+   "putOi": 1532
+  },
+  {
+   "strike": 74.4,
+   "callOi": 2256,
    "putOi": 0
   },
   {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
-   "putOi": 0
-  },
-  {
-   "strike": NaN,
-   "callOi": 0,
+   "strike": 78.2,
+   "callOi": 1488,
    "putOi": 0
   }
  ],
  "maxPain": 65.0,
  "trend": [
-  {
-   "date": "2026-08-14",
-   "score": 10,
-   "price": 68.77
-  },
   {
    "date": "2026-08-17",
    "score": 10,
@@ -194,6 +189,11 @@
    "date": "2026-11-21",
    "score": 64,
    "price": NaN
+  },
+  {
+   "date": "2026-11-24",
+   "score": 52,
+   "price": 66.79
   }
  ]
 }
