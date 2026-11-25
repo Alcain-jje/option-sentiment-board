@@ -1,55 +1,50 @@
 {
  "ticker": "NET",
  "name": "클라우드플레어",
- "price": 291.13,
- "dataAsOf": "2026-11-24",
- "score": 77,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 1.4배 — 강세 우위",
+ "price": 287.29,
+ "dataAsOf": "2026-11-25",
+ "score": 11,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 1.6배 — 약세 우위",
  "buckets": [
   {
-   "strike": 241.2,
-   "callOi": 1869,
-   "putOi": 2238
+   "strike": 238.0,
+   "callOi": 2701,
+   "putOi": 4656
   },
   {
-   "strike": 257.9,
-   "callOi": 2571,
-   "putOi": 6507
+   "strike": 254.5,
+   "callOi": 2510,
+   "putOi": 6285
   },
   {
-   "strike": 274.5,
-   "callOi": 1897,
-   "putOi": 6319
+   "strike": 270.9,
+   "callOi": 1162,
+   "putOi": 4757
   },
   {
-   "strike": 291.1,
-   "callOi": 3615,
-   "putOi": 3493
+   "strike": 287.3,
+   "callOi": 4735,
+   "putOi": 6947
   },
   {
-   "strike": 307.8,
-   "callOi": 4935,
-   "putOi": 5793
+   "strike": 303.7,
+   "callOi": 4732,
+   "putOi": 5930
   },
   {
-   "strike": 324.4,
-   "callOi": 7401,
-   "putOi": 3115
+   "strike": 320.1,
+   "callOi": 5532,
+   "putOi": 2743
   },
   {
-   "strike": 341.0,
-   "callOi": 2940,
-   "putOi": 457
+   "strike": 336.5,
+   "callOi": 7328,
+   "putOi": 1022
   }
  ],
  "maxPain": 280.0,
  "trend": [
-  {
-   "date": "2026-10-10",
-   "score": 81,
-   "price": NaN
-  },
   {
    "date": "2026-10-13",
    "score": 25,
@@ -194,6 +189,11 @@
    "date": "2026-11-24",
    "score": 77,
    "price": 291.13
+  },
+  {
+   "date": "2026-11-25",
+   "score": 11,
+   "price": 287.29
   }
  ]
 }

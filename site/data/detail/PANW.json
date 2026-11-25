@@ -1,55 +1,50 @@
 {
  "ticker": "PANW",
  "name": "팔로알토",
- "price": 353.43,
- "dataAsOf": "2026-11-24",
- "score": 5,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.8배 — 평소보다 뚜렷한 약세",
+ "price": 352.99,
+ "dataAsOf": "2026-11-25",
+ "score": 35,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 1.2배 — 약세 우위",
  "buckets": [
   {
-   "strike": 292.8,
-   "callOi": 6489,
-   "putOi": 13739
+   "strike": 292.5,
+   "callOi": 6500,
+   "putOi": 14232
   },
   {
-   "strike": 313.0,
-   "callOi": 7349,
-   "putOi": 14095
+   "strike": 312.6,
+   "callOi": 7352,
+   "putOi": 15680
   },
   {
-   "strike": 333.2,
-   "callOi": 10393,
-   "putOi": 7870
+   "strike": 332.8,
+   "callOi": 10426,
+   "putOi": 9167
   },
   {
-   "strike": 353.4,
-   "callOi": 9993,
-   "putOi": 11781
+   "strike": 353.0,
+   "callOi": 10851,
+   "putOi": 13072
   },
   {
-   "strike": 373.6,
-   "callOi": 13333,
-   "putOi": 5380
+   "strike": 373.2,
+   "callOi": 15089,
+   "putOi": 5573
   },
   {
-   "strike": 393.8,
-   "callOi": 10730,
-   "putOi": 4675
+   "strike": 393.3,
+   "callOi": 12633,
+   "putOi": 4707
   },
   {
-   "strike": 414.0,
-   "callOi": 8824,
-   "putOi": 884
+   "strike": 413.5,
+   "callOi": 9243,
+   "putOi": 818
   }
  ],
- "maxPain": 295.0,
+ "maxPain": 300.0,
  "trend": [
-  {
-   "date": "2026-10-10",
-   "score": 61,
-   "price": NaN
-  },
   {
    "date": "2026-10-13",
    "score": 74,
@@ -194,6 +189,11 @@
    "date": "2026-11-24",
    "score": 5,
    "price": 353.43
+  },
+  {
+   "date": "2026-11-25",
+   "score": 35,
+   "price": 352.99
   }
  ]
 }

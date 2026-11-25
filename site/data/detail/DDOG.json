@@ -1,55 +1,50 @@
 {
  "ticker": "DDOG",
  "name": "데이터도그",
- "price": 169.02,
- "dataAsOf": "2026-11-24",
- "score": 94,
- "label": "매우 강세",
- "ratioText": "상승 베팅이 하락의 1.9배 — 평소보다 훨씬 강세",
+ "price": 165.38,
+ "dataAsOf": "2026-11-25",
+ "score": 44,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 140.0,
-   "callOi": 986,
-   "putOi": 1243
+   "strike": 137.0,
+   "callOi": 1488,
+   "putOi": 5745
   },
   {
-   "strike": 149.7,
-   "callOi": 2315,
-   "putOi": 4178
+   "strike": 146.5,
+   "callOi": 2359,
+   "putOi": 4141
   },
   {
-   "strike": 159.4,
-   "callOi": 2236,
-   "putOi": 4820
+   "strike": 155.9,
+   "callOi": 2211,
+   "putOi": 4629
   },
   {
-   "strike": 169.0,
-   "callOi": 6339,
-   "putOi": 6088
+   "strike": 165.4,
+   "callOi": 6243,
+   "putOi": 6233
   },
   {
-   "strike": 178.7,
-   "callOi": 5508,
-   "putOi": 3809
+   "strike": 174.8,
+   "callOi": 3102,
+   "putOi": 1911
   },
   {
-   "strike": 188.3,
-   "callOi": 3481,
-   "putOi": 2115
+   "strike": 184.3,
+   "callOi": 5703,
+   "putOi": 3156
   },
   {
-   "strike": 198.0,
-   "callOi": 4153,
-   "putOi": 2835
+   "strike": 193.7,
+   "callOi": 2828,
+   "putOi": 1794
   }
  ],
- "maxPain": 175.0,
+ "maxPain": 170.0,
  "trend": [
-  {
-   "date": "2026-10-10",
-   "score": 49,
-   "price": NaN
-  },
   {
    "date": "2026-10-13",
    "score": 18,
@@ -194,6 +189,11 @@
    "date": "2026-11-24",
    "score": 94,
    "price": 169.02
+  },
+  {
+   "date": "2026-11-25",
+   "score": 44,
+   "price": 165.38
   }
  ]
 }

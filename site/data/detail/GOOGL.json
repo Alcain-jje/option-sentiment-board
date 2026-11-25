@@ -1,55 +1,50 @@
 {
  "ticker": "GOOGL",
  "name": "알파벳",
- "price": 282.1,
- "dataAsOf": "2026-11-24",
- "score": 47,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 279.05,
+ "dataAsOf": "2026-11-25",
+ "score": 13,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
  "buckets": [
   {
-   "strike": 233.7,
-   "callOi": 8223,
-   "putOi": 38050
+   "strike": 231.2,
+   "callOi": 5591,
+   "putOi": 27680
   },
   {
-   "strike": 249.9,
-   "callOi": 21623,
-   "putOi": 64241
+   "strike": 247.2,
+   "callOi": 26596,
+   "putOi": 87377
   },
   {
-   "strike": 266.0,
-   "callOi": 23499,
-   "putOi": 82221
+   "strike": 263.1,
+   "callOi": 22993,
+   "putOi": 85722
   },
   {
-   "strike": 282.1,
-   "callOi": 83549,
-   "putOi": 105212
+   "strike": 279.0,
+   "callOi": 56169,
+   "putOi": 87035
   },
   {
-   "strike": 298.2,
-   "callOi": 109076,
-   "putOi": 56407
+   "strike": 295.0,
+   "callOi": 133598,
+   "putOi": 72157
   },
   {
-   "strike": 314.3,
-   "callOi": 114491,
-   "putOi": 44044
+   "strike": 310.9,
+   "callOi": 92013,
+   "putOi": 34015
   },
   {
-   "strike": 330.5,
-   "callOi": 153569,
-   "putOi": 33509
+   "strike": 326.9,
+   "callOi": 160613,
+   "putOi": 49860
   }
  ],
  "maxPain": 290.0,
  "trend": [
-  {
-   "date": "2026-10-10",
-   "score": 64,
-   "price": NaN
-  },
   {
    "date": "2026-10-13",
    "score": 53,
@@ -194,6 +189,11 @@
    "date": "2026-11-24",
    "score": 47,
    "price": 282.1
+  },
+  {
+   "date": "2026-11-25",
+   "score": 13,
+   "price": 279.05
   }
  ]
 }

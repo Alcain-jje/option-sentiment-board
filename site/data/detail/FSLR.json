@@ -1,55 +1,50 @@
 {
  "ticker": "FSLR",
  "name": "퍼스트솔라",
- "price": 146.53,
- "dataAsOf": "2026-11-24",
- "score": 17,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.0배 — 약세 우위",
+ "price": 148.0,
+ "dataAsOf": "2026-11-25",
+ "score": 45,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 121.4,
-   "callOi": 372,
-   "putOi": 5286
+   "strike": 122.6,
+   "callOi": 380,
+   "putOi": 5674
   },
   {
-   "strike": 129.8,
-   "callOi": 378,
-   "putOi": 4588
+   "strike": 131.1,
+   "callOi": 714,
+   "putOi": 7697
   },
   {
-   "strike": 138.2,
-   "callOi": 1194,
-   "putOi": 13475
+   "strike": 139.5,
+   "callOi": 995,
+   "putOi": 11130
   },
   {
-   "strike": 146.5,
-   "callOi": 3174,
-   "putOi": 20061
+   "strike": 148.0,
+   "callOi": 3789,
+   "putOi": 20453
   },
   {
-   "strike": 154.9,
-   "callOi": 1378,
-   "putOi": 3365
+   "strike": 156.5,
+   "callOi": 3536,
+   "putOi": 10297
   },
   {
-   "strike": 163.3,
-   "callOi": 3776,
-   "putOi": 11359
+   "strike": 164.9,
+   "callOi": 3584,
+   "putOi": 4479
   },
   {
-   "strike": 171.6,
-   "callOi": 2568,
-   "putOi": 8180
+   "strike": 173.4,
+   "callOi": 2708,
+   "putOi": 7853
   }
  ],
- "maxPain": 185.0,
+ "maxPain": 180.0,
  "trend": [
-  {
-   "date": "2026-10-10",
-   "score": 58,
-   "price": NaN
-  },
   {
    "date": "2026-10-13",
    "score": 99,
@@ -194,6 +189,11 @@
    "date": "2026-11-24",
    "score": 17,
    "price": 146.53
+  },
+  {
+   "date": "2026-11-25",
+   "score": 45,
+   "price": 148.0
   }
  ]
 }

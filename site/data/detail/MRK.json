@@ -1,55 +1,50 @@
 {
  "ticker": "MRK",
  "name": "머크",
- "price": 135.47,
- "dataAsOf": "2026-11-24",
- "score": 68,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 3.4배 — 강세 우위",
+ "price": 141.57,
+ "dataAsOf": "2026-11-25",
+ "score": 26,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
  "buckets": [
   {
-   "strike": 112.2,
-   "callOi": 7138,
-   "putOi": 14419
+   "strike": 117.3,
+   "callOi": 9867,
+   "putOi": 10565
   },
   {
-   "strike": 120.0,
-   "callOi": 6868,
-   "putOi": 4565
+   "strike": 125.4,
+   "callOi": 4051,
+   "putOi": 6850
   },
   {
-   "strike": 127.7,
-   "callOi": 7817,
-   "putOi": 14537
+   "strike": 133.5,
+   "callOi": 11841,
+   "putOi": 15583
   },
   {
-   "strike": 135.5,
-   "callOi": 6660,
-   "putOi": 7203
+   "strike": 141.6,
+   "callOi": 16086,
+   "putOi": 16313
   },
   {
-   "strike": 143.2,
-   "callOi": 15633,
-   "putOi": 16064
+   "strike": 149.7,
+   "callOi": 22730,
+   "putOi": 1600
   },
   {
-   "strike": 151.0,
-   "callOi": 15008,
-   "putOi": 1437
-  },
-  {
-   "strike": 158.7,
-   "callOi": 13913,
+   "strike": 157.7,
+   "callOi": 13174,
    "putOi": 803
+  },
+  {
+   "strike": 165.8,
+   "callOi": 9102,
+   "putOi": 24
   }
  ],
  "maxPain": 125.0,
  "trend": [
-  {
-   "date": "2026-10-10",
-   "score": 58,
-   "price": NaN
-  },
   {
    "date": "2026-10-13",
    "score": 74,
@@ -194,6 +189,11 @@
    "date": "2026-11-24",
    "score": 68,
    "price": 135.47
+  },
+  {
+   "date": "2026-11-25",
+   "score": 26,
+   "price": 141.57
   }
  ]
 }

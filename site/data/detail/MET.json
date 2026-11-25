@@ -1,55 +1,50 @@
 {
  "ticker": "MET",
  "name": "메트라이프",
- "price": 98.72,
- "dataAsOf": "2026-11-24",
- "score": 67,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 3.1배 — 강세 우위",
+ "price": 99.21,
+ "dataAsOf": "2026-11-25",
+ "score": 43,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 81.8,
-   "callOi": 3032,
-   "putOi": 6516
+   "strike": 82.2,
+   "callOi": 3794,
+   "putOi": 9542
   },
   {
-   "strike": 87.4,
-   "callOi": 2319,
-   "putOi": 5391
+   "strike": 87.9,
+   "callOi": 1555,
+   "putOi": 2366
   },
   {
-   "strike": 93.1,
-   "callOi": 5112,
-   "putOi": 2386
+   "strike": 93.5,
+   "callOi": 5111,
+   "putOi": 2378
   },
   {
-   "strike": 98.7,
-   "callOi": 5183,
-   "putOi": 1361
+   "strike": 99.2,
+   "callOi": 5208,
+   "putOi": 1409
   },
   {
-   "strike": 104.4,
-   "callOi": 2200,
+   "strike": 104.9,
+   "callOi": 2391,
    "putOi": 261
   },
   {
-   "strike": 110.0,
-   "callOi": 3183,
+   "strike": 110.5,
+   "callOi": 3441,
    "putOi": 193
   },
   {
-   "strike": 115.6,
-   "callOi": 3386,
+   "strike": 116.2,
+   "callOi": 3389,
    "putOi": 0
   }
  ],
  "maxPain": 85.0,
  "trend": [
-  {
-   "date": "2026-09-29",
-   "score": 89,
-   "price": NaN
-  },
   {
    "date": "2026-10-01",
    "score": 96,
@@ -194,6 +189,11 @@
    "date": "2026-11-24",
    "score": 67,
    "price": 98.72
+  },
+  {
+   "date": "2026-11-25",
+   "score": 43,
+   "price": 99.21
   }
  ]
 }
