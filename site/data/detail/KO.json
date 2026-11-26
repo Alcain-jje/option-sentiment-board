@@ -1,55 +1,50 @@
 {
  "ticker": "KO",
  "name": "코카콜라",
- "price": 97.62,
- "dataAsOf": "2026-11-25",
- "score": 22,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
+ "price": 97.59,
+ "dataAsOf": "2026-11-26",
+ "score": 67,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 2.3배 — 강세 우위",
  "buckets": [
   {
    "strike": 80.9,
-   "callOi": 13145,
-   "putOi": 15953
+   "callOi": 13123,
+   "putOi": 16004
   },
   {
-   "strike": 86.5,
-   "callOi": 13342,
-   "putOi": 28493
+   "strike": 86.4,
+   "callOi": 12809,
+   "putOi": 29159
   },
   {
    "strike": 92.0,
-   "callOi": 35498,
-   "putOi": 33046
+   "callOi": 35302,
+   "putOi": 36174
   },
   {
    "strike": 97.6,
-   "callOi": 72746,
-   "putOi": 30418
+   "callOi": 73653,
+   "putOi": 38245
   },
   {
    "strike": 103.2,
-   "callOi": 27585,
-   "putOi": 463
+   "callOi": 29662,
+   "putOi": 484
   },
   {
-   "strike": 108.8,
-   "callOi": 4333,
-   "putOi": 126
+   "strike": 108.7,
+   "callOi": 4625,
+   "putOi": 150
   },
   {
-   "strike": 114.4,
+   "strike": 114.3,
    "callOi": 39,
    "putOi": 0
   }
  ],
  "maxPain": 90.0,
  "trend": [
-  {
-   "date": "2026-10-13",
-   "score": 32,
-   "price": 89.79
-  },
   {
    "date": "2026-10-14",
    "score": 0,
@@ -194,6 +189,11 @@
    "date": "2026-11-25",
    "score": 22,
    "price": 97.62
+  },
+  {
+   "date": "2026-11-26",
+   "score": 67,
+   "price": 97.59
   }
  ]
 }

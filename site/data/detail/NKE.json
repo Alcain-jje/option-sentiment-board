@@ -1,55 +1,50 @@
 {
  "ticker": "NKE",
  "name": "나이키",
- "price": 35.75,
- "dataAsOf": "2026-11-25",
- "score": 23,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.8배 — 약세 우위",
+ "price": 36.66,
+ "dataAsOf": "2026-11-26",
+ "score": 48,
+ "label": "중립",
+ "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
  "buckets": [
   {
-   "strike": 29.6,
-   "callOi": 6024,
-   "putOi": 24547
+   "strike": 30.4,
+   "callOi": 6049,
+   "putOi": 25659
   },
   {
-   "strike": 31.7,
-   "callOi": 5248,
-   "putOi": 38012
+   "strike": 32.5,
+   "callOi": 7666,
+   "putOi": 45600
   },
   {
-   "strike": 33.7,
-   "callOi": 8767,
-   "putOi": 15280
+   "strike": 34.6,
+   "callOi": 31580,
+   "putOi": 68675
   },
   {
-   "strike": 35.8,
-   "callOi": 27788,
-   "putOi": 58014
+   "strike": 36.7,
+   "callOi": 41912,
+   "putOi": 33107
   },
   {
-   "strike": 37.8,
-   "callOi": 37954,
-   "putOi": 27359
+   "strike": 38.8,
+   "callOi": 20653,
+   "putOi": 3505
   },
   {
-   "strike": 39.8,
-   "callOi": 72206,
-   "putOi": 48891
+   "strike": 40.8,
+   "callOi": 69700,
+   "putOi": 47842
   },
   {
-   "strike": 41.9,
-   "callOi": 36269,
-   "putOi": 15492
+   "strike": 42.9,
+   "callOi": 34070,
+   "putOi": 15152
   }
  ],
  "maxPain": 40.0,
  "trend": [
-  {
-   "date": "2026-10-13",
-   "score": 25,
-   "price": 35.35
-  },
   {
    "date": "2026-10-14",
    "score": 35,
@@ -194,6 +189,11 @@
    "date": "2026-11-25",
    "score": 23,
    "price": 35.75
+  },
+  {
+   "date": "2026-11-26",
+   "score": 48,
+   "price": 36.66
   }
  ]
 }

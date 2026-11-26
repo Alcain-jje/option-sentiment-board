@@ -1,55 +1,50 @@
 {
  "ticker": "ANET",
  "name": "아리스타",
- "price": 168.56,
- "dataAsOf": "2026-11-25",
- "score": 15,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 0.9배 — 약세 우위",
+ "price": 163.99,
+ "dataAsOf": "2026-11-26",
+ "score": 62,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.7배 — 강세 우위",
  "buckets": [
   {
-   "strike": 139.7,
-   "callOi": 3299,
-   "putOi": 8894
+   "strike": 135.9,
+   "callOi": 3340,
+   "putOi": 10222
   },
   {
-   "strike": 149.3,
-   "callOi": 6527,
-   "putOi": 7038
+   "strike": 145.2,
+   "callOi": 3930,
+   "putOi": 4107
   },
   {
-   "strike": 158.9,
-   "callOi": 3747,
-   "putOi": 8340
+   "strike": 154.6,
+   "callOi": 3181,
+   "putOi": 6898
   },
   {
-   "strike": 168.6,
-   "callOi": 3073,
-   "putOi": 9442
+   "strike": 164.0,
+   "callOi": 4470,
+   "putOi": 10594
   },
   {
-   "strike": 178.2,
-   "callOi": 7426,
-   "putOi": 6695
+   "strike": 173.4,
+   "callOi": 6212,
+   "putOi": 7683
   },
   {
-   "strike": 187.8,
-   "callOi": 8436,
-   "putOi": 5454
+   "strike": 182.7,
+   "callOi": 6608,
+   "putOi": 6602
   },
   {
-   "strike": 197.5,
-   "callOi": 12046,
-   "putOi": 3085
+   "strike": 192.1,
+   "callOi": 10408,
+   "putOi": 3368
   }
  ],
- "maxPain": 162.5,
+ "maxPain": 160.0,
  "trend": [
-  {
-   "date": "2026-10-13",
-   "score": 1,
-   "price": 210.88
-  },
   {
    "date": "2026-10-14",
    "score": 61,
@@ -194,6 +189,11 @@
    "date": "2026-11-25",
    "score": 15,
    "price": 168.56
+  },
+  {
+   "date": "2026-11-26",
+   "score": 62,
+   "price": 163.99
   }
  ]
 }

@@ -1,55 +1,50 @@
 {
  "ticker": "EMR",
  "name": "에머슨",
- "price": 156.98,
- "dataAsOf": "2026-11-25",
+ "price": 157.23,
+ "dataAsOf": "2026-11-26",
  "score": 29,
  "label": "약세",
  "ratioText": "하락 베팅이 상승의 0.6배 — 약세 우위",
  "buckets": [
   {
-   "strike": 130.1,
+   "strike": 130.3,
    "callOi": 104,
-   "putOi": 1903
+   "putOi": 1901
   },
   {
-   "strike": 139.0,
+   "strike": 139.3,
    "callOi": 439,
-   "putOi": 3196
+   "putOi": 3204
   },
   {
-   "strike": 148.0,
-   "callOi": 2482,
-   "putOi": 5102
+   "strike": 148.2,
+   "callOi": 2522,
+   "putOi": 5187
   },
   {
-   "strike": 157.0,
-   "callOi": 3532,
-   "putOi": 1404
+   "strike": 157.2,
+   "callOi": 3504,
+   "putOi": 1414
   },
   {
-   "strike": 166.0,
-   "callOi": 9903,
-   "putOi": 835
+   "strike": 166.2,
+   "callOi": 9957,
+   "putOi": 832
   },
   {
-   "strike": 174.9,
-   "callOi": 3718,
+   "strike": 175.2,
+   "callOi": 3784,
    "putOi": 44
   },
   {
-   "strike": 183.9,
-   "callOi": 6043,
-   "putOi": 53
+   "strike": 184.2,
+   "callOi": 6039,
+   "putOi": 46
   }
  ],
  "maxPain": 150.0,
  "trend": [
-  {
-   "date": "2026-10-10",
-   "score": 85,
-   "price": NaN
-  },
   {
    "date": "2026-10-13",
    "score": 28,
@@ -194,6 +189,11 @@
    "date": "2026-11-25",
    "score": 29,
    "price": 156.98
+  },
+  {
+   "date": "2026-11-26",
+   "score": 29,
+   "price": 157.23
   }
  ]
 }

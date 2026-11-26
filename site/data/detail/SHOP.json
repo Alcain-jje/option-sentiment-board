@@ -1,55 +1,50 @@
 {
  "ticker": "SHOP",
  "name": "쇼피파이",
- "price": 132.31,
- "dataAsOf": "2026-11-25",
- "score": 68,
- "label": "강세",
- "ratioText": "상승 베팅이 하락의 1.5배 — 강세 우위",
+ "price": 133.4,
+ "dataAsOf": "2026-11-26",
+ "score": 28,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 1.2배 — 약세 우위",
  "buckets": [
   {
-   "strike": 109.6,
+   "strike": 110.5,
    "callOi": 1172,
-   "putOi": 12101
+   "putOi": 12216
   },
   {
-   "strike": 117.2,
-   "callOi": 3214,
-   "putOi": 40859
+   "strike": 118.2,
+   "callOi": 3235,
+   "putOi": 40947
   },
   {
-   "strike": 124.7,
-   "callOi": 1574,
-   "putOi": 6327
+   "strike": 125.8,
+   "callOi": 1614,
+   "putOi": 6422
   },
   {
-   "strike": 132.3,
-   "callOi": 6672,
-   "putOi": 11364
+   "strike": 133.4,
+   "callOi": 7277,
+   "putOi": 11745
   },
   {
-   "strike": 139.9,
-   "callOi": 11681,
-   "putOi": 5029
+   "strike": 141.0,
+   "callOi": 11900,
+   "putOi": 4868
   },
   {
-   "strike": 147.4,
-   "callOi": 38261,
-   "putOi": 11251
+   "strike": 148.6,
+   "callOi": 38413,
+   "putOi": 11111
   },
   {
-   "strike": 155.0,
-   "callOi": 4869,
-   "putOi": 2431
+   "strike": 156.3,
+   "callOi": 16306,
+   "putOi": 3761
   }
  ],
- "maxPain": 140.0,
+ "maxPain": 139.0,
  "trend": [
-  {
-   "date": "2026-10-13",
-   "score": 34,
-   "price": 179.22
-  },
   {
    "date": "2026-10-14",
    "score": 12,
@@ -194,6 +189,11 @@
    "date": "2026-11-25",
    "score": 68,
    "price": 132.31
+  },
+  {
+   "date": "2026-11-26",
+   "score": 28,
+   "price": 133.4
   }
  ]
 }

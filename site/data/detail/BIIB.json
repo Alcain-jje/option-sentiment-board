@@ -1,55 +1,50 @@
 {
  "ticker": "BIIB",
  "name": "바이오젠",
- "price": 269.11,
- "dataAsOf": "2026-11-25",
- "score": 21,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.6배 — 약세 우위",
+ "price": 261.44,
+ "dataAsOf": "2026-11-26",
+ "score": 2,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 4.0배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": 223.0,
-   "callOi": 2286,
-   "putOi": 2360
+   "strike": 216.6,
+   "callOi": 2380,
+   "putOi": 3262
   },
   {
-   "strike": 238.4,
-   "callOi": 3600,
-   "putOi": 2287
+   "strike": 231.6,
+   "callOi": 1758,
+   "putOi": 3615
   },
   {
-   "strike": 253.7,
-   "callOi": 4540,
-   "putOi": 3093
+   "strike": 246.5,
+   "callOi": 4700,
+   "putOi": 3970
   },
   {
-   "strike": 269.1,
-   "callOi": 3162,
-   "putOi": 79
+   "strike": 261.4,
+   "callOi": 5537,
+   "putOi": 353
   },
   {
-   "strike": 284.5,
-   "callOi": 1644,
-   "putOi": 21
+   "strike": 276.4,
+   "callOi": 2426,
+   "putOi": 75
   },
   {
-   "strike": 299.9,
-   "callOi": 2423,
-   "putOi": 7
-  },
-  {
-   "strike": 315.2,
-   "callOi": 277,
+   "strike": 291.3,
+   "callOi": 763,
    "putOi": 0
+  },
+  {
+   "strike": 306.3,
+   "callOi": 2458,
+   "putOi": 7
   }
  ],
  "maxPain": 230.0,
  "trend": [
-  {
-   "date": "2026-10-13",
-   "score": 15,
-   "price": 229.41
-  },
   {
    "date": "2026-10-14",
    "score": 92,
@@ -194,6 +189,11 @@
    "date": "2026-11-25",
    "score": 21,
    "price": 269.11
+  },
+  {
+   "date": "2026-11-26",
+   "score": 2,
+   "price": 261.44
   }
  ]
 }

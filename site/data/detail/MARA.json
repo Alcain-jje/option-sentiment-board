@@ -1,16 +1,16 @@
 {
  "ticker": "MARA",
  "name": "마라홀딩스",
- "price": 5.41,
- "dataAsOf": "2026-11-25",
- "score": 6,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 0.7배 — 평소보다 뚜렷한 약세",
+ "price": 5.42,
+ "dataAsOf": "2026-11-26",
+ "score": 23,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.5배 — 약세 우위",
  "buckets": [
   {
    "strike": 4.5,
-   "callOi": 965,
-   "putOi": 5834
+   "callOi": 1773,
+   "putOi": 8319
   },
   {
    "strike": 4.8,
@@ -19,13 +19,13 @@
   },
   {
    "strike": 5.1,
-   "callOi": 28531,
-   "putOi": 78381
+   "callOi": 33626,
+   "putOi": 82631
   },
   {
    "strike": 5.4,
-   "callOi": 28732,
-   "putOi": 16423
+   "callOi": 34568,
+   "putOi": 17358
   },
   {
    "strike": 5.7,
@@ -34,22 +34,17 @@
   },
   {
    "strike": 6.0,
-   "callOi": 48811,
-   "putOi": 42346
+   "callOi": 54362,
+   "putOi": 42799
   },
   {
    "strike": 6.3,
-   "callOi": 0,
-   "putOi": 0
+   "callOi": 46890,
+   "putOi": 16989
   }
  ],
- "maxPain": 7.0,
+ "maxPain": 6.5,
  "trend": [
-  {
-   "date": "2026-10-13",
-   "score": 4,
-   "price": 9.44
-  },
   {
    "date": "2026-10-14",
    "score": 29,
@@ -194,6 +189,11 @@
    "date": "2026-11-25",
    "score": 6,
    "price": 5.41
+  },
+  {
+   "date": "2026-11-26",
+   "score": 23,
+   "price": 5.42
   }
  ]
 }

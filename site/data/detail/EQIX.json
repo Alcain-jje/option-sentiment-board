@@ -1,55 +1,50 @@
 {
  "ticker": "EQIX",
  "name": "에퀴닉스",
- "price": 982.77,
- "dataAsOf": "2026-11-25",
- "score": 44,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 978.22,
+ "dataAsOf": "2026-11-26",
+ "score": 39,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
  "buckets": [
   {
-   "strike": 814.3,
-   "callOi": 13,
-   "putOi": 600
+   "strike": 810.5,
+   "callOi": 2,
+   "putOi": 464
   },
   {
-   "strike": 870.5,
-   "callOi": 30,
-   "putOi": 1352
+   "strike": 866.4,
+   "callOi": 42,
+   "putOi": 1602
   },
   {
-   "strike": 926.6,
-   "callOi": 307,
+   "strike": 922.3,
+   "callOi": 311,
    "putOi": 2131
   },
   {
-   "strike": 982.8,
-   "callOi": 162,
-   "putOi": 934
+   "strike": 978.2,
+   "callOi": 146,
+   "putOi": 771
   },
   {
-   "strike": 1038.9,
-   "callOi": 396,
-   "putOi": 237
+   "strike": 1034.1,
+   "callOi": 427,
+   "putOi": 402
   },
   {
-   "strike": 1095.1,
-   "callOi": 754,
-   "putOi": 84
+   "strike": 1090.0,
+   "callOi": 705,
+   "putOi": 79
   },
   {
-   "strike": 1151.2,
-   "callOi": 1544,
-   "putOi": 2
+   "strike": 1145.9,
+   "callOi": 1680,
+   "putOi": 7
   }
  ],
  "maxPain": 1000.0,
  "trend": [
-  {
-   "date": "2026-09-17",
-   "score": 67,
-   "price": 1025.94
-  },
   {
    "date": "2026-09-18",
    "score": 38,
@@ -194,6 +189,11 @@
    "date": "2026-11-25",
    "score": 44,
    "price": 982.77
+  },
+  {
+   "date": "2026-11-26",
+   "score": 39,
+   "price": 978.22
   }
  ]
 }

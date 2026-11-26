@@ -1,55 +1,50 @@
 {
  "ticker": "KDP",
  "name": "큐리그닥터페퍼",
- "price": 35.8,
- "dataAsOf": "2026-11-25",
- "score": 20,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
+ "price": 35.63,
+ "dataAsOf": "2026-11-26",
+ "score": 7,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 1.8배 — 평소보다 뚜렷한 약세",
  "buckets": [
   {
-   "strike": 29.7,
+   "strike": 29.5,
    "callOi": 923,
    "putOi": 1802
   },
   {
-   "strike": 31.7,
-   "callOi": 805,
-   "putOi": 1169
+   "strike": 31.6,
+   "callOi": 766,
+   "putOi": 1180
   },
   {
-   "strike": 33.8,
-   "callOi": 7065,
-   "putOi": 1986
+   "strike": 33.6,
+   "callOi": 6863,
+   "putOi": 1981
   },
   {
-   "strike": 35.8,
-   "callOi": 7879,
-   "putOi": 1508
+   "strike": 35.6,
+   "callOi": 7848,
+   "putOi": 1511
   },
   {
-   "strike": 37.8,
-   "callOi": 13255,
+   "strike": 37.7,
+   "callOi": 13208,
    "putOi": 404
   },
   {
-   "strike": 39.9,
-   "callOi": 2055,
+   "strike": 39.7,
+   "callOi": 2073,
    "putOi": 0
   },
   {
-   "strike": 41.9,
+   "strike": 41.7,
    "callOi": 483,
    "putOi": 0
   }
  ],
  "maxPain": 33.0,
  "trend": [
-  {
-   "date": "2026-08-29",
-   "score": 16,
-   "price": 32.18
-  },
   {
    "date": "2026-09-02",
    "score": 8,
@@ -194,6 +189,11 @@
    "date": "2026-11-25",
    "score": 20,
    "price": 35.8
+  },
+  {
+   "date": "2026-11-26",
+   "score": 7,
+   "price": 35.63
   }
  ]
 }
