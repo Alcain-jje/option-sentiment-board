@@ -1,55 +1,50 @@
 {
  "ticker": "PNC",
  "name": "PNC",
- "price": 220.33,
- "dataAsOf": "2026-11-27",
- "score": 32,
- "label": "약세",
- "ratioText": "하락 베팅이 상승의 1.8배 — 약세 우위",
+ "price": 222.7,
+ "dataAsOf": "2026-11-28",
+ "score": 12,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 2.9배 — 약세 우위",
  "buckets": [
   {
-   "strike": 182.6,
-   "callOi": 109,
-   "putOi": 740
+   "strike": 184.5,
+   "callOi": 246,
+   "putOi": 235
   },
   {
-   "strike": 195.1,
-   "callOi": 533,
-   "putOi": 2213
+   "strike": 197.2,
+   "callOi": 18,
+   "putOi": 843
   },
   {
-   "strike": 207.7,
-   "callOi": 308,
-   "putOi": 2508
+   "strike": 210.0,
+   "callOi": 90,
+   "putOi": 2368
   },
   {
-   "strike": 220.3,
-   "callOi": 865,
-   "putOi": 1206
+   "strike": 222.7,
+   "callOi": 340,
+   "putOi": 1047
   },
   {
-   "strike": 232.9,
-   "callOi": 1768,
-   "putOi": 1744
+   "strike": 235.4,
+   "callOi": 2927,
+   "putOi": 647
   },
   {
-   "strike": 245.5,
-   "callOi": 3394,
-   "putOi": 373
+   "strike": 248.2,
+   "callOi": 602,
+   "putOi": 149
   },
   {
-   "strike": 258.1,
-   "callOi": 1317,
+   "strike": 260.9,
+   "callOi": 752,
    "putOi": 14
   }
  ],
- "maxPain": 212.5,
+ "maxPain": 210.0,
  "trend": [
-  {
-   "date": "2026-10-15",
-   "score": 16,
-   "price": 214.94
-  },
   {
    "date": "2026-10-16",
    "score": 45,
@@ -194,6 +189,11 @@
    "date": "2026-11-27",
    "score": 32,
    "price": 220.33
+  },
+  {
+   "date": "2026-11-28",
+   "score": 12,
+   "price": 222.7
   }
  ]
 }

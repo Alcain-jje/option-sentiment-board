@@ -1,55 +1,50 @@
 {
  "ticker": "UNP",
  "name": "유니온퍼시픽",
- "price": 298.38,
- "dataAsOf": "2026-11-27",
- "score": 6,
- "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.3배 — 평소보다 뚜렷한 약세",
+ "price": 297.89,
+ "dataAsOf": "2026-11-28",
+ "score": 32,
+ "label": "약세",
+ "ratioText": "하락 베팅이 상승의 0.7배 — 약세 우위",
  "buckets": [
   {
-   "strike": 247.2,
-   "callOi": 1144,
-   "putOi": 5482
+   "strike": 246.8,
+   "callOi": 1143,
+   "putOi": 4592
   },
   {
-   "strike": 264.3,
-   "callOi": 1249,
-   "putOi": 3597
+   "strike": 263.8,
+   "callOi": 1247,
+   "putOi": 2874
   },
   {
-   "strike": 281.3,
-   "callOi": 2087,
-   "putOi": 2105
+   "strike": 280.9,
+   "callOi": 2038,
+   "putOi": 1780
   },
   {
-   "strike": 298.4,
-   "callOi": 12380,
-   "putOi": 1878
+   "strike": 297.9,
+   "callOi": 5749,
+   "putOi": 1347
   },
   {
-   "strike": 315.4,
-   "callOi": 13258,
-   "putOi": 198
+   "strike": 314.9,
+   "callOi": 10404,
+   "putOi": 182
   },
   {
-   "strike": 332.5,
-   "callOi": 5207,
+   "strike": 331.9,
+   "callOi": 1193,
    "putOi": 0
   },
   {
-   "strike": 349.5,
-   "callOi": 1763,
-   "putOi": 6
+   "strike": 349.0,
+   "callOi": 242,
+   "putOi": 1
   }
  ],
- "maxPain": 280.0,
+ "maxPain": 275.0,
  "trend": [
-  {
-   "date": "2026-10-15",
-   "score": 49,
-   "price": 288.71
-  },
   {
    "date": "2026-10-16",
    "score": 45,
@@ -194,6 +189,11 @@
    "date": "2026-11-27",
    "score": 6,
    "price": 298.38
+  },
+  {
+   "date": "2026-11-28",
+   "score": 32,
+   "price": 297.89
   }
  ]
 }

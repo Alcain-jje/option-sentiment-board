@@ -1,55 +1,50 @@
 {
  "ticker": "KLAC",
  "name": "KLA",
- "price": 134.2,
- "dataAsOf": "2026-11-27",
- "score": 51,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 140.86,
+ "dataAsOf": "2026-11-28",
+ "score": 75,
+ "label": "강세",
+ "ratioText": "상승 베팅이 하락의 1.2배 — 강세 우위",
  "buckets": [
   {
-   "strike": 111.2,
-   "callOi": 462,
-   "putOi": 3848
+   "strike": 116.7,
+   "callOi": 1068,
+   "putOi": 4357
   },
   {
-   "strike": 118.9,
-   "callOi": 1106,
-   "putOi": 4524
+   "strike": 124.8,
+   "callOi": 1176,
+   "putOi": 2772
   },
   {
-   "strike": 126.5,
-   "callOi": 2184,
-   "putOi": 12455
+   "strike": 132.8,
+   "callOi": 1158,
+   "putOi": 4794
   },
   {
-   "strike": 134.2,
-   "callOi": 7365,
-   "putOi": 9974
+   "strike": 140.9,
+   "callOi": 2811,
+   "putOi": 8738
   },
   {
-   "strike": 141.9,
-   "callOi": 4962,
-   "putOi": 8928
+   "strike": 148.9,
+   "callOi": 7764,
+   "putOi": 6602
   },
   {
-   "strike": 149.5,
-   "callOi": 10131,
-   "putOi": 7496
+   "strike": 157.0,
+   "callOi": 3913,
+   "putOi": 8494
   },
   {
-   "strike": 157.2,
-   "callOi": 7952,
-   "putOi": 12254
+   "strike": 165.0,
+   "callOi": 4594,
+   "putOi": 3894
   }
  ],
  "maxPain": 160.0,
  "trend": [
-  {
-   "date": "2026-10-15",
-   "score": 96,
-   "price": 174.46
-  },
   {
    "date": "2026-10-16",
    "score": 85,
@@ -194,6 +189,11 @@
    "date": "2026-11-27",
    "score": 51,
    "price": 134.2
+  },
+  {
+   "date": "2026-11-28",
+   "score": 75,
+   "price": 140.86
   }
  ]
 }

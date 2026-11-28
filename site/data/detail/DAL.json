@@ -1,55 +1,50 @@
 {
  "ticker": "DAL",
  "name": "델타항공",
- "price": 82.95,
- "dataAsOf": "2026-11-27",
- "score": 7,
+ "price": 84.82,
+ "dataAsOf": "2026-11-28",
+ "score": 15,
  "label": "매우 약세",
- "ratioText": "하락 베팅이 상승의 1.4배 — 평소보다 뚜렷한 약세",
+ "ratioText": "하락 베팅이 상승의 1.2배 — 약세 우위",
  "buckets": [
   {
-   "strike": 68.7,
-   "callOi": 4852,
-   "putOi": 12187
+   "strike": 70.3,
+   "callOi": 1929,
+   "putOi": 3954
   },
   {
-   "strike": 73.5,
-   "callOi": 11145,
-   "putOi": 23172
+   "strike": 75.1,
+   "callOi": 10852,
+   "putOi": 18279
   },
   {
-   "strike": 78.2,
-   "callOi": 7523,
-   "putOi": 26687
+   "strike": 80.0,
+   "callOi": 2663,
+   "putOi": 2526
   },
   {
-   "strike": 82.9,
-   "callOi": 29962,
-   "putOi": 13404
+   "strike": 84.8,
+   "callOi": 17723,
+   "putOi": 9582
   },
   {
-   "strike": 87.7,
-   "callOi": 91578,
-   "putOi": 5813
+   "strike": 89.7,
+   "callOi": 75299,
+   "putOi": 4407
   },
   {
-   "strike": 92.4,
-   "callOi": 5770,
-   "putOi": 1028
+   "strike": 94.5,
+   "callOi": 147818,
+   "putOi": 2020
   },
   {
-   "strike": 97.2,
-   "callOi": 152885,
-   "putOi": 1145
+   "strike": 99.4,
+   "callOi": 4751,
+   "putOi": 85
   }
  ],
- "maxPain": 80.0,
+ "maxPain": 77.0,
  "trend": [
-  {
-   "date": "2026-10-15",
-   "score": 66,
-   "price": 78.08
-  },
   {
    "date": "2026-10-16",
    "score": 3,
@@ -194,6 +189,11 @@
    "date": "2026-11-27",
    "score": 7,
    "price": 82.95
+  },
+  {
+   "date": "2026-11-28",
+   "score": 15,
+   "price": 84.82
   }
  ]
 }

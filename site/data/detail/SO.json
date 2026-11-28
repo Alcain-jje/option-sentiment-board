@@ -1,40 +1,40 @@
 {
  "ticker": "SO",
  "name": "서던컴퍼니",
- "price": 95.0,
- "dataAsOf": "2026-11-27",
- "score": 48,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 95.04,
+ "dataAsOf": "2026-11-28",
+ "score": 82,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 4.9배 — 강세 우위",
  "buckets": [
   {
    "strike": 78.7,
-   "callOi": 310,
-   "putOi": 3936
+   "callOi": 264,
+   "putOi": 2725
   },
   {
-   "strike": 84.1,
-   "callOi": 301,
-   "putOi": 4145
+   "strike": 84.2,
+   "callOi": 313,
+   "putOi": 2212
   },
   {
    "strike": 89.6,
-   "callOi": 4741,
-   "putOi": 3250
+   "callOi": 3534,
+   "putOi": 1557
   },
   {
    "strike": 95.0,
-   "callOi": 17658,
-   "putOi": 4502
+   "callOi": 11636,
+   "putOi": 2966
   },
   {
-   "strike": 100.4,
-   "callOi": 9521,
-   "putOi": 60
+   "strike": 100.5,
+   "callOi": 8370,
+   "putOi": 43
   },
   {
    "strike": 105.9,
-   "callOi": 2632,
+   "callOi": 2276,
    "putOi": 0
   },
   {
@@ -45,11 +45,6 @@
  ],
  "maxPain": 90.0,
  "trend": [
-  {
-   "date": "2026-10-15",
-   "score": 49,
-   "price": 89.18
-  },
   {
    "date": "2026-10-16",
    "score": 58,
@@ -194,6 +189,11 @@
    "date": "2026-11-27",
    "score": 48,
    "price": 95.0
+  },
+  {
+   "date": "2026-11-28",
+   "score": 82,
+   "price": 95.04
   }
  ]
 }

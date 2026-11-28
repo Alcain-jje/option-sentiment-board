@@ -1,55 +1,50 @@
 {
  "ticker": "SYK",
  "name": "스트라이커",
- "price": 332.9,
- "dataAsOf": "2026-11-27",
- "score": 41,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 334.27,
+ "dataAsOf": "2026-11-28",
+ "score": 15,
+ "label": "매우 약세",
+ "ratioText": "하락 베팅이 상승의 1.4배 — 약세 우위",
  "buckets": [
   {
-   "strike": 275.8,
-   "callOi": 396,
-   "putOi": 1444
+   "strike": 277.0,
+   "callOi": 249,
+   "putOi": 328
   },
   {
-   "strike": 294.9,
-   "callOi": 936,
-   "putOi": 1363
+   "strike": 296.1,
+   "callOi": 456,
+   "putOi": 739
   },
   {
-   "strike": 313.9,
-   "callOi": 1743,
-   "putOi": 2782
+   "strike": 315.2,
+   "callOi": 784,
+   "putOi": 622
   },
   {
-   "strike": 332.9,
-   "callOi": 4621,
-   "putOi": 1017
+   "strike": 334.3,
+   "callOi": 4175,
+   "putOi": 288
   },
   {
-   "strike": 351.9,
-   "callOi": 1957,
+   "strike": 353.4,
+   "callOi": 2205,
    "putOi": 811
   },
   {
-   "strike": 370.9,
-   "callOi": 4743,
-   "putOi": 83
+   "strike": 372.5,
+   "callOi": 3368,
+   "putOi": 38
   },
   {
-   "strike": 390.0,
-   "callOi": 1409,
-   "putOi": 0
+   "strike": 391.6,
+   "callOi": 1559,
+   "putOi": 49
   }
  ],
  "maxPain": 320.0,
  "trend": [
-  {
-   "date": "2026-09-16",
-   "score": 8,
-   "price": 284.76
-  },
   {
    "date": "2026-09-17",
    "score": 0,
@@ -194,6 +189,11 @@
    "date": "2026-11-27",
    "score": 41,
    "price": 332.9
+  },
+  {
+   "date": "2026-11-28",
+   "score": 15,
+   "price": 334.27
   }
  ]
 }

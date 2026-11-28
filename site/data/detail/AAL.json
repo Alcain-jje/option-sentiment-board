@@ -1,55 +1,50 @@
 {
  "ticker": "AAL",
  "name": "아메리칸항공",
- "price": 12.57,
- "dataAsOf": "2026-11-27",
- "score": 55,
- "label": "중립",
- "ratioText": "상승·하락 베팅 비슷 — 관망 분위기",
+ "price": 12.81,
+ "dataAsOf": "2026-11-28",
+ "score": 89,
+ "label": "매우 강세",
+ "ratioText": "상승 베팅이 하락의 2.0배 — 강세 우위",
  "buckets": [
   {
-   "strike": 10.4,
-   "callOi": 26,
-   "putOi": 1020
+   "strike": 10.6,
+   "callOi": 22,
+   "putOi": 837
   },
   {
-   "strike": 11.1,
-   "callOi": 1596,
-   "putOi": 21307
+   "strike": 11.3,
+   "callOi": 781,
+   "putOi": 20279
   },
   {
-   "strike": 11.9,
-   "callOi": 22452,
-   "putOi": 107242
+   "strike": 12.1,
+   "callOi": 12322,
+   "putOi": 47204
   },
   {
-   "strike": 12.6,
-   "callOi": 4807,
-   "putOi": 7406
+   "strike": 12.8,
+   "callOi": 25167,
+   "putOi": 29903
   },
   {
-   "strike": 13.3,
-   "callOi": 50914,
-   "putOi": 36813
+   "strike": 13.5,
+   "callOi": 8024,
+   "putOi": 4051
   },
   {
-   "strike": 14.0,
-   "callOi": 41725,
-   "putOi": 9028
+   "strike": 14.3,
+   "callOi": 42895,
+   "putOi": 3177
   },
   {
-   "strike": 14.7,
-   "callOi": 70736,
-   "putOi": 39029
+   "strike": 15.0,
+   "callOi": 301,
+   "putOi": 30903
   }
  ],
  "maxPain": 13.0,
  "trend": [
-  {
-   "date": "2026-10-15",
-   "score": 36,
-   "price": 12.28
-  },
   {
    "date": "2026-10-16",
    "score": 1,
@@ -194,6 +189,11 @@
    "date": "2026-11-27",
    "score": 55,
    "price": 12.57
+  },
+  {
+   "date": "2026-11-28",
+   "score": 89,
+   "price": 12.81
   }
  ]
 }
